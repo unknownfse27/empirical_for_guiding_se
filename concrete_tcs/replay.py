@@ -1,12 +1,7 @@
 from pathlib import Path
 
 import os
-import re
-import csv
-import sys
-import glob
 import json
-import shlex
 import argparse
 
 import subprocess as sp
@@ -30,10 +25,7 @@ def run_config(program, target_dir, testcase, input_root=None):
 
     if input_root is not None:
         input_root = Path(input_root).resolve()
-        files = [
-            str(input_root / file)
-            for file in files
-        ]
+        files = [str(input_root / file) for file in files]
 
     converted_args = []
     file_idx = 0
@@ -41,10 +33,7 @@ def run_config(program, target_dir, testcase, input_root=None):
     for arg in args:
         if arg == "@@":
             if file_idx >= len(files):
-                raise ValueError(
-                    f"Not enough files to replace @@ in {testcase}"
-                )
-
+                raise ValueError(f"Not enough files to replace @@ in {testcase}")
             converted_args.append(files[file_idx])
             file_idx += 1
         else:
@@ -59,20 +48,9 @@ def run_config(program, target_dir, testcase, input_root=None):
         key, value = item.split("=", 1)
         env[key] = value
 
-    process = sp.Popen(
-        command,
-        cwd=str(target_dir),
-        env=env,
-        stdin=sp.PIPE,
-        stdout=sp.PIPE,
-        stderr=sp.PIPE,
-    )
-
+    process = sp.Popen(command, cwd=str(target_dir), env=env, stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.PIPE)
     try:
-        stdout, stderr = process.communicate(
-            input=stdin.encode("utf-8") if stdin else None,
-            timeout=3,
-        )
+        stdout, stderr = process.communicate(input=stdin.encode("utf-8") if stdin else None, timeout=3)
     except sp.TimeoutExpired:
         process.kill()
         stdout, stderr = process.communicate()
@@ -122,7 +100,7 @@ def get_branch_coverage(program, target_dir, src_depth=1):
         result = sp.run(cmd, stdout=sp.PIPE, stderr=sp.PIPE, universal_newlines=True)
 
         if result.returncode != 0:
-            print(f"[GCOV ERROR] {program} / {engine} / {testcase}")
+            print(f"[ERRORED] GCOV ERROR: {program} / {engine} / {testcase}")
             print(result.stderr)
             os.chdir(str(original_path))
             return covered
@@ -142,16 +120,9 @@ def get_branch_coverage(program, target_dir, src_depth=1):
                 with gcov.open(encoding="UTF-8", errors="replace") as f:
                     file_name = f.readline().strip().split(":")[-1]
                     for i, line in enumerate(f):
-                        if (
-                            "branch" in line
-                            and "never" not in line
-                            and "taken 0%" not in line
-                            and ":" not in line
-                            and "returned 0% blocks executed 0%" not in line
-                        ):
+                        if ("branch" in line and "never" not in line and "taken 0%" not in line and ":" not in line and "returned 0% blocks executed 0%" not in line):
                             bid = f"{file_name} {i}"
                             covered.add(bid)
-
             except:
                 pass
     else:
