@@ -1,0 +1,8 @@
+python3 topseed.py program_configs/diff.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/find.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/gawk.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/gcal.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/grep.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/m4.json 84600 1 --eta_time=600
+python3 topseed.py program_configs/sed.json 84600 1 --eta_time=120
+python3 topseed.py program_configs/sqlite.json 84600 1 --eta_time=120

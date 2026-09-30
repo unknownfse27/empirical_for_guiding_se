@@ -1,0 +1,11 @@
+{
+    "pgm_name": "sqlite3",
+    "pgm_dir": "../../../benchmarks/sqlite/obj-llvm/",
+    "exec_dir": "",
+    "gcov_dir": "",
+    "gcov_path": "../../../benchmarks/sqlite/obj-gcov5",
+    "gcov_file": "*/*.gcov *.gcov",
+    "gcda_file": "**/*.gcda *.gcda",
+    "sym_args": "--sym-arg 10 --sym-arg 23 --sym-arg 11 --sym-arg 10 --sym-arg 10 --sym-arg 10 --sym-arg 4 --sym-arg 17 --sym-arg 10 --sym-arg 4 --sym-arg 1 --sym-files 1 30 --sym-stdin 315"
+    }
+    

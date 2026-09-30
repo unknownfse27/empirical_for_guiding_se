@@ -1,0 +1,10 @@
+{
+    "pgm_name": "diff",
+    "pgm_dir": "../../../benchmarks/diffutils-3.7/obj-llvm/",
+    "exec_dir": "/src",
+    "gcov_dir": "/src",
+    "gcov_path": "../../../benchmarks/diffutils-3.7/obj-gcov5",
+    "gcov_file": "../*/*.gcov",
+    "gcda_file": "../*/*.gcda",
+    "sym_args": "--sym-arg 74 --sym-arg 75 --sym-arg 49 --sym-arg 62 --sym-arg 41 --sym-arg 45 --sym-arg 23 --sym-arg 45 --sym-arg 24 --sym-arg 10 --sym-arg 15 --sym-arg 12 --sym-arg 24 --sym-arg 23 --sym-arg 8 --sym-arg 15 --sym-arg 6 --sym-arg 2 --sym-files 2 800 --sym-stdin 19 --sym-stdout"
+    }

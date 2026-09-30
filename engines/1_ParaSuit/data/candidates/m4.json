@@ -1,0 +1,257 @@
+{
+    "use-visitor-hash": [
+        "false"
+    ],
+    "const-array-opt": [
+        "true"
+    ],
+    "solver-optimize-divides": [
+        "true"
+    ],
+    "named-seed-matching": [
+        "true"
+    ],
+    "allocate-determ": [
+        "true"
+    ],
+    "use-call-paths": [
+        "false"
+    ],
+    "ignore-solver-failures": [
+        "true"
+    ],
+    "link-llvm-lib": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "smtlib-abbreviation-mode": [
+        "named",
+        "none"
+    ],
+    "dump-states-on-halt": [
+        "false"
+    ],
+    "use-iterative-deepening-time-search": [
+        "true"
+    ],
+    "output-source": [
+        "false"
+    ],
+    "env-file": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "only-seed": [
+        "true"
+    ],
+    "use-independent-solver": [
+        "false"
+    ],
+    "uncovered-update-interval": [
+        "15s"
+    ],
+    "use-incomplete-merge": [
+        "true"
+    ],
+    "cex-cache-try-all": [
+        "true"
+    ],
+    "array-value-symb-ratio": [
+        0.0
+    ],
+    "max-forks": [
+        4096
+    ],
+    "seed-args-max-combinations": [
+        5000
+    ],
+    "max-static-cpsolve-pct": [
+        0.0
+    ],
+    "max-instructions": [
+        4096
+    ],
+    "optimize-array": [
+        "index",
+        "value",
+        "all"
+    ],
+    "allocate-determ-size": [
+        50
+    ],
+    "track-instruction-time": [
+        "true"
+    ],
+    "readable-posix-inputs": [
+        "true"
+    ],
+    "emit-all-errors": [
+        "true"
+    ],
+    "cex-cache-superset": [
+        "true"
+    ],
+    "make-concrete-symbolic": [
+        "index",
+        "value",
+        "all"
+    ],
+    "run-in-dir": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "cex-cache-exp": [
+        "true"
+    ],
+    "output-stats": [
+        "false"
+    ],
+    "disable-internalize": [
+        "true"
+    ],
+    "use-constant-arrays": [
+        "false"
+    ],
+    "output-istats": [
+        "false"
+    ],
+    "allocate-determ-start-address": [
+        50
+    ],
+    "check-overshift": [
+        "false"
+    ],
+    "warnings-only-to-file": [
+        "true"
+    ],
+    "always-output-seeds": [
+        "false"
+    ],
+    "disable-verify": [
+        "true"
+    ],
+    "klee-call-optimisation": [
+        "false"
+    ],
+    "use-merge": [
+        "true"
+    ],
+    "exit-on-error": [
+        "true"
+    ],
+    "max-stack-frames": [
+        4096
+    ],
+    "solver-backend": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "return-null-on-zero-malloc": [
+        "true"
+    ],
+    "verify-each": [
+        "true"
+    ],
+    "use-construct-hash-z3": [
+        "false"
+    ],
+    "function-alias": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "equality-substitution": [
+        "false"
+    ],
+    "array-value-ratio": [
+        0.0
+    ],
+    "suppress-external-warnings": [
+        "true"
+    ],
+    "max-tests": [
+        4096
+    ],
+    "zero-seed-extension": [
+        "true"
+    ],
+    "batch-time": [
+        "2s"
+    ],
+    "all-external-warnings": [
+        "true"
+    ],
+    "use-branch-cache": [
+        "false"
+    ],
+    "use-fast-cex-solver": [
+        "true"
+    ],
+    "seed-args-file": [
+        5000
+    ],
+    "entry-point": [
+        "z3",
+        "metasmt",
+        "stp",
+        "dummy"
+    ],
+    "smtlib-human-readable": [
+        "true"
+    ],
+    "strip-all": [
+        "true"
+    ],
+    "redzone-size": [
+        5
+    ],
+    "use-construct-hash-stp": [
+        "false"
+    ],
+    "silent-klee-assume": [
+        "true"
+    ],
+    "seed-time": [
+        "2s"
+    ],
+    "smtlib-display-constants": [
+        "bin",
+        "hex"
+    ],
+    "check-div-zero": [
+        "false"
+    ],
+    "libcxx": [
+        "true"
+    ],
+    "exit-on-error-type": [
+        "External",
+        "Overflow",
+        "Unhandled",
+        "Assert",
+        "Free",
+        "BadVectorAccess",
+        "ReportError",
+        "ReadOnly",
+        "User",
+        "Abort",
+        "Exec",
+        "Model",
+        "Ptr"
+    ],
+    "seed-dir": [
+        "/root/empirical/engines/0_parasuit/benchmarks/ParaSuit/iteration-0"
+    ],
+    "max-depth": [
+        4096
+    ]
+}

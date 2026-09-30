@@ -1,0 +1,9 @@
+{
+"pgm_name": "gawk",
+"pgm_dir": "../../../benchmarks/gawk-5.1.0/obj-llvm/",
+"exec_dir": "",
+"gcov_path": "../../../benchmarks/gawk-5.1.0/obj-gcov4",
+"gcov_file": "*/*.gcov *.gcov */*/*.gcov",
+"gcda_file": "*/*.gcda *.gcda */*/*.gcda",
+"sym_options" : "--sym-arg 92 --sym-arg 77 --sym-arg 74 --sym-arg 62 --sym-arg 76 --sym-arg 48 --sym-arg 38 --sym-arg 15 --sym-arg 19 --sym-arg 17 --sym-arg 13 --sym-arg 16 --sym-arg 9 --sym-arg 2 --sym-arg 11 --sym-files 5 900 --sym-stdin 81 --sym-stdout"
+}

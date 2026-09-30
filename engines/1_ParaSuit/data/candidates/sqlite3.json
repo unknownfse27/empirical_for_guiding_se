@@ -1,0 +1,257 @@
+{
+    "uncovered-update-interval": [
+        "15s"
+    ],
+    "run-in-dir": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "output-stats": [
+        "false"
+    ],
+    "entry-point": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "smtlib-human-readable": [
+        "true"
+    ],
+    "output-source": [
+        "false"
+    ],
+    "use-constant-arrays": [
+        "false"
+    ],
+    "make-concrete-symbolic": [
+        "all",
+        "index",
+        "value"
+    ],
+    "use-visitor-hash": [
+        "false"
+    ],
+    "readable-posix-inputs": [
+        "true"
+    ],
+    "seed-args-max-combinations": [
+        5000
+    ],
+    "emit-all-errors": [
+        "true"
+    ],
+    "const-array-opt": [
+        "true"
+    ],
+    "max-forks": [
+        4096
+    ],
+    "named-seed-matching": [
+        "true"
+    ],
+    "libcxx": [
+        "true"
+    ],
+    "max-tests": [
+        4096
+    ],
+    "use-branch-cache": [
+        "false"
+    ],
+    "max-instructions": [
+        4096
+    ],
+    "solver-backend": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "use-iterative-deepening-time-search": [
+        "true"
+    ],
+    "dump-states-on-halt": [
+        "false"
+    ],
+    "smtlib-display-constants": [
+        "hex",
+        "bin"
+    ],
+    "use-independent-solver": [
+        "false"
+    ],
+    "exit-on-error": [
+        "true"
+    ],
+    "cex-cache-superset": [
+        "true"
+    ],
+    "batch-time": [
+        "2s"
+    ],
+    "cex-cache-try-all": [
+        "true"
+    ],
+    "all-external-warnings": [
+        "true"
+    ],
+    "zero-seed-extension": [
+        "true"
+    ],
+    "use-merge": [
+        "true"
+    ],
+    "allocate-determ-start-address": [
+        50
+    ],
+    "strip-all": [
+        "true"
+    ],
+    "smtlib-abbreviation-mode": [
+        "none",
+        "named"
+    ],
+    "only-seed": [
+        "true"
+    ],
+    "max-stack-frames": [
+        4096
+    ],
+    "warnings-only-to-file": [
+        "true"
+    ],
+    "allocate-determ-size": [
+        50
+    ],
+    "optimize-array": [
+        "all",
+        "index",
+        "value"
+    ],
+    "env-file": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "silent-klee-assume": [
+        "true"
+    ],
+    "disable-verify": [
+        "true"
+    ],
+    "array-value-symb-ratio": [
+        0.0
+    ],
+    "max-depth": [
+        4096
+    ],
+    "use-construct-hash-stp": [
+        "false"
+    ],
+    "equality-substitution": [
+        "false"
+    ],
+    "exit-on-error-type": [
+        "ReportError",
+        "Ptr",
+        "Unhandled",
+        "ReadOnly",
+        "Abort",
+        "User",
+        "BadVectorAccess",
+        "External",
+        "Exec",
+        "Overflow",
+        "Model",
+        "Assert",
+        "Free"
+    ],
+    "use-fast-cex-solver": [
+        "true"
+    ],
+    "check-overshift": [
+        "false"
+    ],
+    "use-construct-hash-z3": [
+        "false"
+    ],
+    "klee-call-optimisation": [
+        "false"
+    ],
+    "cex-cache-exp": [
+        "true"
+    ],
+    "disable-internalize": [
+        "true"
+    ],
+    "function-alias": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "solver-optimize-divides": [
+        "true"
+    ],
+    "suppress-external-warnings": [
+        "true"
+    ],
+    "use-call-paths": [
+        "false"
+    ],
+    "array-value-ratio": [
+        0.0
+    ],
+    "output-istats": [
+        "false"
+    ],
+    "seed-time": [
+        "2s"
+    ],
+    "seed-dir": [
+        "/root/empirical/engines/0_parasuit/benchmarks/BaseSQ/iteration-0"
+    ],
+    "ignore-solver-failures": [
+        "true"
+    ],
+    "return-null-on-zero-malloc": [
+        "true"
+    ],
+    "redzone-size": [
+        5
+    ],
+    "allocate-determ": [
+        "true"
+    ],
+    "seed-args-file": [
+        5000
+    ],
+    "verify-each": [
+        "true"
+    ],
+    "max-static-cpsolve-pct": [
+        0.0
+    ],
+    "link-llvm-lib": [
+        "metasmt",
+        "dummy",
+        "stp",
+        "z3"
+    ],
+    "check-div-zero": [
+        "false"
+    ],
+    "track-instruction-time": [
+        "true"
+    ],
+    "use-incomplete-merge": [
+        "true"
+    ],
+    "always-output-seeds": [
+        "false"
+    ]
+}
