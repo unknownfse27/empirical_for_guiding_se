@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Dlr.type=ielr",
+    "-Wcounterexamples",
+    "-Tielr",
+    "--report=lookahead",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "at.y"
+  ],
+  "stdin": ""
+}

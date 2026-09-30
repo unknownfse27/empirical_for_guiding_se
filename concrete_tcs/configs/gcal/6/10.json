@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--time-offset=+1",
+    "-s",
+    "monday",
+    "--transform-year=999",
+    "--gregorian-reform=1582"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "./gcal --gregorian-reform=1700 | ./gcal -q KR --gregorian-reform=1802,4,7,17 --debug=all"
+}

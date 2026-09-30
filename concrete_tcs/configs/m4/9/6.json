@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "debugfile(/dev/null')debugmode(`aeq')traceon(`r')define(`r`,`regexp(`abc123`,`[a-z]+')')m4wrap(`r()errprint(`done\\n')m4exit(0)')changeword(`[_a-zA-Z][_a-zA-Z0-9]*`)"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS gb;CREATE TABLE gb(k TEXT,v INT);INSERT INTO gb VALUES('a',1),('A',2),('b',NULL),('a',3),('b',4),('c',5);SELECT lower(k) AS g,COUNT(*),COUNT(v),COUNT(DISTINCT v),SUM(COALESCE(v,0)) AS s,group_concat(v,'|') FROM gb GROUP BY g HAVING s>3 ORDER BY g;"
+}

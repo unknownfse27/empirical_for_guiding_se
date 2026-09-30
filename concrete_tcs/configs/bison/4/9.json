@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "COLUMNS=80",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-fcaret",
+    "--color=always",
+    "@@",
+    "-o",
+    "/dev/null"
+  ],
+  "dirs": [],
+  "files": [
+    "eof.y"
+  ],
+  "stdin": ""
+}

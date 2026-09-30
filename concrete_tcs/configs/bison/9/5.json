@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "bf.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "$2 > 50 {sum += $1; count++} END {print sum, sum/count}",
+    "*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

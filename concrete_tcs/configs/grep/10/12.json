@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-wv",
+    "root"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ps -ef)"
+}

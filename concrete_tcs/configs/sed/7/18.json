@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "$",
+    "R",
+    "append.txt",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

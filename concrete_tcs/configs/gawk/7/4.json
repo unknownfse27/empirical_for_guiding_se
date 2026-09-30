@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {IGNORECASE=0;RS=\",\";FS=\"\\n\";FIELDWIDTHS=1;ERRNO=$1}",
+    "/a/",
+    "{print $0}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

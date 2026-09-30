@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    "-Dfoo=123",
+    "-Ufoo",
+    "-stbar",
+    "-E",
+    "-F@@",
+    "-R@@",
+    "-H127",
+    "-L2048",
+    "-l16",
+    "-dd",
+    "-igGPQ",
+    "--warn-m=.",
+    "-o/tmp/debug.m4log",
+    "--version"
+  ],
+  "dirs": [],
+  "files": [
+    "frozen.m4",
+    "frozen.m4"
+  ],
+  "stdin": ""
+}

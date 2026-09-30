@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--gregorian-reform=1102,4,7,17",
+    "--japanese-months",
+    "-i-",
+    "--shell-script=aa"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_29"
+  ],
+  "stdin": ""
+}

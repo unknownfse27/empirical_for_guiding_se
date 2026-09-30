@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "tty",
+    "--color=yes"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(dmesg)"
+}

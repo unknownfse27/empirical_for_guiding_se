@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--posix",
+    "-i.bak",
+    "-l",
+    "-e",
+    "s/This\\+[:graph:]\\?\\g\\?|Tis/This/g",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-path",
+    "./*.txt",
+    "-writable",
+    "-fprintf",
+    "./file.txt",
+    "%m %s\n",
+    "-fls"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

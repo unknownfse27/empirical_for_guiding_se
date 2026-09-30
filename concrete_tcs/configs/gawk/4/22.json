@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "{ match($0, /(fo+).+(bar*)/, arr); print arr[1], arr[2] }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "foooobazbarrrrr"
+}

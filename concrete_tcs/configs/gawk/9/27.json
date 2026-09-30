@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-W",
+    "posix",
+    "-F",
+    "fs",
+    "-b",
+    "-d",
+    "-M",
+    "-n",
+    "{a+=$1;length($0)};",
+    "END{print a}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awkgram.c"
+  ],
+  "stdin": ""
+}

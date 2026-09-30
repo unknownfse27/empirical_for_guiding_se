@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS bx1;CREATE TABLE bx1(t TEXT,b BLOB);INSERT INTO bx1 VALUES('255',X'FF'),('65',X'41');SELECT CAST(t AS BLOB),CAST(b AS INT),typeof(CAST(b AS INT)),length(b) FROM bx1;\n"
+}

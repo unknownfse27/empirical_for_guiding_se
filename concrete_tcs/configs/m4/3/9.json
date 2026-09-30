@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp('\\1234567890\\', '\\d{3}', '###')   regexp('line1\\nline2', '\\n', '|')  regexp('abcdef', 'abc|def', '*')   regexp('abcdef', 'a.*f', '\\!') regexp(`def`,`e`,`\\1`)regexp('file.TXT', '[a-z]+\\.TXT', 'filename')regexp(`def`,`\\(\\(\\?\\)\\)\\(f\\)`,`\\1\\2')"
+}

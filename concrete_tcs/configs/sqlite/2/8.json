@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA journal_mode=DELETE;VACUUM;PRAGMA page_size=2048;PRAGMA synchronous=OFF;DROP TABLE IF EXISTS jd1;CREATE TABLE jd1(x);INSERT INTO jd1 VALUES(1);PRAGMA quick_check;PRAGMA integrity_check(10);\n"
+}

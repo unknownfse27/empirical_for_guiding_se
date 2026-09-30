@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-vIGNORECASE=1",
+    "'BEGIN{p=\"aa\";",
+    "n=sub(gsub(/[a-z]+/,\"&@\",\"X\"),p);",
+    "gensub(/\\y\\w\\W\\B\\s\\S/,\"@\",5,p);}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

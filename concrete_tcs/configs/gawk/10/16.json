@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "@@",
+    "-f",
+    "@@",
+    "-b",
+    "--",
+    "-b",
+    "42m",
+    "@@",
+    "split-"
+  ],
+  "dirs": [],
+  "files": [
+    "group.awk",
+    "wordfreq.awk",
+    "api-figure1.txt"
+  ],
+  "stdin": ""
+}

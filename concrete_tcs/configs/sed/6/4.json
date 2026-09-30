@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-Eb",
+    "s/(.*) (.*)/The program is \\1, version is \\2./m"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "sed 4.2"
+}

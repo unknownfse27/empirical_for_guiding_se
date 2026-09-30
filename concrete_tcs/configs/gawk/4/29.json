@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{v=1;a[1]=7;f(v,a,3);print a[1]",
+    "f(v,a,3)}function",
+    "f(b,c,i){c[1]=i;",
+    "return v*rand()}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

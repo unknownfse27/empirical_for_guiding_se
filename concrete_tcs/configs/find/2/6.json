@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-printf",
+    "'%h%P%H%g%G%u%U%m%M%k%b%s%S%d%D%F%i%n%y%Y%a%b%c%Z\\b\\n\\f\\t\\v'",
+    "-name",
+    "*.o"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-Wother",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "rdbad.y"
+  ],
+  "stdin": ""
+}

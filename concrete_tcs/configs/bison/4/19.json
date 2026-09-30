@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-Wall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "nr.y"
+  ],
+  "stdin": ""
+}

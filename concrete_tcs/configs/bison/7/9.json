@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--report=all",
+    "--xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "f.y"
+  ],
+  "stdin": ""
+}

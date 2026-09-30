@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-dv",
+    "--report=all,lookaheads,solved,states",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "ielr1.y"
+  ],
+  "stdin": ""
+}

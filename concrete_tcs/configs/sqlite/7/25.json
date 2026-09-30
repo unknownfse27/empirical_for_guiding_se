@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "-cmd",
+        "PRAGMA foreign_keys=ON;",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS p;DROP TABLE IF EXISTS c;CREATE TABLE p(k INT PRIMARY KEY);CREATE TABLE c(pk INT REFERENCES p(k) ON UPDATE CASCADE ON DELETE SET NULL);INSERT INTO p VALUES(100),(200);INSERT INTO c VALUES(100),(200);DELETE FROM p WHERE k=200;"
+}

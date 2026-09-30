@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`DEBUG_OUT', `debug.out')debugfile(DEBUG_OUT)traceon([all])define(`template', `mkstemp-XXXXXX')define(`tempfile', mkstemp(template))syscmd(`echo TEST > 'tempfile)include(tempfile)syscmd(`rm 'tempfile)debugfile"
+}

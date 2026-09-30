@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "encswap.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA encoding=\"UTF-16le\";DROP TABLE IF EXISTS T;CREATE TABLE T(x);INSERT INTO T VALUES(\"한😊\");\n.encoding UTF-16be\nSELECT x FROM T;\n"
+}

@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "BITSET=table"
+  ],
+  "args": [
+    "-r",
+    "all",
+    "-g",
+    "-x",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "mfcalc.y"
+  ],
+  "stdin": ""
+}

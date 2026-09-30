@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "$(printf '%%start s t\\n%%token A B\\n%%%%\\ns:A;t:B;\\n' > h06.y; echo h06.y)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

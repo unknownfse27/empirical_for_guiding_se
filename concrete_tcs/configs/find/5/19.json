@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "/dev",
+    "-regex",
+    ".*[^asdf]*",
+    "-o",
+    "-regex",
+    ".*asdf.*",
+    "-o",
+    "-regex",
+    "^[0-9].*",
+    "-o",
+    "-regex",
+    "*[a-zA-Z].c*"
+  ],
+  "dirs": [
+    "/dev"
+  ],
+  "files": [],
+  "stdin": ""
+}

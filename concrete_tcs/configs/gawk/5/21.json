@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {FS=\":\"; OFS=\"&&\"}",
+    "{print $2, $3, strftime(\"%Y/%d/%m\" ),systime(), mktime(2023 04 )}",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [],
+  "stdin": ""
+}

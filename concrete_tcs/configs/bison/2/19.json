@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "--report=all",
+    "--xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "test5.y"
+  ],
+  "stdin": ""
+}

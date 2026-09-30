@@ -1,0 +1,5 @@
+dh[[:alnum:]][[:graph:]]
+def[[:alnum:]]
+[[:xdigit:]][[:punct:]]$
+^Ku[[:alnum:]]
+^#b*$[^A-Z]*

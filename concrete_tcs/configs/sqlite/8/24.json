@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".stats on\nSELECT 1;\n.stats off\n.mode list\n.nullvalue N\nSELECT NULL,NULL;\n.mode quote\nSELECT 'x',NULL,1;\n.mode tabs\nSELECT 'y',2;\n.mode column\n.width 3 3\nSELECT 'a','b';\n.auth on\nCREATE TABLE x(a);\nINSERT INTO x VALUES(1);\nDROP TABLE x;\n.auth off\n"
+}

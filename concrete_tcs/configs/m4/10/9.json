@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1)\nHello from diversion 1\ndivert(0)\nundivert(1)\ndefine(\\`x\ny', \\`99')\nx\ny\ndivert(1)\nA1\ndivert(2)\nA2\ndivert(3)\nA3\ndivert(0)\nundivert(2)\nundivert(1)\nundivert(3)\n"
+}

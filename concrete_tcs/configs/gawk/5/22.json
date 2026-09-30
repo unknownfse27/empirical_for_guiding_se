@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {count=0} //{count++} END{print count}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

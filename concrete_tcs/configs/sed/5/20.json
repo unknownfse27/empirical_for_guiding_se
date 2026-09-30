@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'1routput.txt ; N'",
+    "-e",
+    "'1Routput.txt'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "x"
+}

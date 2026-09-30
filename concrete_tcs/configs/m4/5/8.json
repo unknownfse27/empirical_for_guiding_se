@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "changequote([\\[, \\]])define([\\msg], [This is msg])msg changecom(\\/*',\\*\\/')/*comment*/ define(\\q'\\',\\quoted')\\q' format(\\Num:%04d',\\5') patsubst(\\x.c',\\.c',\\.o') shift(\\1',\\2',\\3') regexp(\\abc123',\\[0-9]+','\\N') builtin(\\eval',\\2+3')incr(\\2')len(\\12345')"
+}

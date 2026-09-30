@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--version",
+    "-h",
+    "-q",
+    "KR"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

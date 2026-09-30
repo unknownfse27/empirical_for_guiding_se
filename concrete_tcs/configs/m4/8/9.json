@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "maketemp(/tmp/tmpXXXXXX')mkstemp(/tmp/tmpXXXXXX')esyscmd(`ls /nonexistent_dir')sysval changequote(`','`)define(`x`,`1')x changecom(`/*`,`*/') /* comment */ define(`f`,`$1 $2 $3')f(`a`,`b')shift(`a`,`b`,`c`,`d')m4exit(`0')divert(`1')divnum divert(`0')divnum"
+}

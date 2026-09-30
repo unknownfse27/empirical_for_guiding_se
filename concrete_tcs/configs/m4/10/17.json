@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-tfoo"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(foo,tracked)foo define(bar,'b')traceon(bar)bar traceoff(bar)"
+}

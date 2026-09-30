@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{for (i=1; i<=NF; i++)",
+    "{if ($i ~ /[^[:alnum:]]/)",
+    "{non_alnums++}}}",
+    "END {print non_alnums}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

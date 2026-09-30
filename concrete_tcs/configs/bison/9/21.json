@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--report=all",
+    "--graph=g.dot",
+    "--xml=g.xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "g.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE r(a INT);WITH RECURSIVE s(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM s WHERE n<3) SELECT a,n,a+n FROM r,s WHERE a+n<5;CREATE TABLE z(a INT);INSERT INTO z VALUES(1);WITH x AS (SELECT a, a*2 AS b FROM z), y AS (SELECT b FROM x WHERE b>2) SELECT * FROM y;"
+}

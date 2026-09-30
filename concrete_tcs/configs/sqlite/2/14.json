@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS casA;CREATE TABLE casA(s TEXT);INSERT INTO casA VALUES('123'),('12.5'),('  -003 '),('123abc');SELECT s,CAST(s AS INT),typeof(CAST(s AS INT)),sum(CAST(s AS REAL)) OVER() FROM casA;\n"
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "decr(`abc') incr(`xyz') define(`a', `1') defn(`a', `c', `b') indir(`index') m4wrap(`diverted text undivert(5)') divert(5)diverted content define(`hex', `eval(ifelse(`$1`, `0`, `0`, `hex(eval(`$1/16`'))`'substr(`0123456789ABCDEF`,eval(1+(`$1'%16`)),1))))"
+}

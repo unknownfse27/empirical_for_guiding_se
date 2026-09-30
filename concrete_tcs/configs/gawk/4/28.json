@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "BEGIN{a=\"abc def\";b=gensub(/(.+) (.+)/,\"\\2 \\1\",\"g\",a);print b};",
+    "END{def abc}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

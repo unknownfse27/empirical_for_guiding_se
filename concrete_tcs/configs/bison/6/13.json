@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=parse",
+    "@@",
+    "-o/tmp/tg.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "-t",
+    "-k"
+  ],
+  "dirs": [],
+  "files": [
+    "td.y"
+  ],
+  "stdin": ""
+}

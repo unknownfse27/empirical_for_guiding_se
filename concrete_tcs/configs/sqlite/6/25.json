@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "UPDATE u SET age=COALESCE(age,0)+10 WHERE name IN ('Alice','Bob'); UPDATE u SET age=age-100 WHERE name='Alice';"
+}

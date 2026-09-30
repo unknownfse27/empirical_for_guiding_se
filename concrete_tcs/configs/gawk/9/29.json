@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "'match($0, /o/)",
+    "{print $0 \"o\" at \" RSTART}'",
+    "--posix",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awkgram.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [    
+    "--debug=[q]"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`',`empty') define(`  `,`space') define(`@!#$`,`special') dumpdef(`') dumpdef(`  `) dumpdef(`@!#$`) regexp(`abc\ndef`,`(?s)a.*f`,`matched') m4exit(9999)"
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [
+    "LC_ALL=zh_CN.UTF-8"
+  ],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`你好123', `你.*123', `hi')"
+}

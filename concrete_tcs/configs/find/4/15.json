@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "-regex",
+    ".*\\invalid\\regex[",
+    "-print"
+  ],
+  "dirs": [
+    "$HOME"
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-json",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS pi(a INT,b INT);INSERT INTO pi VALUES(1,NULL),(1,2);SELECT printf(\"%#08x|%+g|%.0f|%06.2f|%q|%Q|%w\",3735928559,-1.23,3.99,1.2,\"a''b\",\"c\"\"d\",\"name\");CREATE VIRTUAL TABLE IF NOT EXISTS ft USING fts5(x);ALTER TABLE ft RENAME TO ft2;"
+}

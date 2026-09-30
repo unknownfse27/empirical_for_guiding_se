@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "changequote(`<Q',`Q>')<Qdefine(`q',`QUOTED')Q> q patsubst(`z1z2z3',`[0-9]',`*') include('nofile.m4') define('EVEN','ifelse(eval(`$1 % 2'),0,'E$1','')) forloop('i','1','6','EVEN ') format(`%10.5f', `3.1415926535') regexp(`123`,`[0-9]+`,`found`)\n"
+}

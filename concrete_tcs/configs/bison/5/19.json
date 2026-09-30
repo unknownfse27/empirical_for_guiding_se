@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Dlr.type=ielr",
+    "-v",
+    "-rall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "nl2.y"
+  ],
+  "stdin": ""
+}

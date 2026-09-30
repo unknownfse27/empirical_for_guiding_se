@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-cmd",
+        ".tables",
+        "-cmd",
+        ".schema t1",
+        "-cmd",
+        ".header ON",
+        "-cmd",
+        ".nullvalue (NULL)",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select count(*) from t1 where (a=1 and b=2) or (a=2 and b=1);pragma data_version;select count(distinct c) from t1 where c is not null;select a, b from t1 where a=1 except select a, b from t1 where c='iv';"
+}

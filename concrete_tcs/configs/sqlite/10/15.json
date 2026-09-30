@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT instr('abracadabra','cad'),typeof(1),NULLIF(1,1);WITH RECURSIVE n(x)AS(SELECT 1 UNION ALL SELECT x+1 FROM n WHERE x<10)SELECT x,x*x,CASE WHEN x%2=0 THEN 'even' ELSE 'odd' END,sum(x)OVER(ORDER BY x)FROM n;DROP TABLE missing_table;\n.exit\n"
+}

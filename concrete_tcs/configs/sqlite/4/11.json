@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE e(eid INT PRIMARY KEY,ename TEXT,dept TEXT,salary REAL DEFAULT 0.0);ALTER TABLE e ADD COLUMN note TEXT DEFAULT 'N';ALTER TABLE e ADD COLUMN tag TEXT GENERATED ALWAYS AS (upper(substr(ename,1,1))) STORED;\n"
+}

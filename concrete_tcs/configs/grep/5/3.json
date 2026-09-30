@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-r",
+    "-m",
+    "150",
+    "--exclude='Rumelstiltskin'",
+    "--include='a*'",
+    "--exclude='a*'",
+    "../tests/*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

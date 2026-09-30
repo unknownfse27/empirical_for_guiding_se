@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "s/(:[^:]**){2}($$)//w",
+    "cogl.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "111:one:222:two:333:three:444:four; "
+}

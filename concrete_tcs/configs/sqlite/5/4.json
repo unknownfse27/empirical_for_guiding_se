@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "-stats",
+        "-cmd",
+        ".headers on",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE nu(n INTEGER);INSERT INTO nu VALUES(5);WITH RECURSIVE c(a) AS (SELECT 1 UNION ALL SELECT a+1 FROM c WHERE a<5) SELECT a FROM c UNION SELECT n FROM nu WHERE n>8 ORDER BY a DESC LIMIT 3 OFFSET 1;DELETE FROM tmp WHERE x=2;"
+}

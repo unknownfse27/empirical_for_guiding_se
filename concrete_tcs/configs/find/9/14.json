@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "..",
+    "/",
+    "/tmp",
+    "/tmp/TRACE",
+    "compile",
+    "compile/64/tests/find",
+    "-maxdepth",
+    "1",
+    "-printf",
+    "'%p: [%h][%f]\\n'"
+  ],
+  "dirs": [
+    ".",
+    ".."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`foo','BAR')divert(5)foo divert(1)undivert(5) format(`Undiverted: %d',1)"
+}

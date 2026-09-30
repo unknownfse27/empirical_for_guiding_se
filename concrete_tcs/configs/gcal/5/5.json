@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--here=\"#include <foo>\"",
+    "-w-",
+    "-c",
+    "-F",
+    "foo.bar",
+    "-dJZA",
+    "-l*d10",
+    "-fbio.rc",
+    "%19961212",
+    "-c6w",
+    "-cl*w99sun"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_5"
+  ],
+  "stdin": ""
+}

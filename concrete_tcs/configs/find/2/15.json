@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "d",
+    "-mtime",
+    "-1",
+    "-iname",
+    "*[0-9]*",
+    "-printf",
+    "%s %p\n",
+    "-size",
+    "+100c",
+    "-regex",
+    "pattern"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

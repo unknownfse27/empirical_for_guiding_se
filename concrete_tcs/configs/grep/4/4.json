@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "grep",
+    "-R",
+    "-U",
+    "-wcE",
+    "re(mov|st|ceiv|pli|fus|tir)ed",
+    "../../"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

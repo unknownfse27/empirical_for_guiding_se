@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "f",
+    "-regex",
+    ".*[0-9].*",
+    "-links",
+    "+1",
+    "-newermt",
+    "last year",
+    "-size",
+    "+2G"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

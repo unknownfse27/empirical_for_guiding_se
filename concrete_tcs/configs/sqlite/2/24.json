@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA integrity_check;\nPRAGMA quick_check;\nANALYZE;\nREINDEX;\nVACUUM;"
+}

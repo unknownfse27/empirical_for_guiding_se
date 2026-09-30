@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "/usr",
+    "-maxdepth",
+    "4",
+    "-type",
+    "l",
+    "-name",
+    "*.jpg",
+    "-follow"
+  ],
+  "dirs": [
+    "/usr"
+  ],
+  "files": [],
+  "stdin": ""
+}

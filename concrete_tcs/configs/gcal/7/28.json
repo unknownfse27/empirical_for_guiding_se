@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--ignore-case",
+    "--biorhythm-axis=1",
+    "--moonimage-lines=11",
+    "--alternative-format",
+    "--include-week-number",
+    "--week"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_28"
+  ],
+  "stdin": ""
+}

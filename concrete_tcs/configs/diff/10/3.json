@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "--horizon-lines=10",
+      "--sdiff-merge-assist",
+      "-r",
+      "--ignore-file-name-case",
+      "--exclude=*.tmp",
+      ".deps/",
+      "../src/"
+    ],
+    "dirs": [
+        ".deps/",
+        "../src/"
+    ],
+    "files": [],
+    "stdin": ""
+}

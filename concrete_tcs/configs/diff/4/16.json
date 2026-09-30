@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--text",
+        "-Zacptc",
+        "/bin/ls",
+        "/bin/cp"
+    ],
+    "dirs": [
+        "/bin/ls",
+        "/bin/cp"
+    ],
+    "files": [],
+    "stdin": ""
+}

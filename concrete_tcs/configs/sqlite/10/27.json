@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA recursive_triggers=ON; DROP TRIGGER IF EXISTS tr_up; CREATE TRIGGER tr_up AFTER UPDATE ON t1 WHEN NEW.a<20 BEGIN UPDATE t1 SET a=NEW.a+100 WHERE a=NEW.a; END; UPDATE t1 SET a=a WHERE a=1;"
+}

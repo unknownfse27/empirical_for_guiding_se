@@ -1,0 +1,11 @@
+{
+  "envs": [
+    "LC_ALL=en_DK.utf-8"
+  ],
+  "args": [
+    "{ print $1 + 1 }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "4,321"
+}

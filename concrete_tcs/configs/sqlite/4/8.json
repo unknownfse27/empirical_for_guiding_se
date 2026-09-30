@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".output dump.sql\n.dump\n.output stdout\n.vfslist\n.vfsname\n.expert\nSELECT * FROM p WHERE name LIKE 'a%';\n.sha3sum\n.limit length 10000"
+}

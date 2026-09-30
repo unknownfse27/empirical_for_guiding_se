@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "(^x+)|( +)",
+    "'{atan2(cos(length($0)),sin(log(exp(rand()))))*2 - int(sqrt(srand(3)/2))}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ls -l)"
+}

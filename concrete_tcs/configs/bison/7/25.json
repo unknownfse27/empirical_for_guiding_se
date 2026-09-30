@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "./bison",
+    "-Wall",
+    "-Wcex",
+    "-Wother",
+    "--report=all",
+    "-d",
+    "-v",
+    "-g",
+    "-x",
+    "-o",
+    "big.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "big.y"
+  ],
+  "stdin": ""
+}

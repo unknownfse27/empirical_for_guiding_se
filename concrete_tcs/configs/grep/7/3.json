@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-Rawq",
+    "-f@@",
+    "--inc=*.c",
+    "--exclude=Makefile",
+    "-D\"skip\"",
+    "../../*",
+    "-d\"recurse\""
+  ],
+  "dirs": [],
+  "files": [
+    "p7_3"
+  ],
+  "stdin": ""
+}

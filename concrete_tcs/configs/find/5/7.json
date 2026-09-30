@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    "-L",
+    "-P",
+    "-D",
+    "all",
+    ".",
+    "-printf",
+    "%p%f%h%P%H%g%G%u%U%m%M%k%b%s%S%d%D%F%I%i%y%Y%a%Ak%Bk%c%Ck%t%Tk%Z"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

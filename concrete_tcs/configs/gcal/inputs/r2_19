@@ -1,0 +1,14 @@
+--japanese-holidays
+--orthodox-old-holidays
+--multicultural-new-year-holidays
+--orthodox-new-holidays
+--persian-jalaali-holidays
+-q
+KR
+--orthodox-calendar
+-b
+4
+--holiday-dates=both
+--starting-day=6
+--time-offset=-2
+--atmosphere=-100,100

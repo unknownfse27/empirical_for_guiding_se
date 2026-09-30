@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-R",
+    "base.m4f",
+    "-F",
+    "extended.m4f"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(n,255) format(\"%01d %-1x\", n, n) format(\"%.1f\", 3) format(\"%04ld\", 7)"
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "/usr/bin",
+    "-regex",
+    ".*\\.[0-9]$",
+    "-fls",
+    "/tmp/a.ls",
+    "-follow"
+  ],
+  "dirs": [
+    "/usr/bin"
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "/dev/null",
+    "-q",
+    "IT",
+    "-z",
+    "-D",
+    "rl",
+    "-cE",
+    "nov"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

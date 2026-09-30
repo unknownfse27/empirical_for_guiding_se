@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a`\\nc'\\''b\\nc\\nm4exit(256)"
+}

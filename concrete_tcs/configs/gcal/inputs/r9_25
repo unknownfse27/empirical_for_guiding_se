@@ -1,0 +1,16 @@
+--date-format=de
+"--date-format=%Y %D %>02*M ; %1(%>5u#K)%2"
+--translate-string=A
+--translate-string=안녕
+--date-variable=a=1127:c=a
+--date-variable=a=101:c=b
+--export-date-variables
+"--text-variable=$a=foo:$c=$a"
+"--text-variable=$a\:foo:$c?bar"
+--export-text-variables
+--adjust-value=-20.5.
+--adjust-value=3.5.
+--atmosphere=1010,10
+--atmosphere=0
+--atmosphere=100,-10
+--limit

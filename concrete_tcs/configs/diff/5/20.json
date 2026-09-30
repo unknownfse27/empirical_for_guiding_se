@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-file-name-case",
+        "--color=never",
+        "--context",
+        ".",
+        ".."
+    ],
+    "dirs": [
+        ".",
+        ".."
+    ],
+    "files": [],
+    "stdin": ""
+}

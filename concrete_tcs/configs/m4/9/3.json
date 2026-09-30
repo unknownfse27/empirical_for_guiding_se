@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp([abc123],[[[:digit:]]],[D]) regexp([xyz],[^a-z],[N]) regexp([ABC],[A-Z],[U]) regexp([aA],[=[a]=],[E]) regexp([abc def],\\<abc,[B]) regexp([ghi jkl],\\>jkl,[E]) regexp([hello],^he,[S]) regexp([end],d$,[F])"
+}

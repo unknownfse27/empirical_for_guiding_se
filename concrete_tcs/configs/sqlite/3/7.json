@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TRIGGER IF EXISTS t;DROP VIEW IF EXISTS v;CREATE VIEW v AS SELECT * FROM e WHERE score<85 OR name GLOB '[A-C]*';CREATE TRIGGER t INSTEAD OF UPDATE ON v BEGIN UPDATE e SET score=COALESCE(NEW.score,OLD.score)+1 WHERE id=OLD.id;END;UPDATE v SET score=84 WHERE name='Charlie';"
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "sed_script.sed",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "config.texi"
+  ],
+  "stdin": ""
+}

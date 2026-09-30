@@ -1,0 +1,3 @@
+%glr-parser
+%%
+s:;

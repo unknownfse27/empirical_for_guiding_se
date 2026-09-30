@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "cmd=add",
+    "'BEGIN { PROCINFO[cmd, \"pty\"] = 1 };",
+    "{ print |& cmd; cmd |& getline x; print x }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "1 2"
+}

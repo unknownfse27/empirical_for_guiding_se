@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE T10(a INT, b INT); INSERT INTO T10 VALUES(1, 10), (1, 20), (2, 5); SELECT a, SUM(b) FILTER (WHERE b>15) AS s FROM T10 GROUP BY a;\nCREATE TABLE T17(id PRIMARY KEY, val TEXT UNIQUE); INSERT INTO T17 VALUES(1, 'A'); INSERT OR REPLACE INTO T17 VALUES(1, 'B');"
+}

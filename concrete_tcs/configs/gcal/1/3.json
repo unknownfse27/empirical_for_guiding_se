@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--here=#include <foo>",
+    "--biorhythm-axis=21",
+    "--moon=30",
+    "--heading-text=.",
+    "--leap-day=february",
+    "%2021",
+    "5",
+    "4005"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_3"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+      "-nE",
+      "s/\\b[a-z]*(on|no)[a-z]*\\b/\\1/gp;"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "knock\\mmood\nknowg\nponytail\\hair\n"
+}

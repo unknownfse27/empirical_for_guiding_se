@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {FS = \"(^x+)|( +)\";",
+    "x = @/xx/;print typeof(x);",
+    "print x;};",
+    "print \"01\"'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

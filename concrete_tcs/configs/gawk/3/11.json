@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "'{CONVFMT=\"%2.2f\";",
+    "PROCINFO[\"sorted_in\"]=\"@ind_str_asc\";",
+    "bindtextdomain(/);}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

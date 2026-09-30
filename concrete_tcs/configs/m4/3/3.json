@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "regexp(`ID=abc_123!', `^ID=\\([A-Za-z]+\\)_[0-9]+[!]$', `[`\\1']') regexp(`a\\b', `a\\\\b', `escaped') regexp(`안녕',`[^\\x00-\\x7F]+',`Non-ASCII',`ASCII') regexp(`xyzz',`(x|y|z)+',`yes',`no') regexp(`abc123', `abc(?=123)', `yes', `no')\n"
+}

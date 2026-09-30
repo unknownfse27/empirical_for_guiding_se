@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select 'Abc' like 'a%';pragma case_sensitive_like=off;pragma trusted_schema=off;pragma trusted_schema=on;pragma read_uncommitted=1;pragma read_uncommitted=0;pragma cache_spill=on;pragma cache_spill;pragma busy_timeout=50;create table ai(id integer primary key autoincrement,v text)"
+}

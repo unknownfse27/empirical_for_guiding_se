@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select a,nth_value(b,2) over w,cume_dist() over w from t window w as(order by a);select nullif(1,1),nullif(1,2),upper(b),lower(b) from t;"
+}

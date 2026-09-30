@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'function k(a){return length(a)}",
+    "{a[$1]=$2}",
+    "END {for (i in a) {k(i);k(a[i]);}}'",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

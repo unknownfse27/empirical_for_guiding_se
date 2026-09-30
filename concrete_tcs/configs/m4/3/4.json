@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`你', `你.*[0-9]+', `deva') regexp(`🔥', `.*🔥.*', `emoji') regexp(`cäääèçbb---é', `c.*b.*é', `unicode') regexp(`नमस्ते123', `न.*[1-9]+$', `devanagari') regexp(`สา', `ส.', `thai') regexp(`ほ', `.*', `unicode') dnl skip this line\nVisible"
+}

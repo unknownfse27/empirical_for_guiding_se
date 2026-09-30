@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=parse",
+    "@@",
+    "-o/tmp/bog.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "-t",
+    "--color=debug"
+  ],
+  "dirs": [],
+  "files": [
+    "bog.y"
+  ],
+  "stdin": ""
+}

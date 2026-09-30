@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "$1 ~ /^[A-Z]/",
+    "{ sum -= $3; sum += $1; print $2 }",
+    "END { print sum/NR }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

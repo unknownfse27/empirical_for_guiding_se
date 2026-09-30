@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-E"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(10**10>0)eval(1/0)\\n"
+}

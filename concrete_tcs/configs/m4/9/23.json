@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(1e9999) eval(2^-1) eval() eval(abc) eval(10,1,-1)  eval(10,100) eval(10,1) eval(1/0) eval(+1) divert(999999) divert(1000) divert(50000) divert(2147483647) divert(-999999) divert(1e10)"
+}

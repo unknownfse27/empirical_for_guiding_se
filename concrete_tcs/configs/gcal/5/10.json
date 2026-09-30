@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "--gregorian-reform=1582",
+    "-b3",
+    "-s3",
+    "--orthodox-new-holidays",
+    "--bahai-months",
+    "--chinese-months",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_10"
+  ],
+  "stdin": ""
+}

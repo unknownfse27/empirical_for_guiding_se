@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-FTr",
+    "-B5",
+    "--no-group-separator",
+    "-f",
+    "@@",
+    "./*"
+  ],
+  "dirs": [],
+  "files": [
+    "p1_16"
+  ],
+  "stdin": ""
+}

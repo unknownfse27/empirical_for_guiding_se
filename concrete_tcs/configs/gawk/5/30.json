@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { b[1][1] = \"x\"; split(\"d a b c\", b[1]); b[1]=asort(b); print b[1][1]}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

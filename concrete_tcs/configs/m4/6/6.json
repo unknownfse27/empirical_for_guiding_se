@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(0r36:Z) eval(1 << 31) eval(2 ** -1) include(`/dev/null') sinclude(`nonexistent') syscmd(`echo test') esyscmd(`echo test') mkstemp(`m4tmpXXXXXX')include(`')sinclude(`/root/nope')"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA recursive_triggers=ON;DROP TABLE IF EXISTS trg1;CREATE TABLE trg1(x INT UNIQUE);DROP TRIGGER IF EXISTS bu1;CREATE TRIGGER bu1 BEFORE UPDATE ON trg1 WHEN NEW.x=OLD.x BEGIN SELECT 1;END;INSERT INTO trg1 VALUES(5);UPDATE trg1 SET x=5 WHERE x=5;\n"
+}

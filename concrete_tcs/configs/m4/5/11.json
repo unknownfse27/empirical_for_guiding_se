@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define([nest],[ifelse(\\\\$1,[0],[end],[nest(eval(\\\\$1-1))])])nest([4])\\ndivert(2)in divert(1)in divert(0)back to 0undivert(2)undivert(1)\\nesyscmd([false])sysval\\nifdef([NOEXIST],[yes],[no])\\nifdef([FOO],[yes],[no])define([FOO],[BAR])ifdef([FOO],[yes],[no])\\nsyscmd([echo OK])\\n"
+}

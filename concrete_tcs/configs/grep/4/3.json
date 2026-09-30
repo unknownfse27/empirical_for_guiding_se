@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-Rwnri",
+    "-f@@",
+    "--exclude=\\*.{py*,pl,sh}",
+    "--exclude-d=d*",
+    "--exclude-d=lib?",
+    "--exclude=@@",
+    "--inc=@@",
+    "../"
+  ],
+  "dirs": [],
+  "files": [
+    "p4_3",
+    "c-ctype.c",
+    "grep.c"
+  ],
+  "stdin": ""
+}

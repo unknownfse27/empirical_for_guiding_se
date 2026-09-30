@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-xdev",
+    "-links",
+    "+2",
+    "-wholename",
+    "'./src/emacs'",
+    "-prune",
+    "-o",
+    "-print",
+    "-o",
+    "-noleaf",
+    "--version"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

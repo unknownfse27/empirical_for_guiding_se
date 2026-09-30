@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "COLS=80"
+  ],
+  "args": [
+    "-n",
+    "-e",
+    "1p; 2p; $p; 1h; 2H; 3h; 4H; 11D; 13d; 40q; G",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_trg_when(x); CREATE TRIGGER trg_w BEFORE INSERT ON t_trg_when WHEN NEW.x < 0 BEGIN SELECT 'negative'; END; INSERT INTO t_trg_when VALUES(1),(-1);"
+}

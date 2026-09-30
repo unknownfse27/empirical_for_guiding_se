@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--posix",
+    "-c",
+    "-v",
+    "RS='\\r\\n'",
+    "'/awk/ {print $0}'",
+    "README*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

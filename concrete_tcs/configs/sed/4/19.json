@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "s/^replace.*/{(date)}/pe;"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "Date:\nreplace this line\n"
+}

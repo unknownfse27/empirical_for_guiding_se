@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "G; s/\\n/&&/;",
+    "/^\\([ -~]*\\n\\).*\\n\\1/d;",
+    "s/\\n//; h; P"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "hello!\\nhello\\n hello!\\nhello! \\nHello\\nnn\\nnn\\nnn\\nnnn\\nnnnn\\n\\n\\n\\n\\nhello!"
+}

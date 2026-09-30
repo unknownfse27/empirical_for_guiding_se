@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "s/\\w*/\\L\\u&/g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "HeLlO SkKU unIVerSITY"
+}

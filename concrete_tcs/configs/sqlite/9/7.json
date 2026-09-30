@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA mmap_size = 536870912; PRAGMA page_size = 8192; PRAGMA busy_timeout = 5000; VACUUM;\n"
+}

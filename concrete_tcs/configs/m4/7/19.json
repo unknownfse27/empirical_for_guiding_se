@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1)This is diverted text.divert(0) mkstemp(/tmp/abcXXXXXX) __file__ __line__ __program__ eval(2+3*4==14||0&&(1==1)&&!(0)||~0>>1<<2-1**2%3>=2<=4!=1)"
+}

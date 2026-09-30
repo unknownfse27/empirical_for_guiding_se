@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".show\\n.width -10 20\\n.separator |\\n.nullvalue NULL\\n.print T\\nCREATE TABLE t(x);INSERT INTO t VALUES(1),(2);SELECT * FROM t;\\n.schema\\n.tables\\n.indexes\\n.databases\\n.dbinfo\\n.fullschema\\n.dbconfig\\n.limit\\n.dump\\n.help mode\\n.quit\n"
+}

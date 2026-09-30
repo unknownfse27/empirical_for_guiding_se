@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      "../",
+      "-regextype",
+      "posix-egrep",
+      "-regex",
+      ".*[/:\\\\0:*?[\\]\\n\\r\\t].*",
+      "-D",
+      "tree,opt,rates"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t9(a INT PRIMARY KEY,b TEXT,c TEXT GENERATED ALWAYS AS(a||b) VIRTUAL);INSERT INTO t9 VALUES(1,'x');INSERT INTO t9 VALUES(2,'y');SELECT c FROM t9 ORDER BY a;\n.imposter sqlite_autoindex_t1_1 imp\nSELECT rowid,* FROM imp LIMIT 3;\nDROP TABLE imp;\n"
+}

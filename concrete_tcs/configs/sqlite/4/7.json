@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT name FROM p INTERSECT SELECT name FROM pv; SELECT name FROM p EXCEPT SELECT name FROM pv; SELECT length('한글'), hex(X'00FF'), quote(NULL), instr('abcabc','bc'), replace('a b  a',' ','');"
+}

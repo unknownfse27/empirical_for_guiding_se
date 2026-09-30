@@ -1,0 +1,19 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wcex",
+    "-r",
+    "all",
+    "--xml=/tmp/cx3.xml",
+    "-o",
+    "/tmp/cx3.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cx3.y"
+  ],
+  "stdin": ""
+}

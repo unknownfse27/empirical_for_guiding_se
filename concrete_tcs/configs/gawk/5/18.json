@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-b",
+    "BEGIN {print _ \"c\";getline l;awk::systime();rshift(5,-1);exit 1}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

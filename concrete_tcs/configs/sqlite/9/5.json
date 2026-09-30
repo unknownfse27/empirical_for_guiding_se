@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".schema\n.mode line\nSELECT k,v,d,u FROM metrics;\nSELECT hex(randomblob(1));\n"
+}

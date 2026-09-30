@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-file-name-case",
+        "-X",
+        "@@",
+        "..",
+        "."
+    ],
+    "dirs": [
+        "..",
+        "."
+    ],
+    "files": [
+        "diff.o"
+    ],
+    "stdin": ""
+}

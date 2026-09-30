@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-o",
+    "/tmp/tpp.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "tpp.y"
+  ],
+  "stdin": ""
+}

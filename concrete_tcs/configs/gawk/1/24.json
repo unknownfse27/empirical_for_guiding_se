@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--pretty-print=/dev/null",
+    "-f",
+    "**/*.awk"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

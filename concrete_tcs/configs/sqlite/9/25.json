@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "BEGIN IMMEDIATE; DROP TABLE IF EXISTS TX; CREATE TABLE TX(x INT); INSERT INTO TX VALUES(10),(20),(30); SAVEPOINT sp1; INSERT INTO TX VALUES(40); SAVEPOINT sp2; DELETE FROM TX WHERE x=40; ROLLBACK TO sp2; RELEASE sp1; COMMIT; SELECT sum(x) FROM TX;\n"
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "-#0*d1#999_%Z__%O",
+    "%19950407",
+    "-x",
+    "--moon=8",
+    "--include-resource-file-name",
+    "--alternative-format"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

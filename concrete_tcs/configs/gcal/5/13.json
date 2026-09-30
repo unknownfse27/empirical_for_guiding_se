@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-qbe",
+    "-N",
+    "-jcb",
+    "-s",
+    "0",
+    "--chinese-flexible-holidays",
+    "--bahai-holidays",
+    "--christian-holidays",
+    "-c13+",
+    "3/1992-12"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

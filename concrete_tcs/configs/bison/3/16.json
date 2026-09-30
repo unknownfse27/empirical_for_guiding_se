@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-dv",
+    "-x",
+    "-g",
+    "--html=eh.html",
+    "--trace=all",
+    "--report=all",
+    "-Wempty-rule",
+    "-Wcounterexamples",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "emp.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS W1; CREATE TABLE W1(val INT); INSERT INTO W1 VALUES(5),(2),(8),(2),(9); SELECT val, row_number() OVER(ORDER BY val DESC), rank() OVER(ORDER BY val), dense_rank() OVER(ORDER BY val), sum(val) OVER() FROM W1;\n"
+}

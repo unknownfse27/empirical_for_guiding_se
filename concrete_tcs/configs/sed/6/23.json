@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "s/[^[:graph:]^[:lower:]]",
+    "\\|",
+    "[^[:punct:]^[:spac:]]/X/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "1+a-2 b3c4d5 E"
+}

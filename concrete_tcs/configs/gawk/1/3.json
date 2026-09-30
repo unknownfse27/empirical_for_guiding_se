@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "var=\"haha\"",
+    "-f",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_3.awk",
+    "floatcomp.c"
+  ],
+  "stdin": ""
+}

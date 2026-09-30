@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS w;CREATE TABLE w(k TEXT PRIMARY KEY,v INT) WITHOUT ROWID;\nDROP TABLE IF EXISTS st;CREATE TABLE st(a ANY,b TEXT,CONSTRAINT ck CHECK(typeof(a)='integer'));\nINSERT INTO st VALUES('x','y');"
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [
+    "LC_ALL=C"
+  ],
+  "args": [
+    "s/\\.\\b/X/g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "aΣbabc %-=,. def."
+}

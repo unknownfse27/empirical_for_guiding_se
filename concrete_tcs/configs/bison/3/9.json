@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcounterexamples",
+    "--report=all",
+    "-dvg",
+    "@@",
+    "-o",
+    "/tmp/rd2.c"
+  ],
+  "dirs": [],
+  "files": [
+    "rd2.y"
+  ],
+  "stdin": ""
+}

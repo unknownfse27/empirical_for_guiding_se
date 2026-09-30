@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS products (pid INTEGER PRIMARY KEY, pname TEXT, category TEXT); INSERT OR IGNORE INTO products VALUES (1, 'chips', 'snack'), (2, 'juice', 'bev'); SELECT c.name, o.stock, p.pname FROM customers c INNER JOIN orders o ON c.cid = o.customer_id INNER JOIN products p ON o.category = p.category;"
+}

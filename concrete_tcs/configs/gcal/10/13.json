@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-cg",
+    "--include-week-number",
+    "--omit-multiple-date-part",
+    "@@@",
+    "--include-consecutive-number",
+    "--zero-dates-only"
+  ],
+  "dirs": [],
+  "files": [
+    "r10_13"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+--chinese-holidays
+--islamic-civil-holidays
+--japanese-flexible-holidays
+--type=standard
+--calendar-dates=special
+--starting-day=Monday
+--time-offset=@
+--transform-year=+9999
+--gregorian-reform=1700
+--date-format=us
+--date-variable=b=1010
+--precise
+--today

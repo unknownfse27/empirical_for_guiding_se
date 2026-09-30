@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define([f],[42])define([g],[f])changequote([],[])g dumpdef regexp(`abc','a[^b]c','neg')regexp(`abcdef','.*?c','lz')regexp(`line1\nline2','^line2','nl')regexp(`abc def`,`\\<def\\>`,`wb`)"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "-s"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "maketemp(\\tmpXXXXXX') debugmode(\\aeq') traceon(\\foo') errprint(\\Custom Error\\n') ifdef(\\__file__',\\yes',\\no') indir(\\eval',\\2*5') m4wrap(\\errprint(\\WRAPPED\\n')') builtin(\\divnum') pushdef(\\x',\\A')pushdef(\\x',\\B')popdef(\\x')x regexp(\\xyz123',\\[a-z]+',\\[\\&])\n"
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-Idir",
+    "-f",
+    "{}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(find . -name '*.awk')"
+}

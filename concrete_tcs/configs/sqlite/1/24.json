@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "-bail",
+        "-nullvalue",
+        "NULL",
+        "-separator",
+        "\t",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".stats ON\\n.timer ON\\n.fullschema\\n.mode json\\n.width 10 15\\n.show\\n.output 'out.txt'\\nSELECT 'col1', 123456789012345, NULL;\\n.output stdout\\n.lint\\n.log 'cmd.log'\\nSELECT 'logged command';\n"
+}

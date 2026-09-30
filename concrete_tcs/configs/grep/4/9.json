@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Eiz",
+    "--binary-files='binary'",
+    "-f@@"
+  ],
+  "dirs": [],
+  "files": [
+    "p4_9"
+  ],
+  "stdin": ""
+}

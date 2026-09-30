@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-empty",
+    "-ls",
+    "-fstype",
+    "ext4",
+    "-or",
+    "-regex",
+    "/^$/",
+    "-or",
+    "-samefile",
+    "defs.h"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

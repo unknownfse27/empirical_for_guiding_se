@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      "-regextype",
+      "awk",
+      "-regex",
+      "^[\\+]+?[-+a-z][3]\\w\\W[<>()[|]]\\*",
+      "-xtype",
+      "p",
+      "-printf",
+      "%-10s %p\\n"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

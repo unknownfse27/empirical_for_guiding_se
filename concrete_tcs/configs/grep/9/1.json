@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--binary-files=\"text\"",
+    "-s",
+    "\\<[\\w\\d]\\>",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c",
+    "grep"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "A=1",
+    "'BEGIN {printf \"A=%-3d, B=%o\\n\", A, B}",
+    "END {printf \"A=%s, B=%d\\n\", A, B}'",
+    "-v",
+    "B=2"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

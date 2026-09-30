@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t(x PRIMARY KEY,y DEFAULT 0);CREATE VIEW v AS SELECT * FROM t;CREATE TRIGGER r INSTEAD OF UPDATE ON v BEGIN UPDATE t SET x=NEW.x*2;END;INSERT INTO t(x)VALUES(1),(2);UPDATE v SET x=5;DELETE FROM v;SELECT * FROM t;\n"
+}

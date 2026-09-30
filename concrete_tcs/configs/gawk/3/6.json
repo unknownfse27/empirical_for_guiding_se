@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{split($1, a);$2!~\"b\";",
+    "$3~\"a\";match(a[0],/a/)",
+    "+",
+    "index(a[0],sub(substr(a[1],2,4),/a/,a[0]))}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ls -l)"
+}

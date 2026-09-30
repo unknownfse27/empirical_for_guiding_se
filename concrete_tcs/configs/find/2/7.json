@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "(",
+    "-regextype",
+    "findutils-default",
+    "-regex",
+    ".*[a]+",
+    ")",
+    "(",
+    "-regex",
+    ".*\\bd\\b.*",
+    ")"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

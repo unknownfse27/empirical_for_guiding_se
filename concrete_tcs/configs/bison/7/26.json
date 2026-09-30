@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcounterexamples",
+    "-d",
+    "-v",
+    "-r",
+    "all",
+    "@@",
+    "-o",
+    "/tmp/n8.c"
+  ],
+  "dirs": [],
+  "files": [
+    "n8.y"
+  ],
+  "stdin": ""
+}

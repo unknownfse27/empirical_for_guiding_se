@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-RwizZa",
+    "--color=never",
+    "-e",
+    "Include",
+    "-e",
+    "#include <error.h>",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

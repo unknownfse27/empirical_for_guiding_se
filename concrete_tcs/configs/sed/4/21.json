@@ -1,0 +1,12 @@
+{
+  "envs": [
+    "LC_ALL=fr_FR.utf8"
+  ],
+  "args": [
+    "s/([[=e=]])/Xx/g;",
+    "{N; /\b(\\w+)\\s+\\1\\b/{=;p} ; D}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "masanh\n"
+}

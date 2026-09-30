@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "-Es",
+        "-u2",
+        "--horizon-lines=6",
+        "--color=never",
+        "-F",
+        "'^int|duoble'",
+        "./",
+        "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

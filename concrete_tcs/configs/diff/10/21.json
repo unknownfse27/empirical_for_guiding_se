@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-C",
+        "135",
+        "--label=hello",
+        "--width=150",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "util.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

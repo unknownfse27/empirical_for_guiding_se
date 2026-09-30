@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode csv\\n.headers on\\n.import a.csv t\\n.echo on\\n.changes on\\nUPDATE t SET b=99 WHERE a=1;\\n.bail on\\nSELECT * FROM t;\\nSELECT first_value(a)OVER(ORDER BY a),last_value(b)OVER(ORDER BY b)FROM t;\\n.quit\n"
+}

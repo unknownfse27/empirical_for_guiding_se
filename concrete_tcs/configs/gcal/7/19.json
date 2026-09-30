@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-N",
+    "-jc",
+    "-H",
+    "no",
+    "-u",
+    "-x",
+    "--atmosphere=0",
+    "--chinese-holidays",
+    "@@",
+    "1996+2000",
+    "%1999"
+  ],
+  "dirs": [],
+  "files": [
+    "demo1.rc"
+  ],
+  "stdin": ""
+}

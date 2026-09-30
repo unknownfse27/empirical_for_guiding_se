@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--period-of-fixed-dates=00000217",
+    "-c*d10",
+    "-c6w",
+    "-c112w",
+    "-c0225",
+    "-c*d16sun",
+    "-cl@e-3fri",
+    "-c@t+10"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

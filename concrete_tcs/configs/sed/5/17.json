@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "-e",
+    "/aa/{ s/bb/cc/w /dev/stderr",
+    "-e",
+    "}",
+    "../doc/*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

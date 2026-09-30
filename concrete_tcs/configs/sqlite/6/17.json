@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA integrity_check;PRAGMA quick_check;PRAGMA journal_mode=DELETE;VACUUM;ANALYZE;ATTACH \"att.db\" AS att;CREATE TABLE IF NOT EXISTS att.t(num INTEGER PRIMARY KEY);INSERT INTO att.t VALUES(0); SELECT * FROM att.t; DETACH att;"
+}

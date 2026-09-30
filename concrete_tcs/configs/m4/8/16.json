@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "format('%020d',9223372036854775807) eval(2**63-1) eval(-1*2**63) eval(1/0) eval(0xFF+077-0b10) syscmd('false') sysval syscmd('echo done') sysval"
+}

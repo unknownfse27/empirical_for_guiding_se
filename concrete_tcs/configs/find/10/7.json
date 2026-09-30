@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".-name",
+    "'*.h'",
+    "-execdir",
+    "diff-u",
+    "'{}'",
+    "/tmp/master",
+    ";"
+  ],
+  "dirs": [
+    "/tmp/master"
+  ],
+  "files": [],
+  "stdin": ""
+}

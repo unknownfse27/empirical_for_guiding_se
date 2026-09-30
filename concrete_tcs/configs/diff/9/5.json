@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "--ignore-matching-lines=$|\\(\\b\\*\\)-\\$[[:graph:]]$[[:digit:]]\\a,x\\u\\1,I;s)",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "util.c"
+    ],
+    "stdin": ""
+}

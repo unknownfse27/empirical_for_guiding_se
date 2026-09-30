@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { pattern=\"[Ii]f\"}",
+    "NF",
+    "&&",
+    "NR>=2 && NR<=3 && $0 ~ ",
+    "pattern {print} {print}'",
+    "RS=''",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

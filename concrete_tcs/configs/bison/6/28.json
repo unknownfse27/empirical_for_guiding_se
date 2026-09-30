@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=cex",
+    "-fcaret",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cna.y"
+  ],
+  "stdin": ""
+}

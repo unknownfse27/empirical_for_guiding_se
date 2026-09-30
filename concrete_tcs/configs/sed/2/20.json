@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'e echo \"Nice shot\"'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a\nb"
+}

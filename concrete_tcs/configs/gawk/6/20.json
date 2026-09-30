@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "gawk",
+    "'function _fn0() { exit }",
+    "BEGIN {printf \"%*sworld\\n\", -20, \"hello\"; ARRAY[_fn0()];}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

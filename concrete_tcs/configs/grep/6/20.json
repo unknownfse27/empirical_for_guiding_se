@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-e=[a-z]+",
+    "-Rl",
+    "--devices=\"skip\"",
+    "../../*",
+    "--directories=\"recurse\"",
+    "--color=force"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

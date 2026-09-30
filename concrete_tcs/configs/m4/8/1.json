@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "__file__ __line__ __program__ changecom() changequote() debugmode() debugfile() define() decr() defn() dumpdef() errprint() ifdef() include() incr() index() m4wrap() maketemp() mkstemp() patsubst() regexp() shift() substr() syscmd() translit() undefine() m4exit()"
+}

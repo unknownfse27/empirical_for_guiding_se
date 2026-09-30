@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "len() incr(10) decr(5) incr() decr() eval(2*3+(4/2)) eval(1==2>0) eval(0**0) eval((2**3)**2) eval(666,11) eval(2^10%100) eval(+ + - ~ ! ~ 0) eval(index(Hello,llo)>=0) eval(++0) eval(0 |= 1) eval(0&&1%0) 0r1:eval(10,1,11) eval(0**1) eval(2||1 /0) eval(666,6,10) eval(1,37)"
+}

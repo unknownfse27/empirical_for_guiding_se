@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-#",
+    "0*d1su#99su.7 ^%Z",
+    "--here=#include <foo>",
+    "-y",
+    "3:;1994;february:1999;:1777;JAN:"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "May 2",
+    "-or",
+    "-newerat",
+    "Feb 1",
+    "-or",
+    "-newerct",
+    "Jun 20",
+    "-or",
+    "-newerct",
+    "2013-095"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

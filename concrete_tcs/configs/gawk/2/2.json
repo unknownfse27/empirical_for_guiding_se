@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{a[$1]=$2}END{for(i in a){patsplit(i,b);",
+    "patsplit(i,c,/a+/);",
+    "patsplit(i,d,/0+/,k);}}",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

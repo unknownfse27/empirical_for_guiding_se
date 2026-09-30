@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--directories",
+    "/[xy] \\^ \\b \\B \\D \\d \\s \\S \\t \\v \\w \\W \\n/g",
+    "../*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

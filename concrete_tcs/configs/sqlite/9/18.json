@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select a from t where a<=2 union all select a from t where a>=2 intersect select a from t except select a from t where a=4;select distinct a,first_value(b) over(order by a) from t;"
+}

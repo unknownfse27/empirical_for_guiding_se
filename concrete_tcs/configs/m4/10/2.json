@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--traditional"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "syscmd(`echo Trad')\\nmaketemp(`fileXXXXXX')\\n"
+}

@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-empty",
+    "-mindepth",
+    "2",
+    "-maxdepth",
+    "5",
+    "-fprintf",
+    "/dev/stderr",
+    "%p\\n",
+    "-fls",
+    "/tmp/files.log",
+    "-quit"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t5(a INT,b TEXT);INSERT INTO t5 VALUES(1,'a'),(2,NULL);CREATE INDEX i_a ON t5(a);WITH RECURSIVE c(x) AS(SELECT 1 UNION ALL SELECT x+1 FROM c WHERE x<7) SELECT max(x) FROM c;PRAGMA quick_check;EXPLAIN QUERY PLAN SELECT * FROM t5;ANALYZE;SELECT quote(zeroblob(2));"
+}

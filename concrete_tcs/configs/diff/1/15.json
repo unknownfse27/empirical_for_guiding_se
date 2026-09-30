@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "-yd",
+      "-F\\s",
+      "-I",
+      "b*",
+      "--color",
+      "../tests",
+      "../src"
+    ],
+    "dirs": [
+      "../tests",
+      "../src"
+    ],
+    "files": [],
+    "stdin": ""
+  }

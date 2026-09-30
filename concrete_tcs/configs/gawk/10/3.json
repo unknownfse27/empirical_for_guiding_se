@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--posix",
+    "'BEGIN { printf(\"ABC < abc = %s\\n\",(\"ABC\" < \"abc\" ? \"TRUE\" : \"FALSE\")) }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

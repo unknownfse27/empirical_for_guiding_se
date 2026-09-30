@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--no-ignore-case",
+    "--max-count=1",
+    "--silent",
+    "\\<lo[^A-K]*",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

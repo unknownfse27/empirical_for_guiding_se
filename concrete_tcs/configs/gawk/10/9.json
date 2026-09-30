@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-M",
+    "'{O=\"~\"~\";o=\"==\";o+=+o;x=O\"\"O;while(X++<=x+o+o)c=c\"%c\";printf c,(x-O)*(x-O)}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

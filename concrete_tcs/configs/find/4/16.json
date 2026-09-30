@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "(",
+    "-regex",
+    ".*\\.log$",
+    "-o",
+    "-regex",
+    ".*\\backup.*",
+    ")",
+    "-print"
+  ],
+  "dirs": [
+    "$HOME"
+  ],
+  "files": [],
+  "stdin": ""
+}

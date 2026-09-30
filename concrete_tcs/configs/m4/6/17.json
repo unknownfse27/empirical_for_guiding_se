@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4wrap(`define(`W',`Z') m4wrap(`traceon(`W') W m4wrap(`undefine(`W') W') divert(1) WRAP1 divert(0)')') divert(2) LATER divert(0) WRAP0 regexp(`abc123`,`\\(a\\)\\(b\\)\\(c\\)\\(1\\)\\(2\\)\\(3\\)`,`\\6\\5\\4\\3\\2\\1`) regexp(`','`^`,`X') regexp(`abc`,`\\(a\\)(b)?`,`\\2-\\3`)"
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [
+    "LC_ALL=ja_JP.UTF-8"
+  ],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`アスノヨゾラ哨戒班', `アス.*班', `matched')"
+}

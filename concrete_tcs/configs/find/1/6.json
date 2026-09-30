@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "-regextype",
+      "posix-awk",
+      "-regex",
+      "@0+?\\+\\?[a-z].[0-9]wW<>bB''()",
+      "-xtype",
+      "d",
+      "-print0"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

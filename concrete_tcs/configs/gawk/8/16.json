@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "*;",
+    "BEGIN{getline var < \"TODO\"; print sprintf(\\\"%-5s\\\", var); }",
+    "END{ print sum }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "array.c"
+  ],
+  "stdin": ""
+}

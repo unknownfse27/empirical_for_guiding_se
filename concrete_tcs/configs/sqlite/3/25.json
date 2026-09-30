@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".timer on\n.help\n.mode box\n.headers on\n.width 5 10 5\nSELECT*FROM u;\n.mode column\nSELECT*FROM u;\n.mode insert u\nSELECT*FROM u;\n.timer off\n.print Testing\n.log test.log\nSELECT 1+1;\n.log off\n.changes on\nREINDEX;VACUUM;PRAGMA optimize;\n.changes off\n"
+}

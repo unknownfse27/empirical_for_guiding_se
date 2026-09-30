@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-d",
+    "-b",
+    "cst_prefix",
+    "-p",
+    "my_yy",
+    "-o",
+    "custom_parser.c",
+    "--xml=c.xml",
+    "--graph=c.gv",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "out_rn.y"
+  ],
+  "stdin": ""
+}

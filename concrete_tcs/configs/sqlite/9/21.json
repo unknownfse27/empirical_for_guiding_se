@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select decimal('1.23'),decimal_add('1.2','3.4'),decimal_cmp('2.0','1.999');with d(x) as(values('1.0'),('2.0'),('3.0')) select sum(decimal('1.5')) from d;select name,mode,mtime from fsdir('/tmp') limit 5;select * from completion('se') limit 5;select writefile('/tmp/t','');"
+}

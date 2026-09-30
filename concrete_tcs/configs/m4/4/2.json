@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abc^def$ghi`,`abc\\^def$ghi`) regexp(`a\\bc\\d`,`a\\\\bc\\\\d`) regexp(`|*+?(){}[]`,`\\|\\*\\+\\?\\(\\)\\{\\}\\[\\]`) regexp(`абвгд`,`а.*д`) regexp(`한글테스트`,`한.*스트`) regexp(`abc\\ndef\\nghi`,`\\([^\\n]+\\)\\n\\([^\\n]+\\)` ,`\\2-\\1`) regexp(`\\0`, `\\0`)"
+}

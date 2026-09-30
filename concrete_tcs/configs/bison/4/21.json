@@ -1,0 +1,14 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Tall",
+    "-Wall",
+    "--update",
+    "\"$n\";chmod 600 \"$n\""
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "n=$(printf 'q \\001\\177\\200\\377 !@[]?.y');sed -n '2953,2975p' ../tests/input.at >\"$n\";chmod 400 \"$n\";"
+}

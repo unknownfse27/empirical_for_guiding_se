@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-P",
+    "-e",
+    "{print $1}",
+    "-N",
+    "{print $1+$2}",
+    "-f",
+    "@@",
+    "-p",
+    "profile_data"
+  ],
+  "dirs": [],
+  "files": [
+    "t.awk"
+  ],
+  "stdin": ""
+}

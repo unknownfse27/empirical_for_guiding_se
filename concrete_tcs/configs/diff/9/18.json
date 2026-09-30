@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-case",
+        "/proc/cpuinfo",
+        "/proc/meminfo"
+    ],
+    "dirs": [
+        "/proc/cpuinfo",
+        "/proc/meminfo"
+    ],
+    "files": [],
+    "stdin": ""
+}

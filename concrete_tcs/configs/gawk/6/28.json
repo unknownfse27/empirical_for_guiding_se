@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-b",
+    "-L",
+    "{switch($1)",
+    "{case /he/:$1=1;break;",
+    "case /^[A-Z]/:$1=0;break;",
+    "default: $1=2;}}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

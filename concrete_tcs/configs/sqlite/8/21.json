@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".eqp full\nSELECT*FROM t_all WHERE id=1;\nSELECT*FROM t_all WHERE(age+1)=21;\nSELECT*FROM t_all INDEXED BY idx_np WHERE name='Alice' AND age>=18;\nEXPLAIN ANALYZE SELECT*FROM t_all WHERE id=1;\n.fullschema\nSELECT*FROM sqlite_dbpage(1);\n.eqp trace\n.eqp off\n"
+}

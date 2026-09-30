@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-daystart",
+    "-mtime",
+    "1",
+    "-o"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

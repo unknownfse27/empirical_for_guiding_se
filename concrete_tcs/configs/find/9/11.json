@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-maxdepth",
+    "4",
+    "-newermt",
+    "Feb 1",
+    "-used",
+    "0"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

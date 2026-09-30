@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "changequote(\\'\\`\\',\\`\\'>) changecom(\\'\\`\\/*',\\`\\*/\\') define(<A>,<X>) <A> ifdef(<A>,<OK>,<FAIL>) /*comment*/ changequote(\\'\\`[\\',\\`]\\') define([B],[Y]) [B] changequote() regexp(\\'\\`abc\\', \\`(a|b|c)|d\\', \\`X\\') regexp(\\'\\`text\\', \\`|.*\\', \\`Y\\') regexp(\\'\\`a1b2c3\\', \\`\\([a-z]\\([0-9]\\)\\)+\\', \\`\\2-\\1\\')"
+}

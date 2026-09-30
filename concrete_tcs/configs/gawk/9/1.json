@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'{x=\"hello\";y=\"world\";print substr($0,index($0,x),index($0,y)-index($0,x))}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "world"
+}

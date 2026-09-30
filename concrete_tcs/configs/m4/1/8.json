@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "-G",
+      "-I../examples/",
+      "/",
+      "-"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "undivert(`a2')\\ndefine(`foo', `$34')\\nfoo\\nmaketemp(`TTX')\\nmaketemp(`XXXXXXXX')\\nm4wrap()\\n#Commentwithnoendl"
+}

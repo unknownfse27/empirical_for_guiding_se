@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{for(i=0;i<ARGC;i++);",
+    "f(bar);printf(\"%d%s\\n\",i,ARGV[i])}",
+    "function f(b){split(\"x\",b)}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

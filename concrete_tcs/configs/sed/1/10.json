@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-Ee",
+    "s/((XY)?|^(XY){,1})/ZZZ/",
+    "-e",
+    "'s/ls/ls -l/e'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "XY12345\n12345\nabdses"
+}

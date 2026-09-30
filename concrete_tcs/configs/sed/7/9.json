@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-r",
+    "-E",
+    ":x"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "It was of times,was\nt"
+}

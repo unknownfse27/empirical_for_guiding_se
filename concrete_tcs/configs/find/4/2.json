@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-type",
+    "f",
+    "-iregex",
+    ".*\\b(?!exclude)\\w+\\b.*",
+    "-o",
+    "-regex",
+    "\\S\\(\\b\\*\\)\\*-/x\\u\\1",
+    "-fls"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

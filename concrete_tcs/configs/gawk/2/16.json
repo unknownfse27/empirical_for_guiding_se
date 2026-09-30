@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{sub( \"^.*AA\", \"BB\");",
+    "for (c = 1; c <= NF; c++)",
+    "{gsub(\"foo\", \"bar\", $c)}}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

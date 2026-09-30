@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS n;CREATE TABLE n(x REAL);WITH RECURSIVE r(i)AS(SELECT 1 UNION ALL SELECT i+1 FROM r WHERE i<60)INSERT INTO n SELECT i*1.5 FROM r;DELETE FROM n WHERE CAST(x AS INT)%2=0;UPDATE n SET x=x*2 WHERE x<10;SELECT count(*),min(x),max(x),avg(x),sum(x)FROM n;"
+}

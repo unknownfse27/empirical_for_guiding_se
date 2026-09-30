@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{i=10;gsub(/a/,\"b\");",
+    "while(i>0){g+=--i;}s\"/inet4/tcp/0/localhost/daytime\";",
+    "close(s)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "^.*\\b(one|two|three)\\b.*$",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

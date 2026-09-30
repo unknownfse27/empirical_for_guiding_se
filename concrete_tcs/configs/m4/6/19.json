@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-dV"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(`1') Text1 divert(`2') Text2 divert(`-1') undivert(`1') undivert(`2') undivert(`asf') divert(1) D1 divert(2) D2 undivert undivert changequote(`[[',`]]') define([[A]],[[[[B]]]]) [[A]] changequote() errprint(`Error', ` Code:42', `\\n')"
+}

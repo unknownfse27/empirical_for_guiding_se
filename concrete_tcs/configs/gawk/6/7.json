@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{a=0;",
+    "do{switch(a){case 10:break;default:a++;continue}}",
+    "while(a<9);exit 1}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

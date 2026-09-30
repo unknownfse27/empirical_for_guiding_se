@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "./bison",
+    "-v",
+    "-d",
+    "@@",
+    "--report=all,states,itemsets,lookaheads,solved,cex",
+    "--trace=all",
+    "--graph",
+    "--xml",
+    "--html",
+    "-Wall"
+  ],
+  "dirs": [],
+  "files": [
+    "td.y"
+  ],
+  "stdin": ""
+}

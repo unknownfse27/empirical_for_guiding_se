@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-Werror=midrule-values,other",
+    "-fcaret",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "act1.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    ":a",
+    "-e",
+    "s/<[^>]*>//g;/</N;//ba"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "<p>This <is> a <strong>sample</strong> <text.</p>"
+}

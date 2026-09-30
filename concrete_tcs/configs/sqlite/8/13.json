@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS Z; CREATE TABLE Z(a TEXT,b INT); CREATE INDEX IF NOT EXISTS idxZp ON Z((b+1)) WHERE b>0; INSERT INTO Z VALUES('q',1),('w',0); EXPLAIN QUERY PLAN SELECT * FROM Z WHERE (b+1)=2 AND b>0;\n"
+}

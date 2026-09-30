@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t7; CREATE TABLE t7(x); INSERT INTO t7 VALUES(1),(2),(3); SELECT x FROM t7 WHERE x IN(2,3) INTERSECT SELECT x FROM t7 WHERE x>1 ORDER BY x DESC;"
+}

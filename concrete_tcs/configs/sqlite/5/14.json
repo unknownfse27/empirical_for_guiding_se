@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select datetime('now'),strftime('%Y-%m-%d','now','localtime'),julianday('now')-julianday('2000-01-01');select hex(randomblob(8)) as h8,hex(zeroblob(4)) as z4,length(randomblob(32)) as l;create index if not exists i_name_nc on p(lower(name)) where name is not null;"
+}

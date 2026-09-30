@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "\\n",
+    "'{if($1~/[[A-Z][a-z][0-9]]\\w+/) {print $0} else {print $0}}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "command.c"
+  ],
+  "stdin": ""
+}

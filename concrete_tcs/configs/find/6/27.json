@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    ".*[[:2:]]{3}\\.txt$",
+    "-exec",
+    "locate",
+    "--regex",
+    "{}"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

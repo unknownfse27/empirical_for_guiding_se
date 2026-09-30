@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Dlr.type=ielr",
+    "-Wcounterexamples",
+    "-Tielr",
+    "--report=cex",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "it3.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "-U",
+    "--color=never",
+    "-r",
+    "-12",
+    "--binary-files=binary",
+    "--file=grep"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

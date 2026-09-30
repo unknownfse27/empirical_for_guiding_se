@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE wr12(a TEXT COLLATE nocase, b INT, PRIMARY KEY(a,b)) WITHOUT ROWID; INSERT INTO wr12 VALUES('A',1),('a',2); SELECT b FROM wr12 WHERE a IN ('a', 'X') AND b > 1;\n"
+}

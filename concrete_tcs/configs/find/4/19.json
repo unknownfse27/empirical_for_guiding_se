@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-egrep",
+    "-regex",
+    "^(.+)\\1$"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".changes on\nUPDATE products SET price=30;\n.mode html\nSELECT * FROM products LIMIT 2;\n.mode insert\nSELECT * FROM products LIMIT 1;\n.databases\n.indexes\n.changes off\n"
+}

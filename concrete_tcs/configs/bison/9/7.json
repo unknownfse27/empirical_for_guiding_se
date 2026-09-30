@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "./bison",
+    "-y",
+    "-Wall",
+    "-Wyacc",
+    "yacc",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "yacc.y"
+  ],
+  "stdin": ""
+}

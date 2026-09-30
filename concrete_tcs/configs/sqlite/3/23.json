@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".selftest --init\n.selftest -v\n.limits\n.progress 200 --limit 1 --once\n.once x.txt\n.dbtotxt\n.once stdout\nPRAGMA analysis_limit=400;ANALYZE;SELECT *;"
+}

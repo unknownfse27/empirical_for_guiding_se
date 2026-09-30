@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--list-of-fixed-dates=long",
+    "--here=\"#include <foo>\"",
+    "--include-resource-file-name"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_8"
+  ],
+  "stdin": ""
+}

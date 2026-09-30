@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "builtin(`incr',`foo')builtin(`decr')builtin(`substr`,`abc`,`-1`,`2`)builtin(`substr`,`abc`)builtin(`len`)builtin(`len`,`a`,`b`)builtin(`eval`,`2+`)builtin(`shift`)builtin(`defn`,`undef`)builtin(`index`)"
+}

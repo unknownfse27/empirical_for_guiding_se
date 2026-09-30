@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    ".",
+    "-newermt",
+    "Sat Nov 04 12:02:33 EST 1839",
+    "-xtype",
+    "l",
+    "-exec",
+    "echo \"{}\";"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

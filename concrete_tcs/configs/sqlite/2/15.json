@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS mix1;CREATE TABLE mix1(x INT,y TEXT);INSERT INTO mix1 VALUES(10,'20'),(NULL,'003'),(7,'a9');SELECT x+y,typeof(x+y),x||y,typeof(x||y),NULLIF(y,'003') FROM mix1;\n"
+}

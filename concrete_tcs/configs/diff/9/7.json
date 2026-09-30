@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-file-name-case",
+        "-x",
+        "'RCS'",
+        "-r",
+        "./",
+        "/"
+    ],
+    "dirs": [
+        "./",
+        "/"
+    ],
+    "files": [],
+    "stdin": ""
+}

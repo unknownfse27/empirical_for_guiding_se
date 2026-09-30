@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-Dtool.xsltproc=true",
+    "--trace=all",
+    "-g=g",
+    "-x=x",
+    "--html=h",
+    "-rall",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dr4.y"
+  ],
+  "stdin": ""
+}

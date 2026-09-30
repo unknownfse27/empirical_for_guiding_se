@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--nesting-limit=2048",
+    "--warn-macro-sequence",
+    "-s",
+    "--debug=all",
+    "-dV"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`fac`,`ifelse($1,0,1,$1*fac(decr($1)))`)fac(6)"
+}

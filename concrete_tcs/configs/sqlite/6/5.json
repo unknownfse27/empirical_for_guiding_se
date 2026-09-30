@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA auto_vacuum=NONE;PRAGMA auto_vacuum=FULL;PRAGMA auto_vacuum=INCREMENTAL;CREATE TABLE t(x PRIMARY KEY,y);INSERT INTO t VALUES(1,1),(2,2);DELETE FROM t WHERE x>0;VACUUM;PRAGMA incremental_vacuum;PRAGMA page_count;SELECT * FROM t;\n"
+}

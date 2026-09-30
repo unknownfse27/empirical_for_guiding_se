@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "{ split($0, a, \",\");",
+    "for (i=1; i<=length(a); i++)",
+    "print a[i] }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a,b,c,d"
+}

@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "--no-dereference",
+        "--ignore-file-name-case",
+        "--tabsize=15",
+        "--left-column",
+        "--width=200",
+        "./",
+        "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

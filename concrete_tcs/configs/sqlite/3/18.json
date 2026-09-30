@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS trg;DROP TABLE IF EXISTS log;CREATE TABLE trg(x INT);CREATE TABLE log(e TEXT);CREATE TRIGGER bu BEFORE UPDATE ON trg WHEN NEW.x<0 BEGIN INSERT INTO log VALUES('bu');SELECT RAISE(FAIL,'neg');END;INSERT INTO trg VALUES(1);UPDATE trg SET x=-1;\n"
+}

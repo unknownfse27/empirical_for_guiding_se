@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t14(i); INSERT INTO t14 VALUES(1),(2); DELETE FROM t14 WHERE EXISTS(SELECT 1 FROM t2 WHERE a=1); UPDATE t14 SET i=5 LIMIT 1; SELECT DATE('now'), TIME('now');\n"
+}

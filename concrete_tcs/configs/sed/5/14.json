@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "'/\\.h>$/",
+    "{N; s/\\(.*\\)\\n/\\1\\n\\// include header file\\n/}'",
+    "./*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

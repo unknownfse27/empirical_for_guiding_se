@@ -1,0 +1,1 @@
+BEGIN{while((getline<"re.c")>0){if($0~/[[:print:]]{1}/)continue}}

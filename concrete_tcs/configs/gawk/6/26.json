@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN",
+    "{print match(\"X a_c Y\", /a\\wc/);",
+    "print match(\"X a.c Y\", /a\\Wc/);",
+    "exit}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

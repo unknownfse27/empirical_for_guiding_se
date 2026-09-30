@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{k=gsub(/(a{1,2}s)/, \"B\", \"asbsdsa\");",
+    "index(\"jaehyun\",\"hy\");",
+    "match(\"assign\",/.s/,arr)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

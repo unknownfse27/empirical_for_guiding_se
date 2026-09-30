@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--update",
+    "-ffixit",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "upd.y"
+  ],
+  "stdin": ""
+}

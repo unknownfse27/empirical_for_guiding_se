@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-N-",
+    "--debug=unhandled",
+    "--hebrew-holidays",
+    "@@@",
+    "0@a#+4fr"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_18"
+  ],
+  "stdin": ""
+}

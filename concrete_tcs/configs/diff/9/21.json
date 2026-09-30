@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "--from-file=@@",
+      "--horizon-lines=2",
+      "--ignore-file-name-case",
+      "/etc",
+      "/usr/share/doc"
+    ],
+    "dirs": [
+        "/etc",
+        "/usr/share/doc"
+    ],
+    "files": [
+        "diff.c"
+    ],
+    "stdin": ""
+  }

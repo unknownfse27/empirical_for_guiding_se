@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "-daeqlfpcixV",
+      "-o",
+      "dbg.log"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "debugfile(`') debugfile(`/dev/null') debugfile(`nonexistdir/debug.log') debugmode(`Z') debugmode(`badmode')\nsyscmd(`echo test')\n"
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [
+    "YYFLAT=1",
+    "TIME_LIMIT=30",
+    "COLUMNS=40"
+  ],
+  "args": [
+    "@@",
+    "-dvg",
+    "--report=all",
+    "-Wcounterexamples",
+    "-o",
+    "/tmp/yf.c"
+  ],
+  "dirs": [],
+  "files": [
+    "c++-types.y"
+  ],
+  "stdin": ""
+}

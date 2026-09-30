@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "ifelse(sysval, `0', `zero', `non-zero') syscmd(`exit 2') ifelse(sysval, `0', `zero', `non-zero') esyscmd(`echo dnl && exit 127') regexp(`G',`\\<[a-z]\\w+') debugmode(`aeqc') regexp(`test', `[\\0-\\377]+')\n"
+}

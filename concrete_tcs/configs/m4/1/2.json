@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "defn(defn)define(L,`dnl\\n')L\\ndefine(F,$)F(undefine(`F'))define(defn(`divnum'))divnum\\ndefn(,`divnum')traceoff(defn)indir(define)ifdef()ifelse()ifelse(,)syscmd()esyscmd()esyscmd(a)__file__\\n__line__\\n__program__\\nformat(%f%f%f%f%q%',',` 3',0,)"
+}

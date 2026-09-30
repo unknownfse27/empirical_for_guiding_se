@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "-cmd",
+        ".timeout 2000",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode csv\n.import imp.csv t\n"
+}

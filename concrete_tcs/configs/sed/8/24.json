@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/gr[ae]y/blue/;s/[:digit:]/X/;s/[:lower:]/X/;s/\\w/X/g;s/\\b/X/g;s/\\B/X/g;z",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

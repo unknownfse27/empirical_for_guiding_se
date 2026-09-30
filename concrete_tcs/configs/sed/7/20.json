@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "= ; $s/\\([abcdefg\\.]*$\\)/\\1/Ig ; v ; z",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "sed.texi"
+    ],
+    "stdin": ""
+}

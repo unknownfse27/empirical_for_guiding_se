@@ -1,0 +1,12 @@
+{
+  "envs": [
+    "LC_ALL=es_ES.UTF-8"
+  ],
+  "args": [
+    "-b",
+    "s/./X/gi"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "aΩb"
+}

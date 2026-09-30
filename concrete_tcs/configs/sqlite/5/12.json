@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "create table talt(x int,y int);alter table talt rename column y to z;reindex;alter table talt add column w default 0;insert into talt(x,z) values(1,2);pragma integrity_check;pragma user_version=43;pragma application_id=305419896;pragma user_version;pragma application_id;"
+}

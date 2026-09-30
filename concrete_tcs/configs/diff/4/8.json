@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "^\\s*(#|^\\s*$|f\\\"[^\\\"]*\\\"|format\\(|class\\s+\\w+|def\\s+specific_function|\\{\\})",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

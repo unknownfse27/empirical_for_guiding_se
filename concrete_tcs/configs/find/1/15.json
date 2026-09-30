@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".*\\b\\w+[-_]\\w+\\b\\.\\(docx\\|pdf\\|xlsx\\|html\\)$"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

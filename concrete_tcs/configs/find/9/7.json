@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-type",
+    "f",
+    "-newermt",
+    "parser.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

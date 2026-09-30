@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--fatal-warnings",
+    "--warn-macro-sequence='\\$[0-9]'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abc',`[a-z\\') regexp(`abc', `[(.*][.*') patsubst(`abc', `.'', `\\z') format(`%%%') eval(`3 + abc') define(`x', `A dnl B')x "
+}

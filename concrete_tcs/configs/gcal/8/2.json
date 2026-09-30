@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "%march03",
+    "-n",
+    "--starting-day=Tue",
+    "--date-format=DE",
+    "--highlighting=\\x26:\\x26:\\x5e:^",
+    "--cc-holidays=EE+EG",
+    "@@@",
+    "2010"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_2"
+  ],
+  "stdin": ""
+}

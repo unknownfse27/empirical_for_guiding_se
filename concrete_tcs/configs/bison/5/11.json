@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-l",
+    "-d",
+    "-v",
+    "--token-table",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "t_trans.y"
+  ],
+  "stdin": ""
+}

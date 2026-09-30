@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--unchanged-group-format=== %L",
+        "--changed-group-format=-> %L",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

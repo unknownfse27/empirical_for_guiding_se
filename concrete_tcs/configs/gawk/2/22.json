@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {PROCINFO[\"sorted_in\"]=\"@ind_num_asc\"}{A[$1]=0}",
+    "END {for (I in A) SCRATCH=A[I]}'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

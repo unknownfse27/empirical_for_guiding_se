@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-batch",
+        "-bail",
+        "-json",
+        "-nullvalue",
+        "NULL",
+        "-newline",
+        ";;",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA case_sensitive_like=ON;SELECT 'Ab' LIKE 'a%';PRAGMA case_sensitive_like=OFF;\n.parameter init\n.parameter set :int 7\n.parameter set @txt 'hi'\n.parameter set $bin x'4142'\nSELECT :int,@txt,length($bin);\n"
+}

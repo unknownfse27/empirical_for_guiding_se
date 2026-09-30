@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "b.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "drop trigger if exists trg_bu; create trigger trg_bu before update on t begin select 1; end; Update t set b=upper(b) where a=100 or a<0;update t set c=c+1,b=upper(b) where a=2;Insert into t values(6,'trig',12,6.6) on conflict(a) do update set b=lower(excluded.b);"
+}

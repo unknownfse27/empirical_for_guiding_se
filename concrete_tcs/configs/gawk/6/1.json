@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {split(\"a d c b 5\",b[1],SUBSEP=\"\");",
+    "for(i=1;i<=asort(b[1]);i++)",
+    "print b[1][i]}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

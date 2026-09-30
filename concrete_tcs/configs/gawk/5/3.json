@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "-f",
+    "./t"
+  ],
+  "dirs": [
+    "./t"
+  ],
+  "files": [],
+  "stdin": "echo \"h\\nb eq\\nr\\ni break\\ndown\\nf\\nup\\nw left\\ncommands\\nsilent\\ni args\\nend\\nc\""
+}

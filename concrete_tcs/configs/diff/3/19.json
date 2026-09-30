@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--show-c-function",
+        "--tabsize=4",
+        "../tests",
+        "../src"
+    ],
+    "dirs": [
+        "../tests",
+        "../src"
+    ],
+    "files": [],
+    "stdin": ""
+}

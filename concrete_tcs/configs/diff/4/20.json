@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "^#if",
+        "-I",
+        "^#else",
+        "-I",
+        "^#endif",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "stdio.h",
+        "stdlib.h"
+    ],
+    "stdin": ""
+}

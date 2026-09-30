@@ -1,0 +1,12 @@
+--suppress-calendar
+--resource-file=./kk+/aa
+--shell-script=./aa+/kk
+-p
+--debug=unhandled
+--force-highlighting
+--highlighting="\x20:\x20:\x1:#"
+--holiday-list=short
+--descending-holiday-list=short
+--suppress-holiday-list-separator
+--astronomical-holidays
+--orthodox-calendar

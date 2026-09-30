@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "/usr/src",
+    "-depth",
+    "-name",
+    "*.c",
+    "-size",
+    "+100k",
+    "-ipath",
+    "/"
+  ],
+  "dirs": [
+    "/usr/src"
+  ],
+  "files": [],
+  "stdin": ""
+}

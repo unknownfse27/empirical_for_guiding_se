@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--print-datadir"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

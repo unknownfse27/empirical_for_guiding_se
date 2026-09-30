@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-F:",
+    "{for (i=1;i<=NF;i++) printf\"%s%s\", $i, i==NF?\"\\n\":\",\"}",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [],
+  "stdin": ""
+}

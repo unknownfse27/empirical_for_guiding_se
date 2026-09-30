@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ALTER TABLE t RENAME COLUMN tx TO vc;PRAGMA table_info(t);SELECT substr(\"가나다라마바사\",2,9),printf(\"%d\",0),instr(\"dkssudgktpdy\",\"gk\"),instr(\"abcd\",\"k\");\n"
+}

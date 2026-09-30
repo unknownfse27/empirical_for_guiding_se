@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "@load",
+    "\"extension/.libs/revoutput.so\";",
+    "BEGIN{REVOUT=1;print \"a\">\"/dev/stdout\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "! -fstype nfs -o -fstype ext4 -o -type d -fstype xfs -warn"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "-header",
+      "-table",
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".separator |\n.nullvalue (null)\n.width 8 8 8\n.indexes p\n.dbinfo\n.output /dev/null\nINSERT INTO p(name) VALUES(\"\");DELETE FROM p WHERE name LIKE \"a%\" RETURNING id;SELECT * FROM c;\n"
+  }

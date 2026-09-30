@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "N;N;N;s/^[A-Z]/XXX/M;/./{H;$!d};x;s/^/\nS/;s/$/\nE/;p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "A11\n2B2\nC33\n4D4\na"
+}

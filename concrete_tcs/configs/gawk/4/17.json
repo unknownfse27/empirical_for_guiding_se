@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "-W",
+    "posix",
+    "{print gensub(/([[:digit:]]+)/, \"\\1.\", \"g\", \"1234567890\")}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "/dev/null"
+}

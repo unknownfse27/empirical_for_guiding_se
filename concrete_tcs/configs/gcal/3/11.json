@@ -1,0 +1,14 @@
+{
+    "envs": [
+      "GCAL_DATE_FORMAT='%Y %D %>02*M ; %1(%>5u#K)%2'",
+      "PAGER=' '"
+    ],
+    "args": [
+      "@@@"
+    ],
+    "dirs": [],
+    "files": [
+        "r3_11"
+    ],
+    "stdin": ""
+  }

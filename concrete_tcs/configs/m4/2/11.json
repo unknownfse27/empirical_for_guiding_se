@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-I",
+    "inc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "include(/dev/null') include(`inc/file1.m4') regexp(`hello world',`\\s',`contains space',`no space')"
+}

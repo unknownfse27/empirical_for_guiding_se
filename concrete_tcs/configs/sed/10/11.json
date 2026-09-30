@@ -1,0 +1,19 @@
+{
+  "envs": [
+    "LC_ALL=C",
+    "POSIXLY_CORRECT=1",
+    "COLS=100"
+  ],
+  "args": [
+    "./sed",
+    "s/e/eE/",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi",
+    "config.texi"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS sum1;CREATE TABLE sum1(s TEXT);INSERT INTO sum1 VALUES('1'),('2.5'),('3x'),('4');SELECT sum(s),typeof(sum(s)),sum(CAST(s AS REAL)),typeof(sum(CAST(s AS REAL))) FROM sum1;\n"
+}

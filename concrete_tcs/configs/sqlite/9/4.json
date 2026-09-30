@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=1;\nDROP TABLE IF EXISTS orders;\nCREATE TABLE orders(id INTEGER PRIMARY KEY,pid INT REFERENCES people(id) ON DELETE CASCADE,tot REAL DEFAULT 0);\nINSERT INTO orders(pid,tot) VALUES(1,19.5),(2,42.0);\nDELETE FROM people WHERE id=2;\n"
+}

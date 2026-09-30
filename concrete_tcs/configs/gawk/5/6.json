@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{ENVIRON[\"GAWK_NO_DFA\"]=1;",
+    "PRINT PROCINFO[\"platform\"]}",
+    "/hello/",
+    "{print}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awkgram.y"
+  ],
+  "stdin": ""
+}

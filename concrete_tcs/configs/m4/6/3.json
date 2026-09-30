@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "patsubst(`a,b,c',`[^,]+','X\\&Y')dnl(`comment')translit(`ABC123','A-Z','a-z')translit(`abc','a','A','b','B')debugmode(`q')debugmode(`t')debugfile(`/tmp/m4.log')m4exit(0)m4wrap(`m4wrap(`\"Final wrap\"')')sysval(`0')"
+}

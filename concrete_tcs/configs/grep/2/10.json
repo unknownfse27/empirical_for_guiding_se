@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Erc",
+    "--color=always",
+    "^[[:digit:]]*+(.?)(.?)\\1\\2"
+  ],
+  "dirs": [],
+  "files": [
+    "Makefile"
+  ],
+  "stdin": ""
+}

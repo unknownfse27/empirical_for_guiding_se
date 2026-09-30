@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--cycle-end=24:59",
+    "--cycle-step=00:00",
+    "--filter-day=rfa",
+    "--filter-period=e",
+    "--filter-text=\"[oO]culist\"",
+    ".."
+  ],
+  "dirs": [
+    ".."
+  ],
+  "files": [
+    "r1_7"
+  ],
+  "stdin": ""
+}

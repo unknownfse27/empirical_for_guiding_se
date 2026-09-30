@@ -1,0 +1,46 @@
+-f/dev/null
+-#
+'"0 Sunrise is at %o+41.9476-080.5542+196.901"'
+--exe
+-QUx
+-f./redir-1.rc+XX
+"-r'$f=XX:$c=echo $f'"
+"-#0 %!rm $f'"
+--ast
+-ce
+-qbe
+-jcb
+-c-et
+-c
+--blocks=3
+-c-t
+-b
+6
+-jc
+%00000101
+--resource-file=@@
+--disable-highlighting
+--resource-file=@@
+-H
+no
+-ox
+-f
+'@@'
+-QUx
+--exe
+"-r'$f=@@'"
+-f
+/dev/null
+-QUx
+%19800101
+'-#0_%j-2440588'
+-qbe
+%1994@e
+-n
+-c
+-R
+name
+--debug=internal
+--debug=handled
+-H
+yes

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "s/\\w*/\\u&/g; "
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "MAsan WoRLD"
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{print > \"data.json\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "{\"P\": {\"n\": \"JD\", \"a\": 30, \"g\": \"M\"}}\n"
+}

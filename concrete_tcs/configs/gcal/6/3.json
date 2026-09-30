@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--holiday-dates=both",
+    "--fixed-dates=both",
+    "--starting-day=3",
+    "1977;April:2002;March:1700;1935;1950"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_3"
+  ],
+  "stdin": ""
+}

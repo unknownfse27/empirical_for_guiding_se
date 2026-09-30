@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "all",
+    "-O2",
+    "..",
+    "-ilname",
+    "*find*",
+    "-fprintf",
+    "output.txt",
+    "%p\\n"
+  ],
+  "dirs": [
+    ".."
+  ],
+  "files": [],
+  "stdin": ""
+}

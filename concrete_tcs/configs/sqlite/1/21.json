@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "--line",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA journal_mode=WAL; PRAGMA synchronous=FULL; BEGIN; CREATE TABLE t_wal(a TEXT); INSERT INTO t_wal VALUES(zeroblob(8192)); SELECT CAST('A' AS INT) / 0; COMMIT;"
+}

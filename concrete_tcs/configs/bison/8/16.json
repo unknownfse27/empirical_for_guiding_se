@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Lc",
+    "-Slalr1.cc",
+    "-Dparse.error=detailed",
+    "-T",
+    "-rall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cpp.y"
+  ],
+  "stdin": ""
+}

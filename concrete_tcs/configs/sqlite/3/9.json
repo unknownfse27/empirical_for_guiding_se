@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".open\n.databases\n.selftest\n.dbconfig writable_schema on\n.dbconfig writable_schema 0\n.stats on\n.stats\n.bail on\n.mode insert test_tbl\nCREATE TABLE test_tbl (c1, c2, c3, c4, c5);\nINSERT INTO test_tbl VALUES ('123', '-456', '+789', '1.23e-4', 'NotANum');"
+}

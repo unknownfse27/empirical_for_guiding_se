@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=all",
+    "-q",
+    "AF",
+    "-n",
+    "--filter-day=V",
+    "--filter-period=i00000017#00000020",
+    "%199403wed3",
+    "06/1950"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

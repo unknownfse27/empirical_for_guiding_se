@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-Q"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4wrap(`m4wrap(`sysval(`0')')') syscmd(`false') sysval define(`A', `incr') indir(`A', 3) shift(`a`,`b`,`c') eval(-99999 + 100000) substr() define(builtin(`notexist'))"
+}

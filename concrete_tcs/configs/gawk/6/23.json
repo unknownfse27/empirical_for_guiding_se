@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{FS=\"3\"}",
+    "{print $1+0;OFS=\":\";$2=\"\";print isarray($0);print NF}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "12 -1 -1 23 2\n"
+}

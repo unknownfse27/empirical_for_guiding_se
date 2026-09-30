@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--lint",
+    "--dump-variables",
+    "--profile",
+    "-v",
+    "RS='[ \\t\\n]+'",
+    "-f",
+    "@@",
+    "eval.*"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_10.awk"
+  ],
+  "stdin": ""
+}

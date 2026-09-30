@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=all",
+    "-d",
+    "--skeleton=lalr1.cc",
+    "@@",
+    "-o",
+    "/tmp/sc.cc"
+  ],
+  "dirs": [],
+  "files": [
+    "sc.y"
+  ],
+  "stdin": ""
+}

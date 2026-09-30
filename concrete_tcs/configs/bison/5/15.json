@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fcaret",
+    "--color=always",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cl.y"
+  ],
+  "stdin": ""
+}

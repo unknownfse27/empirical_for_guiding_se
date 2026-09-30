@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "{strftime(\"%a%A%b%B%c%C%d%D%e%F%g%G%h%H%I%j%m%M%n%p%r%R%s%t%T%u%U%V%w%W%x%X%y%Y%z%Z%%\")}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

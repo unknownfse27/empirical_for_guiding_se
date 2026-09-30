@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "-e",
+    "s/^가나다/LET/gi",
+    "-e",
+    "1,$p",
+    "test.txt",
+    "-n",
+    "-e",
+    "s/3.$/ABC/gi",
+    "-n",
+    "-e",
+    "3~3p",
+    "test.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

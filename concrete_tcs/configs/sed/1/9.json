@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "/^-[][[:alnum:]]+$/p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "'-t[imestamp]\\n123141\\n-12314123\\nasdfwers\\nsaf123'"
+}

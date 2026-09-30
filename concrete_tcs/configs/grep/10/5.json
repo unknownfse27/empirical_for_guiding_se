@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "include",
+    "@@;../gnulib-tests/current-locale"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-hR", 
+    "include",
+    "-iE",
+    "include",
+    "-T",
+    "include",
+    "-Z",
+    "include",
+    "-F",
+    "include",
+    "-G",
+    "include"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "*.c"
+}

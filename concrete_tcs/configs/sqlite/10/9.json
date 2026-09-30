@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t10(x INT);INSERT INTO t10 VALUES(1),(2),(3),(4);SELECT x,row_number() OVER(),sum(x) OVER(ORDER BY x) FROM t10;EXPLAIN SELECT avg(x) OVER() FROM t10;PRAGMA stats;"
+}

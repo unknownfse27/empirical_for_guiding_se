@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--precise",
+    "--list-of-fixed-dates=long",
+    "--grouping-text",
+    "--include-week-number"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_9"
+  ],
+  "stdin": ""
+}

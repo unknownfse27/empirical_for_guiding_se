@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--transform-year=999",
+    "-jnb",
+    "--time-offset=t-2",
+    "--include-holidays=short",
+    "--include-consecutive-number"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_30"
+  ],
+  "stdin": ""
+}

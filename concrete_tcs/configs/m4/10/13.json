@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-d"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`tmp1`,`maketemp(`/dev/💥💥💥BAD$$$')`)define(`b`,`esyscmd(`cat /no/such/file 2>/dev/null`)`)dumpdef(`tmp1`)tmp1 b"
+}

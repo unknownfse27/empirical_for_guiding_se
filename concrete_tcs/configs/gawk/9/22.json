@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "/if/",
+    "{ getline next_line; if (next_line ~ /else/) {print $1}",
+    "else {print $0}}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": ""
+}

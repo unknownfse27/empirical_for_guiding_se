@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "$(printf %010000dy 0)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "printf '%0260000dXy\\n'"
+}

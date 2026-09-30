@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    ".",
+    "-mount",
+    "-fstype",
+    "ext4",
+    "-prune",
+    "-o",
+    "-regex",
+    ".*[[:alnum:]][[:upper:]][[:graph:]]"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "%20100420",
+    "-Hno",
+    "-f/dev/null",
+    "-xdt",
+    "-g:::--precise",
+    "@@@",
+    "--cycle-end=12:05",
+    "--time=17:15",
+    "--cycle-step=00:35"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_18"
+  ],
+  "stdin": ""
+}

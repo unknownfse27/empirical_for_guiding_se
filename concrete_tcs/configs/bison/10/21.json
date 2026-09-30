@@ -1,0 +1,19 @@
+{
+  "envs": [
+    "M4=/no/such",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wall",
+    "-g",
+    "-x",
+    "--report=all",
+    "--file-prefix=parse-gram",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "parse-gram.y"
+  ],
+  "stdin": ""
+}

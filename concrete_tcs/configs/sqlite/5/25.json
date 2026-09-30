@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t(x PRIMARY KEY,y);INSERT INTO t VALUES(1,10),(2,20),(3,30);SELECT x,y,row_number()OVER(ORDER BY x),rank()OVER(ORDER BY y),lag(y,1)OVER(ORDER BY x),lead(x,1)OVER(ORDER BY x),zeroblob(5)FROM t;PRAGMA encoding;PRAGMA reverse_unordered_selects;\n"
+}

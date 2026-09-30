@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Mold=new",
+    "-Mold=new",
+    "-Werror",
+    "--trace",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "test4.y"
+  ],
+  "stdin": ""
+}

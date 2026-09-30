@@ -1,0 +1,21 @@
+{
+    "envs": [],
+    "args": [
+      "../",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".(sh)$",
+      "-exec",
+      "grep",
+      "-P",
+      "^([a-zA-Z]{3,}\\s)?){2,4}$",
+      "{}",
+      "+"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

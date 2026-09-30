@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "include(`') format(`%') include(`/dev/null') incr(`oops') translit(`abc', `abcde', `xyz') syscmd(`echo define(`x`,`42')x') format(`%Q') changecom(`#') divert(`-1') ifelse(`a') translit(`abc', `ab', `XYZQ') regexp(`hello', `^h') regexp(`hello', `o$')"
+}

@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      "-I",
+      "^[[:blank:]]",
+      "--ignore-blank-lines",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "io.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+  }

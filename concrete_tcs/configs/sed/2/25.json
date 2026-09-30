@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'e'",
+    "-e",
+    "'s/.*/& execute/'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "echo hello"
+}

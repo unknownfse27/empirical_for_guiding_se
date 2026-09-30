@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "-A",
+    "-cg",
+    "--highlighting=no",
+    "--precise",
+    "--with-week-number",
+    "--iso-week-number=no",
+    "-qbe",
+    "--transform-year=-1423"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_8"
+  ],
+  "stdin": ""
+}

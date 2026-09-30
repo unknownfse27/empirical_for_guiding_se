@@ -1,0 +1,20 @@
+--date-format=de
+'Sa, 28 Aug 1999'
+-i
+--date-format=us
+'Sat, Aug 28th 2020'
+-i
+--date-format=gb
+'Sat, 28th Aug 1999'
+-i
+'--date-format=%Y %D %>02*M ; %1(%>5u#K)%2'
+'1999 28 08 ; (SATUR)'
+-i
+--date-format=de
+'Sa, 28 1321 1999'
+-i
+--date-format=us
+'Sat, Aug 28tash 2020'
+-i
+--date-format=gb
+'Sat, 28dfth Aug 1999'

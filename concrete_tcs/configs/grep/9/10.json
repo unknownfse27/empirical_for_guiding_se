@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Fxvf",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.o",
+    "dfasearch.o"
+  ],
+  "stdin": ""
+}

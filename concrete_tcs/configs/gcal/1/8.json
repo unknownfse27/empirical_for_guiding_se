@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-c*d99sun",
+    "--astronomical-holidays",
+    "--celtic-holidays",
+    "--chinese-flexible-holidays",
+    ".+"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

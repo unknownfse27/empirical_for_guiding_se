@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-ixEIbHlcTzUr",
+    "-m5",
+    "-C1",
+    "--color=auto",
+    "--line-buffered",
+    "^[[:blank:]]* | [^g(r?e)p] | [ab+cd] | [abc|adc]$../*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--horizon-lines=NUM",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "define(I,defn(`divert'))traceon(K)pushdef(K)undefine(`K')I(1)debugmode(+qlfpix)debugmode(-t)bugfile\\nI(3)define(N,`ifelse($1,0,,``x'N(decr('$1`))')')N(263000)I(10)changecom(`**',`*/')****/changecom(,)changecom()dumpdef\\nformat(%u%lu,,` 9',)"
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "shift(`a','b','c','d'); shift() define(`foo','\\$99999')foo() patsubst(`abcdef', `(\\(\\.)\\)*', `X') format(`%s %d %f %x', `string', `notanumber', `3.14', `xyz') translit(`abc','[,]`) eval(`2++2')"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-i*",
+    "-e",
+    "s/*\\a*\\f*\\n*\\r*\\t*\\v*\\c*\\d*xxx*\\o*xxx*\\xxx*/an/",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

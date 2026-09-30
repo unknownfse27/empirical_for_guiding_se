@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "define(B,defn(builtin))define(C,defn(`changequote'))define(K,[)C([,])defn([K])]C('',)C\\nB(regexp)B(patsubst)B(builtin)B(shift)B(maketemp)B(errprint)B(m4wrap)B(len)B(format)B(eval)B(popdef)B(len,)format(%u%lu,3,9)format(%d%d,9999999999,9999999999999999999)"
+}

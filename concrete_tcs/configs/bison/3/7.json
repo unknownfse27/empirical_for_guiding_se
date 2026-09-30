@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Tparse",
+    "-d",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "par.y"
+  ],
+  "stdin": ""
+}

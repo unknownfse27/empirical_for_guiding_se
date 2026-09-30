@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fcaret",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "nrerr.y"
+  ],
+  "stdin": ""
+}

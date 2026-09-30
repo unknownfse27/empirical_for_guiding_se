@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "'$_SESSION[''index'']'",
+    "-ri",
+    "."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

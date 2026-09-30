@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {x = \"ABC\" gsub(//, \"x\", x); if((x==$1) ^ (x==y)) pass}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

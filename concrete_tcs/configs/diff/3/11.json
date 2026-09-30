@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "--horizon-lines=5",
+        "-i",
+        "-B",
+        "-Z",
+        "-U",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

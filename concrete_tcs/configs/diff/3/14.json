@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-matching-lines=^@node",
+        "-p",
+        "./",
+        "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

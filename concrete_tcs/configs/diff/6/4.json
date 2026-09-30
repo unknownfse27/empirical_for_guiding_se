@@ -1,0 +1,22 @@
+{
+    "envs": [],
+    "args": [
+        "--strip-trailing-cr",
+        "-I",
+        "p",
+        "-a",
+        "--color=never",
+        "-I",
+        "^#define",
+        "-u1",
+        "--binary",
+        "--to-file=@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "cmp",
+        "diff"
+    ],
+    "stdin": ""
+}

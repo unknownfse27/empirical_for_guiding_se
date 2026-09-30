@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "substr(\\abcdef',\\2',\\3')\\nindex(\\hello world',\\world')\\nrindex(\\abacaba',\\a')\\ndecr(\\2')\\ntranslit(\\abc',\\a-z',\\A-Z')\\neval([3+4*2])\\nshift(\\A','\\B','\\C')\\npatsubst(\\x.c',\\.c',\\%.o')\\n"
+}

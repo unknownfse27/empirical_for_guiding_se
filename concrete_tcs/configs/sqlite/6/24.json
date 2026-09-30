@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP VIEW IF EXISTS v_names; CREATE VIEW v_names AS SELECT lower(name) AS n, age*2 AS double_age FROM u WHERE age>18; SELECT * FROM v_names ORDER BY double_age DESC;"
+}

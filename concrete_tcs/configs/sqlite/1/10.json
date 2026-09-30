@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".backup t1.db\n.clone new.db\n.dbconfig\n.dump t1\n.excel\n.expert\n.explain on\n.selftest\n.sha3sum\n.show\n.stats on\n.system echo hello\n.vfsinfo\n.vfslist\n.exit\n"
+  }

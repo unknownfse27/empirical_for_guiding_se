@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp('abc', '[a-') regexp('a', '\\')  regexp('', '(.)\\1') regexp('start here', '^start', 'X')regexp(`def',,\\ghi) regexp('aaa', 'a**', 'X') regexp('bbb', 'b+*', 'Y') regexp('ccc', 'c??', 'Z') regexp(`XYZ`,`\\<[m-z]\\w+') regexp('안녕123', '\\w+', 'X')  regexp('abc', '\\B', '|')"
+}

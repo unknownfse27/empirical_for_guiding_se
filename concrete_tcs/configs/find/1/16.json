@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "grep",
+      "-regex",
+      "^.*\\(config\\|setup\\)\\(\\.old\\|\\.new\\)\\{1,2\\}$"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

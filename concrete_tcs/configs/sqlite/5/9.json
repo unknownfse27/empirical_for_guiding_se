@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "pragma page_size=1024;pragma encoding='UTF-16le';pragma auto_vacuum=full;vacuum;pragma cache_size=100;pragma journal_mode=persist;pragma locking_mode=normal;pragma foreign_keys=on;create table p(id integer primary key,name text unique collate nocase);"
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {x = \"abcd\"; gsub(/\\B/,\":\",x);",
+    "print x;",
+    "print \"foo\" | \"read x; echo $x; exit 12\"}'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

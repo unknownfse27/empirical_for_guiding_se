@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "--profile",
+    "--pretty-print",
+    "--sandbox",
+    "-F:",
+    "-f",
+    "@@",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [
+    "r1_17.awk"
+  ],
+  "stdin": ""
+}

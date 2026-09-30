@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "..",
+    "-name",
+    "doc",
+    "-okdir",
+    "ls",
+    "-l",
+    ";"
+  ],
+  "dirs": [
+    ".."
+  ],
+  "files": [],
+  "stdin": "yes"
+}

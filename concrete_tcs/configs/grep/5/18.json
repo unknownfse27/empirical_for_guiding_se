@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-17H",
+    "-Ewrxz",
+    "--color='always'",
+    "^[A-Z].[a-z].*[.,]$",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

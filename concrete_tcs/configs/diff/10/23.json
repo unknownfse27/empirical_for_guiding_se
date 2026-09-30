@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      "-I",
+      "필수 항목",
+      "--changed-group-format=*IMP*: %L",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

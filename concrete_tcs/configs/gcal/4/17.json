@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "-u",
+    "-j",
+    "-b",
+    "3",
+    "-s",
+    "sunday",
+    "--gregorian-reform=1802,4,7,17",
+    "--date-format='%Y %D %>02*M ; %1(%>5u#K)%2'",
+    "-r"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

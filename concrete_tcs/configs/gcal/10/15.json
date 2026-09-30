@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--period-of-fixed-dates=l10-"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

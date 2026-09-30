@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-printf",
+      "%i %4k %M %3n %-8u %-8g %8s %T+ %p\\n->%l\\0",
+      "-mount",
+      "-fstype",
+      "nfs"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

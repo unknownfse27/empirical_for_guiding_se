@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-t",
+    "-M",
+    "-f",
+    "@@",
+    "{the_function=\"sum\";",
+    "getgrnam(group);}{}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "group.awk",
+    "main.c"
+  ],
+  "stdin": ""
+}

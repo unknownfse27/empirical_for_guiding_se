@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-w",
+        "-I",
+        "'^TODO'",
+        "--unchanged-group-format='[{ %d }]'",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

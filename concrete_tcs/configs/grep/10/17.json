@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "GREP_COLOR=\"1;36\""
+  ],
+  "args": [
+    "--color",
+    "-i",
+    "static",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

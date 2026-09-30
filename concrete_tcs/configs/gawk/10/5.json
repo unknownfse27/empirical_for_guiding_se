@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-M",
+    "'{typeof($1); if(!isarray($2)) pass;",
+    "if(typeof($2)==\"number\")$2+=5;}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

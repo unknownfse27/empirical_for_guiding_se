@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`x', `10') define(`y', `x') ifdef(`y', `Y_DEFINED', `Y_NOT_DEFINED') undefine(`y') ifdef(`y', `Y_DEFINED', `Y_NOT_DEFINED') eval(`100', `16', `4') patsubst(`abc abc', `a.', `X') dumpdef(`x') regexp(`abc123', `[0-9]+', `#&') m4exit(`0')"
+}

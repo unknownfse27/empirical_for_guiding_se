@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "--long-help=long-help",
+      "-H",
+      "E[34;42m:E[0;40m"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

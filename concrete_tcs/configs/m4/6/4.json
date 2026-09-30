@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "ifdef(`X',`no')define(`X')ifdef(`X`,`yes`,`no')builtin(`incr',1)builtin(`notexist')builtin(`substr')builtin(`eval`,`(1+2)`)builtin(`index`,`abc`)builtin(`index`,`abc`,`b`,`extra`)ifelse(`1`,`1`,`yes`,`no`)ifelse(`1`,`2`,`yes`,`no`)ifelse(`a`)ifelse(`a`,`a`)"
+}

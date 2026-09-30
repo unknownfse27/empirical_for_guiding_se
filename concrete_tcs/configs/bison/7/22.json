@@ -1,0 +1,26 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-t",
+    "-g",
+    "-p",
+    "px_",
+    "-L",
+    "C",
+    "-Wcounterexamples",
+    "-r",
+    "all",
+    "--html=/tmp/o.html",
+    "--xml=/tmp/o.xml",
+    "-M",
+    "/tmp=/build",
+    "mega_c.y",
+    "-o",
+    "o.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

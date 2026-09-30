@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-qKR",
+    "%20000420",
+    "-Hno",
+    "-f/dev/null",
+    "-xdt",
+    "@@@",
+    "-a",
+    "-ck",
+    "--date-format=us"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_3"
+  ],
+  "stdin": ""
+}

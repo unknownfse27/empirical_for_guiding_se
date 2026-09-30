@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t9; CREATE TABLE t9(s TEXT); INSERT INTO t9 VALUES('  spaces  '),('CAPS'),('123'); SELECT LTRIM(s), RTRIM(s), TRIM(s), LENGTH(s), TYPEOF(s), QUOTE(s) FROM t9;"
+}

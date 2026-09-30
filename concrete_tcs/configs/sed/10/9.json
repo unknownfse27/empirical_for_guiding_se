@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "LC_ALL=fr_FR.utf8"
+  ],
+  "args": [
+    "-n",
+    "s/[[=q=]]/X/gm",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

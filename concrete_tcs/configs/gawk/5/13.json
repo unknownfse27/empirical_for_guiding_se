@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "@load",
+    "\"extension/.libs/filefuncs.so\";",
+    "BEGIN{stat(\"awk.h\",d);strftime(\"%H%M%S\",d[\"mtime\"])}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

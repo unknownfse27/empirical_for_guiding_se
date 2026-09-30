@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "regexp('a1B', '[[:alnum:]_]+', 'X')regexp('1!', '[^[:alpha:]]+', 'X')regexp('aa', 'a+?', 'X')regexp('a', 'a\\'', 'X')regexp(`abc\n123', `^123') regexp(`abc word', `word\\\\>') regexp(`abcabc', `\\(abc\\)\\1') regexp(`abc', `a*b+') \n"
+}

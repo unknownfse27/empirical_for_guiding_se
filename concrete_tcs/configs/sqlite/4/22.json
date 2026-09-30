@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIEW v1 AS SELECT 1 a,2 b,'tt' c UNION SELECT 3,4,'data'; CREATE VIEW v2 AS SELECT a*2 aa,b+10 bb FROM v1; CREATE TEMP TABLE t1 AS SELECT aa,bb,bb-aa diff FROM v2 WHERE aa>1; CREATE INDEX i1 ON t1(aa,bb); SELECT * FROM t1 WHERE aa BETWEEN 4 AND 8 ORDER BY diff;\n"
+}

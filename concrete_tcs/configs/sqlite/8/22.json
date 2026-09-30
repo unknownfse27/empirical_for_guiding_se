@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": ".open hw1.db\nCREATE TABLE IF NOT EXISTS selftest(id,name,sql,expected);\nINSERT OR REPLACE INTO selftest VALUES(1,'ok','SELECT 2+2',4),(2,'bad','SELECT 2+2',5);\n.selftest\n.backup bk.db\n.sha3sum\n.restore bk.db\n.open file:not_exist.db?mode=ro\nPRAGMA page_count;\n"
+}

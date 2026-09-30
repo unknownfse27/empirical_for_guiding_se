@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-dv",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "esc_c.y"
+  ],
+  "stdin": ""
+}

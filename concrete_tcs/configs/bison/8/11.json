@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "@@",
+    "-o/tmp/d2.c",
+    "--feature=all"
+  ],
+  "dirs": [],
+  "files": [
+    "d2.y"
+  ],
+  "stdin": ""
+}

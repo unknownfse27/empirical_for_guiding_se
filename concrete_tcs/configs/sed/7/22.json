@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-nE",
+    "/[^[:alpha:][:blank:][:lower:][:upper:][:punct:][:space:]]+/Ip",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

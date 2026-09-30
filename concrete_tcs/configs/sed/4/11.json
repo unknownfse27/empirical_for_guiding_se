@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+      "-e",
+      "s/\\(^*^[[:digit:]]\\{1,\\}\\)/!\\{1\\}/g"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "www.skku.edu/012/index.html\n"
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "/printf/{count++}",
+    "{if(/^{/) print NR \":\" $0}",
+    "/^[A-Z]/",
+    "{print}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

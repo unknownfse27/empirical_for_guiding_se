@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Ti",
+    "^[[:graph:]]{2}.[[:digit:]]?|^$",
+    "*",
+    "--binary-files=\"without-match\"",
+    "-c",
+    "[iI]nclu.de"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

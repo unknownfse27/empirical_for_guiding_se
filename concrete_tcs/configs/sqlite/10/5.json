@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t8; CREATE TABLE t8(k INT,v INT); INSERT INTO t8 VALUES(1,10),(1,20),(2,30),(2,40); SELECT k,v, SUM(v) OVER(PARTITION BY k ORDER BY v), ROW_NUMBER() OVER(PARTITION BY k) FROM t8 ORDER BY v;"
+}

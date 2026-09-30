@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS E; CREATE TABLE E(x TEXT); INSERT INTO E VALUES('A'),('b'),('C'); SELECT x, x LIKE 'a%', x GLOB '[A-Z]*' FROM E ORDER BY x;\n"
+}

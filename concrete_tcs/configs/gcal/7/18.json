@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "AE+AO+AR+AS+AT+BV+BW+BY+BZ+CC+CF+CG",
+    "@@@",
+    "-K",
+    "--iso-week-number=yes",
+    "--time-offset=2",
+    "-s4",
+    "0*d1,1fr,999,12mo"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_18"
+  ],
+  "stdin": ""
+}

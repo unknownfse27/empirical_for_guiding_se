@@ -1,0 +1,27 @@
+-q
+AE+AF+AR+AN_BO+AT+BE+BR+CA_QU+CN+CO+DE_BE+DK+DM+EG+EC+ES+FR+GR+IN+IT+JP+KR+MA+MC+MX+MY+NO+NP+NZ+PE+PH+PW+RO+RU+SG+TR+TW+UA+UG+US_CA+US_NY+ZA
+-H
+'\x20actual date\x20'
+-G
+-X
+-i
+-K
+-b
+6
+-j
+-jn
+-jc
+-s
+7
+--transform-year=20
+--date-format=de
+--atmosphere=0
+--cycle-end=07:00
+--precise
+--cycle-step=1:00
+--ignore-case
+--today
+--execute-command
+--filter-day=Rv
+-P
+'i00000017#00000020,i00000031#00000031'

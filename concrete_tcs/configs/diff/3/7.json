@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "--show-c-function",
+        "--show-function-line=^\\s*\\(static\\|extern\\)",
+        "--ignore-case",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

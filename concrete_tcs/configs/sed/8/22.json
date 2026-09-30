@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/^\\s*$/EMPTY/g",
+    "-e",
+    "s/fail:\\([\\w\\s]*\\)/{fail}:\\1/g",
+    "-e",
+    "10,20{/^\\(\\S\\)/i[TEST CASES]",
+    "../sed/*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

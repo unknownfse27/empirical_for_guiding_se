@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "s/[[:print:]]/X/;N;l;x;"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(seq 6)"
+}

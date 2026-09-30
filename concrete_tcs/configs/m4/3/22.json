@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "syscmd(echo test) sysval changecom() changequote(\\'[[',\\`]]') include(\\'README.m4) pushdef(\\'x\\',\\'[[abc]]') r(x) undefine(\\'z') ifndef(\\'x\\',\\'no\\',\\'yes\\') divert(9)TEST undivert(9) patsubst(\\'x1x2x3\\',\\'x[0-9]\\',\\'#\\')"
+}

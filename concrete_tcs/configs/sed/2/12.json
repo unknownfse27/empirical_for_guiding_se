@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "s/\\(apple\\) \\1 \\(\\w*\\).*\\2/match/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "apple apple banana something banana"
+}

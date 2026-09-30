@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE v(x INT,y INT); INSERT INTO v VALUES(1,10),(2,20); CREATE VIEW vw AS SELECT x,y,x*y AS prod FROM v WHERE y>15; SELECT *,LAST_VALUE(prod) OVER () FROM vw; DROP VIEW vw; DROP TABLE v;"
+}

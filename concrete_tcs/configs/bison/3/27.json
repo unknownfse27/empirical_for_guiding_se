@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-Wcex",
+    "-dv",
+    "--report=all",
+    "--xml=j.xml",
+    "--html=j.html",
+    "--graph=j.gv",
+    "--trace=locations,m4,parse",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c4.y"
+  ],
+  "stdin": ""
+}

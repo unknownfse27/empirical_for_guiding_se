@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "print join(\"\", map { \"divert($_)TEXT$_ \" } 1..10), \"divert(0) undivert(5) undivert(10) divert(5)REENTRY undivert(5)\\n\""
+}

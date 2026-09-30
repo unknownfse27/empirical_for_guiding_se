@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "Thu, 01 Jan 1970 00:00:12",
+    "-o",
+    "-newermt",
+    "Friday 21/11/23 -4days UTC+05:30"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

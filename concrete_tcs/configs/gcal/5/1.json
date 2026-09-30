@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    "-Rname",
+    "--response-file=name",
+    "-Sname",
+    "--shell-script=name",
+    "--debug",
+    "--debug=internal",
+    "@@@",
+    "-r",
+    "$b=08:$f=@@",
+    "-f",
+    "@@",
+    "Aug",
+    "1996"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_1",
+    "demo-3.rc",
+    "include.rc"
+  ],
+  "stdin": ""
+}

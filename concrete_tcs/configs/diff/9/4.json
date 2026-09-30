@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "--recursive",
+      "--label=Label1",
+      "--label=Label2",
+      "--new-file",
+      "--brief",
+      ".",
+      "./.deps"
+    ],
+    "dirs": [
+        ".",
+        "./.deps"
+    ],
+    "files": [],
+    "stdin": ""
+}

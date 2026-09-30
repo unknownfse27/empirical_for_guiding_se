@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--bignum",
+    "--debug='@@'",
+    "-f",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "group.awk",
+    "group.awk"
+  ],
+  "stdin": ""
+}

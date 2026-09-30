@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "split.y"
+  ],
+  "stdin": ""
+}

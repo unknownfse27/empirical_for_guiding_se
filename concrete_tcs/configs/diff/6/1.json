@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "--recursive",
+        "--no-dereference",
+        "../..",
+        ".."
+    ],
+    "dirs": [
+        "../..",
+        ".."
+    ],
+    "files": [],
+    "stdin": ""
+}

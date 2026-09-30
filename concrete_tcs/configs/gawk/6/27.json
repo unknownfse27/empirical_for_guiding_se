@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN",
+    "{RS = \"[[:upper:]\\\\n]+\"}",
+    "{print ; IGNORECASE = ! IGNORECASE}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "strnum(/[a-z]*/)",
+    "{sum+=1}",
+    "END {print}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ls -l)"
+}

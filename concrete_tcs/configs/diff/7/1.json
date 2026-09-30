@@ -1,0 +1,22 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "-y",
+        "-a",
+        "-E",
+        "-l",
+        "-s",
+        "-t",
+        "-N",
+        "--strip-trailing-cr",
+        "../lib",
+        "./src"
+    ],
+    "dirs": [
+        "../lib",
+        "./src"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "freeze_div.m4f"
+  ],
+  "stdin": "divert(2)diverted_text divert(0)regexp('한', '.', 'X') regexp('한', '[^a-zA-Z0-9]', 'X') changecom(,)#cmtchangecom([#],[])#cmt changecom\\'dnl"
+}

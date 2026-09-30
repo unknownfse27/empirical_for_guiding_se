@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".backup b.db\n.changes on\n.stats on\n.databases\n.tables\n.indices\n.fullschema\n.schema\n.dump\n.mode json\n.headers on\nSELECT total_changes(),changes(),sqlite_version(),sqlite_source_id();"
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-y/[:alpha:]/nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM/",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

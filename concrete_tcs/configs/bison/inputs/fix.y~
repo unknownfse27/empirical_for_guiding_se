@@ -1,0 +1,4 @@
+%define lr.default-reductions consistent
+%token N
+%%
+e: N ;

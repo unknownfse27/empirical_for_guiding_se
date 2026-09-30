@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-r",
+    "all",
+    "-Wcounterexamples",
+    "@@",
+    "-o",
+    "/tmp/a9.c"
+  ],
+  "dirs": [],
+  "files": [
+    "a9.y"
+  ],
+  "stdin": ""
+}

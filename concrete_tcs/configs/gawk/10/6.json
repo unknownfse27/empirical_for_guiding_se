@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{ if ($1 ~ /J/) print; else if ($1 ~ /^q{a}/) print; else if ($1 !~ /li/) print; }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

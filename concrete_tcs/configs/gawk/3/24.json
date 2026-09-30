@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGIN{v=\"a\";x=f(v,1);v}",
+    "function f(p, i) {@p(n)}",
+    "function a(x){k=\"x\"; return 0}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS tlog(i INT,n TEXT);DROP TRIGGER IF EXISTS t_ai;CREATE TRIGGER t_ai AFTER INSERT ON e WHEN NEW.score>80 BEGIN UPDATE e SET score=score+1 WHERE name='Bob';INSERT INTO tlog VALUES(NEW.id,'i');END;INSERT OR IGNORE INTO e(name,score)VALUES('Carl',77.7);"
+}

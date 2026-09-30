@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Drop trigger if exists trg_ai; create trigger trg_ai after insert on t begin update t set b=lower(b) where a=new.a; end; insert into t values(7,'q',3,7.7);Delete from t where a=3 and b='z';"
+}

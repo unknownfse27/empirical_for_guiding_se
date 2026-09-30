@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS zc1;CREATE TABLE zc1(s TEXT);INSERT INTO zc1 VALUES('0'),('00'),('  '),('x');SELECT s,CASE WHEN CAST(s AS INT)=0 THEN 'Z' ELSE 'N' END,typeof(CAST(s AS INT)) FROM zc1;\n"
+}

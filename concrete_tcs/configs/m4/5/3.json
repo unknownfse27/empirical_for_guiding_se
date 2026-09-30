@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "patsubst(`abc123ABC', `[a-z][0-9]+', `[&]') patsubst(`aaaaaa', `a+', `X') regexp(😀테스트999,^[😀][가-힣]+([0-9]{3})$,HIT\\1) define(한글,KOREAN)define(😀,EMOJI)한글 😀 define(utf8_test,한글:😀:$1)utf8_test(테스트) regexp(😀😁😂,^(😀).+$,\\1)"
+}

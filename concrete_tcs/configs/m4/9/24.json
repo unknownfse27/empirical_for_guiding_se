@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--warn-macro-sequence=.*",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "fstab.m4"
+  ],
+  "stdin": ""
+}

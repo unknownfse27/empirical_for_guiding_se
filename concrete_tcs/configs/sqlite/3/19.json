@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "VACUUM;ANALYZE;ATTACH 'file:aux1.db?mode=rwc&cache=shared' AS aux;PRAGMA aux.journal_mode=DELETE;PRAGMA aux.user_version=42;PRAGMA aux.user_version;DETACH aux;SELECT * FROM pragma_table_xinfo('t');SELECT * FROM pragma_index_list('t');SELECT * FROM pragma_database_list;\n"
+}

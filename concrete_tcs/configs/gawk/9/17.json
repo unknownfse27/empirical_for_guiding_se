@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "{match($0, /(Hello, )(.*)( is John)/, a);",
+    "print substr(a[2], 2, 5)}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

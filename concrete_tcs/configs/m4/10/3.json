@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-G",
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "ifdef(`__gnu__',`[GNU]`,`[no-GNU]')ifdef(`__unix__',`[UNIX]`,`[not-UNIX]')ifelse(`foo`,`bar`,`EQUAL`,`NOTEQUAL')define(`ee`,`$11')ee(`a`,`b`,`c`,`d`,`e`,`f`,`g`,`h`,`i`,`j`,`k`)sinclude(`none`)\\ndivert(`12`)[div12]\\nundivert(`12`)\\n"
+}

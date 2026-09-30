@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".parameter init\n.parameter set :p1 100\n.parameter set :p2 'param'\nSELECT :p1*2, coalesce(NULL,:p2), :p1+:p1;\n"
+}

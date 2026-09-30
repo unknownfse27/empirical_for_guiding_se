@@ -1,0 +1,13 @@
+{
+    "envs": [],
+    "args": [
+      "--highlighting=x20:x20:x1:#",
+      "--multicultural-new-year-holidays",
+      "-b",
+      "3",
+      "%0*w10sun"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

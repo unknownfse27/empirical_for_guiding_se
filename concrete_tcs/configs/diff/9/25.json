@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "-q",
+      "--from-file=@@",
+      "--label=system",
+      "/proc/version",
+      "/dev/urandom"
+    ],
+    "dirs": [
+        "/proc/version",
+        "/dev/urandom"
+    ],
+    "files": [
+        "diff.c"
+    ],
+    "stdin": ""
+  }

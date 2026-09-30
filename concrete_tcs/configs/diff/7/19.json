@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-darN",
+    "--lab=$(date)",
+    "--lab=$(date)",
+    "-C3",
+    "--col",
+    "--pal=rs=1;31:hd=1;32:ad=32;1:de=31;1:ln=36;1",
+    "--no-d",
+    ".deps/",
+    "."
+  ],
+  "dirs": [
+    ".deps/",
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

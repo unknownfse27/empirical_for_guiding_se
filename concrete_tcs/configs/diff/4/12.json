@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-F",
+        "'#include'",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

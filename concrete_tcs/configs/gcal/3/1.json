@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--resource-file=@@"
+  ],
+  "dirs": [],
+  "files": [
+    "test-desdata.rc"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-acinvwzZ",
+    "-D",
+    "skip",
+    "i*",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

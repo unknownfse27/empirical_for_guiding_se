@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--atmosphere=1010,10",
+    "--cycle-end=0",
+    "--end-of-week",
+    "--filter-day=Rv",
+    "-P",
+    "i00000017#00000020,i00000031#00000031"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

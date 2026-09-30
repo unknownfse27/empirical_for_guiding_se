@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "-newermt",
+    "2024-JAN-01 00:00:01",
+    "!",
+    "-newermt",
+    "2023-MAY-31 23:59:59",
+    "-print"
+  ],
+  "dirs": [
+    "$HOME"
+  ],
+  "files": [],
+  "stdin": ""
+}

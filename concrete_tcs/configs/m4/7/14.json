@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    "2"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(GNUs not Unix, ) regexp(GNUs not Unix, ^G[A-Z]*) regexp(GNUs not Unix, ^n[a-z]+) regexp(GNUs not Unix, [a-z]?$) regexp(GNUs not Unix, \\<G.[A-Za-z]*\\>) regexp(GNUs not Unix, .) regexp(GNUs not Unix, [a-z]+\\s[a-z]*) regexp(GNUs not Unix, \\([a-z]\\))"
+}

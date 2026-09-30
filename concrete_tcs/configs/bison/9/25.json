@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--update",
+    "-Werror=deprecated,other",
+    "-dv",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dep2.y"
+  ],
+  "stdin": ""
+}

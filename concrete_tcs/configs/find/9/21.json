@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "/var",
+    "-fls",
+    "b.txt",
+    "-name",
+    "*abc*"
+  ],
+  "dirs": [
+    "/var"
+  ],
+  "files": [],
+  "stdin": ""
+}

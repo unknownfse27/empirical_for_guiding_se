@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "changequote(`<',`>')<`a'>changequote(`[',`]')[`b']ifchanged(`X',`old',`new')ifchanged(`Y',`1',`2')include(`nofile')format(`%s %d %c',`a',`b',`345')defn(`undef')indir(`undef')undefine(`Z')popdef(`Z')errprint(`ERR')warning(`WRN')m4wrap(`define(d',`4')')\n"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-Wyacc",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "covyacc.y"
+  ],
+  "stdin": ""
+}

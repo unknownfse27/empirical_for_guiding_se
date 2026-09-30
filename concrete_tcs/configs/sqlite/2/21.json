@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode list\n.separator |\n.import imp.txt imp1\nSELECT * FROM imp1;VACUUM;\n"
+}

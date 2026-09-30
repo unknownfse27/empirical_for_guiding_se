@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      "/usr/local",
+      "-type",
+      "f",
+      "-exec",
+      "(Y-M-D) %Y-%m-%d %H:%M:%S+{}",
+      "+"
+    ],
+    "dirs": [
+        "/usr/local"
+    ],
+    "files": [],
+    "stdin": ""
+}

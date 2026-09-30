@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGINFILE{while((getline<1)>0)$2 compl(x);",
+    "mkbool(\"a\"!=\"a\");",
+    "rshift(5,1);}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+      "eval.c"
+  ],
+  "stdin": ""
+}

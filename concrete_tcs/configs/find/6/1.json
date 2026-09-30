@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "/dev",
+    "-regex",
+    "employ(|er|ee|ment|ing|able)",
+    "-o",
+    "-regex",
+    "./[^/]*[b-a][]",
+    "-fprint"
+  ],
+  "dirs": [
+    "/dev"
+  ],
+  "files": [],
+  "stdin": ""
+}

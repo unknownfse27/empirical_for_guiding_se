@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{str=\"a,b,c,d\"; split(str,arr,\",\");",
+    "for(i in arr) print arr[i];print2**1}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

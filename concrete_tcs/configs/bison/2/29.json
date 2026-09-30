@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-b",
+    "pfx",
+    "-k",
+    "-l",
+    "--locations",
+    "--color=debug",
+    "--fixed-output-files",
+    "@@",
+    "-dv",
+    "-o",
+    "/tmp/bk.c"
+  ],
+  "dirs": [],
+  "files": [
+    "nr.y"
+  ],
+  "stdin": ""
+}

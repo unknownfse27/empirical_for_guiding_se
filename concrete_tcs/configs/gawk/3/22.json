@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "-nb",
+    "BEGIN{srand();b=int(5*rand());",
+    "x=-1.1;u[x]=0x01;z['g']=\"\t\";",
+    "l[2]=\"b\";",
+    "for(i in l) i}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

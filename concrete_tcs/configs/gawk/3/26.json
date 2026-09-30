@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-LO",
+    "BEGIN{s=\"x\";b=split(s,fld,/[^#]+@/,sep);",
+    "c=patsplit(str,fld,/[x]+/,sep);",
+    "substr(b,2);}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

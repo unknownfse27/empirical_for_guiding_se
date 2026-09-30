@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-qbe",
+    "-jcb",
+    "-n",
+    "-Cl1224",
+    "-qbe",
+    "-n",
+    "-cl3+",
+    "-b6",
+    "--type=standard",
+    "--debug=all",
+    "biorhythm-axis=3",
+    "-b",
+    "4",
+    "02/2017-02/2018"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

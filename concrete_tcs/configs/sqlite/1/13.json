@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode csv\n.headers on\n.tables 't_%'\n.schema --nosql\n.dump\n.help\n.vfslist.\n.changes on\n.echo on\n.expert\n.read missing.sql\n.system echo 'system call test'\n.restore restore.db\n.mode insert t_extra\n.once -e temp.html\n.testcase case1\n.testctrl imposter 1\n"
+  }

@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-b",
+        "-w",
+        "-B",
+        "-I=[\\$€£¥]|\\b(static|const|volatile)\\b|^\\w+\\s+\\w+\\s*\\(.*\\)\\s*{",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

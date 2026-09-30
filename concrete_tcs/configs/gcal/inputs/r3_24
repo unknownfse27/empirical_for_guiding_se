@@ -1,0 +1,8 @@
+--zodiacal-marker-holidays
+--transform-year=+1
+--blocks=2
+--disable-highlighting
+--starting-day=1
+--with-week-number
+--type=special
+--filter-day=AC

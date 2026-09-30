@@ -1,0 +1,21 @@
+{
+    "envs": [],
+    "args": [
+        "-W",
+        "130",
+        "--width=130",
+        "--left-column",
+        "--suppress-common-lines",
+        "-q",
+        "-c",
+        "-X",
+        ".",
+        ".deps"
+    ],
+    "dirs": [
+        ".",
+        ".deps"
+    ],
+    "files": [],
+    "stdin": ""
+}

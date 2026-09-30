@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-aEqrswxzv",
+    "-m5",
+    "--exclude-from=@@",
+    "--exclude-dir=alloha",
+    "--exclude=*",
+    "--include=*",
+    "-f@@",
+    "10000",
+    "bcd",
+    "*"
+  ],
+  "dirs": [],
+  "files": [
+    "x",
+    "p4_16"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-iRl",
+    "-f",
+    "@@",
+    "-f@@",
+    "--inc=*.c",
+    "-D\"skip\"",
+    "../../*",
+    "-d\"recurse\"",
+    "--color"
+  ],
+  "dirs": [],
+  "files": [
+    "Makefile",
+    "p7_7"
+  ],
+  "stdin": ""
+}

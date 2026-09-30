@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "REINDEX;ANALYZE;PRAGMA compile_options;PRAGMA wal_checkpoint(FULL);PRAGMA optimize;VACUUM INTO 'vac.db';\n"
+}

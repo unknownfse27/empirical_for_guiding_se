@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "db_u.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t22(i); INSERT INTO t22 VALUES(1),(2),(NULL); DELETE FROM t22 WHERE i IN (1) OR i NOT IN (2) OR i IS NULL; SELECT 1=0 AND 1=1 OR 1=1;\n"
+}

@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-iwholename",
+    "*/name.c",
+    "-execdir",
+    "grep",
+    "pattern",
+    "{}",
+    ";",
+    "-regex",
+    ".*bar",
+    "-atime",
+    "+2",
+    "-links",
+    "-1"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "-H",
+    "text",
+    "--highlighting=text",
+    "-H",
+    "\\x20:\\x20:\\x1:#",
+    "--descending-holiday-list=long"
+  ],
+  "dirs": [],
+  "files": [
+    "r4_28"
+  ],
+  "stdin": ""
+}

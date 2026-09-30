@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".*[a-z]{2,5}.[[:upper:]]$"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

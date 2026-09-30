@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`\\\\', `\\\\', `escaped-backslash') regexp(`abc', `\\([[:alpha:]]\\+\\)', `posix-class')  regexp(`こんにちは', `.*', `unicode') regexp(`-', `[-]', `match') regexp(`a\\\\b', `a\\\\\\\\b', `escaped') regexp(`abc123', `\\(a\\(bc\\)\\)[0-9]+', `\\1:\\2')"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--time-offset=t-1:2",
+    "-s",
+    "1",
+    "--transform-year=2023",
+    "--gregorian-reform=1700",
+    "--date-format=us"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

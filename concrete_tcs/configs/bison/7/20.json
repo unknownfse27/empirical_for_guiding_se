@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "zze13.y"
+  ],
+  "stdin": ""
+}

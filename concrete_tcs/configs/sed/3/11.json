@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'/$/p'",
+    "test.txt",
+    "-e",
+    "'1,4p'",
+    "test.txt",
+    "-e",
+    "'1,$p'",
+    "test.txt",
+    "-i",
+    "-e's/가나다/마e바/gi'",
+    "test.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

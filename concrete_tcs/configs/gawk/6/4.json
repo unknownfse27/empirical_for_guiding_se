@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-O",
+    "-e",
+    "BEGIN{i=sprintf(\"a=%.2f\",strtonum(\"0x12\"));print i}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

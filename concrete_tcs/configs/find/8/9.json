@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "mouseless",
+    ".",
+    "-ls",
+    "-regex",
+    "\\<"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

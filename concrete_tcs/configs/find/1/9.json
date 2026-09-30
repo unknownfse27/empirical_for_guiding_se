@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "-regextype",
+      "posix-egrep",
+      "-regex",
+      "+?\\+\\?\\w\\W\\<\\>\\b\\Ba([a-z])\\1\\1^\\1"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

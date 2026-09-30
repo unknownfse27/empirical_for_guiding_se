@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Tcex",
+    "-Wcex",
+    "-rcex",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "tc.y"
+  ],
+  "stdin": ""
+}

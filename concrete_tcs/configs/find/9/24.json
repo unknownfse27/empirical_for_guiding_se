@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-user",
+    "username",
+    "-or",
+    "-group",
+    "groupname"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

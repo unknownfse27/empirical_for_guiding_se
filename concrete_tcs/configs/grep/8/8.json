@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-R",
+    "-w",
+    "--color='always'",
+    "--group-separator=sepl",
+    "--label=0",
+    "usr\\|error\\|kernel",
+    "/var/log/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

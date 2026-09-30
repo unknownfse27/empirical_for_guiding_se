@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(traced_macro, \\`This is traced')traceon(traced_macro)ifdef(traced_macro, \\`traced_macro is defined and traced', \\`traced_macro is not defined')define(untraced_macro, \\`Th')ifdef(untraced_macro, \\`yes', \\`no')"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".version\n.mode json\nSELECT 42 AS answer;\n.mode column\n.headers on\n.stats on\nSELECT sqlite_compileoption_used('THREADSAFE');\n.stats off\n.databases\n.tables\n.schema\n.mode invalid\nPRAGMA compile_options;\n.exit\n"
+}

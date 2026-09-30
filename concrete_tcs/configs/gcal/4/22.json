@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "a=0303%2002@a-3wed",
+    "-b",
+    "2",
+    "-qfr",
+    "--holiday-list",
+    "-q",
+    "KR",
+    "--include-holidays=long",
+    "--leap-day=march"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

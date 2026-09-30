@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-group",
+    "users",
+    "-mmin",
+    "3",
+    "-print0",
+    "-exec",
+    "grep",
+    "-l",
+    "search term",
+    "{}",
+    "+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".timer on\nSELECT 42;\n.once once_out.txt\nSELECT 'once',123;\n.open hw1.db\n.databases\n.trace stmt\nSELECT 'T';\n.parameter set :v 7\nSELECT :v+1;\n.parameter list\n.parameter clear\n"
+}

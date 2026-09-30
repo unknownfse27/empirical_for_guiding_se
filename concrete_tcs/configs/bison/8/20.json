@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=parse",
+    "-fcaret",
+    "@@",
+    "-o/tmp/inv.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "-t"
+  ],
+  "dirs": [],
+  "files": [
+    "inv.y"
+  ],
+  "stdin": ""
+}

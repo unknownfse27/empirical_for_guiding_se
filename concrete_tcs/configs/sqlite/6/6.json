@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".sha3sum\\n.log stdout\\n.testctrl optimizations 0xfffe\\n.testctrl pending_byte\\nDROP TABLE IF EXISTS t;CREATE TABLE t(a);INSERT INTO t VALUES(1);PRAGMA integrity_check;PRAGMA foreign_keys;PRAGMA quick_check;\\n.output stdout\\n.log off\\n.quit\n"
+}

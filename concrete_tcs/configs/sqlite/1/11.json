@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TEMP TABLE t_temp(a TEXT, b INT); CREATE INDEX temp_idx ON t_temp(b); INSERT INTO t_temp VALUES('x', 1); SELECT 1.0 UNION ALL SELECT 2 UNION SELECT 1 INTERSECT SELECT 1 EXCEPT SELECT 3 ORDER BY 1 DESC; SELECT * FROM t_temp WHERE b=1; DROP TABLE t_temp;"
+}

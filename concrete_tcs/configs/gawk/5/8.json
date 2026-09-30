@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "gawk",
+    "BEGIN{while((getline<\"re.c\")>0)",
+    "{if($0~//[[:xdigit:]]{3,5}|[[:graph:]]{5,}/)continue}}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

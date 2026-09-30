@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--label=\"foo\"",
+    "--no-message",
+    "--max-count=10",
+    "-A",
+    "5",
+    "-E",
+    "^[a-z]+\\.log.",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

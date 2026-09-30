@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-fprintf",
+    "asdf.txt",
+    "%s\\a\\b\\n",
+    "-newercm",
+    "pred.o",
+    "-newerat",
+    "2012-12-31T20:02-0500"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

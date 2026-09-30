@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT name,type,sql FROM sqlite_master WHERE type IN('table','index','view','trigger');PRAGMA table_xinfo('a');PRAGMA trigger_list('a');SELECT*FROM pragma_table_info('a');SELECT*FROM pragma_index_list('a');SELECT*FROM pragma_database_list();SELECT sqlite_version()"
+}

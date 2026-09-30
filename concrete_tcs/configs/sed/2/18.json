@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "3, 5b;x; N;s/\\`/X/gm; :x ;n ;p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(seq 10)"
+}

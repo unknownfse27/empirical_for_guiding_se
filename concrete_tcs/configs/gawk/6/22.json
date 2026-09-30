@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-BEGIN{p=sprintf(\"%g\",sqrt(-1));pnanu=toupper(p)}",
+    "{sub(/positive_nan/,p);print}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

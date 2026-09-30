@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newer",
+    "/bin/sh",
+    ",",
+    "-path",
+    ".",
+    "-regextype",
+    "posix-awk",
+    "-regex",
+    "^[^.]*\\.[^.]*$"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

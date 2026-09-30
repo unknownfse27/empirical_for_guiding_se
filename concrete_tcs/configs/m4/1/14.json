@@ -1,0 +1,28 @@
+{
+  "envs": [],
+  "args": [
+    "-db",
+    "-gGEsPQB",
+    "1",
+    "-N",
+    "1",
+    "-D",
+    "bar=baz",
+    "-t",
+    "foo",
+    "-UADD",
+    "-F",
+    "myfile",
+    "-H",
+    "3",
+    "-I",
+    "mydir",
+    "-L",
+    "1",
+    "-l",
+    "1"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(foo, bar) foo bar undefined(foo)"
+}

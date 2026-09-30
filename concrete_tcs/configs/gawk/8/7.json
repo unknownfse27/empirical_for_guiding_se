@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "{a[i++]=$0};END{for(j=i-1;j>=0;) print a[j--]}",
+    "@@",
+    "@@",
+    "@@",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c",
+    "builtin.c",
+    "field.c",
+    "io.c",
+    "node.c"
+  ],
+  "stdin": ""
+}

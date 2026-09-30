@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "'/\\b\\(\\w\\+\\)\\b.*\\b\\1\\b/{p}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "hello hello world"
+}

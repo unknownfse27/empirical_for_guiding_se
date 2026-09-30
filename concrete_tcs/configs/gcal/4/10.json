@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-#",
+    "0*d1su#99su.7 ^%Z",
+    "--here=#include <foo>",
+    "-y",
+    "--ignore-case",
+    "--revert-match",
+    "-CZdekloQUzJaxA12+"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

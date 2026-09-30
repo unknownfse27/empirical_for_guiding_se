@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-size",
+    "100",
+    "-regex",
+    ".*\\.(c|h|cpp)$"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

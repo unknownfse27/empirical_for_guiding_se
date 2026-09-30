@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-nouser",
+    "-uid",
+    "1000",
+    "-used",
+    "+7",
+    "-fstype",
+    "ext4",
+    "-fprintf",
+    "%u %y\n"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-daystart",
+    "-mtime",
+    "-1",
+    "-type",
+    "f",
+    "-exec",
+    "cp",
+    "{}",
+    "/daily_backup/",
+    "+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

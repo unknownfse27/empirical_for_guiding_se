@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-w",
+    "warning\\|error\\|critical{89}|+\\<@\\>+(“#.*\\\\w{3,}+"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

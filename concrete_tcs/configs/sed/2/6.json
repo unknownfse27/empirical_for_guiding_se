@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'e'",
+    "-e",
+    "'/world/b success; T fail; :success; s//WORLD/; :fail; s//FAIL/'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "echo h"
+}

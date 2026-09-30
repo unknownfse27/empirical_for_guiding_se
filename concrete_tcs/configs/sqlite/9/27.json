@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS TR1; CREATE TABLE TR1(a INT, b INT, c INT, PRIMARY KEY(a,b)) WITHOUT ROWID; BEGIN EXCLUSIVE; INSERT INTO TR1 VALUES(1,1,100); SAVEPOINT s1; UPDATE TR1 SET c=200; ROLLBACK TO s1; COMMIT; SELECT * FROM TR1;\n"
+}

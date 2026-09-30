@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+        "-E",
+        "-r",
+        "-S",
+        "/",
+        "--unidirectional-new-file",
+        "--exclude=.h",
+        "--ignore-file-name-case",
+        ".",
+        "../lib"
+    ],
+    "dirs": [
+        ".",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+}

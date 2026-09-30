@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode box\nselect a,b,c from t;\n.mode quote\nselect 'O''Brien' as s,'A\"B\\C' as u,null as n;\n.mode list\n.mode csv\nselect * from t;\n.dump\n.schema\n.tables\n.indices t\n.headers on\n"
+}

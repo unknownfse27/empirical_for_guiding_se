@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "%1998",
+    "-Hno",
+    "-xy",
+    "-f",
+    "@@",
+    "-f@@",
+    "-Ux",
+    "-Hno",
+    "-cdy+",
+    "--help",
+    "--long-help=heading-text",
+    "--period-of-fixed-dates=10d",
+    "-c*d16sun"
+  ],
+  "dirs": [],
+  "files": [
+    "demo-1.rc",
+    "sun-1.rc"
+  ],
+  "stdin": ""
+}

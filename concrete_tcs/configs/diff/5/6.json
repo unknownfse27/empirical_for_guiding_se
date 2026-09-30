@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-p",
+        "-a",
+        "--ignore-trailing-space",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff",
+        "diff3"
+    ],
+    "stdin": ""
+}

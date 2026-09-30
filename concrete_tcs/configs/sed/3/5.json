@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'1e touch foo#bar'",
+    "-e",
+    "'s/a/b/w1.txt#foo'",
+    "-e",
+    "'1e touch foo ; s/a/b/'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a"
+}

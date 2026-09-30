@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "--report=all",
+    "@@",
+    "--trace=all",
+    "--graph",
+    "--xml",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "t1.y"
+  ],
+  "stdin": "echo \"%define lr.type canonical-lr %nonassoc '=' %left '+' %% e: e '=' e | e '+' e | 'a';\""
+}

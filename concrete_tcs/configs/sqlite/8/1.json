@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(id,a);INSERT INTO t VALUES(1,10),(2,20),(3,30),(4,40);SELECT a,FIRST_VALUE(a)OVER(ORDER BY id),LAST_VALUE(a)OVER(ORDER BY id ROWS UNBOUNDED PRECEDING),NTH_VALUE(a,2)OVER(ORDER BY id),AVG(a)OVER()FROM t;"
+}

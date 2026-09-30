@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "opt",
+    "-O3",
+    "..",
+    "-regex",
+    "\\b[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,6}\\B\\W\\b",
+    "-regextype",
+    "posix-basic"
+  ],
+  "dirs": [
+    ".."
+  ],
+  "files": [],
+  "stdin": ""
+}

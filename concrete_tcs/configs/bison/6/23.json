@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Tbitsets",
+    "-Dlr.type=ielr",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "pt3.y"
+  ],
+  "stdin": ""
+}

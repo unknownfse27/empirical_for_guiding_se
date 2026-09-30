@@ -1,0 +1,9 @@
+.*\(txt\|doc\)
+c\{2\}|d\{3\}
+s*right
+b\?right
+[^a-zA-Z]
+[[:xdigit:]]
+[[:punct:]]
+m\?an
+[A-Z][0-9]\+

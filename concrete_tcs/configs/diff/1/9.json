@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "-EZbEZwbhaBdHilNPqrstTw",
+      "--inhibit-hunk-merge",
+      "--ignore-file-name-case",
+      "-x",
+      "--no-ignore-file-name-case",
+      "--help"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+  }

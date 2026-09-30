@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t4(i INT CHECK(i>0)); CREATE TRIGGER trg4 BEFORE INSERT ON t4 BEGIN SELECT RAISE(ABORT, 'err'); END; BEGIN; INSERT INTO t4 VALUES(1); END; SELECT typeof(1), typeof(1.0), typeof(NULL);\n"
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "h;s/^(\\w)([^aeiou]*)([aeiou])([^aeiou]*)(\\w)$/\\5\\4\\3\\2\\1/;H;g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "zed"
+}

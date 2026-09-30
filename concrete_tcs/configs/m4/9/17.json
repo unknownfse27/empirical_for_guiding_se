@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--arglength=2"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "changequote(<<,>>)<<test>> changequote traceon(divnum) debugmode(+aet) divnum len(abc) include(nonexistent) sinclude(nonexistent) patsubst(hello,^h,HHH)"
+}

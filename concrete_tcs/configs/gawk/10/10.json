@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-F','",
+    "'{ for (i=1;i<=NF;i++) print i,$i,$(i-1),substr($0, 2, 3); }'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

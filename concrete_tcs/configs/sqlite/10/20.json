@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE T1(a INT); CREATE TABLE T2(b INT); INSERT INTO T1 VALUES(1), (1), (2); INSERT INTO T2 VALUES(2), (3), (3); SELECT T1.a, SUM(T2.b) FROM T1 LEFT JOIN T2 ON T1.a = T2.b GROUP BY T1.a HAVING COUNT(T2.b) > 0;"
+}

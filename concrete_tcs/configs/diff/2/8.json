@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "-S",
+        "file",
+        "--speed-large-files",
+        "--strip-trailing-cr",
+        "--unidirectional-new-file",
+        "../src",
+        "../tests"
+    ],
+    "dirs": [
+        "../src",
+        "../tests"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,26 @@
+{
+  "envs": [
+    "M4PATH=./"
+  ],
+  "args": [
+    "-s",
+    "-i",
+    "-P",
+    "-Q",
+    "-B64",
+    "-S256",
+    "-N128",
+    "-H509",
+    "-d",
+    "aeq",
+    "-F",
+    "@@",
+    "-R",
+    "invalid.m4"
+  ],
+  "dirs": [],
+  "files": [
+    "frozen.m4"
+  ],
+  "stdin": "m4wrap(`define(`wrap`,`done')\") wrap define(`X`,`Y') debugmode(`aeq') traceon(`define') X traceoff(`define') syscmd(`false')"
+}

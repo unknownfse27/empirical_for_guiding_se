@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {NR=0x7FFFFFFF}",
+    "BEGINFILE {FNR=0x7fffffffffffffff}",
+    "END {print NR-0x7FFFFFFF, FNR}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

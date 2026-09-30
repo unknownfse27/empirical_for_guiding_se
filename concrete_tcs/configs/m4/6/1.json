@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(-1)divert(1)text1 divert(2)text2 divert(3)text3 divert(4)text4 divert(5)text5 divert(6)text6 divert(7)text7 divert(8)text8 divert(9)text9 divert(0)undivert(9,8,7,6,5,4,3,2,1)undivert substr(`gnus, gnats, and armadillos', `6', `5') m4_dnl define(`unicode_test', `äöüßñ')"
+}

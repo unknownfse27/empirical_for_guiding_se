@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS big AS SELECT * FROM t1; INSERT INTO big SELECT id+10,v||'_x',n+10 FROM t1; SELECT * FROM big WHERE n>2 ORDER BY n DESC LIMIT 100;"
+}

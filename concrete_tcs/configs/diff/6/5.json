@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--speed-large-files",
+        "--color=auto",
+        "-",
+        "../"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

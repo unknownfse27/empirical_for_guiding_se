@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "posix-basic",
+      "-regex",
+      ".*\\([a-z]\\)\\1\\1\\.\\(doc\\|docx\\)$"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

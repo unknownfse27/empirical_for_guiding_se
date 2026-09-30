@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-i-",
+    "@@@",
+    "--multicultural-new-year-holidays",
+    "-c*d10",
+    "-cl01mon3",
+    "-c*w16sun",
+    "aug:1992+july:1999"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_2"
+  ],
+  "stdin": ""
+}

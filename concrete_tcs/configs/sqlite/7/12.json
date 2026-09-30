@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t28(i, j); CREATE TRIGGER trg28 AFTER UPDATE OF j ON t28 WHEN NEW.j > OLD.j BEGIN UPDATE t28 SET i=1 WHERE i=0; END; INSERT INTO t28 VALUES(0, 0); UPDATE t28 SET j=1;\n"
+}

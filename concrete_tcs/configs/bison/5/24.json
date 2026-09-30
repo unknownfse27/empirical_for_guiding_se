@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "@@",
+    "-o",
+    "/tmp/ku.c",
+    "-v",
+    "--report=all"
+  ],
+  "dirs": [],
+  "files": [
+    "ku.y"
+  ],
+  "stdin": ""
+}

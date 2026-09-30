@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {PROCINFO[\"sorted_in\"] = \"@val_num_asc\"; a[1] = 2; a[2] = 1; for (i in a) print i}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

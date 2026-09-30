@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_win(a, b); INSERT INTO t_win VALUES (1,10),(1,20),(1,30); SELECT b, LAG(b, 1, 0) OVER (ORDER BY b), LEAD(b, 1, 99) OVER (ORDER BY b), NTILE(2) OVER (ORDER BY b), SUM(b) OVER (ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) FROM t_win;\n"
+}

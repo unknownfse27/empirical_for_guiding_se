@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-Dlr.type=ielr",
+    "--trace=ielr,sets,closure",
+    "--report=all",
+    "-fcaret",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "test1.y"
+  ],
+  "stdin": ""
+}

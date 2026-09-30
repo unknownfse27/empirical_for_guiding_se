@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "/proc",
+    "-maxdepth",
+    "3",
+    "! -fstype proc",
+    "-printf",
+    "%p %F\n"
+  ],
+  "dirs": [
+    "/proc"
+  ],
+  "files": [],
+  "stdin": ""
+}

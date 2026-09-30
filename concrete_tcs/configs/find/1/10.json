@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      "jsdklf;hjklsjf'e{}sdfjlsg"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

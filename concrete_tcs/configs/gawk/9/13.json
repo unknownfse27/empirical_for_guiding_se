@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "{b=12;m=1;for(;b!=0;b=rshift(b,1))",
+    "d=(and(b,m)?\"1\":\"0\") d;",
+    "if(length(d)) d=\"0\"d}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": ""
+}

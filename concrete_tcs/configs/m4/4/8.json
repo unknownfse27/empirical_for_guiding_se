@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-d"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`f', `1') f(define(`f',`2')) indir(`f', define(`f', `3')) indir(`f', undefine(`f')) indir(defn(`defn'), `divnum') indir(`define', defn(`defn'), `divnum')"
+}

@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "f",
+    "-newermt",
+    "last month",
+    "-not",
+    "-newermt",
+    "yesterday",
+    "-exec",
+    "./last_month_files",
+    "{}",
+    ";"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

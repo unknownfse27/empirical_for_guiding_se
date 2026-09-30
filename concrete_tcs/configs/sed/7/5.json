@@ -1,0 +1,11 @@
+{
+  "envs": [
+    "LC_ALL=fr_FR.utf8"
+  ],
+  "args": [
+    "s/[[=e$VAR=]]/X/g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "I like %s!\n"
+}

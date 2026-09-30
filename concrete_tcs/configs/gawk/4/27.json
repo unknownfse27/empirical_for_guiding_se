@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--traditional",
+    "-F",
+    "\\t",
+    "'/z|.*\\|[^a-d]|\\d|a+|$n|h{2,}|[:blank:]|{n,}|(int)|[:digit:]/'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

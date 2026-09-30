@@ -1,0 +1,21 @@
+{
+  "envs": [
+    "COLS=0"
+  ],
+  "args": [
+    "--posix",
+    "-n",
+    "-e",
+    "/word/a word is found.",
+    "-e",
+    "/options/i options is found",
+    "-e",
+    "4280,4283c changes~~",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

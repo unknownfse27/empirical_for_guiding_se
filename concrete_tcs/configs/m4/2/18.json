@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "regexp(`字3', `[^\\x00-\\x7F]+', `non-ascii') regexp(`𝔄𝔩𝔤𝔬𝔯𝔦𝔱𝔥𝔪', `[𝔘-𝔷]+', `gothic-match') regexp(`สุข', `ส.*ี', `thai') regexp(`🐱', `.*🐱.*', `emoji') regexp(`い', `.*', `unicode') regexp(`नम3', `न.*[0-9]+', `devanagari')\n"
+}

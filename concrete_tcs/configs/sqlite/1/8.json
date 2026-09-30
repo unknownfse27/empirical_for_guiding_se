@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode csv\n.import people.csv people\n.headers on\n.mode column\n.width 5 10 5\n.tables\n.output dump.sql\n.dump\n.output stdout\n.read dump.sql\n"
+}

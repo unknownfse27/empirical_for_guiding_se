@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "{a[NR]=$1}",
+    "END {n=asort(a); if(n%2) print a[int(n/2)+1]; else print(a[n/2]+a[n/2+1])/2;}",
+    "*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

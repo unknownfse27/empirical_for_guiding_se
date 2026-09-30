@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE T11(c1); CREATE TABLE T12(c2); INSERT INTO T11 VALUES(1), (2); INSERT INTO T12 VALUES(1); SELECT * FROM T11 LEFT JOIN T12 ON T11.c1=T12.c2 WHERE EXISTS(SELECT 1 FROM T12 WHERE T12.c2=T11.c1);"
+}

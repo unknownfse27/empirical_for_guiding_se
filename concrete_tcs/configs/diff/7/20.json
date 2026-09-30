@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+      "--no-dereference",
+      "-rNP",
+      "--ignore-file-name-case",
+      "-S@@",
+      "/bin",
+      "/proc/self"
+    ],
+    "dirs": [
+      "/bin",
+      "/proc/self"
+    ],
+    "files": [
+      "diff.c"
+    ],
+    "stdin": ""
+  }

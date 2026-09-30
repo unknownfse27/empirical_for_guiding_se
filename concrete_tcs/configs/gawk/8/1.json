@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{c=\"LC_ALL=C sort\";n=split(\"abc\", a,\"\");for(i=n;i>0;i--)print a[i]|&c;close(c,\"to\");}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

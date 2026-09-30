@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-follow",
+    "-printf",
+    "%Z"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

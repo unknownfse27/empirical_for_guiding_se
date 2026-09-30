@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "--profile",
+      "/\"number\": \"(.+)\"/",
+      "{print gensub(/\"number\": \"(.+)\"/, \"\\\\1\", \"g\", $0)}"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

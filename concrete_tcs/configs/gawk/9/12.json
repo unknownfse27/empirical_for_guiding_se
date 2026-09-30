@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "/^[wh]/{shift=lshift(0x99,2);",
+    "printf \"rshift(0x99,2)=%#x\",shift}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "/",
+    "-fstype",
+    "nfs",
+    "-name",
+    "*.log"
+  ],
+  "dirs": [
+    "/"
+  ],
+  "files": [],
+  "stdin": ""
+}

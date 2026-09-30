@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-fls",
+    "asdf.txt",
+    "-newerat",
+    "@1483228800",
+    "-newermt",
+    "TZ=\"Europe/Paris\" 2019-10-31 06:40"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

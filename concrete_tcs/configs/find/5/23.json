@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "TZ=\"America/New_York\" last day",
+    "-o",
+    "-newermt",
+    "Jul 20, 20",
+    "-o",
+    "-newermt",
+    "20-jul-20"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

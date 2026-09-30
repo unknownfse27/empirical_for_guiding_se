@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "dumpdef\\ndefine(I,defn(`divert'\\''))traceon()syscmd(s)I(1)traceoff\\ndebugfile()mkstemp(/tmp/X)errprint()I(4)aaaaaa\\nI(3)I(1)define(N,`ifelse($1,0,,``x'\\'N(decr('\\'$1`))'\\'')'\\'')N(263000)I(dumpdef\\n(changecom)format(%%%+ #*.*f,` 3'\\'')"
+}

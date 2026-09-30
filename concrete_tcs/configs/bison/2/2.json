@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-r",
+    "all",
+    "-o",
+    "/tmp/escoct.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "escoct.y"
+  ],
+  "stdin": ""
+}

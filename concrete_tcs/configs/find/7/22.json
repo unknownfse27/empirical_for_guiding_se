@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    "-depth",
+    "-group",
+    "root",
+    "-amin",
+    "-1",
+    "-exec",
+    "ls",
+    "-l",
+    "{}",
+    "+",
+    "-print0",
+    "-exec",
+    "wc",
+    "-l",
+    "{}",
+    ";",
+    "-executable"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

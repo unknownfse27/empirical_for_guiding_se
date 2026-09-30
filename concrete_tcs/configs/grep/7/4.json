@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-FIHio",
+    "-d\"skip\"",
+    "-A2",
+    "--group-s=\"0\"",
+    "--col=\"if-tty\"",
+    "--binary=\"without-match\"",
+    "-f@@",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "p7_4",
+    "grep.c",
+    "Makefile"
+  ],
+  "stdin": ""
+}

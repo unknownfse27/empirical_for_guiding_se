@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "-u",
+        "--unified=1",
+        "--unified=100",
+        "--tabsize=100",
+        "--tabsize=100",
+        "-W",
+        "150",
+        "-W",
+        "150",
+        "-u",
+        "--version"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

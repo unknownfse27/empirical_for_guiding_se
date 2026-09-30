@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "'BEGIN{ print gensub(/\\xE2\\x80./, \"ZZZ\", \"g\", $0);",
+    "print gensub(\"x\",\"y\",\"2\",\"xx\") }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

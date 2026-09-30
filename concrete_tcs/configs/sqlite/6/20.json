@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT b.i,b.k,a.k FROM b LEFT JOIN a ON a.i=b.i;SELECT coalesce(a.i,b.i),a.k,b.k FROM a LEFT OUTER JOIN b ON a.i=b.i UNION SELECT coalesce(a.i,b.i),a.k,b.k FROM b LEFT JOIN a ON a.i=b.i WHERE a.i IS 1;\n"
+}

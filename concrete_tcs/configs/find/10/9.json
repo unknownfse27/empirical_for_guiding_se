@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-iregex",
+    ".*\\.(jpg\\|png\\|gif\\|mp4\\|mp3\\|avi\\)$"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

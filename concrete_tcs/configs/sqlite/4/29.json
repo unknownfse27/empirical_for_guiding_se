@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "-nullvalue",
+        "NULL_VAL",
+        "-json",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE n(key TEXT PRIMARY KEY, value INT) WITHOUT ROWID; INSERT INTO n VALUES('A', 10); SELECT key FROM n;CREATE TEMP TABLE tmp2(a INT); DROP TABLE temp.tmp2;EXPLAIN QUERY PLAN SELECT * FROM t INDEXED BY idx WHERE c>0;ANALYZE;"
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-i-",
+    "-K",
+    "--calendar-dates=both",
+    "--holiday-dates=both",
+    "--french-revolutionary-months",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_21"
+  ],
+  "stdin": ""
+}

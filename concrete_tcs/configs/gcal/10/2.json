@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "-i-",
+    "-jcb",
+    "-K",
+    "--time-offset=1983",
+    "--iso-week-number=no",
+    "-O",
+    "--cc-holidays=JP",
+    "2-5/2000+3/2001"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

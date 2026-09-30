@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--response-file=ji",
+    "--shell-script=ji",
+    "--debug=internal",
+    "--highlighting=\\x20:\\x20:\\x1",
+    "%2012@t-3wed"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

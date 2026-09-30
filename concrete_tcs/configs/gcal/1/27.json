@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--help",
+    "--long-help=long-help",
+    "--long-help=date-format",
+    "--long-help=help",
+    "@@@",
+    "-cxo",
+    "-c01mon3",
+    "--date-format=text"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_27"
+  ],
+  "stdin": ""
+}

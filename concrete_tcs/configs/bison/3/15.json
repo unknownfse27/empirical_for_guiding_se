@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-Dlr.type=ielr",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "H21.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-rtp",
+        "--new-file",
+        "/usr/share/doc",
+        "/var/doc_backup"
+    ],
+    "dirs": [
+        "/usr/share/doc",
+        "/var/doc_backup"
+    ],
+    "files": [],
+    "stdin": ""
+}

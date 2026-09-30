@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-F''",
+    "-p",
+    "-b",
+    "--non-decimal-data",
+    "--traditional",
+    "-P",
+    "{print $2}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "msg.c"
+  ],
+  "stdin": ""
+}

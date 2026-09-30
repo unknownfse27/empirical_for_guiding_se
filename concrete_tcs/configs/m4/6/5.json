@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "frozen.m4"
+  ],
+  "stdin": "define(`X',`1')pushdef(`X',`2')define(`Y',`builtin')changequote(`[`,`]`)changecom(`/*`,`*/')divert(1)abcdivert(2)defundivert(1)undivert(2)m4wrap(`dumpdef(`X')')dumpdef(`Y')"
+}

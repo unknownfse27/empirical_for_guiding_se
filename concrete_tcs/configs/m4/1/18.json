@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-warn-macro-sequence"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define([foo],[GNULIB_]translit([$1],[a-z],[A-Z])[=1])foo([strcase]) define(foo, $001 ${1} $1) foo define(nargs, $#) nargs"
+}

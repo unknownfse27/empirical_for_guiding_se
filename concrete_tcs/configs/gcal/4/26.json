@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--include-resource-file-name",
+    "--alternative-format",
+    "--include-today",
+    "-c53w",
+    "--translate-string=\"01\""
+  ],
+  "dirs": [],
+  "files": [
+    "r4_26"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "BEGIN; DELETE FROM nums WHERE n%3=0; UPDATE nums SET n=n+1000 WHERE n BETWEEN 5 AND 15; COMMIT; SELECT count(*),sum(n),avg(n) FROM nums;"
+}

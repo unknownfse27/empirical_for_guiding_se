@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "l",
+    "-lname",
+    "*alloc*",
+    "-prune",
+    "-newermt",
+    "20-7-20 8:02am"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

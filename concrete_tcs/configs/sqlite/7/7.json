@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t19(g, v INT); INSERT INTO t19 VALUES('A', 1), ('A', 2); SELECT g, SUM(v) FROM t19 GROUP BY g HAVING SUM(v) > (SELECT 0) ORDER BY 2 DESC;\n"
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [
+    "LC_ALL=C"
+  ],
+  "args": [
+    "3s/\\o316\\o316//",
+    "invalid.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

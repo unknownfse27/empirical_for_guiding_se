@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    ".*/find.[123]",
+    "-printf",
+    "%p%P%s%S%t%u%U\n"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

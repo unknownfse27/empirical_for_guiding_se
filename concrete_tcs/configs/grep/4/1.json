@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "-r",
+    "-e",
+    "abc",
+    "-e",
+    "def",
+    "-e",
+    "sadf",
+    "-e",
+    "include",
+    "-e",
+    "asdfsadf",
+    "-e",
+    "Asdfasdfsdaf",
+    "-e",
+    "adsfsdaf|sdfasdf"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

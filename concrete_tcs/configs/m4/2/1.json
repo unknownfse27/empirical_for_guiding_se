@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1)$(yes 'a' | head -n 10)divert(0)undivert(1) changecom(`\\`', `end-comment-marker-xyz')< comment here end-comment-marker-xyz define(`x',`42')x define(`exch', `\\`$2', `\\$1'')exch(`expansion text', `macro') divert(9)undivert(9) regexp(`abc', `[*]')"
+}

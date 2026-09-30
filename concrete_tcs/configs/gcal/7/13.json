@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "IE+IL",
+    "--japanese-holidays",
+    "--old-armenic-months",
+    "-#0*d1#999_%Z__%0",
+    "%20000111",
+    "-x",
+    "--moon=18"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

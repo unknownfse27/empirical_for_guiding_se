@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE a(x,y);INSERT INTO a VALUES(1,'p'),(2,'q'),(1,'r');SELECT x,COUNT(*),GROUP_CONCAT(y,'|')FROM a GROUP BY x HAVING COUNT(*)>=1 ORDER BY x IS NULL,x DESC NULLS LAST LIMIT 3;SELECT DISTINCT x FROM a WHERE x IN(1,3)AND y GLOB'p*';"
+}

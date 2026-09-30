@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-dp",
+    "-dq",
+    "-dx",
+    "-dl",
+    "-U",
+    "name",
+    "-R",
+    "file"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define('x','1')define('y','2')pushdef('m','x')pushdef('m','y')ifelse(index('abc','b'),1,'ok','fail')translit('education','aeiou','AEIOU')substr('abcdef',1,3)incr(decr('4'))regexp('abc123','[a-z]+[0-9]+')m popdef('m')m"
+}

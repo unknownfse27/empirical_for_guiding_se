@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-M",
+    "length($0)>20 {sum += $1};",
+    "END {print atan2(++sum, sum *= 2); printf \"%2.4f\",sum}",
+    "*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {b[1][1]=\"\";split(\"a b c d\",b[1]);print b[1][1]}'",
+    "@@",
+    "@@",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "array.c",
+    "eval.c",
+    "io.c",
+    "main.c"
+  ],
+  "stdin": ""
+}

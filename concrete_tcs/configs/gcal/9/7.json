@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "./gcal",
+    "--starting-day=2",
+    "6,8,3/1999, feb/3, january"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

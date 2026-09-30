@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "'.*'",
+        "-a",
+        "--strip-trailing-cr",
+        "/proc/sys/kernel/random/uuid",
+        "/proc/sys/kernel/random/boot_id"
+    ],
+    "dirs": [
+        "/proc/sys/kernel/random/uuid",
+        "/proc/sys/kernel/random/boot_id"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "@@",
+    "%19961212",
+    "-s0",
+    "-xw",
+    "-I",
+    "@@@",
+    "-CezElodaxY",
+    "--leap-day=february",
+    "--ignore-case",
+    "--biorhythm-axis=19"
+  ],
+  "dirs": [],
+  "files": [
+    "demo3.rc",
+    "r4_7"
+  ],
+  "stdin": "0*d1#999 %;19620921"
+}

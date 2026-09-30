@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-size",
+    "+2M",
+    "-user",
+    "$USER",
+    "-group",
+    "staff"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

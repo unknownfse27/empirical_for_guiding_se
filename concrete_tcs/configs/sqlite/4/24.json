@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE a(c,v,n);INSERT INTO a VALUES('A',10,1),('A',20,2),('B',30,3),('B',40,4),(NULL,50,5);SELECT c,COUNT(*),COUNT(v),COUNT(DISTINCT v),SUM(v),AVG(v),MIN(v),MAX(v),TOTAL(v),GROUP_CONCAT(v),GROUP_CONCAT(v,'-')FROM a GROUP BY c HAVING COUNT(*)>1 ORDER BY SUM(v)DESC;\n"
+}

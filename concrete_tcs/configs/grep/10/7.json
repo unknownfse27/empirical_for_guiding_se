@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--help",
+    "-X",
+    "include",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

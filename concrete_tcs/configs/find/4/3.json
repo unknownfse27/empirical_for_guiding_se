@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "egrep",
+    ".*\\.(c|h)",
+    "-o",
+    "-regextype",
+    "awk",
+    "/^[a-zA-Z0-9_]+\\.txt$/"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

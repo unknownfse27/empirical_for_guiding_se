@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "t_",
+    "-L",
+    "-p",
+    "$(find -name '*.c')"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(cat awklib/*.awk)"
+}

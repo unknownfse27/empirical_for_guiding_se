@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=bad",
+    "--help"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

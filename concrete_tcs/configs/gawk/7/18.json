@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "FPAT='[a-zA-Z]+'",
+    "-v",
+    "RS=:",
+    "-v",
+    "OFS=,",
+    "-v",
+    "FIELDWIDTHS='5'",
+    "'BEGIN {$1=$1} 1'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

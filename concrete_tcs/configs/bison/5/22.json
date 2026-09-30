@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-x/tmp/a5.xml",
+    "-Tbitsets",
+    "@@",
+    "-rall",
+    "-g",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "a5.y"
+  ],
+  "stdin": ""
+}

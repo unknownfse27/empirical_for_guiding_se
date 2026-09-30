@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "-#0*d1#999_%O",
+    "--today",
+    "-x",
+    "--holiday-list",
+    "-q",
+    "GB_EN",
+    "@@@",
+    "-qbe",
+    "--holiday-list",
+    ".",
+    "-qbe",
+    "-n",
+    ".+"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_4"
+  ],
+  "stdin": ""
+}

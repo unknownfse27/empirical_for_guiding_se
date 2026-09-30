@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-SGCAL",
+    "--debug=abort",
+    "-G",
+    "@@@",
+    "--celtic-holidays",
+    "--leap-day=february",
+    "--include-today",
+    "-i",
+    "-b3",
+    "-j",
+    "-Cw",
+    "may 1992 1:6"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_5"
+  ],
+  "stdin": ""
+}

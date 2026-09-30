@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TRIGGER IF EXISTS trg1; CREATE TRIGGER trg1 BEFORE INSERT ON t1 WHEN NEW.a<0 BEGIN SELECT RAISE(ABORT,'neg'); END; INSERT OR IGNORE INTO t1 VALUES(-1,'neg',0.0);"
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "^\\(a*\\)\\1\\{9\\}\\(a\\{0,9\\}\\)\\([0-9]*;.*[^a]\\2\\([0-9]\\)\\)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a1;;0a1aa2aaa3aaaa4aaaaa5aaaaaa6aaaaaaa7aaaaaaaa8aaaaaaaaa9aa2aa1a0"
+}

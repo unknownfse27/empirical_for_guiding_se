@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "/",
+    "-type",
+    "d",
+    "-empty",
+    "-fstype",
+    "ext4",
+    "-xdev",
+    "-print"
+  ],
+  "dirs": [
+    "/"
+  ],
+  "files": [],
+  "stdin": ""
+}

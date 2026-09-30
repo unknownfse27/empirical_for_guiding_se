@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {\"date\" | getline t; close(\"date\"); t;}",
+    "{if ($1 == \"@include\") print $1}",
+    "n=2",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "create table t_gen(a int primary key, b int as (a*2+5) virtual, c text as (cast(a as text) || '-stored') stored); insert into t_gen(a) values(1),(2),(3),(5); select b,c from t_gen where a > 1; select a from t_gen where a < 4 intersect select a from t1 where a=2;"
+}

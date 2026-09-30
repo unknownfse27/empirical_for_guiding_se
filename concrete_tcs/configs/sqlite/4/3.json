@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON; VACUUM; CREATE TABLE IF NOT EXISTS p(id INTEGER PRIMARY KEY, name TEXT UNIQUE, chk INT CHECK(chk>=0)); CREATE TABLE IF NOT EXISTS c(id INT, pid INT, FOREIGN KEY(pid) REFERENCES p(id) ON UPDATE CASCADE ON DELETE SET NULL DEFERRABLE INITIALLY DEFERRED);"
+}

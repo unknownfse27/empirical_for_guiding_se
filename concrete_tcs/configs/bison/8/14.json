@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "YYFLAT=1",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wcounterexamples",
+    "./nonunif.y",
+    "-o",
+    "/dev/null"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

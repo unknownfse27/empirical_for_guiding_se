@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT * FROM pragma_table_info('t'); SELECT * FROM pragma_index_list('t'); SELECT * FROM pragma_index_xinfo('idx'); SELECT * FROM pragma_foreign_key_list('x');SELECT * FROM pragma_table_info('v');SELECT * FROM pragma_database_list;VACUUM INTO 'y.db';SELECT ltrim('A','B');"
+}

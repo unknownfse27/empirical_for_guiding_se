@@ -1,0 +1,23 @@
+{
+    "envs": [],
+    "args": [
+        "-u100",
+        "-p",
+        "-x",
+        "re",
+        "-I",
+        "*($)",
+        "-L",
+        "one",
+        "--from-file=@@",
+        "-L",
+        "two",
+        "--to-file=@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

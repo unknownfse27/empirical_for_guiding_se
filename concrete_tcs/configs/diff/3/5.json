@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "-N",
+        "--ignore-all-space",
+        "--ignore-matching-lines=^\\s*\\#.*$",
+        "./",
+        "../tests"
+    ],
+    "dirs": [
+        "./",
+        "../tests"
+    ],
+    "files": [],
+    "stdin": ""
+}

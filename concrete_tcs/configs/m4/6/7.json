@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`loop`,`1') loop eval(`loop') ifelse(`1`,`1`,`yes`,`no') undefine(`loop') traceon(`X') debugmode(`te') eval(0) eval(1-1) eval(2**2) eval(3 && 4) eval(!0) eval(3 || 0) define(`X`,`1') pushdef(`X`,`2') changecom(`/*`,`*/') changequote(`[,]`) undefine(`X') define(`Y`,`builtin') debugfile(`/dev/null') traceon(`1`,`2') eval(1+2)"
+}

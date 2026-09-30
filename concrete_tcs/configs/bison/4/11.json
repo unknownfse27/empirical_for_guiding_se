@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "perule_sr.y"
+  ],
+  "stdin": ""
+}

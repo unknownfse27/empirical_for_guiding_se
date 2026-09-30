@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA page_size=2048;VACUUM;VACUUM INTO 'file:test2_copy?mode=rwc&vfs=unix';PRAGMA page_size;DROP INDEX IF EXISTS idx_w_b;CREATE INDEX idx_w_b ON w(b);REINDEX;ANALYZE;\n"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS u;CREATE TABLE u(k INT PRIMARY KEY,v INT);INSERT INTO u VALUES(1,10);INSERT INTO u(k,v) VALUES(1,99) ON CONFLICT(k) DO NOTHING;INSERT INTO u(k,v) VALUES(1,77) ON CONFLICT(k) DO UPDATE SET v=excluded.v;SELECT * FROM u;\n"
+}

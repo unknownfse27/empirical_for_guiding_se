@@ -1,0 +1,1 @@
+[a-z:A-Z]^ifndef$ @sdf [^xy] /(?sdf:sdfsdf|s)/ => sdf, \^\b\B\d\D\s\S\t\v\w\W\<\> f{200,} e{,1231} /[0-9]/g /[to]/g  a+ (x)(?:sd).;

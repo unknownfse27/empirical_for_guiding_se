@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {cmd = _\"echo \" $1 \" | iconv -f UTF-8 -t ISO-8859-1\";",
+    "cmd | getline output}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

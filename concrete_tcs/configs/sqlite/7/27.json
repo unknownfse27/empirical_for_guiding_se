@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(b TEXT,n INT);INSERT INTO t VALUES('xa',1),('yb',2),('zc',3),('xd',4);SELECT*FROM t WHERE b LIKE'x%'OR b LIKE'z%';SELECT b,n,NULLIF(n,2),LENGTH(b),SUBSTR(b,1,1),UPPER(b),LOWER(b),REPLACE(b,'x','X')FROM t;"
+}

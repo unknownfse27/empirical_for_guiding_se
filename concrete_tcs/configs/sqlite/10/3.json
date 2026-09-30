@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t2; CREATE TABLE t2(a,b,c); CREATE INDEX idx ON t2(a,b); INSERT INTO t2 VALUES(1,2,3),(4,5,6),(7,8,9); SELECT a,(SELECT SUM(b) FROM t2 t3 WHERE t3.a<=t2.a) FROM t2;"
+}

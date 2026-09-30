@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "-e",
+      "/[A-Za-z]\\+/s/.*/\\L&/",
+      "-e",
+      "/^\\(error\\|warning\\|note\\):/s/\\1/\\U&/",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "sed.texi"
+    ],
+    "stdin": ""
+  }

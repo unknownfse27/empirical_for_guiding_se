@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "{split($0,a,/[\":,{}]+/);",
+    "for(i in a)",
+    "if(a[i]=\"number\")",
+    "{getline; if($0~/.*home.*/)",
+    "print a[i]}}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

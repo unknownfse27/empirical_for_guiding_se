@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "/usr",
+    "-mindepth",
+    "2",
+    "-regex",
+    ".*/[\\x{4e00}-\\x{9faf}]/.*\\.txt",
+    "-quit"
+  ],
+  "dirs": [
+    "/usr"
+  ],
+  "files": [],
+  "stdin": ""
+}

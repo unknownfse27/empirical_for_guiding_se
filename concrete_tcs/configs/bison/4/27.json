@@ -1,0 +1,14 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "badlr.y"
+  ],
+  "stdin": ""
+}

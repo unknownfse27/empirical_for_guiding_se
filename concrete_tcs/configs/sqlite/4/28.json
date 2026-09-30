@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-csv",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE e(a INT NOT NULL,b INT DEFAULT NULL,c INT GENERATED ALWAYS AS (a*10) STORED,d TIMESTAMP,e DATETIME);INSERT INTO e (a,d,e) VALUES (2,datetime('now'),datetime('now','localtime')); SELECT ifnull(b, 'b'),COALESCE(b,c,0) FROM e;SELECT *"
+}

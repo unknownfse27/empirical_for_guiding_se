@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`123-456-7890', `[0-9]{3}-[0-9]{3}-[0-9]{4}', `phone-format') regexp(` ', `^\\s*$', `only-whitespace') regexp(`abc def', `abc\\Wdef', `non-word-separator') regexp(`ज़िंदगी', `[ज़ि]+', `nukta-forms')"
+}

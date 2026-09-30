@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-O",
+    "BEGIN{print ENVIRON[\"HOME\"];",
+    "if($1~/^[^a-zA-Z0-9]+$/)",
+    "print$0;",
+    "if($1 ~/5/)print$0}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

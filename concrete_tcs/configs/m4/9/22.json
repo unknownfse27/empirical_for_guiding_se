@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`$(head -c 10000 < /dev/zero | tr '\\0' 'x')`,`val2')"
+}

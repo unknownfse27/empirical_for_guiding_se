@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regex",
+    "^.+\\.(t)[s-z]+$",
+    "-links",
+    "2",
+    "-fstype",
+    "autofs"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

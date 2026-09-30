@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS im_bad; CREATE TABLE im_bad(name TEXT,email TEXT);\n.mode ascii\n.separator |\n.import badimp.csv im_bad\nSELECT * FROM im_bad;\n"
+  }

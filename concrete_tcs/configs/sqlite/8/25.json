@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON;DROP TABLE IF EXISTS p;DROP TABLE IF EXISTS c;CREATE TABLE p(pid INT PRIMARY KEY);CREATE TABLE c(cid INT,pid INT,FOREIGN KEY(pid) REFERENCES p(pid) DEFERRABLE INITIALLY DEFERRED);BEGIN;INSERT INTO c VALUES(1,999);COMMIT;\n"
+}

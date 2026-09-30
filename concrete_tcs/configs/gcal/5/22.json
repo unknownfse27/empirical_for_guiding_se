@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--orthodox-new-holidays",
+    "--orthodox-old-holidays",
+    "--persian-jalaali-holidays"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_22"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA mmap_size=268435456;DROP TABLE IF EXISTS big;CREATE TABLE big(x BLOB);WITH RECURSIVE gen(i) AS(VALUES(1) UNION ALL SELECT i+1 FROM gen WHERE i<64) INSERT INTO big SELECT randomblob(32768) FROM gen;SELECT sum(length(x)) FROM big;\n"
+}

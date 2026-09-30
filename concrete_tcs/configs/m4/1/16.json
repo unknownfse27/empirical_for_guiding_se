@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "__file__ __line__ __program__ builtin() builtin(builtin) builtin(builtin,), builtin(define, foo, bar) changecom(/*, */) changequote([, ]) debugmode() debugmode(+1) debugmode(+t) debugmode(aq) debugfile() incr(4) decr(7) incr() decr() defn(foo) divert(1) undivert(2) undivert() dnl foo"
+}

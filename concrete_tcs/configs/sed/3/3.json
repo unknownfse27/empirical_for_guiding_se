@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "f.sed",
+    "test.txt",
+    "--file",
+    "f.sed",
+    "test.txt",
+    "script-file",
+    "f.sed",
+    "test.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

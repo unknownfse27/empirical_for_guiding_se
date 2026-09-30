@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "emacs",
+      "-regex",
+      "^.*\\([a-zA-Z]+\\)\\1-[[:alnum:]]{1,10}\\.log$"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp('привет привет', '(привет)\\s\\1') Test UTF8 specifics: regexp('café résumé', '.é') regexp('한글테스트', '[가-힣]+') regexp('αβγδε', '[α-ω]+') Test boundary conditions: regexp('', '.*') regexp('abc', '\\') regexp('abc', '\\<abc\\>') regexp('abc', '\\Babc\\B') regexp('abc', '\\W+')"
+}

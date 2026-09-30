@@ -1,0 +1,28 @@
+{
+  "envs": [],
+  "args": [
+    "-P",
+    "-O2",
+    "-D",
+    "opt",
+    ".",
+    "-mindepth",
+    "1",
+    "-type",
+    "d",
+    "-exec",
+    "-path",
+    "/usr",
+    "-prune",
+    "-o",
+    "-exec",
+    "mbswidth",
+    "{}",
+    "+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

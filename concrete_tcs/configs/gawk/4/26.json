@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{a[\"b\"]=2;a[2]=8;a[\"a\"]=6;asorti(a,b);asort(a,c);",
+    "for(i in b){print i b[i]}}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

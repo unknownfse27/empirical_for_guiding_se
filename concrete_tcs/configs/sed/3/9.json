@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "s/.//g ; H ; ${x;s/\n//g;l}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "i.txt"
+}

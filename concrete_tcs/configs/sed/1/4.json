@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "N;N;l"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "valX\u0007111\nvalY\t222\nvalZ\u000b333\n"
+}

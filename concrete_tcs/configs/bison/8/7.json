@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "@@",
+    "-o",
+    "/tmp/mc.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "--graph=/tmp/mc.dot"
+  ],
+  "dirs": [],
+  "files": [
+    "mc.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "--no-dereference",
+        "/sys",
+        "/proc"
+    ],
+    "dirs": [
+        "/sys",
+        "/proc"
+    ],
+    "files": [],
+    "stdin": ""
+}

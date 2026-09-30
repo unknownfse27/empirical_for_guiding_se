@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{print; next; print}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "hello\nworld\n"
+}

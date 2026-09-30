@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=parse",
+    "-fcaret",
+    "@@",
+    "-o/tmp/unk4.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "-t",
+    "-Wyacc",
+    "-Wall",
+    "--graph",
+    "--xml"
+  ],
+  "dirs": [],
+  "files": [
+    "unk4.y"
+  ],
+  "stdin": "printf '%%printer{} foo baz\\n%%destructor{} bar zap\\n%%token foo \"foo\" bar \"bar\"\\n%%left foo bar\\n%%%%\\ns:foo bar;'"
+}

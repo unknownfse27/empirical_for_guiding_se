@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "select a,lag(b,1,'none') over(order by a),lead(b) over(order by a) from t;select quote('test'),zeroblob(10),replace('abc','b','xyz');"
+}

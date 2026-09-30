@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "US_OH+US_PA+US_TX",
+    "--blocks=4",
+    "-CedklJzA6+",
+    "-q",
+    "CL+KR+CH_ZH+CU+FR",
+    "-cl@t-2sat",
+    "%2000",
+    "--biorhythm-axis=3"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

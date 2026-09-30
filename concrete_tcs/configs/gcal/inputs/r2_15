@@ -1,0 +1,12 @@
+--holiday-list=short
+--chinese-flexible-holidays
+--type=special
+-j
+--time-offset=t
+--transform-year=-543
+--gregorian-reform=1582
+--date-format=de
+--date-variable=a=1127:c=a
+--export-date-variables
+'--text-variable=$a=foo:$c=$a'
+--export-text-variables

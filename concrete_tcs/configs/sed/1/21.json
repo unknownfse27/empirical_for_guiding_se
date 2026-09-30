@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'/\\(.*\\) \\(.*\\) \\1 \\2/p'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "word word\ndifferent different            \ntest"
+}

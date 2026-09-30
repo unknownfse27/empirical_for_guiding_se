@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "/",
+    "-v",
+    "path=''",
+    "{for(i=2;i<=NF;i++)path=(path\"/\"$i);syntax2}'",
+    "main.o",
+    "|",
+    "./gawk",
+    "'0~$0'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

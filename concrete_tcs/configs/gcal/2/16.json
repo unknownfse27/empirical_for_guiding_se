@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "-w-",
+    "-c",
+    "-Rname",
+    "--debug=internal",
+    "-Htext",
+    "-n",
+    "-G",
+    "-X",
+    "-u",
+    "@@@",
+    "--leap-day=march",
+    "--end-of-week",
+    "1996@t-3#+99fr"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_16"
+  ],
+  "stdin": ""
+}

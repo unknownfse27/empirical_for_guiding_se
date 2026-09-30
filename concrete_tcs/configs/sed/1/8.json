@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "'/(\\w+)@\\w+@\\1/p; /(sed.*){2,}/p'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "aaa@bbb@aaa\nasdfsv\n가나다라\n!@#!$"
+}

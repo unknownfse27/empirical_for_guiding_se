@@ -1,0 +1,1 @@
+((sta)?tic)|\b<\>\w\s|[ino]*|bo*|if|^[A-Z].*[.,]$|o{2}|o{2,3}|o{,3}|o+|[:alnum:]|[:alpha:]|[:blank:]|[:digit:]|[:lower:]|[:upper:]

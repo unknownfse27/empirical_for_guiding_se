@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-batch",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode list\n.separator ' | '\n.width 6 5\n.header on\nSELECT * FROM t1 LIMIT 2;\n.mode column\nSELECT name,age FROM t1 LIMIT 2;\n.schema t1\n.dump t1\n.exit\n"
+}

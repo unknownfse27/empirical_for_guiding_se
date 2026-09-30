@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".vfslist\n.vfsname\n.vfsinfo\n.lint fkey-indexes\n.lint\n.expert -verbose -sample 25\nSELECT * FROM t WHERE name LIKE 'A%';\nCREATE INDEX IF NOT EXISTS idx_t_name ON t(name);\n.imposter main idx_t_name t_imp\nSELECT count(*) FROM t_imp;\n.imposter off"
+}

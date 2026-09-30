@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIEW v_up AS SELECT eid,ename,dept,salary FROM e; CREATE TRIGGER iu_v INSTEAD OF UPDATE ON v_up BEGIN UPDATE e SET salary=NEW.salary WHERE eid=OLD.eid; END; CREATE TRIGGER id_v INSTEAD OF DELETE ON v_up BEGIN DELETE FROM e WHERE eid=OLD.eid; END; DELETE FROM v_up;\n"
+}

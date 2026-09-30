@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "s/(:[^:]*){,2}$//w x.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "1398:skku:2000:jaehyun:888:hhh"
+}

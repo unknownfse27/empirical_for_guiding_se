@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS px1;CREATE TABLE px1(a INT,b INT,c INT,UNIQUE(a,b));CREATE INDEX IF NOT EXISTS pxa1 ON px1((a+b)) WHERE c NOT NULL;EXPLAIN QUERY PLAN SELECT * FROM px1 WHERE (a=1 AND b=2) OR ((a+b)=3 AND c NOT NULL);\n"
+}

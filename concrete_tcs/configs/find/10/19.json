@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "TZ=Asia/Seoul"
+  ],
+  "args": [
+    "../",
+    "-type",
+    "f",
+    "-printf",
+    "%c %p\n"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "-C-em",
+    "-b",
+    "3",
+    "--leap-day=march",
+    "-c99d",
+    "--cc-holidays=be+JP",
+    "1995+1995"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

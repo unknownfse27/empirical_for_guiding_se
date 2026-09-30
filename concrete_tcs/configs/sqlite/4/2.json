@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t; CREATE TABLE t(id INT, name TEXT, value INT); INSERT INTO t VALUES(1, 'Alice', 100), (2, 'Bob', NULL);\n.trace\n.www"
+}

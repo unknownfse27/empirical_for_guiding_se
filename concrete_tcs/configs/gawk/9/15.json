@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "TIDYMEM=1",
+    "GAWK_LOCALE_DIR=."
+  ],
+  "args": [
+    "-L",
+    "-f",
+    "@@",
+    "$(find -name '*.c')"
+  ],
+  "dirs": [],
+  "files": [
+    "wordfreq.awk"
+  ],
+  "stdin": ""
+}

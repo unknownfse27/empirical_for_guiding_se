@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t8(g, v INT); INSERT INTO t8 VALUES('A', 1), ('A', 2); SELECT v, NTILE(2) OVER (PARTITION BY g ORDER BY v), AVG(DISTINCT v) FROM t8;\n"
+}

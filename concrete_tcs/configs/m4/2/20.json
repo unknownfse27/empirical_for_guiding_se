@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "debugmode(`aeqlfpcixV') define(`A',`1') A regexp(`aaa`,`a{2,3}`,`match`,`fail`) patsubst(`abc123abc`,`[0-9]+`,`#`) regexp(`line1\nline2`,`^line2$`,`match`,`fail`)"
+}

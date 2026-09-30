@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "POSIXLY_CORRECT=1"
+  ],
+  "args": [
+    "-e",
+    "/Thiss*(?=\\[^\\digit\\w\\s])\\?\\n\\?|Tis/d",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

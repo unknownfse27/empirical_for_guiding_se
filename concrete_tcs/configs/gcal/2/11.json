@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "-jb",
+    "-O",
+    "@@@",
+    "--debug=internal",
+    "-Htext"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_11"
+  ],
+  "stdin": ""
+}

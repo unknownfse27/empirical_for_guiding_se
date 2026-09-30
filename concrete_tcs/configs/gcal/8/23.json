@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "@./a",
+    "-v",
+    "a=1127",
+    "--export-text-variables",
+    "--adjust-value=3.5",
+    "--atmosphere=1010,10",
+    "-c",
+    "-I",
+    "[dD]entist|[oO]culist",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_23"
+  ],
+  "stdin": ""
+}

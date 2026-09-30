@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{str=\"2023yr\";gsub(/[0-9]+/,\"yyyy\",s);",
+    "print s;strtonum(index(\"2\",s));a(5<0)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

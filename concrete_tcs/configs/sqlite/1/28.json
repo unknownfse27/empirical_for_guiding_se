@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "--cmd",
+        "SQL",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".trace stdout\\n.stats ON\\n.timer ON\\nCREATE TABLE t_trace(x); INSERT INTO t_trace VALUES(1);\\nSELECT * FROM t_trace;\\n.stats MEM\\n.stats dump\\n.stats OFF\\n.timer OFF\\n.trace OFF\\n.parameter set key value\\n.eqp on\\n.open --new dbfile\\n.indexes\\n\n"
+}

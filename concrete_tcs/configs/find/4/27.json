@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-regex",
+    ".",
+    "-execdir",
+    "/bin/echo",
+    "{}"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

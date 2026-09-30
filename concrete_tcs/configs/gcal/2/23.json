@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "%1998%r%v%x%a%c%f%g%h%l%p%q",
+    "-Hno",
+    "-xy",
+    "-f",
+    "./../data/wtt2.rc+./../data/de-mdata.rc",
+    "--include-week-number"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

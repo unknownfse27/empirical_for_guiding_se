@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--report=states,itemsets,lookaheads,solved",
+    "-v",
+    "-o",
+    "/tmp/ielrc.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "printf '%%define lr.type ielr\\n%%token A B C D E\\n%%%%\\nexpr: A|B|C|D|E|expr A|expr B|expr expr;\\n%%%%\\n'"
+}

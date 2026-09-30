@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {for(i=0; i<length(PROCINFO[\"gid\"]); i++) print i, PROCINFO[\"gid\"][i]}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "builtin.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{ split($0, arr, /[[:punct:]]+/); for (i in arr) print arr[i] }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

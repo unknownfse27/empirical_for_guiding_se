@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'{regex = $2; where = match($2, regex, arr); print length(\"abcde\");}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

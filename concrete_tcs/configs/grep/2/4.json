@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-hr",
+    "-e",
+    "include",
+    "-e",
+    "asdqweasd",
+    "-e",
+    "[^~]*~",
+    "-C",
+    "100",
+    "-we",
+    "error.h",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

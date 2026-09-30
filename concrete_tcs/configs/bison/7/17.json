@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-Thelp",
+    "--help"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

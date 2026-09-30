@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'{switch(tolower($0)) {case \"hello\": print; break; default: print ; break;}}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "Hello\n"
+}

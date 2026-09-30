@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-Fxr",
+    "-C5",
+    "--binary-files=without-match",
+    "--exclude-dir=lib",
+    "-f",
+    "@@",
+    "./*"
+  ],
+  "dirs": [],
+  "files": [
+    "p1_18"
+  ],
+  "stdin": ""
+}

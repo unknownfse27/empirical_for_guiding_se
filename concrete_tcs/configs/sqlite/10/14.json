@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE s(x INT,y TEXT); INSERT INTO s VALUES(1,'a'),(2,'b'),(3,'c'); PRAGMA table_info('s'); CREATE TABLE r(x INT,z TEXT); INSERT INTO r VALUES(1,'A'),(3,'C'); SELECT COUNT(*) FROM s; CREATE VIRTUAL TABLE vfts USING fts5(text);\n.exit\n"
+}

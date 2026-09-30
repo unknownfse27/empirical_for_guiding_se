@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "/usr/src",
+      "-regex",
+      ".*/[a-zA-Z0-9_]+\\.c",
+      "-quit"
+    ],
+    "dirs": [
+        "/usr/src"
+    ],
+    "files": [],
+    "stdin": ""
+}

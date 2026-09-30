@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{print\"\"\"s\";close(\"s\");ARGV[1]=\"s\";ARGC=2}",
+    "{printf\"%06d\",$1+1>\"s\";printf\"%06d\",$1+1}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

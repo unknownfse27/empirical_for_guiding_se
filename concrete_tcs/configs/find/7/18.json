@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newerXY",
+    "mmin",
+    "1",
+    "-nogroup",
+    "-not",
+    "-name",
+    "*.txt",
+    "-nouser",
+    "-o",
+    "-name",
+    "*.bak"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

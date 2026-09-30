@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+      "-name",
+      "*.txt",
+      "!",
+      "-name",
+      "output.txt",
+      "-newermt",
+      "@0",
+      "-okdir",
+      "echo",
+      "{}",
+      "\\+"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

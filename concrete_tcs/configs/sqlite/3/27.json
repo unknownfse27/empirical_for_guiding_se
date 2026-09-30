@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".nullvalue NULLVAL\n.mode json\n.stats on\n.sha3sum --schema\nSELECT name,age FROM u WHERE age IS NULL;\n.stats off\n.mode quote\nSELECT * FROM u;\n"
+}

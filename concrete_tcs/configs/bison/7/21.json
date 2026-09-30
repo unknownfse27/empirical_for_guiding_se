@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-Wcex",
+    "-dv",
+    "-rall",
+    "-xx.xml",
+    "--html=h.html",
+    "-gg.gv",
+    "-T",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c14.y"
+  ],
+  "stdin": ""
+}

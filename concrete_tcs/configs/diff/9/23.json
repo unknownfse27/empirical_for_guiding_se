@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "-I",
+      "^[[:space::space:]]*//.*$",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

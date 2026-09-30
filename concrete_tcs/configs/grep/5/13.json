@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "-w",
+    "-E",
+    "^[^grep] | [include]$",
+    "*",
+    "--exclude-from=grep",
+    "-a",
+    "--group-separator=SEP",
+    "-m",
+    "5",
+    "--color='auto'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

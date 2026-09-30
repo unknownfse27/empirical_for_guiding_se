@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--debug",
+    "--pretty-print",
+    "--profile",
+    "-V'FNR==1{print length, FILENAME} {print}'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

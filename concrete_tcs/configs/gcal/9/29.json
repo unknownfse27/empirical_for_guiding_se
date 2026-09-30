@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "%999",
+    "-cl@t-10fri",
+    "-N",
+    "--mail=dlwogur5020@naver.com",
+    "--cycle-end=@"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

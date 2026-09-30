@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "'BEGIN { print \"a\" ~ /(^| )*(a|b)*(c|d)( |$)/;",
+    "printf \"%*sworld\\n\", -20, \"hello\" }'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

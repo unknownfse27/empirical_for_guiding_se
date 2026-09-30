@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "-b",
+    "3",
+    "-j",
+    "-Cw",
+    "-v",
+    "a=1127:c=a",
+    "--adjust-value=-20.5.",
+    "--atmosphere=1010,10"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "./gcal -r $a=foo:$c=$a"
+}

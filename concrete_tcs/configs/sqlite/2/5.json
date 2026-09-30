@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS k;CREATE TABLE k(a TEXT PRIMARY KEY,b,c INT)WITHOUT ROWID;INSERT INTO k VALUES(\"k1\",\"v1\",10),(\"k2\",\"v2\",20),(\"k3\",NULL,30);CREATE TEMP TABLE t(x);INSERT INTO t VALUES(1),(2);SELECT a,b,typeof(a),typeof(b),c,(SELECT sum(x)FROM t)FROM k;"
+}

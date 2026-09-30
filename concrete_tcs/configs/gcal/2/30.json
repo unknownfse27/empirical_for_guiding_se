@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "./test-birthday.rc",
+    "--debug=all",
+    "--resource-file=./test-birthday.rc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

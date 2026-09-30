@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "recurse",
+    "-zc",
+    "-e",
+    "[0-9]",
+    "-e",
+    "[A-Z]",
+    "--include=\"*.c\"",
+    "--exclude-from=\"@@\"",
+    "--exclude-dir=\"lib\"",
+    "../*"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

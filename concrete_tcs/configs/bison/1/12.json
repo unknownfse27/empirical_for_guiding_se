@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-fsyntax-only",
+    "-Wcex",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sr.y"
+  ],
+  "stdin": ""
+}

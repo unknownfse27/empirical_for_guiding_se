@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{FS=\"^.\";OFS=\"|\"; $0=\"foo\"; $1=$1; print NF; print}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-rq",
+        "--label='OLD'",
+        "--label='NEW'",
+        "../src",
+        "../lib"
+    ],
+    "dirs": [
+        "../src",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+}

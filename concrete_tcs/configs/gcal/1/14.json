@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "-#0*d1#999_%Z__%0",
+    "%19950407",
+    "-x",
+    "--moon=8",
+    "--moonimage-lines=30"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-nE",
+    "/aba{,121,}c/p/w"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "abc\nac\nadc\nabbc\nbbddb\nbc\nabbbbbc\n"
+}

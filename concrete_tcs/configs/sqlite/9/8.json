@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE window_null(a, b); INSERT INTO window_null VALUES(1, 'X'), (2, NULL), (3, 'X'); SELECT a, COUNT(b) FILTER (WHERE b IS NOT NULL) OVER (PARTITION BY b) FROM window_null GROUP BY a, b HAVING COUNT(b)>0;\n.quit"
+}

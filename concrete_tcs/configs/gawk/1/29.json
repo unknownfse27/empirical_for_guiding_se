@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{IGNORECASE=1;a[0]=\"zero\";a[1]=\"one\";for(i in a);}/error/{;}'",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

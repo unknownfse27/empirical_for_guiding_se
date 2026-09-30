@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS metrics;\nCREATE TABLE metrics(k TEXT PRIMARY KEY,v REAL,d REAL GENERATED ALWAYS AS (v*2),u TEXT DEFAULT CURRENT_TIMESTAMP);\nINSERT INTO metrics(k,v) VALUES('a',1.5),('b',2.0);\nUPDATE metrics SET v=2 WHERE k='a';\nSELECT k,v,d,u FROM metrics;\n"
+}

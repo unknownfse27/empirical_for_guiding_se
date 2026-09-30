@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--exe",
+    "-QUx",
+    "-f",
+    "./../data/de-sdata.rc+./../data/bkk.rc",
+    "-r'$f=:$c=echo $f'",
+    "-#0",
+    "%!rm",
+    "$f"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

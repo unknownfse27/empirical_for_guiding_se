@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-c",
+    "--dump-variables=/dev/null",
+    "{ ($1 $2 $3) } # Comment!",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

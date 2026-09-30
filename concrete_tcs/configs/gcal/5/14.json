@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-qbe",
+    "-n-",
+    "-jb",
+    "--chinese-holidays",
+    "--multicultural-new-year-holidays",
+    "@@@",
+    "-b3",
+    "3:;1994;2:1999;:1777;6:",
+    "0*d1:2.5"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_14"
+  ],
+  "stdin": ""
+}

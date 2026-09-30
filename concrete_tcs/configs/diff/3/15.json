@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-aBbdilpTtw",
+        "-c",
+        "--color=always",
+        "./",
+        "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

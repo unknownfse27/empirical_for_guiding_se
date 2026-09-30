@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-nE",
+    "/[[:print:]]*[[:xdigit:][:cntrl:][:graph:]]?/",
+    "Mp",
+    ";",
+    "1s/./\\xce/g",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

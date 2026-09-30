@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "mkstemp(`\\/tmp/combXXXXXX') divert(1)One\\nsyscmd(`echo D1=$?\\')\\nundivert(1)\\ndivert(0)Zero\\nundivert(0)\\n"
+}

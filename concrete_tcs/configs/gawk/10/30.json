@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { printf \"%d %3$s\\n\", 1, 2, \"hi\" }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,27 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-uid",
+    "+123",
+    "-follow",
+    "-o",
+    "-type",
+    "p",
+    "-o",
+    "-type",
+    "s",
+    "-a",
+    "-lname",
+    "*lib*",
+    "-fstype",
+    "ext4",
+    "-fstype",
+    "ext3"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

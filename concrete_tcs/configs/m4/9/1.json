@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-I",
+    "/examples",
+    "-I",
+    "./src"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "foo changequote({,}) {define({X},{foo}); define({Y},{X}); indir({Y})} include(`foo.m4')"
+}

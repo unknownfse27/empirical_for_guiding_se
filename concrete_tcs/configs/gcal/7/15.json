@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "RO+RU+RW",
+    "--zodiacal-marker-holidays",
+    "--date-format=de",
+    "-jcb",
+    "--limit",
+    "-#'0*d1#999_%s9+5158+00738,120'",
+    "1900"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

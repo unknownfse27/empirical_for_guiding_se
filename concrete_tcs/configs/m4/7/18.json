@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--define=warnme='warn text'",
+    "--warn-macro-sequence='warn'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "warnme"
+}

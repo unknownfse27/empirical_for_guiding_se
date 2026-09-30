@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { RS = \"\" ; FS = \"\\n\" }{}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "array.c"
+  ],
+  "stdin": ""
+}

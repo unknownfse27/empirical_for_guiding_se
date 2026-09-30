@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "VACUUM; PRAGMA integrity_check; PRAGMA quick_check; PRAGMA optimize; SELECT random(), randomblob(16), zeroblob(0), quote(randomblob(0)), typeof(zeroblob(1000000));"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-M",
+    "'BEGIN {RS=\"…\"}",
+    "{printf \"%#x\\n\",compl(42)}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awkgram.c"
+  ],
+  "stdin": ""
+}

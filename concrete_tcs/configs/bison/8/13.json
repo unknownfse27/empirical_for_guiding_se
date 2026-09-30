@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "--report=all",
+    "--xml",
+    "--graph",
+    "--html",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "f.y"
+  ],
+  "stdin": ""
+}

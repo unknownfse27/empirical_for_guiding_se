@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "debugfile(/dev/null')traceon(`test')define(`test`,`errprint(defn(`undefine'))')'test()m4exit(0)"
+}

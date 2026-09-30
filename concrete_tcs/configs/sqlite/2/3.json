@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS tx;CREATE TABLE tx(id INT PRIMARY KEY,v TEXT);BEGIN EXCLUSIVE;INSERT INTO tx VALUES(1,\"a\"),(2,\"b\");SAVEPOINT s;INSERT INTO tx VALUES(3,\"c\");ROLLBACK TO s;COMMIT;SELECT count(*),min(id),max(id),group_concat(v,\"|\")FROM tx;"
+}

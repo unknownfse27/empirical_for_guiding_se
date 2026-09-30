@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "COLUMNS=200",
+    "LANG=C"
+  ],
+  "args": [
+    "@@",
+    "-dv",
+    "--xml=/tmp/cw.xml",
+    "-o",
+    "/tmp/cw2.c"
+  ],
+  "dirs": [],
+  "files": [
+    "parse-gram.y"
+  ],
+  "stdin": ""
+}

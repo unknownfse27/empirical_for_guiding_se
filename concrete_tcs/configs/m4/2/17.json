@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(1+2*3-4/2%2==2<<2||0>>1&&7**2==49&&8/0==1) eval(1000000001*1000000000) eval(0**0)  eval(1==2>0) eval(+ + - ~ ! ~ 0)  eval(2||1/0)  eval(0&&1%0)  eval(2&&1%0) regexp(`crème brûlé', `cr.*br.*ée', `unicode-space')"
+}

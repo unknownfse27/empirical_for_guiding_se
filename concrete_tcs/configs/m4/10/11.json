@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-I",
+    "."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "include(\\`F\n'); sinclude(\\`nofile')"
+}

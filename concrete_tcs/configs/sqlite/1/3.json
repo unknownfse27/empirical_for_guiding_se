@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TEMP TABLE tt(x INTEGER PRIMARY KEY,y TEXT);INSERT INTO tt VALUES(1,'t'),(2,'u');CREATE TEMP TRIGGER tt_tr AFTER UPDATE ON tt BEGIN INSERT INTO t3 VALUES('t'||new.x,new.y);END;UPDATE tt SET y='c' WHERE x=1;SELECT COUNT(*) FROM tt;\n.bail off\n"
+}

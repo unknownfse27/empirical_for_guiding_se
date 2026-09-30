@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(id,a);INSERT INTO t VALUES(1,10),(2,20),(3,30),(4,40),(5,50);SELECT a,SUM(a)OVER(ORDER BY id ROWS 2 PRECEDING),LAG(a,1,0)OVER(ORDER BY id),LEAD(a,2,99)OVER(ORDER BY id)FROM t;"
+}

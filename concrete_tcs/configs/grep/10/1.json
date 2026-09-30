@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-B",
+    "10",
+    "-x",
+    "-I",
+    "--binary-files=with",
+    "[0-1]",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dfasearch.o"
+  ],
+  "stdin": ""
+}

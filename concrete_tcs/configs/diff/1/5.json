@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--color=always",
+        "--palette='lc=\\e:rc=\n:rs=\t:ad=\b:de=\r:ln=\f'",
+        "/etc/hostname",
+        "/etc/hosts"
+    ],
+    "dirs": [
+        "/etc/hostname",
+        "/etc/hosts"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,23 @@
+{
+    "envs": [],
+    "args": [
+      "--suppress-common-lines",
+      "-x",
+      "test/",
+      "-F",
+      "^if *\\\\(",
+      "-L",
+      "Original File",
+      "-U",
+      "5",
+      "-u",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

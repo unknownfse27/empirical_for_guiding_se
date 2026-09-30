@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-L",
+    "3",
+    "-t",
+    "ifelse"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "defn(defn) ifelse(foo, bar) regexp(Hello woLRD, \\<[a-z]\\<Q\\w+) regexp(Hello woLRD, \\w\\(\\w+\\)$, & \\1) regexp(abc, b, \\1\\) regexp(abc, \\(\\(d\\)?\\)\\(c\\), \\1\\10) regexp(abc, , \\\\def) format(%.0f,3.14) format(%x,12) format(%s,abc) format(%b,3) format(%c,1)"
+}

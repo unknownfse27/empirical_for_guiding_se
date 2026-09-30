@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA writable_schema=ON; DELETE FROM sqlite_master WHERE type IN('table','index','trigger','view'); PRAGMA writable_schema=OFF; VACUUM; PRAGMA integrity_check;\n"
+}

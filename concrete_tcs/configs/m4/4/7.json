@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abc') regexp(`GNUs not Unix', `\\<[a-z]\\w+') regexp(`GNUs not Unix', `\\<Q\\w*') regexp(`GNUs not Unix', `\\w\\(\\w+\\)$', `*** \\& *** \\1 ***') regexp(`abc', `\\(b\\)', `\\\\\\10\\a') regexp(`abc', `\\(\\(d\\)?\\)\\(c\\)', `\\1\\2\\3\\4\\5\\6')"
+}

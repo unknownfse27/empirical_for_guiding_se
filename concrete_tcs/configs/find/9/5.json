@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-depth",
+    "-newermt",
+    "2024-05-01",
+    "-fprintf",
+    "output.txt",
+    "%s\\n"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

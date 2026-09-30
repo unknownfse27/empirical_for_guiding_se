@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "substr(`hello',2) patsubst(`abc') ifelse(`x',`y') esyscmd() defn(`substr') mkstemp() syscmd() changequote() substr(`hello',2,0) regexp(`abc123',`(b.c)(2.)',`[\\1:\\2]') divert(0)A divert(1)B divert(2)C undivert(2)undivert(1)undivert(0) substr(`abc',1,10) m4exit()\n"
+}

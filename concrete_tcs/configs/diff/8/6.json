@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "../gnulib-tests",
+      "../doc",
+      "-r",
+      "-N",
+      "--ignore-file-name-case",
+      "--speed-large-files",
+      "--no-dereference"
+    ],
+    "dirs": [
+        "../gnulib-tests",
+        "../doc"
+    ],
+    "files": [],
+    "stdin": ""
+  }

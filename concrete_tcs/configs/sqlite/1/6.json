@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS s;CREATE TABLE s(x TEXT,y BLOB);WITH RECURSIVE gen(i) AS(VALUES(0) UNION ALL SELECT i+1 FROM gen WHERE i<800) INSERT INTO s SELECT printf('%08d',i),randomblob(180) FROM gen;PRAGMA temp_store=FILE;SELECT x FROM s ORDER BY y LIMIT 5;\n"
+}

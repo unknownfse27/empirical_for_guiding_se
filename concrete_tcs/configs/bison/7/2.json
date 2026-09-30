@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-Wother",
+    "--report=all",
+    "-d",
+    "-v",
+    "-g",
+    "-x",
+    "-o",
+    "c2.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c2.y"
+  ],
+  "stdin": ""
+}

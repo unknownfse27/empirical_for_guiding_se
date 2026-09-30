@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-dv",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "mprec.y"
+  ],
+  "stdin": ""
+}

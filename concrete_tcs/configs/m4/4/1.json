@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1)diverted text divert(0)divnum undivert(1) __file__ __line__ __program__ shift(`a','b','c') builtin(`len')(`abc') indir(`eval','2^8') define(`num','42') dumpdef(`num')"
+}

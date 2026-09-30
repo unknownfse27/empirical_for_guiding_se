@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-h",
+    "{sum+=$1 };END{print sum}",
+    "{sub(/a+/,\"<A>\"); if($1 !~ /s/)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

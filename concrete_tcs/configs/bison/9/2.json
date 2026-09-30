@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-Wcex",
+    "-dv",
+    "-b",
+    "pre_",
+    "-p",
+    "my_",
+    "-o",
+    "out.c",
+    "-rall",
+    "-xx.xml",
+    "--html=h.html",
+    "-gg.gv",
+    "--trace=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c8.y"
+  ],
+  "stdin": ""
+}

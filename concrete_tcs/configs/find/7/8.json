@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-ls",
+    "-printf",
+    "%p%f%h%P%H%-4g%G%u%U%m%M%k%b%s%S%d%D"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

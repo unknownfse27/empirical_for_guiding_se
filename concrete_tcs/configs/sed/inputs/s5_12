@@ -1,0 +1,1 @@
+s/^(.*)-(.*)-(.*)-(.*)$/PRE_HOOK -i eth1 -proto \4 -m \4 --match state --state NEW --src_port \3 -act DNAT --dest \1:\2/p

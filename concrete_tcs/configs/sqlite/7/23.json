@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t3;DROP TABLE IF EXISTS t3b;CREATE TABLE t3(a INT PRIMARY KEY,b TEXT) WITHOUT ROWID;CREATE TABLE t3b(a INT,b INT,PRIMARY KEY(a,b)) WITHOUT ROWID;INSERT INTO t3 VALUES(1,'a');ALTER TABLE t3 RENAME COLUMN b TO c;SELECT c FROM t3;"
+}

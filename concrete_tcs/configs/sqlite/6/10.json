@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS imp;CREATE TABLE imp(x INT,y INT);\nSELECT writefile(\"imp.csv\",\"x,y\"||char(10)||\"1,2\"||char(10));\n.mode csv\n.import imp.csv imp\n.once out.txt\nSELECT sum(x+y) FROM imp;SELECT lsmode(\".\");SELECT length(readfile(\"imp.csv\"));\n"
+  }

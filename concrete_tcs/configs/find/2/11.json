@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-ctime",
+    "-5",
+    "-ls",
+    "-prune",
+    "-maxdepth",
+    "2",
+    "-regex",
+    ".*\\(\\.|\\.txt|\\.md\\)$",
+    "-iregex",
+    ".*\\.(py|sh)"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

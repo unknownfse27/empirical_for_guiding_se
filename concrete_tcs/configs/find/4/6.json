@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-regextype",
+      "egrep",
+      "-regex",
+      "^[[:alpha:]]+$",
+      "-o",
+      "-regextype",
+      "grep",
+      "-regex",
+      ".\\{n\\}"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

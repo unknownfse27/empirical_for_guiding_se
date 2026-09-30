@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "$!N; s/^\\(.*\\)\\n\\1$/\\1/; t; D"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "hello!\\nhello\\n hello!\\nhello! \\nHello\\nnn\\nnn\\nnnn\\nnnnn\\n\\n\\n\\n\\nhello!\n"
+}

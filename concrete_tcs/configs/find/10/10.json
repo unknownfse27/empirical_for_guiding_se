@@ -1,0 +1,36 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "(",
+    "-name",
+    "*.log",
+    "-o",
+    "-name",
+    "*.txt",
+    "-o",
+    "-type",
+    "d",
+    "-o",
+    "-type",
+    "l",
+    "-o",
+    "-type",
+    "s",
+    "-o",
+    "-size",
+    "+1M",
+    ")",
+    "-exec",
+    "grep",
+    "-il",
+    "error\\|warning",
+    "{}",
+    "+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

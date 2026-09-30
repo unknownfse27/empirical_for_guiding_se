@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(a,b,c AS(a+b)VIRTUAL,d AS(a*b)STORED,e AS(a-b)VIRTUAL);INSERT INTO t(a,b)VALUES(2,3),(5,7),(10,20),(15,5);SELECT a,b,c,d,e FROM t WHERE c>8 AND d>40 OR e>5 ORDER BY d LIMIT 3;"
+}

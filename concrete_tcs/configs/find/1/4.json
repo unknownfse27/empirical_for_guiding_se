@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+      "-O0",
+      "-regextype",
+      "gnu-awk",
+      "-regex",
+      "+?\\+\\?[a-z][0-9]\\w\\W\\<\\>\\(\\)",
+      "-xtype",
+      "b",
+      "-execdir",
+      "echo",
+      "{}",
+      ";"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+  }

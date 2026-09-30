@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-Ftmp.frs",
+    "-Rtmp.frs",
+    "-DTEST=1",
+    "-I.",
+    "-PQsg",
+    "-dV",
+    "-l100",
+    "-H509",
+    "--warn-m='[a-z]'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "p4_6"
+  ],
+  "stdin": ""
+}

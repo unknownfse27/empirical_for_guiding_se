@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{switch ($1) {case \"January\": print \"1\"; break; case \"June\": print \"6\"; break;}}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "June"
+}

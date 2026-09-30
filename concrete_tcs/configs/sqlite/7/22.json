@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t1;CREATE TABLE t1(a INTEGER PRIMARY KEY,b TEXT UNIQUE);INSERT INTO t1 VALUES(1,'x'),(2,'y'),(3,'z'),(4,'p');INSERT OR IGNORE INTO t1 VALUES(1,'dup');INSERT OR REPLACE INTO t1 VALUES(4,'P');UPDATE t1 SET b=upper(b) WHERE a>=2"
+}

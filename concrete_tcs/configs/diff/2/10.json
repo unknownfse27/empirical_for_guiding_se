@@ -1,0 +1,21 @@
+{
+    "envs": [],
+    "args": [
+        "-l",
+        "-a",
+        "-b",
+        "-B",
+        "-i",
+        "-N",
+        "-q",
+        "--strip-trailing-cr",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "cmp.o"
+    ],
+    "stdin": ""
+}

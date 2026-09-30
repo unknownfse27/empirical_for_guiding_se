@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define('hash', 'patsubst(translit(\\'$1\\', 'a-z', 'A-Z'), '[A-Z]+', '{&}')')hash('c 12 ^ hash')"
+}

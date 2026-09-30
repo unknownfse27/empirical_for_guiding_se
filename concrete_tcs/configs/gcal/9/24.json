@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--starting-day=7",
+    "--time-offset=t+5:12",
+    "--blocks=12",
+    "--transform-year=0",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r9_24"
+  ],
+  "stdin": ""
+}

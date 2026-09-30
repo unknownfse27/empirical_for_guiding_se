@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-gG",
+    "--warn-macro-sequence='[0-'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "assert.m4"
+  ],
+  "stdin": ""
+}

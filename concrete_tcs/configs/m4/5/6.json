@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "-s",
+    "-P",
+    "-Q",
+    "-N",
+    "500",
+    "-B",
+    "8K",
+    "-D",
+    "TEST=VALUE",
+    "-G",
+    "-H",
+    "1000",
+    "-L",
+    "999",
+    "--synclines",
+    "--warn-macro-sequence"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(file,CUSTOM_FILE)define(line,999)file:line define(version,x.y.z)version divnum"
+}

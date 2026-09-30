@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=eqx",
+    "-t",
+    "E",
+    "--diversions=2",
+    "-l",
+    "50"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`E`,`eval(3+4*5)')E"
+}

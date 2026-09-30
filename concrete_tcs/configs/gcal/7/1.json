@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "%0000@t",
+    "--version",
+    "--long-help",
+    "--debug=all",
+    "--pager",
+    "--mail=jaynap@naver.com",
+    "--descending-holiday-list=short"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

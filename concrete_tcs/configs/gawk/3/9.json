@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-BEGIN",
+    "{FIELDWIDTHS = \"8 2:33\";",
+    "FPAT=\"a\";",
+    "print ARGC,ARGV[1]}",
+    "{$3=$3-10}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": "$(head eval.c)"
+}

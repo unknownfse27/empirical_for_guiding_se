@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "--profile",
+    "--posix",
+    "-F\\t",
+    "-v",
+    "OFS=|",
+    "-v",
+    "RS=\\\\r\\\\n",
+    "-v",
+    "IGNORECASE=1",
+    "-f",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_13.awk",
+    "eval.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--profile",
+    "-f",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r4_15.awk"
+  ],
+  "stdin": ""
+}

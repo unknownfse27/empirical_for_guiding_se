@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-dabcdef",
+    "-I../examples/",
+    "-I../m4/",
+    "-I",
+    "\"\"",
+    "--",
+    "../m4/*.m4",
+    "../examples/*.m4"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

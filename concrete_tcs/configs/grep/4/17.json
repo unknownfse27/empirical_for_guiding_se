@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-C11111111111111111111000000",
+    "-Dread",
+    "-dread",
+    "-EHITUubchnoqRrsvwxZzm5",
+    "--line-b",
+    "--g=\"*******\"",
+    "--exclude=*",
+    "-f@@",
+    "*"
+  ],
+  "dirs": [],
+  "files": [
+    "p4_17"
+  ],
+  "stdin": ""
+}

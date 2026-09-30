@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--date-format=de",
+    "--iso-week-number=no",
+    "--iso-week-number=yes",
+    "--orthodox-calendar",
+    "--starting-day=Sunday"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_23"
+  ],
+  "stdin": ""
+}

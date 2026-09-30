@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "LC_ALL=C"
+  ],
+  "args": [
+    "--color=always",
+    "--style=@@",
+    "--help"
+  ],
+  "dirs": [],
+  "files": [
+    "bison-default.css"
+  ],
+  "stdin": ""
+}

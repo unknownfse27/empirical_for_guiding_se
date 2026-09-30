@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-Dtool.xsltproc=true",
+    "--trace=cex,time",
+    "-g=g",
+    "-x=x",
+    "--html=h",
+    "-Wcex",
+    "-rall",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "n.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS COL; CREATE TABLE COL(t TEXT COLLATE NOCASE); INSERT INTO COL VALUES('Abc'),('abc'); SELECT distinct t FROM COL WHERE t='ABC' ORDER BY t;\n"
+}

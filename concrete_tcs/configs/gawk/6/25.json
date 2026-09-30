@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-b",
+    "-W",
+    "-L",
+    "'/^-/",
+    "{total += $5}",
+    "END {print \"Total size: \" sin(total)}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ls -l)"
+}

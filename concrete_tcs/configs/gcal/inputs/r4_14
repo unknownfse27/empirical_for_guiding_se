@@ -1,0 +1,9 @@
+--orthodox-calendar
+--with-week-number
+--suppress-calendar
+-b
+1
+-jn
+-s
+6
+--transform-year=1234

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{ if (NR % 2 == 0) print $0 }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

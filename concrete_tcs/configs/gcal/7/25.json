@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-C-em",
+    "-b3",
+    "@@@",
+    "--alternative-format",
+    "--include-resource-file-name",
+    "--include-week-number"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_25"
+  ],
+  "stdin": ""
+}

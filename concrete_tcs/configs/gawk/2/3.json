@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "{a[$1]=$2}",
+    "END{for(i in a){split(i,b);",
+    "split(i,c,/[a-z]+/);",
+    "split(i,d,/[0-9]+/,k);}}",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

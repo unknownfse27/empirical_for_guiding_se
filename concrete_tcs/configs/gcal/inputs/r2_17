@@ -1,0 +1,7 @@
+--starting-day=2
+--time-offset=t-888
+--gregorian-reform=1753
+-c-
+--include-today
+--month
+0*d99fr#333

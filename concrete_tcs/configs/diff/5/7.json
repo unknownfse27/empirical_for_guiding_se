@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "--exclude=test/",
+        "-r",
+        "--exclude=*.o",
+        "--exclude=*.log",
+        "--ignore-case",
+        ".",
+        ".."
+    ],
+    "dirs": [
+        ".",
+        ".."
+    ],
+    "files": [],
+    "stdin": ""
+}

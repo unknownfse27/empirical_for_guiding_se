@@ -1,0 +1,14 @@
+%error-verbose
+%pure-parser
+%name-prefix "x"
+%no-lines
+%fixed-output-files
+%file-prefix "y"
+%token-table
+%expect-rr 0
+%no-default-prec
+%name_prefix "a"
+%no_lines
+%token N
+%%
+e:N;

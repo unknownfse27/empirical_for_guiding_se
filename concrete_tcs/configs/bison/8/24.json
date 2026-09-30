@@ -1,0 +1,22 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-v",
+    "--report=solved,itemsets",
+    "@@",
+    "--trace=all",
+    "--graph",
+    "--xml",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "algo.y"
+  ],
+  "stdin": ""
+}

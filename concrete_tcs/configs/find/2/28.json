@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newerat",
+    "Sun Oct 31 01:30:00 EDT 2019",
+    "-newerct",
+    "11jul2010",
+    "-newermt",
+    "Feb 20, 2021"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

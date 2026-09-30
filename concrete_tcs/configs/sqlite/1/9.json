@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA integrity_check; VACUUM; PRAGMA page_size=4096; VACUUM INTO 'vac_copy.db';\n"
+}

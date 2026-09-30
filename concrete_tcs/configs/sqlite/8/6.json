@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(a,b);CREATE INDEX i ON t(a);INSERT INTO t VALUES(1,'x'),(2,'y'),(3,'z');REINDEX;VACUUM;ALTER TABLE t RENAME TO t2;SELECT*FROM t2 WHERE a>0 ORDER BY a DESC;SELECT last_insert_rowid();"
+}

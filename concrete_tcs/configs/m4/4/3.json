@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`xyz 123',`\\([[:digit:]]\\+\\)',`D=\\1') regexp(`hello world',`hello\\sworld') regexp(`hello world',`hello\\Sworld',`hit') regexp(`foo-bar',`foo[-]bar') regexp(`atestb',`\\Btest\\B') regexp(`😀😀',`..') regexp(`ch',`[[.ch.]]') regexp(`a',`[[=a=]]')"
+}

@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=all",
+    "-q",
+    "US_AZ",
+    "--gregorian-reform=1700",
+    "--atmosphere=1013.10,+13.000",
+    "--limit",
+    "20211003",
+    "--filter-day=L",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_9"
+  ],
+  "stdin": ""
+}

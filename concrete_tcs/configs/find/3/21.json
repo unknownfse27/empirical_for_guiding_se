@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "$(date +%Y-%m-15)",
+    "-1",
+    "month",
+    "-a",
+    "-newermt",
+    "2012-08 +n year christmas 야"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

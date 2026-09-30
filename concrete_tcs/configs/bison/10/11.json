@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "--report=all",
+    "-d",
+    "-v",
+    "-g",
+    "-x",
+    "-o",
+    "sc.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sc.y"
+  ],
+  "stdin": ""
+}

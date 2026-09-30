@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "--color=no",
+    "-fno-caret",
+    "--report=all",
+    "--report-file=/tmp/ts123.output",
+    "@@",
+    "-o",
+    "/tmp/ts123.c"
+  ],
+  "dirs": [],
+  "files": [
+    "test1.y"
+  ],
+  "stdin": ""
+}

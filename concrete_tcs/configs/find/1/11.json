@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "/home",
+        "-maxdepth",
+        "1",
+        "-xtype",
+        "s",
+        "-links",
+        "2",
+        "-newermt",
+        "-1 days"
+    ],
+    "dirs": [
+        "/home"
+    ],
+    "files": [],
+    "stdin": ""
+}

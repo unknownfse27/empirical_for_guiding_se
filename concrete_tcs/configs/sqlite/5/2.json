@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-memtrace",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ALTER TABLE b ADD COLUMN d INTEGER GENERATED ALWAYS AS (LENGTH(a)) VIRTUAL;INSERT INTO b(a,b,c) VALUES('m',1,X'AA');SELECT * FROM b;CREATE UNIQUE INDEX i1 ON b(LOWER(a));DROP INDEX i1;ALTER TABLE b ADD COLUMN e INTEGER REFERENCES t(a);ALTER TABLE b RENAME COLUMN a TO aa;"
+}

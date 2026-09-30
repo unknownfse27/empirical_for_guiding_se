@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "--warn-macro-sequence"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "traceon(`foo')define(`foo`,`bar')foo traceoff(`foo')foo define(`bad`,`$11 ${1}')bad(`a') m4wrap(`define(`x`,`wrapped')')x builtin(`define`, `a`, `42')a regexp(`abc123`, `[a-z]+') regexp(`123`, `[a-z]+`, `hit') esyscmd(`echo error 1>&2')"
+}

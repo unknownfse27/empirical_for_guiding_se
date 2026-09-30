@@ -1,0 +1,26 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-daystart",
+    "-type",
+    "f",
+    "-regex",
+    ".*\\.[ch]",
+    "-amin",
+    "+2",
+    "-amin",
+    "-6",
+    "-mtime",
+    "1",
+    "-atime",
+    "1",
+    "-ctime",
+    "-3"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

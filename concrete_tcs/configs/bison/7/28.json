@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-ffixit",
+    "-Wdeprecated",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "ddp.y"
+  ],
+  "stdin": ""
+}

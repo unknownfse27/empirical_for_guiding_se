@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Drop table if exists t; create table t(a int primary key, b text, c int check(c>=0) default 10 not null,d real); insert into t values(1,'x',0,1.1),(2,'y',1,2.2),(3,'z',2,3.3),(-1, 'w',4,4.4),(4,'a',5,5.5);"
+}

@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "-mtime",
+    "0",
+    "-daystart",
+    "-uid",
+    "1000",
+    "-xtype",
+    "f",
+    "-iname",
+    "*.log",
+    "-print"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

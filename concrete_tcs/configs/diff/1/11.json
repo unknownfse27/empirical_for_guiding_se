@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+        "-s",
+        "--strip-trailing-cr",
+        "--suppress-blank-empty",
+        "-q",
+        "-S",
+        "--suppress-common-lines",
+        "--from-file=.",
+        "../tests",
+        "/"
+    ],
+    "dirs": [
+        "../tests",
+        "/"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "\\|\\s*(safe|date|default)",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

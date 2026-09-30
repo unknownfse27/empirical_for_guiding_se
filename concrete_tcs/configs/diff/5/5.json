@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--changed-group-format='%Y-%m-%d %H:%M:%S'",
+        "/etc/passwd",
+        "/etc/group"
+    ],
+    "dirs": [
+        "/etc/passwd",
+        "/etc/group"
+    ],
+    "files": [],
+    "stdin": ""
+}

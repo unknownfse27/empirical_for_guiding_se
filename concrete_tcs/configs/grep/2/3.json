@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--colour=auto",
+    "^(ab*)*\\1$"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "ababbabb"
+}

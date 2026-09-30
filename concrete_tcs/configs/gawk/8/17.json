@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-M",
+    "{print tolower('Ackl'); length($0) + $0}",
+    "/^[A-Z]/",
+    "{mul *= $2}; /^#/ {next}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "version.c"
+  ],
+  "stdin": ""
+}

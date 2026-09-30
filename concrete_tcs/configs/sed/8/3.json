@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "s/^\\([/[:lower:]A-Z0-9]*_cv_[[:lower:][:upper:]/[:digit:]]*\\)=\\(.*\\)/: \\${\\1='\\2'}/p",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "madding.inp"
+  ],
+  "stdin": ""
+}

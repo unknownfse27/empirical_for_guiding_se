@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "--normal",
+        "--no-dereference",
+        "--ignore-file-name-case",
+        "-B",
+        "-x",
+        "*.c",
+        "../",
+        "./"
+    ],
+    "dirs": [
+        "../",
+        "./"
+    ],
+    "files": [],
+    "stdin": ""
+}

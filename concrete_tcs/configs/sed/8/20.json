@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "s/he[aa]llo[[=e=]]\\|hi(abc*){2,3+}|fee/world/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "a.sed",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ":join /\\$\\/{N;s/\\\\n//;b join"
+}

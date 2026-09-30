@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-Wother",
+    "$(printf '%%type <> A\n%%%%\ns:A;\n' > type3.y; echo type3.y)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

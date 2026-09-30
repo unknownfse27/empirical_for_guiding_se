@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(foo,bar)foo undefine(`foo') ifdef(`foo','yes','no') eval(3+4) decr(5) incr(1) substr(abcd,1,2) index(abc,c) len(abc) patsubst(ab123cd,[0-9],X) shift(a,b,c) regexp(axc,a.c,yes) format(`%s %d',hello,42)"
+}

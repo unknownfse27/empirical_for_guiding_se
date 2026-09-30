@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fdiagnostics-format=caret",
+    "-fdiagnostics-show-option",
+    "--color=always",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "undef.y"
+  ],
+  "stdin": ""
+}

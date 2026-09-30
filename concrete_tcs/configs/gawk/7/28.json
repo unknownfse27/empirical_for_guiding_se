@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-F'\\''",
+    "'/export const/",
+    "{ CLSNM = $0 }",
+    "ENDFILE{ print CLSNM;CLSNM=\"\" }'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

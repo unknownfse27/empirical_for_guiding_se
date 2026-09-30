@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "--color=never",
+      "-Ev",
+      "^[[:upper:]]?[[:blank:]]"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

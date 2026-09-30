@@ -1,0 +1,29 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "all",
+    ".",
+    "-name",
+    "pred.c",
+    "-o",
+    "-user",
+    "root",
+    "-o",
+    "-group",
+    "root",
+    "-o",
+    "-uid",
+    "1",
+    "-o",
+    "-gid",
+    "1",
+    "-print",
+    "-quit"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

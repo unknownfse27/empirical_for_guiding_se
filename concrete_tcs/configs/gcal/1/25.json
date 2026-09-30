@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-qfr",
+    "-jc",
+    "-cey",
+    "-jb",
+    "-i",
+    "aug:2021+july:2025",
+    "-q",
+    "-q",
+    "KR",
+    "--debug=all",
+    "--gregorian-reform=1512",
+    "2010+2015"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,22 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "-x",
+        "*.h",
+        "-X",
+        "Makefile",
+        "--ignore-file-name-case",
+        "--no-dereference",
+        "-S",
+        "Makefile",
+        "../src",
+        "../lib"
+    ],
+    "dirs": [
+        "../src",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+}

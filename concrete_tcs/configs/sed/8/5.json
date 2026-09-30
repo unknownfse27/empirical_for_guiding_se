@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    ":test; s/abc/---/; t; s/def/+++ ; b test"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "defabcghi"
+}

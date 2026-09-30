@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-printf",
+    "%i %4k %M %3n %-8u %-8g %8s %T+ %p\\n->%l %c %F %Z %A %B %+ %r @%s %y %EY %Od"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

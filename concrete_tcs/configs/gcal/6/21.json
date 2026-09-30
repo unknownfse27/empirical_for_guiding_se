@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    "no",
+    "-u",
+    "-x",
+    "-f",
+    "./demo-1.rc",
+    "1996+2002"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "./gcal -H no -u -x -r \"$b=08:$f=demo-3.rc\" -f ./include.rc Aug 1996 | ./gcal --usage[=d]|[=?] --page | ./gcal --chinese-holidays | ./gcal --chinese-months | ./gcal --bahai-months | ./gcal --chinese-flexible-months | ./gcal --coptic-months | ./gcal --ethiopic-months | ./gcal --french-revolutionary-months | ./gcal --hebrew-months | ./gcal --indian-civil-months | ./gcal --islamic-civil-months --japanese-months --old-armenic-months --old-egyptic-months --persian-jalaali-months -i"
+}

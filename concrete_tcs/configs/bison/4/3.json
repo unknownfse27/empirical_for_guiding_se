@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Dlr.type=ielr",
+    "--trace=bitsets",
+    "-r",
+    "all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cabig2400i.y"
+  ],
+  "stdin": ""
+}

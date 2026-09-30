@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "-w",
+    "--line-buffered",
+    "-e",
+    "\\w\\b.*",
+    "@@",
+    "Makefile"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

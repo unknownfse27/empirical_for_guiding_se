@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/\\b\\(.\\)/\\u\\1/g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "abcdefg12345 ㅋbcd !feg 1abc"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--silent",
+    "--posix",
+    "1p ; $p;s/[^ TAB]\\+/c/w1.txt#foo'",
+    "../THANKS",
+    "../BUGS",
+    "../THANKS"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

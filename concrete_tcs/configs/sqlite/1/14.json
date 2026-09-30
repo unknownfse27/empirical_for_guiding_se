@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t_idx; CREATE TABLE t_alter(a INT); CREATE TABLE t_idx(a INT, b TEXT); ALTER TABLE t_alter ADD COLUMN b TEXT DEFAULT 'X' NOT NULL; CREATE UNIQUE INDEX my_u_index ON t_idx(a); ALTER TABLE t_alter RENAME COLUMN a TO id; ALTER TABLE t_idx RENAME TO t_idx2;"
+}

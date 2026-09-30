@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-v",
+    "-d",
+    "-r",
+    "all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "ielr1b.y"
+  ],
+  "stdin": ""
+}

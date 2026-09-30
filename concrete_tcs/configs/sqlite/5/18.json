@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ATTACH':memory:'AS m;ATTACH'aux.db'AS aux;CREATE TABLE m.t(x,y);INSERT INTO m.t VALUES(1,'a'),(2,'b');CREATE TEMP TABLE tmp(z);INSERT INTO tmp VALUES('tmp');SELECT*FROM m.t CROSS JOIN tmp;CREATE TABLE aux.a(id);INSERT INTO aux.a VALUES(99);SELECT*FROM aux.a;DETACH m;DETACH aux"
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "sed",
+    "-n",
+    "-e",
+    "2a hello",
+    "-e",
+    "0~3s/./x/",
+    "-Ee",
+    "s/world/Earth/I"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(seq 3; seq 6;)"
+}

@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-Dlr.type=ielr",
+    "-Dparse.lac=full",
+    "-Dapi.push-pull=both",
+    "-T",
+    "-rall",
+    "-x",
+    "-g",
+    "--html",
+    "--color",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "p.y"
+  ],
+  "stdin": ""
+}

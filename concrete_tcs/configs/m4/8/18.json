@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-s",
+    "--warn-macro-sequence='[0-9]'",
+    "-Q",
+    "-G"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "len(`asdfghjkl') index(`asdfghjkl', `h') index(`asdfghjkl', `m') index(`asdf   gh jkl', `') ? define(`len`,`X') len(`abc') builtin(`len') len(`abc') translit(`abcd1234`,`abcd`,`ABCD`,`1234`,`4321`)"
+}

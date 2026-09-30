@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-printf",
+      "%b%G%u%m%p%f%h%P%H->%l\\0",
+      "-cnewer",
+      "/etc/passwd"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

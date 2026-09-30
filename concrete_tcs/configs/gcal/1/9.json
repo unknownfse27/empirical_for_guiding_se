@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-cl*w99sun",
+    "-H",
+    "no",
+    "-x",
+    "-r",
+    "$A=FROBOZZ:$x=",
+    "-f",
+    "./tvar-1.rc",
+    "may/123,jan,6/1764",
+    ".-"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

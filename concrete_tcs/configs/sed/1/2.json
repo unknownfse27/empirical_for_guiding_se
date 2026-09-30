@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    ":X",
+    "s#(\\b\\w+\\b)(.*) \\1#\\1\\2#g; l; tX"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "I am am a a boy am am a am boy am"
+}

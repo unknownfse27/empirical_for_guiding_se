@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wmidrule-values",
+    "-r",
+    "all",
+    "-o",
+    "/tmp/mrv.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "mrv.y"
+  ],
+  "stdin": ""
+}

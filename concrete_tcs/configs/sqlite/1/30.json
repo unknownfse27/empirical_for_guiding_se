@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ATTACH '' AS tempdb;CREATE TABLE tempdb.tmp(x INTEGER);INSERT INTO tempdb.tmp VALUES(1),(2);SELECT x FROM tempdb.tmp ORDER BY x;DETACH DATABASE tempdb;"
+}

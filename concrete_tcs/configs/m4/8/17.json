@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-dV"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`A',`1') define(`B',`2') ifelse(A,B,[NE],A,A,[EQ],define(`C',`$@')) traceon(`A',`C') A C(`a`,`b') undefine(`A') A incr(B) incr(C) eval(3+4) eval(`B'%2) decr(9) decr(`k') substr(`apple',2, -1) patsubst(`abcdef`,`cd`,`XY') syscmd(`\\\\')"
+}

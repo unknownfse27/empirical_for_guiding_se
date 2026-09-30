@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-d"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "builtin(`define', `X', `Y') X format(`%d-%s',123,foo) translit(`abc123',`1234567',`xyz') patsubst(`foo123bar foo456bar',`[0-9]+',`X') include(fopen.m4) include(`') sinclude(`') dumpdef(`fo') dumpdef(`define') len(abc') index(`c', `c') index(`a', `f')"
+}

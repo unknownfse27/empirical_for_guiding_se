@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-c",
+    "-M",
+    "-f",
+    "{}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(grep -rl --include='*.awk' .)"
+}

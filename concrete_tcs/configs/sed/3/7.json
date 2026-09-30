@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/[!@#$%^&*(){}\\[\\]]/<symbol>/",
+    "-e",
+    "s/\\./*/",
+    "-e",
+    "/[A-Za-z]{4}/s/example/test/",
+    "test.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

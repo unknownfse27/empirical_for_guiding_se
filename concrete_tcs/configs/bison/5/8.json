@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-Dtool.xsltproc=true",
+    "-M",
+    "'o[@]$=n[@]$'",
+    "-b",
+    "'p[@]$'",
+    "-d",
+    "-g",
+    "-x",
+    "--html",
+    "-v",
+    "$f"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "f='m[@]$.y';{ echo '%define lr.type ielr';echo '%define parse.lac full';echo '%code {const char*s=\"@[$]\";}';echo '%%';echo 's:n1 n2 n3;';for i in 1 2 3;do echo \"n$i:%empty|'a' n$i|n$i 'a';\";done;} >$f;"
+}

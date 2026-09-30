@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=all",
+    "@@@",
+    "--precise",
+    "--filter-day=Q",
+    "1355+1400"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_11"
+  ],
+  "stdin": ""
+}

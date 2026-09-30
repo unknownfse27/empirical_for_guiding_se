@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS J1; DROP TABLE IF EXISTS J2; CREATE TABLE J1(i INT); CREATE TABLE J2(j INT); INSERT INTO J1 VALUES(1),(2); INSERT INTO J2 VALUES(2),(3); SELECT * FROM J1 LEFT JOIN J2 ON i=j ORDER BY 1;\n"
+}

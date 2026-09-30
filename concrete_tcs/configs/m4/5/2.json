@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(linestart line, ^\\\\(\\w+\\).*\\\\(\\w+\\)$, \\1-\\2) regexp(a[b]c,[[]],BRACKET2) regexp(This is a test case for m4, \\<\\\\w\\\\w+\\>, [\\\\&])"
+}

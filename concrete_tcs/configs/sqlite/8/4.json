@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(id PRIMARY KEY,v,n)WITHOUT ROWID;INSERT INTO t VALUES(1,'a',10),(2,'b',20),(3,'c',30);UPDATE t SET v=v||'U',n=n+5 WHERE id<=2;DELETE FROM t WHERE id=3;SELECT*FROM t ORDER BY id;"
+}

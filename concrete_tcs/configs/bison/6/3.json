@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=ielr,automaton",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "t_ielr3.y"
+  ],
+  "stdin": ""
+}

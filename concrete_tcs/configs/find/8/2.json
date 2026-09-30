@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-maxdepth",
+    "2",
+    "-prune",
+    "-o",
+    "-type",
+    "f",
+    "(",
+    "-regex",
+    ".*\\.txt",
+    "-or",
+    "-regex",
+    ".*\\.pdf",
+    ")",
+    "-readable"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

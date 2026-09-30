@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--directories=\"recurse\"",
+    "--color=always",
+    "include",
+    ".."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

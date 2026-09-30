@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "@include \"awklib/group.awk\";",
+    "@include \"awklib/passwd.awk\";",
+    "BEGIN { RS = \"u\";  getgrent() }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

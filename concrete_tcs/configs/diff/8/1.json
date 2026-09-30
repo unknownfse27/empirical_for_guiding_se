@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      "-i",
+      "--exclude=*.o",
+      "--color=always",
+      "--palette=rs=0:hd=1:ad=32:de=31:ln=36",
+      "../gnulib-tests",
+      "../lib"
+    ],
+    "dirs": [
+        "../gnulib-tests",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+  }

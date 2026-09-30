@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON;DROP TABLE IF EXISTS d_def;DROP TABLE IF EXISTS r_def;CREATE TABLE d_def(id INT PRIMARY KEY);CREATE TABLE r_def(d INT,FOREIGN KEY(d)REFERENCES d_def(id) DEFERRABLE INITIALLY DEFERRED);BEGIN;INSERT INTO r_def VALUES(9);INSERT INTO d_def VALUES(9);COMMIT;\n"
+}

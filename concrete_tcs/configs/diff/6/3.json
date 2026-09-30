@@ -1,0 +1,22 @@
+{
+    "envs": [],
+    "args": [
+        "-p",
+        "--show-c-function",
+        "-0",
+        "-F",
+        "\\\\^v",
+        "-X",
+        "cmp.c",
+        "-n",
+        "-d",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

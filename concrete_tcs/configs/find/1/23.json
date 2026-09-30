@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".*\\<log\\>.*|./[0-9].*|./가.*|.*\\.(txt|doc)$|.*"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+  }

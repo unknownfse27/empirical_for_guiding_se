@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "./m4",
+    "--debug=a",
+    "--warn-macro-sequence=\"\\(foo\\)\\1\"",
+    "--traditional"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`x', `foofoo') undefine(`x')"
+}

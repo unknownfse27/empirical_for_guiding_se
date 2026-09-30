@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "REINDEX;PRAGMA optimize;PRAGMA analysis_limit=1000;PRAGMA analysis_limit=2000;ANALYZE main;VACUUM;PRAGMA wal_checkpoint(RESTART);PRAGMA cache_spill=OFF;PRAGMA shrink_memory;PRAGMA optimize;"
+}

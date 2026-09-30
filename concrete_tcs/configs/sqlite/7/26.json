@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(a,b,c);INSERT INTO t VALUES(5,'x',1.5),(10,'y',2.5),(15,'z',3.5),(20,'w',4.5);SELECT*FROM t WHERE a BETWEEN 5 AND 30 AND b IN('x','y','z','w')ORDER BY c;SELECT a,b,a+c,ROUND(c),LENGTH(b)FROM t WHERE c>1 LIMIT 3;"
+}

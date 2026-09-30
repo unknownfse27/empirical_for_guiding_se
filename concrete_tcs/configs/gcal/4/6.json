@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "%00000101",
+    "--resource-file=@@",
+    "--disable-highlighting"
+  ],
+  "dirs": [],
+  "files": [
+    "demo2.rc"
+  ],
+  "stdin": ""
+}

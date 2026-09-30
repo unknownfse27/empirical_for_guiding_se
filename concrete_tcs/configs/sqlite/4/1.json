@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIRTUAL TABLE IF NOT EXISTS v USING csv(name,company); INSERT INTO v (name,company) VALUES ('Jane','LG'); SELECT * FROM v WHERE name MATCH 'Jane'; CREATE TABLE js (d JSON); INSERT INTO js(d) VALUES ('{\"a\":1,\"b\":[1,2,3]}'); SELECT * FROM js;  "
+}

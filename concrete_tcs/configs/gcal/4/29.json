@@ -1,0 +1,29 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "-qbe",
+    "-n",
+    "-Cl1224",
+    "--exe",
+    "-QUx",
+    "-f./redir-1.rc+XX",
+    "-r'$f=XX:$c=echo $f'",
+    "-#0",
+    "%!rm",
+    "$f",
+    "-f",
+    "/dev/null",
+    "-q",
+    "IT",
+    "-D",
+    "r",
+    "-cE",
+    "nov"
+  ],
+  "dirs": [],
+  "files": [
+    "r4_29"
+  ],
+  "stdin": ""
+}

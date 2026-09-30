@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "s/[[:digit:]][[:graph:]][.\\{9\\}A$]/X/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "1\n"
+}

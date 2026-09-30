@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp() regexp(`', `') patsubst() translit() substr() undef() ifelse() index() substr(`a', `def', `') define(`') define(`abc', `def', `') changequote(`') changequote(`abc', `') maketemp(`abc', `def', `') popdef(`abc', `') ifdef(`') include(`')"
+}

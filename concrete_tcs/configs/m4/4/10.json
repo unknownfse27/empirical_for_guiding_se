@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(0xFF & 0b1010) eval(017 ^ 0xF<<<1) eval(1e3 * 2) eval(eval(eval(0!))) eval(!0) eval(a) eval(!!1) eval(1 ? 100 : 200) eval(3 ? 7*3**-1 : 0) eval((2+3)*4(2)) eval(-5 + +3) eval(5 << -0/2 >> 2/0) eval(3 & 1//0) eval(3 | 2) eval(0 || -1) eval(([))) eval(!!?+-*)"
+}

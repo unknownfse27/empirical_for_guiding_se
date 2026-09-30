@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "a.db",
+        "-interactive"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIEW user_city_view AS SELECT name,city FROM user WHERE 1=1; SELECT * FROM user_city_view WHERE city LIKE 'S%';  "
+}

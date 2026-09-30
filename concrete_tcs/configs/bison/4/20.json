@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-Wmidrule-values",
+    "$(printf '%%token A\n%%%%\ns: {$$=1;} A {$$=$1;};\n' > mr1.y; echo mr1.y)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

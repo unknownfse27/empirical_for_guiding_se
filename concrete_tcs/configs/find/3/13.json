@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-warn",
+    "-uid",
+    "-123",
+    "-regextype",
+    "posix-basic",
+    "-regex",
+    ".*\\.c$",
+    "-samefile",
+    ".",
+    "-xtype",
+    "l",
+    "-quit"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

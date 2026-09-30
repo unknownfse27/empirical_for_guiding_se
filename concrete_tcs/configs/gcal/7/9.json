@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "AD+AF+AG+AI+AL+AM+AN_BO+AU_CT+US_MS+US_NY",
+    "-H",
+    "no",
+    "-C-",
+    "--exit-status-help-non-zero",
+    "-n-",
+    "2000"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

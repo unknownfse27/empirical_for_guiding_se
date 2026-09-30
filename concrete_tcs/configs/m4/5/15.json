@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(3)Text divert(5)Alt divert(-1)Hidden divert(0)Main cleardivert(5)cleardivert(3)undivert(5)undivert(-1) index([abcdef],[x]) rindex([xyzzy],[z]) patsubst([foo.c],[.c],[.o]) fatal_error([trap triggered])"
+}

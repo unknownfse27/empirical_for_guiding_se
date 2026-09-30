@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {FPAT = \"([^,]+)|(\\\"[^\\\"]+\\\")\";",
+    "switch (substr(\"x\",1,1)) {case /ask.com/:break;}}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

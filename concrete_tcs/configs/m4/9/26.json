@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-L999"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`factorial', `ifelse($1, 0, 1, `eval($1 * factorial(eval($1 - 1)))')')define(`fibonacci', `ifelse($1, 0, 0, `ifelse($1, 1, 1, `eval(fibonacci(eval($1 - 1)) + fibonacci(eval($1 - 2)))')')')factorial(6) fibonacci(6)"
+}

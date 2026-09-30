@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+        "-e",
+        "@@",
+        "@@",
+        "-I",
+        "^main$",
+        "-I",
+        "^.*(file|file[)\\d{1}$",
+        "-I",
+        "^(ERROR|DEBUG):.*$"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

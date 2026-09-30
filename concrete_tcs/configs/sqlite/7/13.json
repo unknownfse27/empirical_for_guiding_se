@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t29(i); INSERT INTO t29 VALUES(1),(1),(NULL); SELECT i, COUNT(*) FROM t29 GROUP BY i ORDER BY 2 DESC LIMIT 1 OFFSET 1;\n"
+}

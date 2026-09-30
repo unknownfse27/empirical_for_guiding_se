@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "-i.bak",
+    "/(if|elseif)\\s*\\(\\s*[a-zA-Z_]\\w*\\s*\\)/!b ; d",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

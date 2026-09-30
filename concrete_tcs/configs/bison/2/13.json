@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=all",
+    "--report=all",
+    "--html=/tmp/h.html",
+    "--xml=/tmp/h.xml",
+    "--graph=/tmp/h.dot",
+    "-o",
+    "/tmp/h.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "hy5_2.y"
+  ],
+  "stdin": ""
+}

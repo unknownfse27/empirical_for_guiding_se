@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "--time-offset=@-9999",
+    "--type=standard",
+    "--iso-week-number=no",
+    "@@@",
+    "--fixed-dates=both",
+    "--atmosphere=0",
+    "%1999@e-20"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_4"
+  ],
+  "stdin": ""
+}

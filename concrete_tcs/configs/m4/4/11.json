@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-tname",
+    "-DFOO=foo",
+    "-UBAR",
+    "-P",
+    "-l10",
+    "-o--debug=all",
+    "-s",
+    "-R@@",
+    "-F@@",
+    "-DTEST=1",
+    "-I/path/to/include"
+  ],
+  "dirs": [],
+  "files": [
+    "frozen.m4",
+    "a1.m4"
+  ],
+  "stdin": "include(`inc/file.m4') sinclude(`nofile.m4`,`default') define(`foo', `bar') foo"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP INDEX IF EXISTS ix_products_name; CREATE INDEX ix_products_name ON products(name); EXPLAIN SELECT * FROM products WHERE name='Mouse'; SELECT sha3_query('SELECT pid,name,price FROM products ORDER BY pid;',256);"
+}

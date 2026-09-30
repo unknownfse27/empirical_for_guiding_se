@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-c",
+    "echo -e '12345681 sdfa' > cjrc-1.rc && ./gcal -Ux -f ./cjrc-1.rc --debug=all"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-ipath",
+    "*pattern*",
+    "-newermt",
+    "202s30401",
+    "-not",
+    "-newermt",
+    "20230t430"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "-vIGNORECASE=1",
+    "BEGIN{ARGV[3];a[1]=1;asort(a);asorti(a);isarray(a);typeof(a);}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

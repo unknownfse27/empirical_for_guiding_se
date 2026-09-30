@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--report=all",
+    "-g",
+    "-x",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "op5.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "stat",
+    "-O1",
+    ".",
+    "-noignore_readdir_race",
+    "-printf",
+    "%S%h+f\\NNN",
+    "-fprintf",
+    "./h.c",
+    "%P%D%f%a"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

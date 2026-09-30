@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "-F",
+      "[:,\"]",
+      "/\"phone_numbers\"/",
+      "{ getline; while ($0 !~ /]/)",
+      "{ if ($1 ~ /\"number\"/)",
+      "{ print $3 } getline } }"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

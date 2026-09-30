@@ -1,0 +1,16 @@
+{
+    "envs": [
+      "POSIXLY_CORRECT=1"
+    ],
+    "args": [
+      "../",
+      "-type",
+      "f",
+      "-ls"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

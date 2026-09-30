@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "create index i_expr on t((substr(b,1,1)));create index i_part on t(a) where a>1;select a, length(b) ,abs(c), typeof(d) from t where a>1 or substr(b,1,1)='x' order by c;select sum(a),min(d), max(d) from t;"
+}

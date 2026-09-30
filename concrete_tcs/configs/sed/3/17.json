@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "-e",
+    "s/test/TEST/",
+    "-e",
+    "s/old/NEW/I; s/world/WORLD/; w output.txt",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "regex.o"
+  ],
+  "stdin": ""
+}

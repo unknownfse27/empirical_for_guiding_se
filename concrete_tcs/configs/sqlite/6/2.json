@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "WITH RECURSIVE t(n) AS (VALUES(1) UNION ALL SELECT n+1 FROM t WHERE n<5) SELECT sum(n),count(*),avg(n),min(n),max(n),total(n),group_concat(n),count(DISTINCT n) FROM t GROUP BY n%2 HAVING sum(n)>0; SELECT * FROM (SELECT n*2 x FROM t) WHERE x>2;\n"
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "'/\\{b}(\\w++)\\s++\\1\\b/{p}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "It was times,\nit was wisdom\n"
+}

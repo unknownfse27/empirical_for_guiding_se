@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{printf(\"%s%d\",FILENAME,FNR)>\"/dev/stdout\";",
+    "s=(2*log(s))%1;",
+    "s<0?s=-s:0;",
+    "sprintf(\"%c\",7)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

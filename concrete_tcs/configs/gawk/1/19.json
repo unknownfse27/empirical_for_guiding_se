@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--no-optimize",
+    "-f",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_19.awk"
+  ],
+  "stdin": ""
+}

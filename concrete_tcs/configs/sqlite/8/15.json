@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON; DROP TABLE IF EXISTS products; CREATE TABLE products(pid INTEGER PRIMARY KEY, name TEXT UNIQUE COLLATE NOCASE, price INT CHECK(price>0));"
+}

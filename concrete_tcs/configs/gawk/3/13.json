@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{sum=0;",
+    "for(i=1;i<=NF;i++)",
+    "sum+=$i;",
+    "print sum >>\"/dev/stdout\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "./gawk -V -x"
+}

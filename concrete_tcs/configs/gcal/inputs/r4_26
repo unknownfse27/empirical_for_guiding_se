@@ -1,0 +1,40 @@
+--resource-file=@@
+-H
+no
+-ox
+-qfr
+--holiday-list
+--ast
+-ce
+-qbe
+-jcb
+-c-et
+%00000101
+--resource-file=@@
+--disable-highlighting
+--exe
+-QUx
+-f./redir-1.rc+XX
+"-r'$f=XX:$c=echo $f'"
+'-#"0 %!rm $f"'
+-f/dev/null
+'-#0*d1#999_%Z__%O'
+%19950407
+-x
+--moon=8
+'-#"0*d1su#99su.7 ^%Z"'
+-f
+/dev/null
+-QUx
+%19800101
+'-#0_%j-2440588'
+-qbe
+%1994@e
+-n
+-c
+--debug=internal
+--calendar-dates=special
+--gregorian-reform=1802,4,7,17
+"--date-format='%Y %D %>02*M ; %1(%>5u#K)%2'"
+--revert-match
+--list-of-fixed-dates=long

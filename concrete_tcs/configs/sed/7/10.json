@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'s/foo/^var'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "foo var"
+}

@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "a.db",
+        "-column",
+        "-header",
+        "-separator",
+        "|",
+        "-lookaside",
+        "512",
+        "32",
+        "-pagecache",
+        "4096",
+        "8"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA page_size=1024;PRAGMA auto_vacuum=INCREMENTAL;VACUUM;PRAGMA incremental_vacuum(1);CREATE TABLE IF NOT EXISTS t0(x);DROP TABLE t0;\n.selftest --init\n.selftest\n"
+}

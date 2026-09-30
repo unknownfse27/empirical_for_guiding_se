@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "d",
+    "-empty",
+    "-not",
+    "-used",
+    "+7",
+    "-newermt",
+    "last week"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

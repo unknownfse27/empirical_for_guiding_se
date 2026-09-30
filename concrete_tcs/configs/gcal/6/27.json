@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-cdeol@t14",
+    "-u",
+    "-g",
+    "-f",
+    "@@",
+    "-l",
+    "coding",
+    "--ignore-case"
+  ],
+  "dirs": [],
+  "files": [
+    "cjrc3.rc"
+  ],
+  "stdin": ""
+}

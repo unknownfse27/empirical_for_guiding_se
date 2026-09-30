@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "-backslash",
+        "a.db",
+        "-batch"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON; CREATE TABLE t(a INT, b TEXT UNIQUE, CHECK(length(b)>0)); CREATE TABLE r(f TEXT REFERENCES t(b)); CREATE VIEW v AS SELECT b FROM t; ALTER TABLE t RENAME COLUMN b TO b_new; ALTER TABLE t RENAME COLUMN b_new TO a;"
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--profile=myprog.prof",
+    "-M",
+    "'BEGIN {printf \"%#x\", compl((and(lshift(185,3),0xff)+3)) }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

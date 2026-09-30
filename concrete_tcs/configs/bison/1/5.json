@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r21.y"
+  ],
+  "stdin": ""
+}

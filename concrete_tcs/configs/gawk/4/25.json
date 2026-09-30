@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--assign",
+    "a=5",
+    "-b",
+    "/[2]/{for(i=2;i<=NF;i++)total+=length($i)}",
+    "END{print sum+NR a}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

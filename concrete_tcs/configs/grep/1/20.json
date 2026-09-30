@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "-i",
+    "-v",
+    "-L",
+    "-m",
+    "0",
+    "-B",
+    "5",
+    "-D",
+    "skip",
+    "--exclude-dir=lib",
+    "-r",
+    "\"OjdH\\<l[[:black:]][[:print:]]AM\"",
+    "../*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

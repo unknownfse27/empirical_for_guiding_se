@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "{a[$1]=$2;index($1,\"b\");strtonum($2)}",
+    "END{asort(a);asorti(a);asort(a,c);asorti(a,c)}",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

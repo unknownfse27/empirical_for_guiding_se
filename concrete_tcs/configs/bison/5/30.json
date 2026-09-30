@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Tielr,cex",
+    "-Wcex",
+    "-rall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sp.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {printf \"hello\\n\">\"/dev/stderr\";",
+    "printf(\"%c\\n\",sprintf(\"%c\",(0xffffff00+255)))}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

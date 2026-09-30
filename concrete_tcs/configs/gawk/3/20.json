@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "'BEGIN{FIELDWIDTHS=\"3 2\";NR=1;RS=5;}",
+    "{print $(1+3);",
+    "gensub(/\\y\\w\\W\\B\\s\\S/,\"@\",5,p);}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

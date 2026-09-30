@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".scanstats on\\n.expert\\nSELECT a,b,c FROM t1 WHERE c>5 ORDER BY b;\\n.expert off\\n.scanstats off\n"
+}

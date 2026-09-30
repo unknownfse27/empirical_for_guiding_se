@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-iE",
+    "lineno",
+    "-n",
+    "lineno",
+    "-iE",
+    "--line-buffered"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "*.c"
+}

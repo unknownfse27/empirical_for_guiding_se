@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+      "-E",
+      "s/([0-9]+)/echo $((\\1+1))/e"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Value is 42\n"
+}

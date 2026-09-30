@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-fsyntax-only",
+    "-Wall",
+    "-Wcounterexamples",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "prec.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-F:",
+    "-f",
+    "@@",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [
+    "r1_7.awk"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'/py/w @@'",
+    "-e",
+    "'/py/w /dev/stdout'",
+    "-e",
+    "'/py/w /dev/stderr'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "temp.texi",
+    "sed.texi"
+  ],
+  "stdin": ""
+}

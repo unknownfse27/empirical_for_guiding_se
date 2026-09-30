@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    "/",
+    "-mount",
+    "-maxdepth",
+    "1",
+    "-printf",
+    "%AH%AI%Ak%Al%Ap%AZ%AM%AS%A@%BH%BI%Bk%Bl%Bp%BZ%BM%BS%B@"
+  ],
+  "dirs": [
+    "/"
+  ],
+  "files": [],
+  "stdin": ""
+}

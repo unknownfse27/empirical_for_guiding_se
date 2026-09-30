@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".schema\nPRAGMA encoding='UTF-16';PRAGMA stats;PRAGMA journal_mode=WAL;PRAGMA locking_mode=EXCLUSIVE;PRAGMA foreign_keys=ON;PRAGMA recursive_triggers=1;PRAGMA user_version;PRAGMA integrity_check;PRAGMA synchronous;PRAGMA cache_size=-10000;PRAGMA page_size=32768;\n.tables"
+}

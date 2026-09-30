@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "-separator",
+        ",",
+        "-markdown",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE b(a TEXT COLLATE NOCASE,b BOOL,c BLOB);INSERT INTO b VALUES ('a', TRUE, X'11');UPDATE b SET b=FALSE;UPDATE b SET c=X'FF' WHERE a LIKE 'a';DELETE FROM b;DELETE FROM b WHERE b=FALSE;INSERT INTO b VALUES ('a', 1, readfile('a'));"
+}

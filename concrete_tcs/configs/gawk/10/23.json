@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN { getline s < \"/etc/passwd\"; print substr(s, 1, 5) }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

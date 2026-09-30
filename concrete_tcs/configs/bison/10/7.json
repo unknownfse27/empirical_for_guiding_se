@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-r",
+    "all",
+    "-o",
+    "/tmp/pp.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "pp.y"
+  ],
+  "stdin": ""
+}

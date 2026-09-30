@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-R",
+    "$tmpf"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "NOT M4 FROZEN\\n"
+}

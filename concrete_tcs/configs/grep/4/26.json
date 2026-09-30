@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-cixF",
+    "--color='auto'",
+    "[a-zA-Z0-9]\\-[a-zA-Z0-9]\\+[a-zA-Z0-9]@[a-zA-Z0-9]",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

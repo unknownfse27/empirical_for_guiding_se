@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Tielr",
+    "-rall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "i.y"
+  ],
+  "stdin": ""
+}

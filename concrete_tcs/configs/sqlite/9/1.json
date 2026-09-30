@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS big;CREATE TABLE big(k INT PRIMARY KEY,v BLOB);WITH r(n)AS(VALUES(1)UNION ALL SELECT n+1 FROM r WHERE n<60)INSERT INTO big SELECT n,zeroblob(6000) FROM r;DELETE FROM big WHERE k%2=0;PRAGMA auto_vacuum=INCREMENTAL;PRAGMA incremental_vacuum(20);\n"
+}

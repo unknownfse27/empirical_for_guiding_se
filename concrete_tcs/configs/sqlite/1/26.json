@@ -1,0 +1,13 @@
+{
+    "envs": [],
+    "args": [
+        "--header",
+        "-pagecache",
+        "1000",
+        "1000",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t_win; CREATE TABLE t_win(a INT); INSERT INTO t_win VALUES(1),(2), (NULL), (3); SELECT avg(a) FILTER (WHERE a IS NOT NULL) OVER(ORDER BY a DESC NULLS LAST) FROM t_win;"
+}

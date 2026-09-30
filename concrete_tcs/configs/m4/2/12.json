@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    ""
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`one two three', `\\(\\w+\\) \\(\\w+\\) \\(\\w+\\)', `\\3 \\2 \\1')  regexp(`YES', `\\(YES\\|NO\\)', `decision') divert(1)a divert(2)b divert(3)c divert(0)d divert(9999) undivert(3) undivert(2) undivert(1) divert(-1) divert(3)CCC undivert(3)"
+}

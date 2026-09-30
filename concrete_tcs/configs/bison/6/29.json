@@ -1,0 +1,20 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wcounterexamples",
+    "-v",
+    "--trace=cex",
+    "@@",
+    "--graph",
+    "--xml",
+    "--html",
+    "--color=debug"
+  ],
+  "dirs": [],
+  "files": [
+    "bfs_bomb.y"
+  ],
+  "stdin": ""
+}

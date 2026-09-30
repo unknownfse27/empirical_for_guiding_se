@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "c",
+    "-name",
+    "*.tmp",
+    "-not",
+    "-path",
+    "../",
+    "-name",
+    "config*",
+    "-executable"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

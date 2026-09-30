@@ -1,0 +1,13 @@
+{
+    "envs": [],
+    "args": [
+      "/dev",
+      "-printf",
+      "\\40\\x10%D%F%H%Y%y%a%A@%b%B%c%d%g%G%i%k%m%M%n%s%S%t%u%U%f%h%l%p%P%z%Z%B"
+    ],
+    "dirs": [
+        "/dev"
+    ],
+    "files": [],
+    "stdin": ""
+}

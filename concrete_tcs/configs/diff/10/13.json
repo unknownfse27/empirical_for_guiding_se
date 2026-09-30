@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+      "-N",
+      "-b",
+      "-r",
+      "-c",
+      "@@",
+      "음\\n",
+      "-L",
+      "음",
+      "--show-function-line=음",
+      "--show-function-line=$*$"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c"
+    ],
+    "stdin": ""
+  }

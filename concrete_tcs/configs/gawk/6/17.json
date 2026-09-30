@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{cmd=\"cat-1>&2&&sleep2\";",
+    "print|&cmd;close(cmd,\"to\");",
+    "fflush(cmd);",
+    "print|&cmd;printERRNO}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

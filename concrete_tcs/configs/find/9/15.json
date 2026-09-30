@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "/var/www",
+    "/etc",
+    "/dev",
+    "/usr/share/doc",
+    "-type",
+    "f",
+    "-printf",
+    "%M %p\\n",
+    "-used",
+    "5"
+  ],
+  "dirs": [
+    "/var/www",
+    "/etc",
+    "/dev",
+    "/usr/share/doc"
+  ],
+  "files": [],
+  "stdin": "sort"
+}

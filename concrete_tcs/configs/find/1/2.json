@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+      "-L",
+      "-regextype",
+      "findutils-default",
+      "-regex",
+      ".+?\\+\\?[0-9]\\w\\W\\<\\>\\b\\B",
+      "-type",
+      "l",
+      "-exec",
+      "echo",
+      "{}",
+      "\\+"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

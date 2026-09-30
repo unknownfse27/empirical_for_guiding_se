@@ -1,0 +1,13 @@
+{
+  "envs": [
+    "LC_ALL=C"
+  ],
+  "args": [
+    "-Fw",
+    "include\\|iinclude",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

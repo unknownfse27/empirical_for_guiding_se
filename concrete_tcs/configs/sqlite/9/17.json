@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "savepoint s1;savepoint s2;update t set c=c+10 where a=2;rollback to s2;release s2;rollback to s1;release s1;rollback;pragma page_size;pragma compile_options;pragma temp_store;pragma auto_vacuum=full;"
+}

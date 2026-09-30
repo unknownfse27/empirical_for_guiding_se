@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "--label='Original'",
+        "--label='Modified'",
+        "--label='Extra'",
+        "-N",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "ed.c"
+    ],
+    "stdin": ""
+}

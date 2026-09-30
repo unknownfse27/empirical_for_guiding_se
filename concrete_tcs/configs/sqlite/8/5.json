@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(a,b);CREATE INDEX i ON t(a);INSERT INTO t VALUES(1,'x'),(2,'y'),(3,'z');ANALYZE;PRAGMA integrity_check;VACUUM;ALTER TABLE t ADD COLUMN c DEFAULT 0;SELECT*FROM t WHERE a>0;SELECT sqlite_version();"
+}

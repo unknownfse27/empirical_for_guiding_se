@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-I",
+    ".",
+    "-I",
+    ".."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "esyscmd(echo 'define(tmp2,OK2)')include(example/expr.m4)sinclude(no_file_$$.m4)ifdef(tmp2,hit,miss) include(README) include(AUTHORS) __file__ __line__"
+}

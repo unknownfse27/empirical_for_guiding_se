@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "(",
+    "-size",
+    "+50M",
+    "-ok",
+    "cp '{}' $HOME/backup/recent_large_files/",
+    ");",
+    "-print"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "yes"
+}

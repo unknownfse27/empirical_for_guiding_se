@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "a=$1",
+    "'BEGIN { print typeof(a) }'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "symbol.c"
+  ],
+  "stdin": ""
+}

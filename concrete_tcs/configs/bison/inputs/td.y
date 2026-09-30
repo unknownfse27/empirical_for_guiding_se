@@ -1,0 +1,1 @@
+%code{int x;}%printer{printf("%d",$$);}<int>%destructor{free($$);}<char*>%type<int>a%type<char*>b%precedence 'x'%%s:a b;a:'x';b:'y';

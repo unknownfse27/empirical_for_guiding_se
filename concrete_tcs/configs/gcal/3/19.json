@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-R",
+    "colume",
+    "-S",
+    "GCALANSI",
+    "--debug=handled",
+    "--highlighting=yes"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON; DROP TABLE IF EXISTS u; CREATE TABLE u(id INTEGER PRIMARY KEY,name TEXT UNIQUE,age INT CHECK(age>=0)); INSERT INTO u(name,age) VALUES(\"Alice\",20),(\"Bob\",NULL);"
+}

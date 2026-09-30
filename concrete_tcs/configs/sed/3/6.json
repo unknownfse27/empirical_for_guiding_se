@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'# this is a comment ; 5d'",
+    "-e",
+    "'1a\\this\\2d'",
+    "-e",
+    "'1rhello/txt ; N'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(seq 3)"
+}

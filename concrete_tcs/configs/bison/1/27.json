@@ -1,0 +1,14 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "@@",
+    "--trace=all"
+  ],
+  "dirs": [],
+  "files": [
+    "test_java.y"
+  ],
+  "stdin": ""
+}

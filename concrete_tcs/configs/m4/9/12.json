@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=V",
+    "-R",
+    "/tmp/m290",
+    "--warn-macro-sequence",
+    "--debugfile=/tmp/m290d"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "index(`abc', `b')\nindex(`abc', `b', `d')\nindex(`abc')\nindex(`abc', `d')\n"
+}

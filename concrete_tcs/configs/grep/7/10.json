@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "*>",
+    "-Rl",
+    "--include=*.c",
+    "--exclude=Makefile",
+    "--devices=\"skip\"",
+    "../../*",
+    "--directories=\"recurse\"",
+    "--color=yes"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".headers on\n.width 10 10 -10\nSELECT 'A', 'B', 'C' UNION ALL SELECT '가', '나', '다';\n.headers off\n.schema %\n.schema main.sqlite_schema\n.schema non_existent_table_xyz\nCREATE VIRTUAL TABLE f1 USING fts5(c);"
+}

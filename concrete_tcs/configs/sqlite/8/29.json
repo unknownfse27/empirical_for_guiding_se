@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "BEGIN;CREATE TEMP TABLE l(a,b,c);INSERT INTO l VALUES('b',total_changes(),datetime('now'));SAVEPOINT s;UPDATE t1 SET qty=qty+1 WHERE id%20=0;ROLLBACK TO s;RELEASE s;INSERT INTO l VALUES('e',changes(),strftime('%s','now'));COMMIT;SELECT count(*),min(c),max(c) FROM l;\n"
+}

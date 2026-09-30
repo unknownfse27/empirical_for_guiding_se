@@ -1,0 +1,11 @@
+{
+    "envs": [
+      "LC_ALL=BordMasan"
+    ],
+    "args": [
+      "/Boss.*c$$/c\\\\(mooi).\\"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Boss\\xtratgeBMcdnalc\npistaro"
+}

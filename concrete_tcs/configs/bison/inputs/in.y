@@ -1,0 +1,1 @@
+%union{int ival;} %token<ival> INT %type<ival> a b c %% a:{ $<ival>$=1; } b { $$=$2; };b:INT|%empty;c:a;

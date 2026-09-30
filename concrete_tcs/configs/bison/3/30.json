@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "LC_CTYPE=C"
+  ],
+  "args": [
+    "-Wcounterexamples",
+    "-Wconflicts-rr",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "tc2.y"
+  ],
+  "stdin": ""
+}

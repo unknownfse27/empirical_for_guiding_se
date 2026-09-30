@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--warnings=error=conflicts-sr,no-error=conflicts-rr",
+    "-r",
+    "all",
+    "-o",
+    "/tmp/twerr.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c++-types.y"
+  ],
+  "stdin": ""
+}

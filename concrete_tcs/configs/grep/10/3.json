@@ -1,0 +1,12 @@
+{
+  "envs": [
+    "GREP_COLORS='sl=01;32'"
+  ],
+  "args": [
+    "k",
+    "--color=always"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "k"
+}

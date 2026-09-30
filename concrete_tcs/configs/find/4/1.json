@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".*[:1:]{2,3}+(/|.)+\\.t*$",
+      "-exec",
+      "grep",
+      "-regex",
+      "{}",
+      ";"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

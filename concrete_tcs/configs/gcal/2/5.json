@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-f./astronomical",
+    "--heading-text=%3 %Y %U %4",
+    "--date-format=%>3w#K%1%Y%>02*M%>02*D%2",
+    "@@@",
+    "biorhythm-axis=3"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_5"
+  ],
+  "stdin": ""
+}

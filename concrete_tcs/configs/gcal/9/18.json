@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-block=1",
+    "-qfr",
+    "--holiday-list",
+    "-qfr",
+    "-n",
+    "-qfr",
+    "-n",
+    ":"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

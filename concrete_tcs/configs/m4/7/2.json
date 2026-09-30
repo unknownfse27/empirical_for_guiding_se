@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-G"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "changequote((,)) changecom((/*),(*/)) /*C*/ define((Z),(1)) incr(Z)"
+}

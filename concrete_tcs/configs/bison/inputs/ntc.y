@@ -1,0 +1,3 @@
+%nterm 'a'
+%%
+s:%empty;

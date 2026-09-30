@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    "./[a-f0-9\\-]{36}\\.[0-9]{8}.*",
+    "-print",
+    "Tk%Z"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

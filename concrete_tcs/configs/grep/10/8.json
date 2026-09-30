@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--devices=recurse"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

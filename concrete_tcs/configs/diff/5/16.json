@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "-a",
+        "-E",
+        "-w",
+        "--changed-group-format=CHANGED:\\n%<",
+        "-I",
+        "^\\(\\?[0-9A-Za-z]+\\)\\?$",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

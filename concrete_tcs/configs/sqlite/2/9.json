@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA journal_mode=TRUNCATE;BEGIN EXCLUSIVE;DROP TABLE IF EXISTS jt1;CREATE TABLE jt1(x INT UNIQUE);INSERT OR IGNORE INTO jt1 VALUES(1);INSERT OR FAIL INTO jt1 VALUES(1);COMMIT;\n"
+}

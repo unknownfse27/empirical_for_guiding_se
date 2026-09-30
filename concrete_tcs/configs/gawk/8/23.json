@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "/switch *\\(",
+    "{",
+    "count++",
+    "}",
+    "END",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": ""
+}

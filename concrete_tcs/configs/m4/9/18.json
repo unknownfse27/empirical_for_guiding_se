@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-d"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`z',`builtin(`eval', `3*bad')')ifdef(`nope',`esyscmd(`ls')',`errprint(`oops')')z patsubst(`aabbcc`,`b`,`_`) substr(`abcde`,`9')"
+}

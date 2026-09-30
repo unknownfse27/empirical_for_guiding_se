@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--color=auto",
+    "-E",
+    "-C",
+    "5",
+    "--directories=skip",
+    "--include=*",
+    "^if(*[^0-5])",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

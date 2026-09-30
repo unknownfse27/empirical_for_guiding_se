@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{ \"echo \" $0 | getline json_obj; name = system(\"echo \\\"\" json_obj \"\\\" | jq -r .P.n\"); print}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "A\\ndnl drop\\nB\\nC shift(`A',`B',`C') traceon(`foo') traceoff(`foo') builtin(`eval`,`3+4*2') syscmd(echo S) esyscmd(echo E) sysval divert(`1') ONE divert(`2') TWO  divert(`3') THREE divert(`4') FOUR divert(`5') FIVE cleardivert"
+}

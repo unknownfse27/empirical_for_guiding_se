@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-N",
+        "--no-dereference",
+        "/dev/stdout",
+        "/dev/stdin"
+    ],
+    "dirs": [
+        "/dev/stdout",
+        "/dev/stdin"
+    ],
+    "files": [],
+    "stdin": ""
+}

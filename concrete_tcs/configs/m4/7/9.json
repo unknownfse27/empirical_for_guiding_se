@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-l-t",
+    "--warn-m=^.*[^.]\\.([wW][mM][aA]|[mM][pP][34]|[eE][xX][eE]|[zZ][iI][pP])$"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`media',`song.mp3')\n"
+}

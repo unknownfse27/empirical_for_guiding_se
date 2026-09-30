@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "--append",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE); SELECT cat, val, ROW_NUMBER() OVER (PARTITION BY cat ORDER BY val DESC) AS rn FROM t_adv WHERE val > 5; CREATE INDEX idx_adv_val ON t_adv(val); SELECT * FROM t_adv WHERE val GLOB '[1-2][0-9]' AND cat LIKE 'A%';"
+}

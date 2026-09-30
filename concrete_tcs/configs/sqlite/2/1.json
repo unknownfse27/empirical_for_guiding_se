@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(x);BEGIN;INSERT INTO t VALUES(1);SAVEPOINT s1;INSERT INTO t VALUES(2);SAVEPOINT s2;INSERT INTO t VALUES(3);ROLLBACK TO s2;RELEASE s2;ROLLBACK TO s1;COMMIT;"
+}

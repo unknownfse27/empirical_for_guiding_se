@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "d",
+    "-empty",
+    "-mtime",
+    "+365",
+    "-not",
+    "-path",
+    "./backup/*",
+    "-user",
+    "root",
+    "-links",
+    "+2",
+    "-not",
+    "-used"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

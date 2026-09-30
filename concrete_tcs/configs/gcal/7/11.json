@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "a=1234:c=a",
+    "--export-date-variables",
+    "-c01tue5",
+    "-jn",
+    "-N",
+    "--adjust-value=10",
+    "--atmosphere=1010,20"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

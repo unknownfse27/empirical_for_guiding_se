@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "Feb 1",
+    "-links",
+    "1"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--re-interval",
+    "-f",
+    "@@",
+    "*.*"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_4.awk"
+  ],
+  "stdin": ""
+}

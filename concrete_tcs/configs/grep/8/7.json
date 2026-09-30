@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--devices='skip'",
+    "--exclude='passwd'",
+    "-R",
+    "-L",
+    "\"dev\"",
+    "/etc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

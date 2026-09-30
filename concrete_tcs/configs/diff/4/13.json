@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--sdiff-merge-assist",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

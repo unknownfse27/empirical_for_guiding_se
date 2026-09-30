@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {a[1] =1;a[1]--;b[1]=1;if($0 in a);asorti(a,b);print a[-1];a[-1]+a}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

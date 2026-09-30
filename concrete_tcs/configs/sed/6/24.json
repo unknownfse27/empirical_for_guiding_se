@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    ":x;/=$/{N;s/=\n//g;bx};",
+    ":y;/^a/{P;D;s/\n=//g;by}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "a1= \na92= \na3=\n"
+}

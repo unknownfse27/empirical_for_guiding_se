@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Ux",
+    "--resource-file=@@",
+    "-r",
+    "\\$p=000",
+    "-v",
+    "a=1234"
+  ],
+  "dirs": [],
+  "files": [
+    "wtt1.rc"
+  ],
+  "stdin": ""
+}

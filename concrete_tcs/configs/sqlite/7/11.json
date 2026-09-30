@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT RANDOM(), RANDOMBLOB(10), HEX(printf('%s', X'00')); CREATE TABLE err(a INT); INSERT INTO err VALUES('not-int'); SELECT * FROM err WHERE a > 0;\n"
+}

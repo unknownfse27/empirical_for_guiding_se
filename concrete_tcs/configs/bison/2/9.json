@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-Wmidrule-values",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "mid2.y"
+  ],
+  "stdin": ""
+}

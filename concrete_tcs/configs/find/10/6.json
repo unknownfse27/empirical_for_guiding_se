@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-wholename",
+      "’./src/emacs’-prune",
+      ",-print"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

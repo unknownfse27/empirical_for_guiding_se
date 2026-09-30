@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) SELECT sum(n) FROM nums; SELECT name FROM p WHERE (id,ifnull(chk,0)) IN (SELECT id, ifnull(chk,0) FROM p);"
+}

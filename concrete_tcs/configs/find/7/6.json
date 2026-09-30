@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-ipath",
+    "*.c",
+    "-printf",
+    "%F%l%i%n%y%Y%a%A1%B1%c%C1%t%T+%TT%Z"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

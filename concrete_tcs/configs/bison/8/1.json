@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-t",
+    "-d",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "t_act.y"
+  ],
+  "stdin": ""
+}

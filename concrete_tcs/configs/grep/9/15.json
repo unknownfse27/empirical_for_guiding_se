@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "[[=a=][:xdigit:][:upper:][:lower:][:digit:]]",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

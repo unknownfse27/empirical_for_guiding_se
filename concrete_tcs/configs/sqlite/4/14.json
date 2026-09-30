@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ALTER TABLE e RENAME COLUMN note TO note2;PRAGMA defer_foreign_keys=ON;BEGIN IMMEDIATE;SAVEPOINT s1;UPDATE e SET salary=salary+1 WHERE dept='HR';ROLLBACK TO s1;COMMIT;\n"
+}

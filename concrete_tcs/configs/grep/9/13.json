@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "grep",
+    "-rn",
+    "-e",
+    "send",
+    "-e",
+    "test",
+    "-v",
+    "\".gitignore\""
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

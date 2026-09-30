@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{print \"1st\";fflush(\"/dev/stdout\");print \"2nd\"|\"cat\"}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

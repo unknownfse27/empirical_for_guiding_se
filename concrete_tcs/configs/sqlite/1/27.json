@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "--heap",
+        "100",
+        "-box",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA locking_mode=EXCLUSIVE; BEGIN; SAVEPOINT s1; INSERT INTO t_adv VALUES('Z',99); SAVEPOINT s2; UPDATE t_adv SET val=val*2; INSERT INTO t_adv VALUES('A',-1); ROLLBACK TO s2; RELEASE s1; COMMIT; PRAGMA integrity_check;"
+}

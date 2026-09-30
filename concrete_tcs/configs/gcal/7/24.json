@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--japanese-flexible-months",
+    "--with-week-number",
+    "--fixed-date=both",
+    "--include-resource-file-name"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_24"
+  ],
+  "stdin": ""
+}

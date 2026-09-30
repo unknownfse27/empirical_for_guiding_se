@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--color=always",
+    "-rall,no-solved",
+    "-Tall,no-m4,no-time",
+    "-Wnone,yacc,empty-rule",
+    "-o/tmp/s1.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "s1.y"
+  ],
+  "stdin": ""
+}

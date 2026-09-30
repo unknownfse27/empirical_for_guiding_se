@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "--date-format=de",
+    "-K",
+    "--iso-week-number=yes",
+    "@@@",
+    "--persian-jalaali-holidays",
+    "--zodiacal-marker-holidays",
+    "97-2022"
+  ],
+  "dirs": [],
+  "files": [
+    "r4_4"
+  ],
+  "stdin": ""
+}

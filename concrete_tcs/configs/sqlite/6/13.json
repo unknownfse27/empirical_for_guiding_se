@@ -1,0 +1,13 @@
+{
+    "envs": [],
+    "args": [
+      "-line",
+      "-vfs",
+      "unix",
+      "-readonly",
+      "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT writefile(\"init.sql\",\".mode tabs\"||char(10)||\".nullvalue N\"||char(10));\n.read init.sql\n.parameter set :x 🤔\n.dump p c\nSELECT json_extract(\"{\"\"a\"\":1}\",\"$.a\");\nSELECT count(*) FROM sqlite_schema;\n"
+  }

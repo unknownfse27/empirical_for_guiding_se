@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Tautomaton",
+    "-Dlr.type=ielr",
+    "-v",
+    "--report=state",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "ts.y"
+  ],
+  "stdin": ""
+}

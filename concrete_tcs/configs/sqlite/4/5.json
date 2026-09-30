@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE INDEX IF NOT EXISTS idx_p_expr ON p(length(name)); SELECT * FROM pragma_index_list('p'); SELECT * FROM pragma_index_info('idx_p_name'); DROP VIEW IF EXISTS pv; CREATE VIEW pv AS SELECT id,name FROM p WHERE ifnull(chk,0)>=0;"
+}

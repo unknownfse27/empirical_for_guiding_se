@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "--posix",
+      "--quiet",
+      "-n",
+      "/[a-zA-Z0-9]+/p; s/\\&/\\$/g",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "regex_internal.c"
+    ],
+    "stdin": ""
+}

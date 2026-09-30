@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "format(`%d %x %o',`255`,`255`,`255')patsubst(`foo123bar456`,`[0-9]+`,`X')translit(`abcxyz`,`az`,`ZA')changequote({,}){quoted}traceon(`eval')eval(`2+2')traceoff(`eval')undefine(`missing_macro')"
+}

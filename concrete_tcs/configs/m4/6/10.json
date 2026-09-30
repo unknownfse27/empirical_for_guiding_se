@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`unicode', `абвгд한국어日本語中文')define(`symbols'<>/?~`')patsubst(translit(unicode, `абв', `ABC'), `[가-힣]+', `<KOREAN>')"
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Linvalid",
+    "-S",
+    "t == 1 {} t == 2 {} END {tolower(toupper(\"Doné!~12完\"))}",
+    "t=1",
+    "**/*.*",
+    "t=2",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

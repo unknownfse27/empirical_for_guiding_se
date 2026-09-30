@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "/dev",
+    "-newermt",
+    "TZ=\"\\America/New_York\" last day",
+    "-fprint"
+  ],
+  "dirs": [
+    "/dev"
+  ],
+  "files": [],
+  "stdin": ""
+}

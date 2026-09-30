@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "--show-c-function",
+        "--show-function-line='^i'",
+        "--horizon-lines=-1",
+        "--unchanged-line-format='%L%L'"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-fprintf",
+      "asdf.txt",
+      "%h:%P%H\\n\\t\\v\\r\\f\\\\\\0\\111%g",
+      "-type",
+      "f",
+      "-size",
+      "-1M"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

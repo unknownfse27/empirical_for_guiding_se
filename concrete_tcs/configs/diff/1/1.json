@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-file-name-case",
+        "-c",
+        "/etc/passwd", 
+        "/etc"
+    ],
+    "dirs": [
+        "/etc/passwd", 
+        "/etc"
+    ],
+    "files": [],
+    "stdin": ""
+}

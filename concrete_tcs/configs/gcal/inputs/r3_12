@@ -1,0 +1,13 @@
+-q
+KR
+%19961212
+-s0
+-xw
+--biorhythm-axis=19
+-f/dev/null
+-#0*d1#999_%Z__%O
+%19950407
+-x
+--moon=8
+--adjust-value=-20.5
+--atmosphere=1010,10

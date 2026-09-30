@@ -1,0 +1,20 @@
+{
+  "envs": [
+    "MAILTO=123"
+  ],
+  "args": [
+    "-Ffoo.bar",
+    "-dJZA",
+    "-l*d10",
+    "@@@",
+    "-c",
+    "--leap-day=february",
+    "--week",
+    "00000112#augfri3"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_15"
+  ],
+  "stdin": ""
+}

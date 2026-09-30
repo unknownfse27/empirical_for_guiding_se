@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { FS=\",\" }",
+    "{ getline < \"testCsv.csv\"; print $1, $2 }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

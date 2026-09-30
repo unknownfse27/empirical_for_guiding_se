@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "builtin(`eval',`2+2') builtin(`ifdef',`FOO`,`YES`,`NO') builtin(`dumpdef`,`M`) builtin(`undumpdef`,`M`) regexp(`a\\b\\t', `\\b', `\\n\\\\') regexp(`&', `.*', `\\&&') regexp(`Ab1_`, `[[:alpha:]][[:alnum:]]`, `X') regexp(`\\nstart', `^.`, `LF')"
+}

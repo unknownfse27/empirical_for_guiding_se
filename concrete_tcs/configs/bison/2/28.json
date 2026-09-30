@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-dv",
+    "-t",
+    "-Wother",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "unt.y"
+  ],
+  "stdin": ""
+}

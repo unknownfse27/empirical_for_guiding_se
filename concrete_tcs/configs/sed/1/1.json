@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "'/(\\bsed\\b).*\\1/p'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "111 sed sed 33"
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`A',`patsubst') indir(A,`banana',`a',`A') indir(`Z') indir(A,`failcase',`(`,`Z') traceon(`define') define(X,1) traceoff(`define') define(Y,2) format(`%8d %08d %-8d %+8d % 8d %#x',42,42,42,42,42,255) format(`100%% complete %d %s')format(`%.0f %.2f',3.99,2.5,999)"
+}

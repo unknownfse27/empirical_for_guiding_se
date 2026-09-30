@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-nowarn",
+    "-noleaf",
+    "-xdev",
+    "-noignore_readdir_race",
+    "-newermt",
+    "2021-01-01",
+    "-links",
+    "+3",
+    "-links",
+    "-5"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-ne",
+    "2a say \\x27hello\\x27",
+    "-e",
+    "/[24]/c \\nhi",
+    "-e",
+    "1,3i bye",
+    "-e",
+    "5 s/.*/oh/"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(seq 6)"
+}

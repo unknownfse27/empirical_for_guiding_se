@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-e=[^ a-z]*",
+    "-Rl",
+    "--include=*.c",
+    "--devices=\"skip\"",
+    "../../*",
+    "--directories=\"recurse\"",
+    "--no-mssage",
+    "--color=always"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

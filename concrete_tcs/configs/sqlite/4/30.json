@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-list",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "BEGIN; CREATE TABLE v(a INT); INSERT INTO v VALUES(1); DROP TABLE v; COMMIT;BEGIN; ALTER TABLE t ADD COLUMN tempcol INT; ROLLBACK;SAVEPOINT sp1; INSERT INTO t VALUES(10,99,'z'); ROLLBACK TO sp1; RELEASE sp1;INSERT INTO t VALUES(2,3.8,'c') ON CONFLICT(a) DO UPDATE SET b=b+1;"
+}

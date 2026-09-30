@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN { cmd = \"ls\"; while (cmd | getline) print $0; close(cmd) }'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

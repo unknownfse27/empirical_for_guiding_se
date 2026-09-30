@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-newermt",
+    "1 year ago",
+    "-ls"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t_rtrig; PRAGMA recursive_triggers=1; CREATE TABLE t_rtrig(x); CREATE TRIGGER rtrig AFTER INSERT ON t_rtrig BEGIN INSERT INTO t_rtrig VALUES(new.x+1); END; INSERT INTO t_rtrig VALUES(1);"
+}

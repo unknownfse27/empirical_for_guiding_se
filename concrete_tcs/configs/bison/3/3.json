@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-v",
+    "-r",
+    "all",
+    "-fcaret",
+    "-ffixit",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "cex3.y"
+  ],
+  "stdin": ""
+}

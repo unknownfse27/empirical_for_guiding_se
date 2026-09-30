@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-G"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(2-2*2/2%2**2,2,3) eval(~2^!2|1<<2&4>>1) eval(2==2) eval(2!=2) eval(2>3&&2<3||2>=3&&2<=3) eval(2147483648) maketemp(/A) fatal_error(message)"
+}

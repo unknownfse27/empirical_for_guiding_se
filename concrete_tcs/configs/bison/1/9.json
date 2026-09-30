@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-Wall",
+    "-Wcounterexamples",
+    "--report=all",
+    "--graph=t4.dot",
+    "--xml=t4.xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "t4.y"
+  ],
+  "stdin": ""
+}

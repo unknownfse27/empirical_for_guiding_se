@@ -1,0 +1,22 @@
+{
+  "envs": [
+    "LC_CTYPE=UTF-8",
+    "LC_MESSAGES=en_US.UTF-8",
+    "NLSPATH=../find"
+  ],
+  "args": [
+    "../find",
+    "-xtype",
+    "l",
+    "-exec",
+    "grep",
+    "a",
+    "{}",
+    ";"
+  ],
+  "dirs": [
+    "../find"
+  ],
+  "files": [],
+  "stdin": ""
+}

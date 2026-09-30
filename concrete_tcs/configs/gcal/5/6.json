@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "%19960101",
+    "-H",
+    "no",
+    "-x",
+    "-r",
+    "$A=FROBOZZ:$x=",
+    "-f",
+    "./tvar-1.rc",
+    "-qbe",
+    "--holiday-list",
+    "."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t(a PRIMARY KEY,b UNIQUE,c)WITHOUT ROWID;INSERT INTO t VALUES(1,10,100),(2,20,200),(3,30,300);SELECT * FROM t WHERE a>0 AND b<25;UPDATE t SET c=c*2 WHERE a=1;ALTER TABLE t ADD COLUMN d DEFAULT 0;ALTER TABLE t RENAME COLUMN c TO e;SELECT *,a+b FROM t;\n"
+}

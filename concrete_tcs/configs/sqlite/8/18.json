@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA journal_mode=WAL; PRAGMA wal_checkpoint(FULL); PRAGMA synchronous=NORMAL; PRAGMA cache_size=-2000; PRAGMA auto_vacuum=FULL; VACUUM;"
+}

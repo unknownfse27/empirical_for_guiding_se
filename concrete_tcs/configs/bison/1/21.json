@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-Tall",
+    "-Wall",
+    "-Wcex",
+    "-rall",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "n0.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--trace=all",
+    "--report=all",
+    "-Wall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dep3inv.y"
+  ],
+  "stdin": ""
+}

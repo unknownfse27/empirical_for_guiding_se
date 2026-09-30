@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "LANG=ru_RU.UTF-8"
+  ],
+  "args": [
+    "@@",
+    "-nf",
+    "../testsuite/badenc.sed"
+  ],
+  "dirs": [],
+  "files": [
+    "madding.inp"
+  ],
+  "stdin": ""
+}

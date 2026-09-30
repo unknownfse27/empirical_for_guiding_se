@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(7)Hidden cleardivert(7) undivert(7) divert(-1) divert(9) divert(8) divert(4) divert(5) divert(6) divert(3)3 divert(2) divert(1) undivert(1) undivert(0) undivert(2) undivert(6) undivert(8) undivert(9) undivert(3) undivert(4) undivert(5) divert(6) divert(eval(`1<<28'))"
+}

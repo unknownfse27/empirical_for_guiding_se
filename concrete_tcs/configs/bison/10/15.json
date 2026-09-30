@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "BISON_PROGRAM_NAME=\"test\"",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-t",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "parse-gram.y"
+  ],
+  "stdin": ""
+}

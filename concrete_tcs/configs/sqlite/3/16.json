@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".stats on\n.timer on\n.trace L.txt\n.prompt \"SQL> \" \"A| \"\n.open :memory:\n.system echo 'CREATE TABLE B(I,J);'\n.open test.db\n.separator V\nSELECT * FROM B;\n.restore main T3.db\n.schema\n.save T3.db\n.sha3sum\n.show\n.tables\n"
+}

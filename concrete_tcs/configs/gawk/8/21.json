@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {system(\"ls\"); asorti(ARGV, sARGV, r); print sARGV[0]; }'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awk.h"
+  ],
+  "stdin": ""
+}

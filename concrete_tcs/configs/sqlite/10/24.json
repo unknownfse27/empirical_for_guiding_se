@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ALTER TABLE t1 ADD COLUMN d TEXT DEFAULT 'def'; UPDATE t1 SET d='D' WHERE a=1; SELECT d FROM t1 WHERE a=1;"
+}

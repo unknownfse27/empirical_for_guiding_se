@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-dvWcex",
+    "-T",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "combo.y"
+  ],
+  "stdin": ""
+}

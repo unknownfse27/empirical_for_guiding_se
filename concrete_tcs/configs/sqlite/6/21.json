@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "-lookaside",
+        "32",
+        "100",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA temp_store=MEMORY;CREATE TEMP TABLE tt(x);WITH r(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM r WHERE n<200) INSERT INTO tt SELECT randomblob(16) FROM r; DELETE FROM tt; PRAGMA shrink_memory;\n"
+}

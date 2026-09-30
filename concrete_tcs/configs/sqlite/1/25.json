@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "--csv",
+        "-pagecache",
+        "1000",
+        "1000",
+        "-lookaside",
+        "1000",
+        "1000",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA page_size=8192; PRAGMA journal_mode=WAL; CREATE TABLE t(x); INSERT INTO t VALUES(zeroblob(1000)); VACUUM; PRAGMA page_size=4096; VACUUM;"
+}

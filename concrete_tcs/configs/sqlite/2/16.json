@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS num1;CREATE TABLE num1(v NUMERIC);INSERT INTO num1 VALUES('0012'),('12.34'),('12x'),(NULL);SELECT v,typeof(v),v+0,typeof(v+0),COALESCE(CAST(v AS INT),-1) FROM num1;\n"
+}

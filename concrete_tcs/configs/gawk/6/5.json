@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "BEGIN{close(\"/bin\",\"to\");",
+    "fflush();fflush(\"/dev/stdin\");",
+    "system(\"\");getline<\"re.c\";getline}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

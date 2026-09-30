@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+      "-I",
+      "^\t*$",
+      "--color=never",
+      "--suppress-blank-empty",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "dir.c"
+    ],
+    "stdin": ""
+}

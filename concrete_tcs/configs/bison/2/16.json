@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-rall",
+    "--xml=ms.xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "ms.y"
+  ],
+  "stdin": ""
+}

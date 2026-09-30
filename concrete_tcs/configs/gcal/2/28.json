@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--descending-holiday-list=short",
+    "7:1000;April:500;May:1500;1:1999;4:1998;8:2010;8:1950;8:1920"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_28"
+  ],
+  "stdin": ""
+}

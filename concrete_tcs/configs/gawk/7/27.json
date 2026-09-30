@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "/^debug_init:/,/^[^{}]*{$/{ if(/=.*&.*[^=]=/) print } }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "debug.c"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-dacefilpqtxV",
+    "-e",
+    "-i",
+    "-l",
+    "0",
+    "-o",
+    "--warn-macro-sequence=macro",
+    "-H",
+    "0",
+    "--debugfile=debug",
+    "-Dfoo"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(foo, bar) foo foo undefined(foo)"
+}

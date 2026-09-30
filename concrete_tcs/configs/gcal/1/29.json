@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "JP",
+    "@@@",
+    "-cey",
+    "-cdy+",
+    "--block=6",
+    "-cw-",
+    "-c-y-",
+    "-c-et",
+    "-n",
+    "--transform-year=-1423",
+    "-cxo",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_29",
+    "demo.rc"
+  ],
+  "stdin": ""
+}

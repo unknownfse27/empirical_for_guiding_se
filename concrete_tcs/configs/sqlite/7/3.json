@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE a11(i); CREATE TABLE b11(j); INSERT INTO a11 VALUES(1); SELECT COALESCE(i, j) FROM a11 LEFT JOIN b11 ON i=j UNION ALL SELECT COALESCE(i, j) FROM a11 RIGHT JOIN b11 ON i=j WHERE i IS NULL;\n"
+}

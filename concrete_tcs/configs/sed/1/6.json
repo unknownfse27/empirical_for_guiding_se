@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "sed",
+    "z"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "This is a test."
+}

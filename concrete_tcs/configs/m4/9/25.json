@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "index(`gnus, gnats, and armadillos', `nat')format(`An year is %d days, %.0f hours %010F seconds %s \n', eval(`30*10+70-5'), INF, `infinity', len(format(`%-*X', `5000', `1')))"
+}

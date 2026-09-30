@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--no-lines",
+    "-d",
+    "-v",
+    "-r",
+    "all",
+    "@@",
+    "-o",
+    "/tmp/a24.c"
+  ],
+  "dirs": [],
+  "files": [
+    "calc.y"
+  ],
+  "stdin": ""
+}

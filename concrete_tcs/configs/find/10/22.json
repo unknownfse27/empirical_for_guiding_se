@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "LC_TIME=ja_JP.UTF-8"
+  ],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-exec",
+    "printf '%b %a %Ec %OC %EC %Ey %G-%V $-I $_H\\n' {} +",
+    "+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

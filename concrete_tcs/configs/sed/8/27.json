@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "/[0-9]?|[a-z]{3}|^[[:alpha:][:graph:][:lower:][:blank:]]|(\\((?1)*\\))/d|",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "config.texi"
+    ],
+    "stdin": ""
+}

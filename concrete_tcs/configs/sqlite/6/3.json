@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SAVEPOINT s;CREATE TABLE t(x,y,z AS(x+y));CREATE INDEX i ON t(x+y,x*y);INSERT INTO t VALUES(2,3),(4,5);SELECT *,x+y FROM t WHERE x+y>5;RELEASE s;SAVEPOINT r;INSERT INTO t VALUES(6,7);ROLLBACK TO r;SELECT * FROM t;\n"
+}

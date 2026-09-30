@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-b",
+        "-a",
+        "@@",
+        "@@",
+        "--paginate"
+    ],
+    "dirs": [],
+    "files": [
+        "diff",
+        "diff3"
+    ],
+    "stdin": ""
+}

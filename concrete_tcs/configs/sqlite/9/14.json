@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Drop view if exists v; create view v as select a,b from t where c>=0 and a<3; select * from v where a in(1,2) order by b desc; insert into v values(10,'zz');update t set a=100 where a=1;"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE a(x PRIMARY KEY);CREATE TABLE b(y);INSERT INTO a VALUES(1),(2);INSERT INTO b VALUES(2),(3);SELECT * FROM a LEFT JOIN b ON a.x=b.y WHERE b.y IS NULL OR b.y>0;SELECT * FROM a CROSS JOIN b;SELECT CAST(1 AS TEXT),typeof(1),CAST(1.5 AS INT);\n"
+}

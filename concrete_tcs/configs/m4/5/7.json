@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4wrap(errprint(WRAPPED\\n')') esyscmd(false')sysval changequote({,}) patsubst(filename.c', .c', %.o') pushdef(a', 1')pushdef(a', 2')popdef(a')popdef(a')a ifelse(1', 1', yes', no') format(F:%02d', 8') regexp(999zzz', [a-z]+', Z')"
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-c2w",
+    "%Friday",
+    "sep/1-1600"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

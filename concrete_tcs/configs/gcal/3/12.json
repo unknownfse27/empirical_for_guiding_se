@@ -1,0 +1,14 @@
+{
+  "envs": [
+    "PAGER=\"less \"",
+    "LANGUAGE=de"
+  ],
+  "args": [
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r3_12"
+  ],
+  "stdin": ""
+}

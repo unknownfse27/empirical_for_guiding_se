@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "[[:alpha:]&&[^[:lower:]]]{2,5}+[[:punct:]&&[^[:space:]]]",
+        "/etc/passwd",
+        "/etc/group"
+    ],
+    "dirs": [
+        "/etc/passwd",
+        "/etc/group"
+    ],
+    "files": [],
+    "stdin": ""
+}

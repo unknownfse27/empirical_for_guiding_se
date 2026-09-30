@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--report=all",
+    "-Wcounterexamples",
+    "--trace=parse",
+    "@@",
+    "-o",
+    "/dev/null"
+  ],
+  "dirs": [],
+  "files": [
+    "ops.y"
+  ],
+  "stdin": ""
+}

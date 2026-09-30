@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1)A divert(0)B undivert(1) divert(2)C divert(3)D divert(4)E divert(0) undivert(2,3) undivert divert(4)A divert(2)B undivert(2) divert(4)C divert(5)D divert(4)E undivert(2,3) undivert"
+}

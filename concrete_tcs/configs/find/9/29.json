@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "/tmp",
+    "/var/tmp",
+    "-depth",
+    "-mindepth",
+    "1",
+    "-type",
+    "d",
+    "-empty"
+  ],
+  "dirs": [
+    "/tmp",
+    "/var/tmp"
+  ],
+  "files": [],
+  "stdin": ""
+}

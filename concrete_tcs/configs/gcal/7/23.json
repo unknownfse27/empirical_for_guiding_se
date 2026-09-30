@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--fixed-dates=both",
+    "--french-revolutionary-months",
+    "-i-",
+    "--starting-day=2",
+    "1000;April:2302;"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_23"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {system(\"echo 1>f\");while((getline a[++c]<\"f\")>0)",
+    "{ };print c}",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "io.c",
+    "field.c"
+  ],
+  "stdin": ""
+}

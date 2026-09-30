@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "AM",
+    "--version",
+    "--leap-day=march",
+    "--period-of-fixed-dates=10d",
+    "-c0w",
+    "@@@",
+    "--starting-day=Monday",
+    "-K",
+    "02/2017-02/2018"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_24"
+  ],
+  "stdin": ""
+}

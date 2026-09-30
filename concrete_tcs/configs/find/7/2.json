@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-xdev",
+    "-fstype",
+    "nfs",
+    "-prune",
+    "-o",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    ".*[:digit:]+\\.txt",
+    "-print"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

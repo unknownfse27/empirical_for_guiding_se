@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{cmd=\"test\";print cmd |& getline output;close(cmd);print \"O\", output}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "quit"
+}

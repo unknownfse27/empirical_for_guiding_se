@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TEMP TABLE t9(a INT,b INT);INSERT INTO t9 VALUES(1,2),(3,4),(5,6);SELECT sum(a*b),min(a),max(b) FROM t9 GROUP BY (b%2) ORDER BY a DESC LIMIT 2 OFFSET 0;PRAGMA temp_store;ANALYZE;"
+}

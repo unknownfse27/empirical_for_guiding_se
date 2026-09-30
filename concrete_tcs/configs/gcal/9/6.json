@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-b",
+    "3",
+    "--iso-week-number=no",
+    "-i-",
+    "-n",
+    "2:2019;9:1992;June:3"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

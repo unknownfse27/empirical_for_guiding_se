@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS ai;CREATE TABLE ai(id INTEGER PRIMARY KEY AUTOINCREMENT,t);\nINSERT INTO ai(t) VALUES('a'),('b');DELETE FROM ai WHERE id=2;\nINSERT INTO ai(t) VALUES('c');\nSELECT max(id) FROM ai;"
+}

@@ -1,0 +1,23 @@
+{
+    "envs": [],
+    "args": [
+      "-N",
+      "-i",
+      "--label=Version1",
+      "--label=Version2",
+      "-I",
+      "[A-Z]+\\d+",
+      "-I",
+      "\\<[A-Za-z_][A-Za-z0-9_]*\\>",
+      "-W110",
+      "-w",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+      "io.c",
+      "side.c"
+    ],
+    "stdin": ""
+  }

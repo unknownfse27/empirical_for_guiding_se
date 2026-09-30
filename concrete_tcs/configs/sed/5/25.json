@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "s/\"([^\"]*)\"/«\\1»/g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "This \"is\" a \"test\"\nHe said, \"Hello, \\\"world\\\"!\""
+}

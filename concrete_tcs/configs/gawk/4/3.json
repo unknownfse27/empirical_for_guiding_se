@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN { RS = \"\\n|( *[[:upper:]]+ *)\" }",
+    "{ print \"R\", $0,\"[\" RT \"]\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "r 1 A r 2 B r 3"
+}

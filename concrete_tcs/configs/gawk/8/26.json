@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--",
+    "'BEGIN {print \"\"Hello, World!\"}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

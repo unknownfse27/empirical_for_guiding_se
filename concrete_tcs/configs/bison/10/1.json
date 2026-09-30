@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@",
+    "-o/tmp/oct.c",
+    "-d",
+    "-v",
+    "--report=all",
+    "-t",
+    "-k",
+    "--trace=scan,parse",
+    "--color=always"
+  ],
+  "dirs": [],
+  "files": [
+    "oct.y"
+  ],
+  "stdin": ""
+}

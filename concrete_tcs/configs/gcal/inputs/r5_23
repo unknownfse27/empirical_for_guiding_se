@@ -1,0 +1,6 @@
+--transform-year=0
+--time-offset=-2
+--suppress-text-part
+--suppress-date-part
+--suppress-calendar
+--cc-holidays=AD

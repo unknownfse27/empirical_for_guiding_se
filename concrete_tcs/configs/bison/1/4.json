@@ -1,0 +1,30 @@
+{
+  "envs": [],
+  "args": [
+    "-Lc++",
+    "-Sglr.c",
+    "-u",
+    "-H",
+    "--loc",
+    "-y",
+    "--ht=/t/h",
+    "-pprefix",
+    "-bfilepref",
+    "-k",
+    "-l",
+    "-t",
+    "--report-f=/t/r",
+    "@@",
+    "-T",
+    "-g",
+    "-x",
+    "--col=d",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "g3.y"
+  ],
+  "stdin": ""
+}

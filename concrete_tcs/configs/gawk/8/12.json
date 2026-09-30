@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "(^x+)|( +)",
+    "'{for(i=1;i<=NF;i++);printf \"%s\",$i}'",
+    "@@",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c",
+    "main.c",
+    "io.c"
+  ],
+  "stdin": "xxAA xxBxx C"
+}

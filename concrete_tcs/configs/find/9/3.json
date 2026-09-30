@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newerct",
+    "last week",
+    "-exec",
+    "touch",
+    "{}+"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

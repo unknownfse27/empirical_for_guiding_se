@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--mmap",
+        "10000",
+        "--pagecache",
+        "8192,200",
+        "--nofollow",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA auto_vacuum = FULL; ATTACH 'aux.db' AS aux; DROP TABLE IF EXISTS t; VACUUM; DROP TABLE IF EXISTS aux.log; VACUUM aux; VACUUM main INTO 'backup.db';"
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "/dev/full"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "''"
+}

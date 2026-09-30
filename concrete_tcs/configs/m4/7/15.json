@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-H",
+    "1111"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "debugmode() debugmode(acefpqtxV) debugmode(error) debugmode(t) debugmode(V) debugmode(i) debugfile() debugfile(debug.log) defn() divert(16141) divert(1) divnum dumpdef dumpdef() errprint errprint(hi) esyscmd(a) syscmd(a) ifdef(a, d, u) ifdef() dnl h"
+}

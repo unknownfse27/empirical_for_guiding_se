@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "s/^func[^{]* (\\w+)[[(].*/\\1/p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "func Read(p []byte) () { ..."
+}

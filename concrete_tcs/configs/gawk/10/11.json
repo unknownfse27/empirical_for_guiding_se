@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "{ if ($1 ~ /^#/) { print $0 > \"comments.txt\" } else { print length($0) } }",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c",
+    "eval.c"
+  ],
+  "stdin": ""
+}

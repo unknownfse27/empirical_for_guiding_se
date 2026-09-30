@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(` ', `^\\s*$', `only-whitespace') regexp(`abc def', `abc\\Wdef', `non-word-separator') regexp(`\\\\', `\\\\', `escaped-backslash') regexp(`-', `[-]', `match') regexp(`YES', `\\(YES\\|NO\\)', `decision') regexp(`line1\\nline2',`^line2$',`match`,`fail`)"
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+        "-TB",
+        "--suppress-blank-empty",
+        ".",
+        ".."
+    ],
+    "dirs": [
+        ".",
+        ".."
+    ],
+    "files": [],
+    "stdin": ""
+}

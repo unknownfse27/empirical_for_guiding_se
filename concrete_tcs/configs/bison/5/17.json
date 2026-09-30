@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--warnings=error=other",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "d.y"
+  ],
+  "stdin": ""
+}

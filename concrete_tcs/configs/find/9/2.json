@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regex",
+    "'ㄱ'",
+    "-noignore_readdir_race"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

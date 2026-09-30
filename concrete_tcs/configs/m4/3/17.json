@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-G",
+    "--warn-macro-sequence='[0-9]+'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "changequote([[,]])[[a[[]]b]]changequote(,)'a'divert(abc)undivert('no_file')m4wrap('t') define('X', '123')"
+}

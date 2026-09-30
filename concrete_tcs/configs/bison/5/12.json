@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "./bison",
+    "-fcaret",
+    "-d",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "m.y"
+  ],
+  "stdin": ""
+}

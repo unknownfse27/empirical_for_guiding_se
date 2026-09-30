@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-E"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abc', `(a|b)(b|c)?', `\\1:\\2')regexp(`', `(.*)?', `maybe')regexp(`aaaaaaa', `a{3,5}', `quant')regexp(`漢字abc123', `[\\u4e00-\\u9fff]+abc[0-9]+', `uni')regexp(`abc', `^a?bc$', `opt')regexp(`xyz', `[^a-z]', `failcase')regexp(`abc', `a.b', `dot')"
+}

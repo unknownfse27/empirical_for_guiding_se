@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=bitsets",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "f.y"
+  ],
+  "stdin": ""
+}

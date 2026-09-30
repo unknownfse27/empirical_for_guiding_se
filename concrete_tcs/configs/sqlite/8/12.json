@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS X; CREATE TABLE X(a INT, b INT, UNIQUE(a,b) ON CONFLICT IGNORE); INSERT INTO X VALUES(1,2),(1,2),(2,2); SELECT count(*) FROM X;\n"
+}

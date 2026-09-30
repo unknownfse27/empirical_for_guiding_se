@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--graph=g.dot",
+    "--color=auto",
+    "-W",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "tmp1.y"
+  ],
+  "stdin": ""
+}

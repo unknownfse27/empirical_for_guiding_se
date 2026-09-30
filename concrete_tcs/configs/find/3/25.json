@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "-samefile",
+    "/",
+    "-inum",
+    "10",
+    "-o",
+    "-inum",
+    "+3",
+    "-links",
+    "+3",
+    "-printf",
+    "%p:%h%f%S%r%c+xA%A@%C@%Y\\b\\c\\n\\%G"
+  ],
+  "dirs": [
+    "/"
+  ],
+  "files": [],
+  "stdin": ""
+}

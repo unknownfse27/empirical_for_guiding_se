@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "format([[%+05d]],[[42]]) format([[%g %G %F %e %E %c %%]],[[0.000123]][[123456]][[3.14]][[1000]][[0.001]][[65]]) changequote(`$$(', `$$)') define($$(test)$$, $$(value)$$) test changequote\n"
+}

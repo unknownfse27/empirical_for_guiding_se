@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--orthodox-old-holidays",
+    "--persian-jalaali-holidays",
+    "--zodiacal-marker-holidays",
+    "3-7",
+    "1999+2001"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_7"
+  ],
+  "stdin": ""
+}

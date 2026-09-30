@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS a;DROP TABLE IF EXISTS b;CREATE TABLE a(i INT,k TEXT);CREATE TABLE b(i INT,k TEXT,v INT);INSERT INTO a VALUES(1,'x'),(2,'y');INSERT INTO b VALUES(2,'y',20),(3,'z',30);SELECT a.i,a.k,b.v FROM a JOIN b ON a.i=b.i;SELECT * FROM a NATURAL JOIN b;\n"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".parameter init\\n.parameter set @x 1\\nDROP TABLE IF EXISTS t;CREATE TABLE t(i INT UNIQUE);INSERT INTO t VALUES(@x);SELECT * FROM t WHERE i=@x;\\n.parameter list\\n.parameter set @y 2\\n.parameter unset @x\\n.parameter clear\\nPRAGMA encoding;PRAGMA journal_mode=WAL;\\n.quit\n"
+}

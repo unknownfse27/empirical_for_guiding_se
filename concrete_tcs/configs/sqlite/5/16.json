@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_gen(a INT, b INT, c INT AS (a+b) STORED); INSERT INTO t_gen (a, b) VALUES (10, 20); SELECT c FROM t_gen WHERE c > 25; DROP TABLE t_gen; CREATE INDEX idx_expr ON t1(age*10); SELECT * FROM t1 WHERE age*10 > 200; DROP INDEX idx_expr;"
+}

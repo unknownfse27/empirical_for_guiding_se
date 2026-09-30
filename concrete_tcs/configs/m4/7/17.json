@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "substr('abcdef', '1', '4')len('abc') regexp('abc123', '[a-z]+[0-9]+') eval(3+4*2)eval(10/2-1) maketemp('/tmp/testXXXXXX')maketemp('/tmp/abcXXXXXX') esyscmd('false')"
+}

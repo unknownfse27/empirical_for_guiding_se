@@ -1,0 +1,9 @@
+-cl*d10
+--gregorian-reform=1700
+--transform-year=+9999
+--starting-day=today
+--holiday-list=short
+'--highlighting=\x20:\x20:\x1:#'
+--with-week-number
+--debug=all
+--iso-week-number=yes

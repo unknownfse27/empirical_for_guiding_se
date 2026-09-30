@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "{ print }",
+    "$2 > 7000 {print $1, $2}",
+    "—version",
+    ""
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

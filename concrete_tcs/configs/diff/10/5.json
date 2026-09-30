@@ -1,0 +1,23 @@
+{
+    "envs": [],
+    "args": [
+      "-r",
+      "--no-dereference",
+      "-N",
+      "--unidirectional-new-file",
+      "-x",
+      "*.tmp",
+      "-X",
+      "--to-file=@@",
+      "./",
+      "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [
+        "diff.c"
+    ],
+    "stdin": ""
+}

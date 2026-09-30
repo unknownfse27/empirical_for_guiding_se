@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--color=always",
+    "-Eiorh",
+    "([[:alnum:]_.-]+@[[:alnum:]_.-]+?\\.[[:alpha:].]{2,6})",
+    "$@",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

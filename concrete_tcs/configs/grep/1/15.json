@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-G",
+    "--color",
+    "-m6",
+    "-n",
+    "--no-group-separator",
+    "-Dskip",
+    "--exclude-dir=lib",
+    "-r",
+    "-f",
+    "@@",
+    "./*"
+  ],
+  "dirs": [],
+  "files": [
+    "p1_15"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "pragma busy_timeout=0; drop table if exists t; create table t(a int,b text); insert into t values(1,'x'),(2,'y'),(3,'z'); create index idx_t_a on t(a); select * from t;"
+}

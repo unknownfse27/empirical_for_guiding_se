@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-I/nonexistent/",
+    "-I.",
+    "--error-output=/dev/null"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "include(nonexistent.m4) define(a,b)a"
+}

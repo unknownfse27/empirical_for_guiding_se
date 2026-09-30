@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-u",
+    "-y",
+    "-Wall",
+    "-Wdangling-alias,deprecated,other,yacc",
+    "-dv",
+    "-rall",
+    "-x",
+    "--html",
+    "-g",
+    "--trace=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c38.y"
+  ],
+  "stdin": ""
+}

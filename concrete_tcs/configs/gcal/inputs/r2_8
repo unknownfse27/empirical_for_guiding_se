@@ -1,0 +1,20 @@
+-f/dev/null
+-#
+'0 Sunrise is at %o+41.9476-080.5542+196.901'
+-f/dev/null
+-#
+'0 B %(+403600-0741012,-3:00" %20100510'
+-c-et
+-n
+%19961212
+--biorhythm-axis=19
+--include-today
+--period-of-fixed-dates=10d
+-c*w0sun
+-c@e-10
+-c@t3fri
+-c@t+3fri
+--atmosphere=1010,10
+--block=1
+--calendar-dates=special
+--suppress-text-part

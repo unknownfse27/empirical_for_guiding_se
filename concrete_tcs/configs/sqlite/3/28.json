@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".mode html\nSELECT * FROM u LIMIT 2;\n.mode markdown\nSELECT * FROM u;\n.eqp on\n.expert\nSELECT * FROM u WHERE age>20;\n.eqp off\n.mode ascii\nSELECT * FROM u LIMIT 1;\n"
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [
+        "var='u2py.DynArray",
+        "value=b\"F\\xfeVOC\\xfeD_VOC\""
+    ],
+    "args": [
+        "-F",
+        "--",
+        "$var",
+        "*.c"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(10)\",\"A\"x524288,\"divert(20)\",\"D\"x524288,\"divert(0)\\nundivert(40) undivert(20) undivert(10)\\n"
+}

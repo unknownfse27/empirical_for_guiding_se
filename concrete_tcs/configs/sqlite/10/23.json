@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS t2(x INT, y TEXT UNIQUE, z REAL DEFAULT 0.5); INSERT INTO t2 VALUES(1,'u',3.14);"
+}

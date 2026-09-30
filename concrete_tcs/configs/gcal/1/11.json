@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-cdt",
+    "--debug=unhandled",
+    "nov-3",
+    "1992+1994+200"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

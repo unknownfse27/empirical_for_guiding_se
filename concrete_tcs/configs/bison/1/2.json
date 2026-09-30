@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-Dapi.push_pull=both",
+    "-Flr.keep_unreachable_states=false",
+    "@@",
+    "-rall",
+    "-T",
+    "-g",
+    "-x",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "m2.y"
+  ],
+  "stdin": ""
+}

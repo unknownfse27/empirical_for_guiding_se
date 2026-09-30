@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-c365d",
+    "--highlighting=text",
+    "%0*d10mon"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

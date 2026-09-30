@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-s"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "patsubst([x.c.y],[.c],[.o])regexp([abc123],[([a-z]+)([0-9]+)],\\\\1_\\\\2) define([loop],[ifelse($1,[0],[done],[loop(eval($1-1))])])loop([2]) syscmd([echo run])esyscmd([false])sysval define([A],[1])pushdef([A],[2])pushdef([A],[3])popdef([A])undefine([A])ifdef([A],[yes],[no]) ifelse([1],[2],[x],[3],[3],[y],[z])"
+}

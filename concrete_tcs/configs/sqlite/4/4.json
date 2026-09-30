@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA auto_vacuum=FULL; VACUUM; PRAGMA auto_vacuum=INCREMENTAL;PRAGMA incremental_vacuum(2);PRAGMA trusted_schema=OFF;PRAGMA read_uncommitted=ON;PRAGMA case_sensitive_like=ON;"
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "format('%f %e %g %o %X %d %a %s', 6.2831, 2.4e-6, 123456.789, 255, 2047, 8888, 0.375, 'value') eval((7+3)*2-5/1) ifelse('a','a','ok','fail') patsubst('a.mailbox@company.com','[^@]+','EMAIL')"
+}

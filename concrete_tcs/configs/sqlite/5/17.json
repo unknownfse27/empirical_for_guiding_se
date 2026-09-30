@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE tmp(id INT,v TEXT);CREATE INDEX itmp ON tmp(id);INSERT INTO tmp VALUES(1,'x'),(2,'y');ANALYZE tmp;DROP INDEX itmp;CREATE INDEX itmp ON tmp(v)WHERE v IS NOT NULL;DROP TABLE tmp;CREATE TABLE tmp AS SELECT*FROM a;DROP TABLE tmp;REINDEX;VACUUM INTO'copy.db';"
+}

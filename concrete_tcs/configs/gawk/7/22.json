@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "search=\"output\"",
+    "-v",
+    "replace=\"hi\"",
+    "'{gsub(search, replace); print}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "output"
+}

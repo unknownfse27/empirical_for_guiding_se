@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGIN{v[1]=\"c\";f(v);v=\"z\"+v[1]}",
+    "function f(p) {p[1]=toupper(\"c\")}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

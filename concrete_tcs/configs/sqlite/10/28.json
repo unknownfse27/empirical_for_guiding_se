@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE INDEX IF NOT EXISTS idx_t1_a ON t1(a); CREATE INDEX IF NOT EXISTS idx_expr ON t1((a+1)); SELECT * FROM t1 INDEXED BY idx_t1_a WHERE a>0; SELECT a FROM t1 WHERE (a+1)>2;"
+}

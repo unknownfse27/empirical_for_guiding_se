@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=internal",
+    "--debug=abort",
+    "@@@",
+    "-Hyes",
+    "-Hno",
+    "-Htext",
+    "--mail=kjyjykwak@g.skku.edu",
+    "-n",
+    "-n-"
+  ],
+  "dirs": [],
+  "files": [
+    "r9_23"
+  ],
+  "stdin": ""
+}

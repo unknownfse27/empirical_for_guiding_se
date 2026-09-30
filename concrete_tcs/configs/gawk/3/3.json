@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "/^[A-Z][a-z]+ /",
+    "io.c;",
+    "/[[:lower:]]+g[[:space:]]+[[:digit:]]/",
+    "{print}",
+    "*"
+
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

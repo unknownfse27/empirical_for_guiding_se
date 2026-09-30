@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-type",
+    "f",
+    "-size",
+    "-2k",
+    "-exec",
+    "wc",
+    "-l",
+    "{}",
+    ";",
+    "-newermt",
+    "2023-01-01",
+    "-print",
+    "-iname",
+    "*readme*"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

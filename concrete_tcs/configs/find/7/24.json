@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "*[Mm]akefile",
+    "-size",
+    "-100k",
+    "-iregex",
+    ".*bar",
+    "-exec",
+    "humanize",
+    "{}",
+    ";",
+    "-newertM"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

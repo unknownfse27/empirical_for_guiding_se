@@ -1,0 +1,13 @@
+{
+    "envs": [],
+    "args": [
+      "-tv",
+      "RS=^$",
+      "{u=match($1, /^+/);",
+      "printf gensub(/,([^,]+)$/,\"\u0001\",u)}",
+      "tstop1"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

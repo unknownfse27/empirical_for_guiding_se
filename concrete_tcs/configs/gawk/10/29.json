@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN { a = 42 ; print typeof(a); b = a ; print typeof(b) }"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

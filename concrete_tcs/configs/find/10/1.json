@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-used",
+    "-writeable",
+    "-samefile",
+    "-readable",
+    "-gid",
+    "-group",
+    "/baz"
+  ],
+  "dirs": [
+    "/baz"
+  ],
+  "files": [],
+  "stdin": ""
+}

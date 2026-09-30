@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS nums; CREATE TABLE nums(n PRIMARY KEY) WITHOUT ROWID; WITH RECURSIVE cnt(x) AS (SELECT 1 UNION ALL SELECT x+1 FROM cnt LIMIT 100) INSERT INTO nums SELECT x FROM cnt; ANALYZE nums;"
+}

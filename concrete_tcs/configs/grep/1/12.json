@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "--color=never",
+    "-o",
+    "-H",
+    "-n",
+    "-d",
+    "read",
+    "--exclude=\"??[1-9].\"",
+    "--include=\"[A-Z]Ly?.xreturn??G.\"",
+    "-r",
+    "-f",
+    "test.txt",
+    "./*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

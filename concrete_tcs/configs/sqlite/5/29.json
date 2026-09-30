@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".scanstats on\\n.trace stdout\\n.selecttrace ON\\nDROP TABLE IF EXISTS t;CREATE TABLE t(a PRIMARY KEY);INSERT INTO t VALUES(1),(2),(3);ANALYZE;SELECT * FROM t WHERE a>0;CREATE INDEX i ON t(a);\\n.selecttrace OFF\\n.scanstats off\\n.quit\n"
+}

@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "esyscmd(`echo esyscmd') syscmd(`nosuchcmd') translit(`abcd1234', `[0-9a-d]+', `[X-Yz]+') translit(`abcABC', `aA', `x') regexp(`문자열테스트', `[가-힣]+테스트', `pass', `fail')"
+}

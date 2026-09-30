@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "@@",
+    "-rall",
+    "-T",
+    "-g",
+    "-x",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "x7.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "subdir-newer",
+    "timestamp-and",
+    "-exec",
+    "test",
+    "{}",
+    "-nt",
+    "timestamp",
+    "-and",
+    "-exec",
+    "touch-r",
+    "{}",
+    "timestamp"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

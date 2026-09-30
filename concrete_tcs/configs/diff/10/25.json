@@ -1,0 +1,21 @@
+{
+    "envs": [],
+    "args": [
+        "-EFP",
+        "-I",
+        "'\\w+'",
+        "-x",
+        "'*.bak'",
+        "-X",
+        "exclude_list.txt",
+        "-r",
+        "/etc",
+        "/var"
+    ],
+    "dirs": [
+        "/etc",
+        "/var"
+    ],
+    "files": [],
+    "stdin": ""
+}

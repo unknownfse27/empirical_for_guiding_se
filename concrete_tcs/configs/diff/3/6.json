@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--ignore-matching-lines=[[.a.]-[.z.]]+",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

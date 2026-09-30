@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Dlr.type=canonical-lr",
+    "-Dlr.default-reduction=accepting",
+    "-Dlr.keep-unreachable-state",
+    "-dv",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dangle.y"
+  ],
+  "stdin": ""
+}

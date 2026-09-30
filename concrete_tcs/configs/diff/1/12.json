@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+      "-tTEZ",
+      "--ignore-file-name-case",
+      "--color",
+      "-C100",
+      "-X@@",
+      "../tests",
+      "../src"
+    ],
+    "dirs": [
+      "../tests",
+      "../src"
+    ],
+    "files": [
+        "x1_12"
+    ],
+    "stdin": ""
+  }

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{sum=0; do {print sum; sum+=2} while (sum<$1)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "5"
+}

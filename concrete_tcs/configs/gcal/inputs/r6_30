@@ -1,0 +1,23 @@
+%03
+-q
+KR
+'-H ::'
+--holiday-list=long
+-Cxw
+-cg
+-cxU
+--shell-script=null
+--bahai-holidays
+--celtic-holidays
+--chinese-flexible-holidays
+--chinese-holidays
+--islamic-civil-holidays
+--hebrew-holidays
+--christian-holidays
+--japanese-flexible-holidays
+--coptic-months
+--bahai-months
+--ethiopic-months
+--french-revolutionary-months
+--japanese-flexible-months
+--old-armenic-months

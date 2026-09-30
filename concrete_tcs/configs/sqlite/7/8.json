@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE bulk21(i INT); BEGIN; INSERT INTO bulk21 SELECT value FROM generate_series(1, 50); COMMIT; SELECT COUNT(*) FROM bulk21; PRAGMA cache_spill=ON;\n"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TRIGGER ii_v INSTEAD OF INSERT ON v_up BEGIN INSERT INTO e(eid,ename,dept,salary) VALUES(99,NEW.ename,NEW.dept,NEW.salary);END;INSERT INTO v_up(ename,dept,salary) VALUES('ZZ','HR',1);\n"
+}

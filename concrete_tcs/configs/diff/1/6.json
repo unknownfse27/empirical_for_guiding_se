@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "--old-line-format=''",
+        "--new-line-format=''",
+        "--ignore-trailing-space",
+        "/dev/null",
+        "/proc/version"
+    ],
+    "dirs": [
+        "/dev/null",
+        "/proc/version"
+    ],
+    "files": [],
+    "stdin": ""
+}

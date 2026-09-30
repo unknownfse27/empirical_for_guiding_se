@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA integrity_check;\nANALYZE;\nSELECT count(*) FROM sqlite_stat1;\n"
+}

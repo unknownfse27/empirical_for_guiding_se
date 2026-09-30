@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "--xml=/tmp/x5.xml",
+    "--graph=/tmp/g5.dot",
+    "--html=/tmp/h5.html",
+    "@@",
+    "-o",
+    "/tmp/n5.c"
+  ],
+  "dirs": [],
+  "files": [
+    "parse-gram.y"
+  ],
+  "stdin": ""
+}

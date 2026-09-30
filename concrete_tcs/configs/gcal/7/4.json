@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "-b6",
+    "@@@",
+    "-s7",
+    "--moonimage-lines=30",
+    "--gregorian-reform=1582",
+    "--alternative-format",
+    "-b12",
+    "-f/dev/null",
+    "-q",
+    "IT",
+    "-D",
+    "r",
+    "-cE",
+    "nov"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_4"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "-I",
+      "^[[:alpha:][:digit:][:graph:][:xdigit:][:punct:][:space:][:cntrl:]]$",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "sdiff.c",
+        "diff.h"
+    ],
+    "stdin": ""
+  }

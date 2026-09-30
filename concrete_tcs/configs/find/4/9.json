@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "../",
+      "-regextype",
+      "posix-extended",
+      "-regex",
+      ".*[\\x00-\\x7F\\:*?[\\]\\n\\r\\t]\\n\\r\\r.*|"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

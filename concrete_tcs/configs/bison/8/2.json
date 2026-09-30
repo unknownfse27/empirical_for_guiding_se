@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "RDR.y"
+  ],
+  "stdin": ""
+}

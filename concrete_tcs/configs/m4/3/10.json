@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp('abc', '[z-a]', 'error') regexp(`windows`,`\\w\\(\\w+\\)\\$`,`\\1 ') regexp(`X y`,`\\<T\\w*''`)regexp(`def`,`\\\\(e)`,`10\\d')  regexp('abc123def', '[^a-z]', '')  regexp('matched', '.*', 'all') regexp('ends    ', '\\s+$', '')"
+}

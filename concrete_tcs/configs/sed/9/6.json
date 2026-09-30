@@ -1,0 +1,14 @@
+{
+    "envs": [
+      "LC_ALL=C"
+    ],
+    "args": [
+      "s/[a-zA-Z0-9]?\\|.\\{9\\}A$/X/g",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "sed.texi"
+    ],
+    "stdin": "X\n"
+}

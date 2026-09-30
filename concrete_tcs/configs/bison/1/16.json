@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "glrm.y"
+  ],
+  "stdin": ""
+}

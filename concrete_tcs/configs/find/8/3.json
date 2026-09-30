@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-cnewer",
+    "Makefile",
+    "-regex",
+    ".*\\.exe",
+    "-regex",
+    ".*\\.txt",
+    "-not",
+    "-regex",
+    ".*test.*",
+    "-print",
+    "-writable"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--file-prefix-map",
+    "/tmp=TMP",
+    "@@",
+    "--report=all,states,itemsets,lookaheads,solved,cex",
+    "--trace=all",
+    "--graph"
+  ],
+  "dirs": [],
+  "files": [
+    "nv5.y"
+  ],
+  "stdin": ""
+}

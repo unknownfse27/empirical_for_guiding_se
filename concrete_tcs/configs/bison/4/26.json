@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wother",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "nv4.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-G"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "maketemp(/tmp/TEST') mkstemp(/tmp/m4testXXXXXX') errprint(`E') fatal_error(`F') maketemp(`tempXXXXXX') maketemp(/tmp/m4tmpXXXXXX') errprint(`E') m4wrap(`maketemp(`wrapXXXXXX')')"
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--profile",
+    "-v",
+    "a=1",
+    "--posix",
+    "{ -1 *rand()^3 str(rand()) -1+int(-rand())*a^2 }",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

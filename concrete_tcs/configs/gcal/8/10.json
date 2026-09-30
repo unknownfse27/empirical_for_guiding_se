@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=all",
+    "@@@",
+    "--gregorian-reform=1802,4,7,17",
+    "%20211003",
+    "--filter-day=P",
+    "2020+2030"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_10"
+  ],
+  "stdin": ""
+}

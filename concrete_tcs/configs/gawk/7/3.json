@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--posix",
+    "function myfunc(a,b) {return a+b}",
+    "{print -myfunc($1,$2)};",
+    "IGNORECASE=1",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

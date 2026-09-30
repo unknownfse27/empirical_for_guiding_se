@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "--color=always",
+    "-Wall",
+    "-Mold=new",
+    "-Dapi.pure",
+    "--trace",
+    "--report=state,lookahead,itemset,solved",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "test1.y"
+  ],
+  "stdin": ""
+}

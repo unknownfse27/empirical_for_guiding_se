@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE T8(g INT, v INT); INSERT INTO T8 VALUES(1, 10), (1, 20), (2, 5); SELECT g, v, ROW_NUMBER() OVER(PARTITION BY g ORDER BY v DESC) AS rn FROM T8;\nWITH RECURSIVE cnt(x) AS (SELECT 1 UNION ALL SELECT x+1 FROM cnt WHERE x<3) SELECT x FROM cnt;"
+}

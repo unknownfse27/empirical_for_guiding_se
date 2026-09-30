@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--text-variable=$a=foo:$c=$a",
+    "-r",
+    "$a\\:foo:$c?bar",
+    "--export-text-variables",
+    "--adjust-value=-20.5."
+  ],
+  "dirs": [],
+  "files": [
+    "r10_19"
+  ],
+  "stdin": ""
+}

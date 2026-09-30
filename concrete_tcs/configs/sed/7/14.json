@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/item/This/2",
+    "-e",
+    "y/’$FROM’/’$TO’/",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

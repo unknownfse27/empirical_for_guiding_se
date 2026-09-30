@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "--persian-jalaali-holidays",
+    "--zodiacal-marker-holidays",
+    "--cc-holidays=be+Fr+IT",
+    "-c-t",
+    "-b",
+    "6",
+    "-jc",
+    "-c10d",
+    "Nov",
+    "1777"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_3"
+  ],
+  "stdin": ""
+}

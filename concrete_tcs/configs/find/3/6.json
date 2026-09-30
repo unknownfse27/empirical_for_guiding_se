@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    "[가-힣][\\x80-\\xFF].-\\b]{<"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

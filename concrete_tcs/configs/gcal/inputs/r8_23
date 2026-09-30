@@ -1,0 +1,8 @@
+--cycle-end=12:05
+--time=12:00
+--cycle-step=1:15
+--precise
+-P
+'i00000017#00000020,i00000031#00000031'
+--execute-command
+--filter-day=Rv

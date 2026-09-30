@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-stats",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ATTACH \"aux.db\" AS aux;ATTACH \"u.db\" AS u;CREATE TABLE IF NOT EXISTS aux.x(id INT);CREATE TABLE IF NOT EXISTS u.y(id INT);INSERT OR IGNORE INTO aux.x VALUES(1);INSERT OR IGNORE INTO u.y VALUES(1);SELECT a.id FROM aux.x a LEFT JOIN u.y b USING(id);DETACH aux;DETACH u;"
+}

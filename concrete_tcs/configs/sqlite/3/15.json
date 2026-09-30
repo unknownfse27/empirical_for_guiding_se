@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".log L.txt\\n.heads on\\n.help -all\\n.filectrl psow 1\\nCREATE INDEX IA ON A(X);\\n.imposter IA IA2\\n.indexes A\\n.limit LENGTH\\n.lint fkey-indexes\\n.mode box\\n.once L.txt\\nSELECT * FROM A;\\n.open T3.db\\n.parameter set :x 1\\n.parameter list\\n.print \"HS\"\n"
+}

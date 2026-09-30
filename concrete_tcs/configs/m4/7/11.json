@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "translit(`+,-12345', `+--1-5', `<;>a-c-a') translit(`GNs t ix', `A-Z') translit(`«abc~', `~-»') translit(`', `a', `bc') translit(`abc') patsubst(`Gs n', `^', `O: ') patsubst(`Gs n', `\\<', `O: ') patsubst(`Gs n', `\\w*', `(\\&)') indir(`Z') mkstemp(`tempX')"
+}

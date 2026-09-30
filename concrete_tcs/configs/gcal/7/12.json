@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "GH+GL+GR+HK+HR+HU+ID+TD+TH+TN",
+    "--orthodox-new-holidays",
+    "--ignore-case",
+    "-Z",
+    "-J",
+    "-Cg",
+    "-caw-",
+    "2011",
+    "1:6"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-S",
+    "-d",
+    "-t",
+    "{s=tolower($0);s=toupper($0)}",
+    "END{print rand() + length($1)}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "awk.h"
+  ],
+  "stdin": ""
+}

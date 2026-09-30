@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "--width=2",
+        "--tabsize=15",
+        "--ignore-file-name-case",
+        "./",
+        "../"
+    ],
+    "dirs": [
+        "./",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "'function f(a, b){return a/b;}",
+    "BEGIN {fa = \"f\";print(@fa(10,12));",
+    "print(f(+1.3a, -10))};a>>3'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

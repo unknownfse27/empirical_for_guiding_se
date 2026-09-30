@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "/usr",
+    "-type",
+    "l",
+    "-lname",
+    "*lib*"
+  ],
+  "dirs": [
+    "/usr"
+  ],
+  "files": [],
+  "stdin": ""
+}

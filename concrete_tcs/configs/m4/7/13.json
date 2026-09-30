@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4wrap(`syscmd(`kill -9 $$')') ifelse(sysval, `137', `SIGKILL caught')"
+}

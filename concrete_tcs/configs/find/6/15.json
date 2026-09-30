@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "/tmp",
+    "-mtime",
+    "-1",
+    "-type",
+    "l",
+    "-printf",
+    "\\1\\001\\a\\b\\f\\t\\v\\r\\z\\n\\c"
+  ],
+  "dirs": [
+    "/tmp"
+  ],
+  "files": [],
+  "stdin": ""
+}

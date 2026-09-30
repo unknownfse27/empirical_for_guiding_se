@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "-xtype",
+    "l",
+    "-exec",
+    "test",
+    "! -e {}",
+    ";",
+    "-print",
+    "-used",
+    "1",
+    "-newermt",
+    "3 year ago"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

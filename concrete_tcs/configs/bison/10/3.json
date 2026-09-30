@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=all",
+    "--unknown-option"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

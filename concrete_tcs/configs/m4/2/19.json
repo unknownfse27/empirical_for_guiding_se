@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "builtin(`define',`Z`,`1') defn(`Z') defn(`len') dumpdef(`define') builtin(`substr`,`abcdef`,`2`,`3') builtin(`define`,`Y`,builtin(`incr')) index(`foobar`,`bar') builtin(`nonexistent')"
+}

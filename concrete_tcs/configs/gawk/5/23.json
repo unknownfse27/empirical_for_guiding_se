@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "--lint",
+    "/printf/",
+    "&&",
+    "/;/",
+    "{cnt += 1};",
+    "END { print rand()*cnt ARGC ARGV[0] }",
+    "*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

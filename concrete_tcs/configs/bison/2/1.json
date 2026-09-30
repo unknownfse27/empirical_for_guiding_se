@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-dvg",
+    "--report=all",
+    "-Wcounterexamples",
+    "@@",
+    "-o",
+    "/tmp/yk.c"
+  ],
+  "dirs": [],
+  "files": [
+    "yk.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,24 @@
+{
+  "envs": [
+    "DTEST1=VAL1"
+  ],
+  "args": [
+    "-d",
+    "-o",
+    "",
+    "--fatal-w",
+    "-eGPQ",
+    "-H17",
+    "-L10",
+    "-I./not_exist",
+    "-s",
+    "-tFOO",
+    "-l10",
+    "-Ftestfreeze.m4f",
+    "-Rnot_exist.m4f",
+    "--help"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4exit"
+}

@@ -1,0 +1,2 @@
+%token "" "" "ÿ" <missing
+/* unclosed

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-Wdangling-alias",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "da.y"
+  ],
+  "stdin": ""
+}

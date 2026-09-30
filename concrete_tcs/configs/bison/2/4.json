@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret,fixit",
+    "-Wother",
+    "-u",
+    "$(printf '%%start s\n%%start s\n%%%%\ns:;\n' > fx4.y; echo fx4.y)"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

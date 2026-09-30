@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newerat",
+    "2020-01-30",
+    "-newerca",
+    "pred.o",
+    "-newermc",
+    "pred.o",
+    "-newermt",
+    "jul-20-2014"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

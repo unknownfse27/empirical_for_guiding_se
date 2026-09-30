@@ -1,0 +1,5 @@
+-q
+US_AK+US_AL+US_AR+BS+BT+BV+BW+US_OK+US_AZ+US_CA+ST+SV+DE_HH+DE_MV+BJ+BM+BN+BO+DE_NI+DE_NW+DE_RP+CH_TI+DE_SH+DE_SL+DE_SN+DE_ST+CI+CK+CA_YU+CC+CH_ZH+US_CO+US_GA+US_DC+US_VT+WF+UY+US_WA+US_WI+US_WV+US_WY+VG+VI+VN
+--old-armenic-months
+--japanese-flexible-months
+'--date-format=%Y %D %>02*M ; ;%1(%>5u#K)%2'

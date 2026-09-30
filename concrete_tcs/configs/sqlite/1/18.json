@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TEMP TABLE t_temp2(x INT); PRAGMA recursive_triggers=ON; CREATE TRIGGER temp_trg BEFORE DELETE ON t_temp2 WHEN OLD.x>0 BEGIN INSERT INTO t_temp2 VALUES(OLD.x+1); DELETE FROM t_temp2 WHERE x>10; END; INSERT INTO t_temp2 VALUES(1),(5); DELETE FROM t_temp2;"
+}

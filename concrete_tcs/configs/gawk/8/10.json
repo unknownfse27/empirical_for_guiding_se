@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "{while((c=getopt(ARGC,ARGV))!=-1)",
+    "{switch(c){case \"a\":all_files=TRUE;break}}}",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "field.c",
+    "io.c"
+  ],
+  "stdin": ""
+}

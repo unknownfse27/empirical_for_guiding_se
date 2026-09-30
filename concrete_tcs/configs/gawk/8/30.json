@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "'{for(i=1;i<=NF;i++) if($i~/^[a-z]+$/i && length($i)%2==0){print\"Even len:\" $i}}'"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c"
+  ],
+  "stdin": ""
+}

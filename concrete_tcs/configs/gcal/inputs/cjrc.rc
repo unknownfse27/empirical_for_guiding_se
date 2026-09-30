@@ -1,0 +1,23 @@
+0 1. Today is %>1u*K , %>02&*D %U %Y !
+0 2. Its the %>03&*N day of the year.
+0 3. The actual week number is: %k .
+0 4. Currently, its %t* oclock, Mr. %-USER .
+0 5. Hurry up with your work~\ by the reason sunrise is at %o+5158+00738+61,2: .
+20221005 Local time: %t
+2022@t-10:100 Coding
+z=03su2
+z++
+0@z The local assigned date to z
+$a=$b foo
+$b=0@e
+$a bar
+$b \$b
+0 \$a:$a
+0 \$b:$b
+; cjrc.rc
+; 
+$c=+00+000
+$h=
+$d=$c$h
+0 %o$d %s$d
+0 \$c=$c \$h=$h \$d=$d \$x=$x

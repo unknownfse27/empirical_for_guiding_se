@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "s/^s$[ab^0-9]\\bpl\\bpl\\B\\s\\S\\d\\D\\w\\W\\n.(a|b)c+d*e{1,3}f{1}\\^/t\\u\\L\\E/gpmie",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

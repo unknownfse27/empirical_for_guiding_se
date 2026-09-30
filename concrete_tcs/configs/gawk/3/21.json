@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "-O",
+    "-o",
+    "-PL",
+    "-S",
+    "-vCONVFMT=\"%.8g\"",
+    "FS=\"\\t\"",
+    "-vIGNORECASE=1",
+    "-vOFS='v'",
+    "-vORS='aa'",
+    "-vOFMT=\"%.5g\""
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

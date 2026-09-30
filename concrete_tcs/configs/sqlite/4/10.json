@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "t.db",
+        ".read @@"
+    ],
+    "dirs": [],
+    "files": ["q.sql"],
+    "stdin": ""
+}

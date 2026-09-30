@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGINFILE{f=FILENAME;gsub(/.*[/]/,\"\",f);}",
+    "ENDFILE{f=FILENAME;gsub(/.*[/]/,\"\",f);}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

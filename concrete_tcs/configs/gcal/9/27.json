@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "--exe",
+    "-QUx",
+    "-f./redir-1.rc+XX",
+    "-r$f=XX:$c=echo $f",
+    "-#0",
+    "%!rm",
+    "$f",
+    "-c-t",
+    "-b6",
+    "-jc",
+    "-qbe+fr",
+    "-nc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

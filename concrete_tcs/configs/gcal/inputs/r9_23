@@ -1,0 +1,4 @@
+--response-file=test
+--shell-script=test
+--suppress-holiday-list-separator
+--exclude-holiday-list-title

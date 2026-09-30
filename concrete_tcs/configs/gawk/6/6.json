@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{a=0.5;a=toupper(a);a=tolower(a);",
+    "print a==cos(a)?a:-a}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

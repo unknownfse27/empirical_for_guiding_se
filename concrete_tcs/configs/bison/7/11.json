@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=all",
+    "-Werror=invalid-warning",
+    "absent_file.y"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

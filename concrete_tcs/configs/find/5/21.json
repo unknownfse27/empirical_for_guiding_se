@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "all",
+    "/dev",
+    "-newermt",
+    "last Sun",
+    "-o",
+    "-newermt",
+    "this Mon",
+    "-o",
+    "-newermt",
+    "next Tue"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

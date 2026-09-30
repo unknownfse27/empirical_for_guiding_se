@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-depth",
+    "-wholename",
+    "'./src/emacs'",
+    "-prune",
+    "-o",
+    "-name",
+    "'*.[ch]'",
+    "-print",
+    "-exec",
+    "grep",
+    "-l",
+    "{}",
+    ";"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

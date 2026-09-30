@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "BEGIN; SAVEPOINT s1; CREATE TABLE T4(z); INSERT INTO T4 VALUES(1); ROLLBACK TO s1;\nCREATE TABLE T5(a); CREATE VIEW v5 AS SELECT a FROM T5; DROP TABLE T5;\nCREATE TEMP TABLE T7(s TEXT); INSERT INTO T7 VALUES('Apple'), ('Banana'); SELECT s FROM T7 WHERE s GLOB 'a*e';"
+}

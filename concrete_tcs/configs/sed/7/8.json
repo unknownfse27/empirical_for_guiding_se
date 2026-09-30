@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-u",
+    "-En",
+    "{N; /\b(\\w+)\\s+\\1\\b/{=;p} ; D}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "It was of times,was\nthe"
+}

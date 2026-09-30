@@ -1,0 +1,22 @@
+{
+  "envs": [
+    "-DTEST1=1"
+  ],
+  "args": [
+    "-PQsi",
+    "-tFOO",
+    "-tUNDEF",
+    "-l9999",
+    "-H17",
+    "-L50",
+    "-dacfiltx",
+    "-o",
+    "",
+    "--fatal-w",
+    "--warn-m='[0-9]{3}'",
+    "-I./nonexistent"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define('FOO','BAR')"
+}

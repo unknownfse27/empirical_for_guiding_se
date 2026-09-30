@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "/\\(.*\\)\\1\\1$/p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "patternpatternpattern"
+}

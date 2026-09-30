@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "--trace=all",
+    "-fcaret",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "bad1.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {RS=\"([[:space:]]+)|(*[[:upper:]]+ *)|([[:alnum:]]+)\"}",
+    "{print $0, RT}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "array.c"
+  ],
+  "stdin": ""
+}

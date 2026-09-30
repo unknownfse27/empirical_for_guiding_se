@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "--leap-day=march",
+    "-cxo",
+    "-cxJ",
+    "-cUJ",
+    "--zero-dates-only",
+    "@@@",
+    "--holiday-list=short",
+    "--disable-highlighting",
+    "--debug=al"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_21"
+  ],
+  "stdin": ""
+}

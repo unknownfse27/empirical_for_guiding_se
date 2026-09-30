@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`user@domain.com', `\\w+@\\w+\\.\\w+', `basic-email-pattern') regexp(`aaaabbbccccddd', `\\(a\\)+\\(b\\)+\\(c\\)+\\(d\\)+', `repeated-group-matching') builtin() builtin(`define') builtin(`substr', `abc', `-1') builtin(`regexp', `abc', `[')"
+}

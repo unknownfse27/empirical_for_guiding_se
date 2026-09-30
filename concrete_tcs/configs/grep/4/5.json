@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "-Prin",
+      "--include=*.s",
+      "(?<=\\s)(B\\C|BEQ|BGE|BGT|BLE|BLT|BNE|BNT|J\\C|JAL|JR)",
+      "../../*"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "-readonly",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".save x.db\\n.backup x.db\\n.output x.txt\\n.import x.txt t\\nCREATE TABLE t_fail(x);\\nINSERT INTO t_fail VALUES(1);\\nUPDATE t_adv SET val=0;\\nDELETE FROM t_adv;\\nDROP TABLE t_adv;\\nPRAGMA user_version = 100;\\n.limit expr_depth 1000\\n.sha3sum\\n.parameter init\n"
+}

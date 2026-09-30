@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fcaret",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "dstart.y"
+  ],
+  "stdin": ""
+}

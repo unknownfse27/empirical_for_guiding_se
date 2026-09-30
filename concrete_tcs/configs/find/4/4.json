@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newermt",
+    "$(date -d +'%Y-%m-%d %H:%M:%S')",
+    "-printf",
+    "'%TY-%Tm-%Td %TH:%TM:%TS %p\\n\\t\\s'"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

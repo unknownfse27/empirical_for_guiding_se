@@ -1,0 +1,28 @@
+{
+  "envs": [],
+  "args": [
+    "-qbe",
+    "-n",
+    "-Cl1224",
+    "-qbe",
+    "-n",
+    "-cl3+",
+    "-qbe",
+    "-n",
+    "-4-",
+    "--debug=all",
+    "-c",
+    "--blocks=3",
+    "-C-em",
+    "-b",
+    "3",
+    "--cc-holidays=be",
+    "-c-t",
+    "-b",
+    "6",
+    "-jc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

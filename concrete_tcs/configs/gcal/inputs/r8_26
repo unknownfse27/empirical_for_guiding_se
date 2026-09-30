@@ -1,0 +1,6 @@
+--zero-dates-only
+--include-consecutive-number
+--leap-day=march
+--suppress-text-part
+--suppress-fixed-dates-list-separator
+--include-week-number

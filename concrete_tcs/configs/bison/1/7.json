@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-fcaret",
+    "-Wdangling",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "q.y"
+  ],
+  "stdin": ""
+}

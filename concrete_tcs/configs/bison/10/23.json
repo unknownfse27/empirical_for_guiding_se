@@ -1,0 +1,16 @@
+{
+  "envs": [
+    "BISON_STYLE=../../data/bison-default.css",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "--color=always",
+    "-fcaret",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "input.at"
+  ],
+  "stdin": ""
+}

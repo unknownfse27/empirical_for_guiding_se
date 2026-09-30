@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".dump\\n.sha3sum\\n.mode list\\n.separator |\\n.headers on\\n.dbinfo\\n.memtrace\\n.testvfs default\n"
+}

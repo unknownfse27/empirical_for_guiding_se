@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        "^((😀|?:[^()]+|(?1))*)$",
+        "-I",
+        "^(\\w+).(\\1).(\\2)",
+        "/etc/passwd",
+        "/etc/shadow"
+    ],
+    "dirs": [
+        "/etc/passwd",
+        "/etc/shadow"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN {a=-2; print 10^a;",
+    "printf \"\"|\"cat\";",
+    "getline line<\"/dev/null\";",
+    "\"true\"|getline line}",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

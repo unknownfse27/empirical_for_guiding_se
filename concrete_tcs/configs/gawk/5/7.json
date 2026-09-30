@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "/^@chapter[^0]{1,}[.]\\$$/",
+    "{print \"Match find\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "@chapter4.$"
+}

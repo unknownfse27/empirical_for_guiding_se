@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-newerat",
+    "this thursday",
+    "-or",
+    "-newermt",
+    "day ago",
+    "-or",
+    "-newer",
+    "@1595372437.692722128"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

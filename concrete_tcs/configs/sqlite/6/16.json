@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TRIGGER tr2 AFTER INSERT ON t BEGIN UPDATE t SET tx=lower(tx) WHERE id=new.id;END;INSERT INTO t(tx) VALUES(\"va\");SAVEPOINT a;INSERT INTO s(n) VALUES(\"va\");ROLLBACK TO a;RELEASE a;SELECT COUNT(*) FROM s;"
+}

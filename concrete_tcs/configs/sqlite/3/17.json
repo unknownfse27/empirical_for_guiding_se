@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.sqlite"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TEMP TABLE NUM(n); INSERT INTO NUM VALUES(1),(2&1),(3),(1*4),(100/20); SELECT a.n,COALESCE(b.n,0)+a.n+NULLIF(b.n,0)+IFNULL(b.n,0) AS S FROM NUM AS a LEFT JOIN NUM AS b ON b.n = a.n - 1 ORDER BY a.n;\n"
+}

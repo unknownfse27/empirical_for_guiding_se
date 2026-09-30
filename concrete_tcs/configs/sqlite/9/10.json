@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE a(x); CREATE TABLE b(y); CREATE TABLE c(z);\\n.tables\\n.schema a\\n.schema b\\n.schema c\\n.fullschema\n"
+}

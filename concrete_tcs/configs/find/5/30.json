@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "/dev",
+    "-regex",
+    "^가나다*[가나다]?(가|나|다)",
+    "-o",
+    "-regex",
+    "\\0\\t\\n\\r\\v\\f\\\\",
+    "-fprint",
+    "/dev/null"
+  ],
+  "dirs": [
+    "/dev"
+  ],
+  "files": [],
+  "stdin": ""
+}

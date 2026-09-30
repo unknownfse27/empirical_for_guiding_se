@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS T;CREATE TABLE T(a INT UNIQUE,b);CREATE TRIGGER tb BEFORE UPDATE ON T BEGIN UPDATE T SET b=NEW.a WHERE a=OLD.a;END;INSERT INTO T VALUES(1,10);UPDATE T SET a=1,b=20;SELECT * FROM T;"
+}

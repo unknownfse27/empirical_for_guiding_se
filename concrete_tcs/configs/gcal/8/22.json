@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-qbe",
+    "@@@",
+    "--holiday-list",
+    "."
+  ],
+  "dirs": [],
+  "files": [
+    "r8_22"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-Erwc",
+    "+ | -'?=../gnulib-tests"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

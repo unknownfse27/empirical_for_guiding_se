@@ -1,0 +1,13 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "crash.y"
+  ],
+  "stdin": ""
+}

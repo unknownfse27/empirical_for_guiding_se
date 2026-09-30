@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "-Hyes",
+    "--holiday-list",
+    "long",
+    "-u",
+    "-p"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_22"
+  ],
+  "stdin": ""
+}

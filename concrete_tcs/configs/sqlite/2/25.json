@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "REINDEX;VACUUM;ANALYZE;PRAGMA optimize;PRAGMA integrity_check;SELECT name,type FROM sqlite_master WHERE type='table' ORDER BY name LIMIT 8;\n"
+}

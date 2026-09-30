@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-dv",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "req1.y"
+  ],
+  "stdin": ""
+}

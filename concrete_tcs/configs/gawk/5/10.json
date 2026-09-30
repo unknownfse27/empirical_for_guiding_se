@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{a=2;SYMTAB[\"a\"];SYMTAB[\"a\"]=\"c\";SYMTAB[\"a\"];SYMTAB[\"c\"]}",
+    "END{print ERRNO}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

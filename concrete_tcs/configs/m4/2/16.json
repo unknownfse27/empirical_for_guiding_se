@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abXYcd', `ab.*?cd', `non-greedy') regexp(` ', `^\\s*$', `only-whitespace') regexp(`abc def', `abc\\Wdef', `non-word-separator') ifdef(`val', `val') popdef(`val') val indir(`defn', `foo')() mkstemp(`/tmp/fileXXXXXX') m4exit(0) m4exit(`2')"
+}

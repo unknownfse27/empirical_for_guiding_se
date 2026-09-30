@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ATTACH ':memory:' AS aux; CREATE TABLE aux.logs(msg TEXT); INSERT INTO aux.logs VALUES('attached'),('again'); SELECT name FROM aux.sqlite_master; SELECT COUNT(*) FROM aux.logs; PRAGMA database_list; DETACH aux; DETACH missing;\n.exit\n"
+}

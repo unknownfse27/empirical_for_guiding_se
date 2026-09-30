@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "-E",
+    "-e",
+    "/(abc){2,3}/p",
+    "-e",
+    "/(abc*)\\1/p",
+    "-e",
+    "/a|b/p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "abcabcabc\nabcabc\na\nb"
+}

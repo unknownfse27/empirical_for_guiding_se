@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@",
+    "-rall",
+    "-T",
+    "-g",
+    "-x",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "t5.y"
+  ],
+  "stdin": ""
+}

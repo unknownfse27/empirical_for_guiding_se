@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "-D",
+      "-B",
+      "-I",
+      "CUSTOM_DEF",
+      "--ifdef=CUSTOM_DEF",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

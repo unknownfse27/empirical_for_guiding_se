@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "{print ($1 > 10 ? \"greater\" : \"less\")}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "5"
+}

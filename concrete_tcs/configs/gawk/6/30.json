@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGIN {srand();printf \"%c,%d,%d,%d,%d,%d\\n\",",
+    "int(65+rand()*26),011,11,0x11,22,1}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

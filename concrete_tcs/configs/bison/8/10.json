@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "./bison",
+    "-Wcounterexamples",
+    "--report=all",
+    "--trace=all",
+    "-v",
+    "--xml=/tmp/ex.xml",
+    "--html=/tmp/ex.html",
+    "-g",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "explode_mega.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--trace=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "lex.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+        "-newline",
+        ";",
+        "-quote",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIEW v AS SELECT a, b FROM b;CREATE TEMP VIEW v2 AS SELECT a FROM t WHERE a!=1;SELECT * FROM v WHERE a LIKE 'a%';DROP VIEW v2;CREATE TABLE k(a TEXT, b REAL);INSERT INTO k VALUES ('a',1),('a',2),('b',3),('b',4); SELECT avg(b), min(b) FROM k GROUP BY A;"
+}

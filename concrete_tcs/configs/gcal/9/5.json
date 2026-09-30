@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--calendar-dates=both",
+    "--with-week-number",
+    "--orthodox-calendar",
+    "nov-3",
+    "1777+1600"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

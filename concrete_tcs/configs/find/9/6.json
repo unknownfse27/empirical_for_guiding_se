@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+      "-printf",
+      "\\a\\b\\f\\n\\r\\t\\v\\\\\\0\\NNN%p%f%h%P%H%g%G%u%U%m%M%k%b%s%S%d%D%F%l%i%n%y%Y%a%Ar%BT%c%CX"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

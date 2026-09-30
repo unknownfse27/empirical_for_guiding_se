@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    ".*[[:upper:][:digit:]]{2,10}\\.log$"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

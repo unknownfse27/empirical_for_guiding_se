@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-egrep",
+    "-regex",
+    "^((?:[a-z]){3})(?!.*[^\\w_])"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

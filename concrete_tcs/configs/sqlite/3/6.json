@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS l(a TEXT,b TEXT);INSERT OR IGNORE INTO l VALUES('1','2'),('95.5','x');SELECT e.name,l.a FROM e JOIN l ON CAST(e.score AS TEXT)=l.a ORDER BY e.name;"
+}

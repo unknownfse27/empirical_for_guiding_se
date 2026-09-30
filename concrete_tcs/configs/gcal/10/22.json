@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "foo.bar",
+    "-dJZA",
+    "-1*d10"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

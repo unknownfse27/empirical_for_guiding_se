@@ -1,0 +1,24 @@
+{
+  "envs": [],
+  "args": [
+    "%00000101",
+    "-f@@",
+    "--disable-highlighting",
+    "-qfr",
+    "--holiday-list",
+    "-qbe",
+    "--holiday-list",
+    "july",
+    "-Hno",
+    "-u",
+    "-x",
+    "-f@@",
+    "1996+2002"
+  ],
+  "dirs": [],
+  "files": [
+    "lbrk-1.rc",
+    "demo-1.rc"
+  ],
+  "stdin": ""
+}

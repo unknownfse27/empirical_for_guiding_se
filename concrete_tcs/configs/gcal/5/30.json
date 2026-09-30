@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-b",
+    "2",
+    "-s",
+    "2",
+    "-K",
+    "--iso-week-number=no",
+    "--transform-year=-543"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

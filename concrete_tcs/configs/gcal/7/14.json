@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "IN+IQ+IR+IS+IT+JP+KE+SO+SZ",
+    "-cM",
+    "--astronomical-holidays",
+    "--hebrew-months",
+    "-v",
+    "a=0303",
+    "%0@a3sun"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

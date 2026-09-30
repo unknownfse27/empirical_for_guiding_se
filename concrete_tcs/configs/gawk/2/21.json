@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "@include \"typeof1.awk\" ",
+      "*",
+      "|",
+      "./gawk",
+      "{ if(match($8, /[0-9]+\\.[0-9]+/, m)) print m[0]}",
+      "*"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

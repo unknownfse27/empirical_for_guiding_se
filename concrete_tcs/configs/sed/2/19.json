@@ -1,0 +1,11 @@
+{
+    "envs": [
+      "LC_ALL=C"
+    ],
+    "args": [
+      "/a.*c$/c\\\\orange"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "a\u00cec\n"
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".eqp full\\nCREATE TABLE t(a PRIMARY KEY);INSERT INTO t VALUES(1),(2),(3);SELECT * FROM t WHERE a IN(1,2)OR a>0;ALTER TABLE t ADD COLUMN b;REINDEX;\\nSELECT percent_rank()OVER(ORDER BY a),cume_dist()OVER(ORDER BY a)FROM t;\\n.quit\n"
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-i",
+    "--follow-symlinks",
+    "s/^/\t/",
+    "*.txt"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "/tmp",
+    "-type",
+    "l",
+    "-mmin",
+    "-30"
+  ],
+  "dirs": [
+    "/tmp"
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,27 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "-l",
+        "-s",
+        "-x",
+        "*1?동",
+        "-x",
+        "\\0",
+        "-x",
+        "@()",
+        "-x",
+        "[",
+        "-x",
+        "'",
+        "--ignore-file-name-case",
+        "../lib",
+        "../gnulib-tests"
+    ],
+    "dirs": [
+        "../lib",
+        "../gnulib-tests"
+    ],
+    "files": [],
+    "stdin": ""
+}

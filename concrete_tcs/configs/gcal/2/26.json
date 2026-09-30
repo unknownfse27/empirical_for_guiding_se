@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--resource-file=@@",
+    "--date-format='%Y %D %>02*M ; %1(%>5u#K)%2'",
+    "%Friday2",
+    "00000112:3.2,fr3:5.3"
+  ],
+  "dirs": [],
+  "files": [
+    "mdata.rc"
+  ],
+  "stdin": ""
+}

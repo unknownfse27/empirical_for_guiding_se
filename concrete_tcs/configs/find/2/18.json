@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "f",
+    "-regex",
+    ".*\\(\\.|\\.txt|\\.md\\)$",
+    "-exec",
+    "./text_md_processor",
+    "{}",
+    ";",
+    "-group",
+    "groupname"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

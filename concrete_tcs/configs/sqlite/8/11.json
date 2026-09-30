@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON; DROP TABLE IF EXISTS A1; DROP TABLE IF EXISTS B1; CREATE TABLE A1(id INT PRIMARY KEY); CREATE TABLE B1(pid INT REFERENCES A1(id) ON DELETE SET NULL); INSERT INTO A1 VALUES(1); INSERT INTO B1 VALUES(1); DELETE FROM A1 WHERE id=1; SELECT * FROM B1;\n"
+}

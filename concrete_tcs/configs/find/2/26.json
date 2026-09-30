@@ -1,0 +1,19 @@
+{
+  "envs": [
+    "LC_ALL=C",
+    "POSIXLY_CORRECT=1"
+  ],
+  "args": [
+    ".",
+    "-newer",
+    "defs.h",
+    "-or",
+    "-mtime",
+    "+100"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

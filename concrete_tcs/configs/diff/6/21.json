@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "-y",
+        "-w",
+        "-I",
+        "^\\s*[A-Za-z1-2\\W]+$",
+        "-",
+        "-"
+    ],
+    "dirs": [
+        "-",
+        "-"
+    ],
+    "files": [],
+    "stdin": "Hello! How are you?\n\t\n"
+}

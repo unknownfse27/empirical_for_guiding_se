@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--warn-macro-sequence=\"\\$| |\\(.*\\)\"",
+    "--debug=et",
+    "--error-output=special.err",
+    "-l",
+    "42"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`$`,`s')define(`a b`,`v')define(`(macro)`,`f`)"
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-c10+",
+    "--date-format=de+se",
+    "--gregorian-reform=1002,12,31,31",
+    "--starting-day=7",
+    "holiday-list=long",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r8_30"
+  ],
+  "stdin": ""
+}

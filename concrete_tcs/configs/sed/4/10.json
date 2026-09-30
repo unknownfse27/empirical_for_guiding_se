@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      ":a;N;$!ba;s/\\(.*\\)\\n\\1/\\1/"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "Line 1\nLine 2\nLine 1"
+}

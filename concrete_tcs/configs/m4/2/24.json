@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "m4wrap(`final2') changecom(`[[', `]]') [[ ]] translit(`hello123','123','abc') define(`X') regexp(`가나다','[가-힣]+','match','fail') indir(`defn', `foo')() ifelse(`1','1','ok','fallback') len(`abcde')"
+}

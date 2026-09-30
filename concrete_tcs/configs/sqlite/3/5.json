@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE IF NOT EXISTS k(k1 TEXT COLLATE RTRIM,k2 TEXT);INSERT OR IGNORE INTO k VALUES('abc ','xyz'),('ABC','XYZ');SELECT k1 FROM k WHERE k1='abc ';REINDEX;"
+}

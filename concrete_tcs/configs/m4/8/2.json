@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(`-42++5,(1+2)*3,4<<2') eval(3 + 4) eval(`0x1aBc') eval(`0b1001') eval(`0r1:0') eval(`0r1:4') eval(`0r39') eval(`+,-') eval(`(1+2-1)*2**2/2%2==2') eval(`(1+2-1)*2**2/2%2==2') define(`foo', `6') eval(`foo++') eval(!foo!=foo>6>=6>>1<6<=6<<1^1+~1&1&&1|1||1) eval()dnl"
+}

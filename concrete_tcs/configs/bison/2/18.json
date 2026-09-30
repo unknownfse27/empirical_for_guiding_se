@@ -1,0 +1,26 @@
+{
+  "envs": [],
+  "args": [
+    "-rall",
+    "--color",
+    "--style=@@",
+    "-DA=B",
+    "-FB=\"C\"",
+    "-DC={D}",
+    "-Mfoo",
+    "-Mold=new",
+    "@@",
+    "-T",
+    "-g",
+    "-x",
+    "--html",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "bison-default.css",
+    "g2.y"
+  ],
+  "stdin": ""
+}

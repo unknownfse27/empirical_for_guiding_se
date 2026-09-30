@@ -1,0 +1,25 @@
+{
+    "envs": [],
+    "args": [
+        "-r",
+        "-p",
+        "-i",
+        "-l",
+        "-x",
+        "*[].[a-zA-Z]!",
+        "-S",
+        " ",
+        "--ignore-file-name-case",
+        "-e",
+        "-t",
+        "-E",
+        "../tests",
+        "../lib"
+    ],
+    "dirs": [
+        "../tests",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+}

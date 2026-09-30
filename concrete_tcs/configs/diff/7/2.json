@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "--no-dereference",
+        "-r",
+        "-x",
+        "*.[o]",
+        "--unidirectional-new-file",
+        "../lib",
+        "../src"
+    ],
+    "dirs": [
+        "../lib",
+        "../src"
+    ],
+    "files": [],
+    "stdin": ""
+}

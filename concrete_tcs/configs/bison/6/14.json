@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "nostrt.y"
+  ],
+  "stdin": ""
+}

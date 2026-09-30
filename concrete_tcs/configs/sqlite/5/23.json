@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".timer on\\n.stats on\\nCREATE TABLE t(x);INSERT INTO t VALUES(1),(2),(3);SELECT x,SUM(x)OVER(),COUNT(*)FILTER(WHERE x>1),ntile(2)OVER(ORDER BY x)FROM t;\\nSELECT percent_rank()OVER(ORDER BY x),dense_rank()OVER(ORDER BY x)FROM t;\\n.quit\n"
+}

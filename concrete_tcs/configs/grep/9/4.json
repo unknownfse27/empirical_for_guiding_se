@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--help",
+    "--color=sdy",
+    "--exclude-from=@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

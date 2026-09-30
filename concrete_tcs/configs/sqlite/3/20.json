@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "-cmd",
+        ".timeout 2000",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".parameter init\n.parameter set @x 7\nSELECT @x*11 AS v;\n.headers on\n.mode csv\nSELECT * FROM t;\n.fullschema --indent\n.filectrl reserve_bytes 64\n.sha3sum --schema\n.dbinfo"
+}

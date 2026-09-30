@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "-S",
+        "file",
+        "--tabsize=columns",
+        "-X",
+        "-d",
+        "../src",
+        "../tests"
+    ],
+    "dirs": [
+        "../src",
+        "../tests"
+    ],
+    "files": [],
+    "stdin": ""
+}

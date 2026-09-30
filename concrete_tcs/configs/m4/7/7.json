@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "syscmd(`echo OK`) esyscmd(`echo OK`) m4wrap('syscmd(`cat')')' traceon(`undef') substr(`a bc d','3', `1') format(`%p', `0') format(`%'format(`%c', `128')) decr(`7') "
+}

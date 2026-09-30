@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{if(system(\"grep -q t main.c\")!=0||system(\"./gawk END{exit NR>10}main.c\")!=0)exit 1}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--bignum",
+    "'BEGIN{x=123452346489.4567;",
+    "y=9876435541736.54;",
+    "print x*y,x^y,y/x,y%x,log(y),exp(y)}'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-o",
+    "covr.cc",
+    "-v",
+    "--graph=covr.gv",
+    "--xml",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "covr.yy"
+  ],
+  "stdin": ""
+}

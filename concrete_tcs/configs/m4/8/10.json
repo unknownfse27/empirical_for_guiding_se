@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "--warn-macro-sequence=."
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "ifelse(`1', `2', `a', `1', `3', `b', `no match')undivert(`999')sinclude(`/no/such/file.m4')undefine(`not_exists')not_exists pushdef(`a', `2')pushdef(`a', `3')popdef(`a')popdef(`a')a define(`x.y', `warn')divert(`1')divnum divert(`0')divnum"
+}

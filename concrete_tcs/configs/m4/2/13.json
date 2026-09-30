@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(1) perl -e 'print \"M\"x1048576' divert(0) builtin(`substr\", `abf`, `2`, `3') index(`s`, `j')"
+}

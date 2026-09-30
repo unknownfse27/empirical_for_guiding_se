@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-rIhHEob",
+    "--color",
+    "\\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9.-]+\\b",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

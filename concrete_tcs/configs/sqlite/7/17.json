@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SAVEPOINT s; INSERT INTO u(name,age) VALUES('d',7); ROLLBACK TO s; RELEASE s; SELECT COUNT(*) FROM u;\n"
+}

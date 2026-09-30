@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-o",
+    "/tmp/fc.cc"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "printf '%%skeleton \"lalr1.cc\"\\n%%define api.namespace {NS}\\n%%define api.parser.class {P}\\n%%define api.value.type variant\\n%%locations\\n%%token <int> N\\n%%type <int> e\\n%%%%\\ne: N;\\n%%%%\\n'"
+}

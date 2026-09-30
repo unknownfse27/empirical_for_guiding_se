@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "@@",
+    "-QUx",
+    "-r",
+    "@@@",
+    "--time-offset=t",
+    "--hebrew-holidays",
+    "-q",
+    "PF+RU+PE+PA+PL+PN+PR+SA+AT+MR+MT+MU+MV+MW",
+    "3-6/2002"
+  ],
+  "dirs": [],
+  "files": [
+    "demo-1.rc",
+    "r5_19"
+  ],
+  "stdin": ""
+}

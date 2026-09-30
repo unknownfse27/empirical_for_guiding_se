@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-i-",
+    "-K",
+    "--with-week-number",
+    "--iso-week-number=no",
+    "-jb",
+    "-b",
+    "4",
+    "-c@t-10",
+    "--multicultural-new-year-holidays",
+    "V"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

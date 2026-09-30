@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "-q",
+    "PH+PK+PL+PT+PY",
+    "--filter-day=Rv",
+    "-CeaxY-",
+    "-cE",
+    "-o",
+    "--week",
+    "-qfr",
+    "-k",
+    "-D",
+    "x",
+    "--calendar-dates=both",
+    "1999"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

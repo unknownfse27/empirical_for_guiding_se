@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t5(a,b, UNIQUE(a,b)); INSERT INTO t5 VALUES(1,1); INSERT INTO t5 VALUES(1,1) ON CONFLICT(a,b) DO UPDATE SET b=3; DROP INDEX IF EXISTS sqlite_autoindex_t5_1; SELECT EXISTS(SELECT 1 FROM t5);\n"
+}

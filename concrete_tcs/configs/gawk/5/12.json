@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "/^A.*$/{c+=1}",
+    "BEGIN{print match(\"H1z-+=m/\\\\\",/[A-z]+/)}",
+    "END{print \"c\"c}",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

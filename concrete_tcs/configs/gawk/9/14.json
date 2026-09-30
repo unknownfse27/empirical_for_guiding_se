@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "POSIXLY_CORRECT=1"
+  ],
+  "args": [
+    "-c",
+    "-L",
+    "-f",
+    "$(find -name wordfreq.awk)",
+    "$(find -name '*.c')"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

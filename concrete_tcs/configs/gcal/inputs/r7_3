@@ -1,0 +1,8 @@
+--chinese-flexible-months
+--type=special
+--date-format=de
+--with-week-number
+-i-
+-b
+2
+--transform-year=900

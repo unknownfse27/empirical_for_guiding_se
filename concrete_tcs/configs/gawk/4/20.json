@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-v",
+    "BEGIN{x=\"abc\";index(\"a\", \"b\")",
+    "atan2(x, x) match(x, x)log(x)",
+    "rand() length(x) strtonum(x);}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+      "/usr",
+      "-mindepth",
+      "2",
+      "-regex",
+      ".*/data/\\d{4}/special\\.[\\^]*\\.(txt|csv)",
+      "-quit"
+    ],
+    "dirs": [
+        "/usr"
+    ],
+    "files": [],
+    "stdin": ""
+}

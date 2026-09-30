@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "/dev/null",
+    "-exec",
+    "false",
+    "{}",
+    "+",
+    "-execdir",
+    "echo",
+    "{}",
+    ";",
+    "-fprint",
+    "/dev/null"
+  ],
+  "dirs": [
+    "/dev/null"
+  ],
+  "files": [],
+  "stdin": ""
+}

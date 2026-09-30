@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-s",
+    "-g",
+    "--warn-macro-sequence='\\b[a-z]+\\b'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "syscmd(`ls >/dev/null 2>&1')esyscmd(`pwd')define(`exponent`,`ifelse($2,0,1,`eval($1*exponent($1,decr($2)))')`)')eval(exponent(2,10))m4exit(123)this_should_not_print"
+}

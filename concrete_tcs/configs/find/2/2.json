@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "../",
+      "-regextype",
+      "gnu-awk",
+      "-iregex",
+      "^[[:alnum:][:alpha:][:blank:][:xdigit:][:digit:][:punct:]]$"
+    ],
+    "dirs": [
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

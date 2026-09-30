@@ -1,0 +1,11 @@
+{
+  "envs": [
+    "GCAL=\"-i @color -b 3\""
+  ],
+  "args": [
+    "./gcal"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

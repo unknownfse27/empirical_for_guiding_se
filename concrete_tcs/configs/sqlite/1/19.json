@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+        "--vfs",
+        "unix-dotfile",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_conflict (id INT PRIMARY KEY, u TEXT UNIQUE); INSERT INTO t_conflict VALUES (1,'x'); INSERT OR IGNORE INTO t_conflict VALUES (1,'y'); INSERT OR REPLACE INTO t_conflict VALUES (1,'z');"
+}

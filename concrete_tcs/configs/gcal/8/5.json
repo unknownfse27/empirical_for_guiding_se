@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "%0@t-3we",
+    "--debug=all",
+    "-q",
+    "AN_SA",
+    "-jn",
+    "--starting-day=Thu",
+    "--iso-week-number=yes",
+    "--type=special",
+    "-b3",
+    "10:1956+03:2100"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

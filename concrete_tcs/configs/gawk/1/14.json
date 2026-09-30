@@ -1,0 +1,28 @@
+{
+  "envs": [],
+  "args": [
+    "--profile",
+    "-v",
+    "FS=\":\"",
+    ":\"",
+    "-v",
+    "OFS=\"\\t\"",
+    "-v",
+    "ORS=\"\\r\\n\"",
+    "-v",
+    "var=\"hello\"",
+    "--lint",
+    "--dump-variables",
+    "--sandbox",
+    "-f",
+    "@@",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [
+    "r1_14.awk"
+  ],
+  "stdin": ""
+}

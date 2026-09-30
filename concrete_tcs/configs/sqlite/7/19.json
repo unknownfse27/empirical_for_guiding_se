@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIEW v_users AS SELECT id,name,age FROM users; SELECT * FROM v_users; DROP VIEW v_users; CREATE TEMP TABLE tmp(id INT); INSERT INTO tmp SELECT id FROM users; SELECT * FROM tmp; DROP TABLE tmp;"
+}

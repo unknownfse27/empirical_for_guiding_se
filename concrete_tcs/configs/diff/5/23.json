@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "--color=auto",
+        "--palette=rs1;3:di=2",
+        "-exclude=%.c",
+        "--from-file=@@",
+        ".",
+        ".."
+    ],
+    "dirs": [
+        ".",
+        ".."
+    ],
+    "files": [
+        "diff"
+    ],
+    "stdin": ""
+}

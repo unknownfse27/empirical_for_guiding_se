@@ -1,0 +1,12 @@
+{
+  "envs": [
+    "GCAL_DATE_FORMAT=\"aksdf\"",
+    "GCAL=\"  @a /d // -- /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d\"",
+    "LANGUAGE=",
+    "LC_ALL=en_GB"
+  ],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

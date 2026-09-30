@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    "(\\w|\\W|\\b|\\B|'')+?(\\w|<|>|\\b|\\B|')(<|>|')"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

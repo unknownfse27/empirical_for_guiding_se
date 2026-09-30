@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "/proc",
+    "-type",
+    "l",
+    "-lname",
+    "anon_inode:[eventpoll]"
+  ],
+  "dirs": [
+    "/proc"
+  ],
+  "files": [],
+  "stdin": ""
+}

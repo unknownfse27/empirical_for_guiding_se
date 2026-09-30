@@ -1,0 +1,26 @@
+{
+  "envs": [
+    "DNAME=VAL"
+  ],
+  "args": [
+    "-P",
+    "-Q",
+    "-s",
+    "-i",
+    "-tX",
+    "-tY",
+    "-l5",
+    "-l50",
+    "-H1",
+    "-H999",
+    "-L5",
+    "-L100",
+    "--debug=V",
+    "--debugfile=''",
+    "--fatal-warnings",
+    "-F"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "Line1\nL2\nL3 define('X','Y') X"
+}

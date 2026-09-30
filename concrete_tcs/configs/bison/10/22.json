@@ -1,0 +1,18 @@
+{
+  "envs": [
+    "BISON_USE_PUSH_FOR_PULL=1",
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-Wall",
+    "-L",
+    "c++",
+    "-d",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "parser.yy"
+  ],
+  "stdin": ""
+}

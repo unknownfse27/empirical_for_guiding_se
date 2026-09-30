@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN {RS = \"\"\"echo x |",
+    "tr -d '\\12'\" |",
+    "getline}",
+    "{gensub(/\\xE2\\x80./, \"ZZZ\", \"g\", $0); }'",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

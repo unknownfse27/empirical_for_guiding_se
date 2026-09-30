@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-Wnone",
+    "--trace=bitsets",
+    "@@",
+    "--report=all,states,itemsets,lookaheads,solved,cex",
+    "--graph",
+    "--xml",
+    "--html",
+    "-Wall"
+  ],
+  "dirs": [],
+  "files": [
+    "a3.y"
+  ],
+  "stdin": ""
+}

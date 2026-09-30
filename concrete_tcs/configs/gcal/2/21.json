@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "gcal",
+    "%april03",
+    "--usage=japanese-holidays",
+    "-b",
+    "2",
+    "--fixed-dates=special",
+    "--time-offset=40:20",
+    "--adjust-value=-20.5"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

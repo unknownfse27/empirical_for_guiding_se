@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-fsyntax-only",
+    "--update",
+    "-Wall",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "emp.y"
+  ],
+  "stdin": ""
+}

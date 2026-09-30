@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--color=auto",
+    "-bo",
+    "-m",
+    "1",
+    "include",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

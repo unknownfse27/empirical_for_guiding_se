@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-W",
+    "version;",
+    "{a=1;b=5;print a^b,a==b,a!=b,++a,--b,a-=b,a*=b,a/=b,a%=b,a^=b}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "eval.c"
+  ],
+  "stdin": ""
+}

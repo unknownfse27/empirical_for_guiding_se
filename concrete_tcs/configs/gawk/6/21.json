@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{print\"foo\"|\"read x;echo $x;exit 12\";\"exit 1\"|getline junk;exit 12}",
+    "END{exit 0}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

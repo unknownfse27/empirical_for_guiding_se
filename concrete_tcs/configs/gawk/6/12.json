@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "BEGIN {x = \"ABC_BCA\"; gsub(/B/,\"bb\",x); y = \"ABC\"; gsub(//,\"x\",x);}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

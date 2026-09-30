@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`àéîöü',`[^x]*')regexp(`Hello 世界`,`H.*界')regexp(`café`,`c[a-z]*é')Test boundaries:regexp(`foo bar`,`\\<foo\\>`)regexp(`wordstart`,`\\<word')regexp('abcabcabcabc','(a)(b)(c)(a)(b)(c)(a)(b)(c)(a)(b)(c)\\12')regexp('abc','\\9')regexp('aaaaaaaaaa','a{10}')"
+}

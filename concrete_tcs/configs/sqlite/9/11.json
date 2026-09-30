@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t1(x INT); CREATE TABLE t2(y INT); CREATE INDEX i ON t1(x); INSERT INTO t1 VALUES(1),(2),(3); INSERT INTO t2 VALUES(1),(2); SELECT COUNT(*) FROM t1 LEFT JOIN t2 ON t1.x = t2.y WHERE t1.x BETWEEN 1 AND 2;\n"
+}

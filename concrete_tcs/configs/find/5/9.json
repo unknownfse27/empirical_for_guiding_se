@@ -1,0 +1,26 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "all",
+    ".",
+    "-xdev",
+    "-noleaf",
+    "-links",
+    "0",
+    "-ctime",
+    "0",
+    "-cmin",
+    "0",
+    "-atime",
+    "1",
+    "-executable",
+    "-gid",
+    "10000000"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,19 @@
+{
+    "envs": [],
+    "args": [
+        "--no-dereference",
+        "-N",
+        "-Z",
+        "-r",
+        "-y",
+        "-H",
+        "../gnulib-tests",
+        "../lib"
+    ],
+    "dirs": [
+        "../gnulib-tests",
+        "../lib"
+    ],
+    "files": [],
+    "stdin": ""
+}

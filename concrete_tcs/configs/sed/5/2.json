@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-En",
+    "{N; /\b(\\w+)\\s+\\1\\b/{=;p} ; D}'",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "config.status"
+  ],
+  "stdin": ""
+}

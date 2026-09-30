@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-RGCAL",
+    "--debug",
+    "--highlighting=yes",
+    "@@@",
+    "-n",
+    "july",
+    "--astronomical-holidays",
+    "--bahai-months"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_4"
+  ],
+  "stdin": ""
+}

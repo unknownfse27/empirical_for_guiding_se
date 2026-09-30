@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "$2!=\"$\""
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "ab\nc𐒄𐒅\n\\xCㅁㄴㅇ\\xCE\\xA3f\n"
+  }

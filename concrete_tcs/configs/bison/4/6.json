@@ -1,0 +1,17 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "-r",
+    "all",
+    "-o",
+    "/tmp/stresc2.c",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "stresc2.y"
+  ],
+  "stdin": ""
+}

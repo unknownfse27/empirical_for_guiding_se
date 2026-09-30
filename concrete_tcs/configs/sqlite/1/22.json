@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+        "--memtrace",
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_norowid(a TEXT PRIMARY KEY, b INT) WITHOUT ROWID; INSERT INTO t_norowid VALUES('key', 42); SELECT * FROM t_adv WHERE val NOT IN (SELECT val FROM t_adv WHERE val<20); SELECT rowid FROM t_norowid;"
+}

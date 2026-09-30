@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`foo:bar:baz', `\\([^:]*\\):\\([^:]*\\):\\(.*\\)', `\\3 \\2 \\1') patsubst(`GNUs not Unix', `\\w+', `(\\&)') define(`strcat', `ifelse(`$#`, `0`, `', `$#`, `1`, `$1`, `$1`)'strcat(shift($@))')')strcat(`aa',`bb',`cc',`dd',`ee')dnl"
+}

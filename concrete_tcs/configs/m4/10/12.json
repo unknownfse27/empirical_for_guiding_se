@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "-d"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "regexp(`hello🌕🌖🌗🌘🌑', `[^\\x00-\\x7F]+', `\\& matched')\n"
+}

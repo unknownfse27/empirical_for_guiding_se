@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "-Dapi.parser.class={P}",
+    "-Dabstract",
+    "-Dfinal",
+    "-Dstrictfp",
+    "-L",
+    "java",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "Calc.y"
+  ],
+  "stdin": ""
+}

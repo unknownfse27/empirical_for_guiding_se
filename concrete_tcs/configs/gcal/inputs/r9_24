@@ -1,0 +1,4 @@
+--calendar-dates=both
+--holiday-dates=both
+--fixed-dates=both
+--gregorian-reform=1802,4,7,17

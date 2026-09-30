@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "-b12",
+    "-s5",
+    "-qfr",
+    "-O",
+    "-K",
+    "-jcb",
+    "@@@",
+    "-cod",
+    "--list-mode",
+    "--include-holidays=short",
+    "--orthodox-new-holidays",
+    "--revert-match",
+    ":"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_15"
+  ],
+  "stdin": ""
+}

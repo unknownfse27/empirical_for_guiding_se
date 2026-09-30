@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "%20000420",
+    "-Hno",
+    "-f/dev/null",
+    "-xdt",
+    "@@@",
+    "--cycle-end=10:00",
+    "--time=17:00",
+    "--cycle-step=1:15",
+    "--time-offset=t+11:11"
+  ],
+  "dirs": [],
+  "files": [
+    "r1_16"
+  ],
+  "stdin": ""
+}

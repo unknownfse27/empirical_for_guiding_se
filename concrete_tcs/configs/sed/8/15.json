@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-E",
+    "s/(foo) (bar)/\\2 \\1\\0/g;match this (?:match that)/g",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

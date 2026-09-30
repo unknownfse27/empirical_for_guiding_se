@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{a=\"a b c\\na b c\";gensub(/(^a)+(\\c$)/,\"A\",3,a);",
+    "gensub(/(a+)*(+a)*(\\ab)/,\"aaa\",\"g\",a)}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

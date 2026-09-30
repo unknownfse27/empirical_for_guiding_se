@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "--chinese-holidays",
+    "-n",
+    "7-1"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS events;\nCREATE TABLE events(id INTEGER PRIMARY KEY AUTOINCREMENT,n TEXT DEFAULT '',m TEXT DEFAULT '');\nINSERT INTO events(n) VALUES('a'),('b');\nUPDATE events SET m=n;\nSELECT group_concat(m) FROM events;\n"
+}

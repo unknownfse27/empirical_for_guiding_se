@@ -1,0 +1,11 @@
+{
+    "envs": [],
+    "args": [
+      "--colour=auto",
+      "-G",
+      "[^c]\\{0\\}[a]\\{1,2\\}[b]\\++[[:alnum:]]\\+[[:blank:]][[:alpha:]]*"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "abbaaacbbbab+1234 asd^cbabb+asb ccdabbaaacbbbab+1234 asd^cbabb+asb ccd\n"
+}

@@ -1,0 +1,4 @@
+%error-verbose
+%define parse.error verbose
+%%
+e:;

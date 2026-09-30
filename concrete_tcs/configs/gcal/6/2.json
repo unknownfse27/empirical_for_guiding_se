@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "@@@",
+    "-cey",
+    "--astronomical-holidays",
+    "-X",
+    "-jc",
+    "-i-",
+    "--with-week-number",
+    "--blocks=2",
+    "2/1988-july/2002"
+  ],
+  "dirs": [],
+  "files": [
+    "r6_2"
+  ],
+  "stdin": ""
+}

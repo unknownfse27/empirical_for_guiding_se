@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-xFb",
+    "malloc",
+    "*",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "grep.c"
+  ],
+  "stdin": ""
+}

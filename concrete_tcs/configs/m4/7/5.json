@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "-debug=a",
+    "--warn-macro-sequence='foo.*foo'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(`x', `foofoo') define(`Xdanger',`foobarfoobar') define(`exch', `\\$2', `\\$1'') exch(`expansion text', `macro') macro define(`f', `\\`$0':\\$1')f(f(f(undefine(`f')`hello world')))define(`f', `f(\\$\\$1)')f(`bye')"
+}

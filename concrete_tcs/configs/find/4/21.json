@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-regextype",
+    "posix-extended",
+    "-regex",
+    "^.*[a-zA-Z0-9]{3,10}\\.(txt|log|md)$"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

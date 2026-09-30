@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "all",
+    ".",
+    "-xdev",
+    "-newerat",
+    "Feb 5",
+    "-o",
+    "-newerct",
+    "Feb 7",
+    "-o",
+    "-newermt",
+    "Feb 8",
+    "-quit"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

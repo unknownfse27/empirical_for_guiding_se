@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS g; CREATE TABLE g(a INT, b INT GENERATED ALWAYS AS (a*2) VIRTUAL, c INT GENERATED ALWAYS AS (a+b) STORED); INSERT INTO g(a) VALUES(7),(14); SELECT a,b,c FROM g;"
+}

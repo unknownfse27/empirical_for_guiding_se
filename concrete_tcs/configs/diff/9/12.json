@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "--line-format=%L",
+      "-W",
+      "120",
+      "--width=120",
+      "--to-file=../lib/version-etc.c",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "analyze.c",
+        "error.c"
+    ],
+    "stdin": ""
+  }

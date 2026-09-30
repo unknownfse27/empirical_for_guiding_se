@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "s/\\(\\b[A-Z]\\)/\\(\\1\\)/g",
+    "--line-length=2"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "Testing This Weird Parentheses Thing 3423 ddj dasdkn"
+}

@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-D",
+    "-f",
+    "./t"
+  ],
+  "dirs": [
+    "./t"
+  ],
+  "files": [],
+  "stdin": "b eq\nb le\nr\ndisable 1 2\ne once 1\ne del 2\nd 1\nl\nu\nc\nc\nexit"
+}

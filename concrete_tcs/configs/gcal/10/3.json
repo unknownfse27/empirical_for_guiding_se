@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-f/dev/null",
+    "--usage='i'",
+    "-H=yes"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

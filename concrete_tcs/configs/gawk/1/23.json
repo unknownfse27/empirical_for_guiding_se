@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--lint",
+    "-bF\" \"",
+    "BEGIN{max=0}{if(length(tolower($0))>max)max=length($0)}END{print max}",
+    "**/*.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

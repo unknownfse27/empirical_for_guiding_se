@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-name",
+    "*.txt",
+    "-exec",
+    "grep",
+    "-q",
+    "typedef",
+    "{}",
+    ";",
+    "-exec",
+    "echo",
+    "find: {}",
+    ";",
+    "-newerct",
+    "'2 days ago'"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

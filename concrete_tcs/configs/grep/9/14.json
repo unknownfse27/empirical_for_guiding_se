@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-C3",
+    "-n",
+    "--no-group-separator",
+    "^[[:alpha:]]*$",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

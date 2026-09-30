@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "--report=all",
+    "-o",
+    "/tmp/ul.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "%%token USED U1 U2 U3 U4 U5 U6 U7 U8 U9 U10\\n%%%%\\nstart: USED sub;\\nsub: USED|sub USED;\\nus1: U1|U2 us2;\\nus2: U3|U4;\\nus3: U5 us1;\\n%%%%\\n"
+}

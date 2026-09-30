@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-iregex",
+    ".*[a-z]\\.c$",
+    "-printf",
+    "%a\\t%b\\b",
+    "%Ak%Bk%Ck%Tk%Z%A%B%TS.24A+%.24T+",
+    "-gid",
+    "1000"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

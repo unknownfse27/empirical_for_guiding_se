@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-Wall",
+    "-fcaret",
+    "-Wcex",
+    "--trace=scan,parse",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "uni.y"
+  ],
+  "stdin": ""
+}

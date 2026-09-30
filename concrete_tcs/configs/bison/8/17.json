@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-Wcex",
+    "-fsyntax-only",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "precce.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-e=.?",
+    "-Rl",
+    "--include=*.c",
+    "--exclude=Makefile",
+    "--devices=\"skip\"",
+    "../../*",
+    "--directories=\"read\"",
+    "--color=always",
+    "-F",
+    "-G"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "SELECT * FROM pragma_function_list LIMIT 20; CREATE TABLE IF NOT EXISTS coll(a TEXT COLLATE RTRIM); INSERT INTO coll VALUES('x  '),('x'); SELECT count(*) FROM coll WHERE a='x'; PRAGMA quick_check; SELECT total_changes(), changes(), last_insert_rowid();"
+}

@@ -1,0 +1,17 @@
+{
+  "envs": [],
+  "args": [
+    "$HOME",
+    "-type",
+    "f",
+    "-regex",
+    ".*/level[0-9]+/.*\\.data",
+    "!",
+    "-regex",
+    ".*\\.(tmp|log|bak)$",
+    "-print"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

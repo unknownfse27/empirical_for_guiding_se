@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE VIRTUAL TABLE ft USING fts5(t, tokenize='unicode61'); INSERT INTO ft(t) VALUES('hello world'),('sqlite fts5 test'),('eng dept note'); SELECT t, bm25(ft) FROM ft WHERE ft MATCH 'sqlite OR world' ORDER BY 2 LIMIT 3;\n"
+}

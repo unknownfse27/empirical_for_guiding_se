@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+        "-t",
+        "--tabsize=5",
+        "--left-column",
+        "--unchanged-group-format=",
+        "-B",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

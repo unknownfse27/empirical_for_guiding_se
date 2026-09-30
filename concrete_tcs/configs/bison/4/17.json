@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-Wnone",
+    "-Werror=yacc,conflicts-sr",
+    "--warnings=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "strt.y"
+  ],
+  "stdin": ""
+}

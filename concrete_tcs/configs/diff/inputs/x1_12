@@ -1,0 +1,12 @@
+^larger$
+abcde
+[a-z]
+a+
+b*
+h.llo
+(cat|dog)
+\bdog\b
+[^a-z]
+a{2}b{2,3}
+\w\d
+(\w)\1\1\1

@@ -1,0 +1,10 @@
+{
+    "envs": [],
+    "args": [
+      "--warn-macro-sequence",
+      "-d"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "define(`foo',`\\\\\\$001 ${1} $1') ifelse(defn(foo),,`undef',`foo=${defn(foo)}') foo\n"
+}

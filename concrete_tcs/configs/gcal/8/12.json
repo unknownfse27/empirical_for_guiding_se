@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "--debug=all",
+    "-q",
+    "AT",
+    "--calendar-dates=both",
+    "--time-offset=t-2",
+    "1477+1489"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

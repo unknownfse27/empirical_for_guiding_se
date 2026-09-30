@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "gsub(tolower(/^a*[0-9]+b{3,5}(x|y)?/),length(toupper(\"a\")))",
+    "{\"h\\a\\b\\f\\n\\r\\t\\v\\\"\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "$(ls -l)"
+}

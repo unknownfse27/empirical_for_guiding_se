@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "DROP TABLE IF EXISTS t;CREATE TABLE t(id FLOAT primary key,tx text unique);INSERT INTO t VALUES(NULL,\"xxx\");SELECT last_insert_rowid(t);\n"
+}

@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{split(\"a\", a, \"-\", seps)",
+    "sprintf(\"1 = %.2f (approx.)\", 22/7);",
+    "sub(/\\|/, \"\\\\&\");}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

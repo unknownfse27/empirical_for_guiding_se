@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-E"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "eval(0b1010 + 12)eval(+ +4)eval(1e5)eval(12,0)eval(,16)eval(-1 >> 2)eval((1,2))eval(0 && 1/0)eval(1 || 1/0)eval(5 *)eval(0%0)format(`%')format(`%.2f',eval(`3.1415*100'))define(`TEST`,`ifelse(\\$1,1,`ONE',\\$1,2,`TWO')')TEST(2) TEST(3)define(`M',defn(`ifelse'))M(1,1,`YES'`)"
+}

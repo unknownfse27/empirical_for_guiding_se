@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-type",
+    "f",
+    "-iregex",
+    "*",
+    "-mindepth",
+    "2",
+    "-maxdepth",
+    "4",
+    "-iregex",
+    ".*\\.[a-zA-Z]+\\.bak$"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": ""
+}

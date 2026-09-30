@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "BEGIN{RS=\"DEBUG\";",
+    "print \"a\">\"/a/b\";",
+    "PROCINFO[\"NONFATAL\"]=1;",
+    "ERRNO=0;",
+    "print \"a\">\"/a/b\"}"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

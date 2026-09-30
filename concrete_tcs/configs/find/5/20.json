@@ -1,0 +1,23 @@
+{
+  "envs": [],
+  "args": [
+    "-iname",
+    "p",
+    "-inum",
+    "12",
+    "-lname",
+    "lk",
+    "-links",
+    "2",
+    "-iregex",
+    ".*\\.*$",
+    "-group",
+    "root",
+    "-gid",
+    "1",
+    "-fprint"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

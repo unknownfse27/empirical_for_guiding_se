@@ -1,0 +1,12 @@
+{
+    "envs": [],
+    "args": [
+      "{ $0 = gensub(/(hello)/, \"<\\\\1>\", \"g\"); print }",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "main.c"
+    ],
+    "stdin": ""
+}

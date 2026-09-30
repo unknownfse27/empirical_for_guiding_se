@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "gcal",
+    "%0@e-3we",
+    "aug:1992+july:1999"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

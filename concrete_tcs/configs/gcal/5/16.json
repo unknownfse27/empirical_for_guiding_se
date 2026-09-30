@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "--gregorian-reform=1802,4,7,17",
+    "-qfr",
+    "-n",
+    "-cey",
+    "--zodiacal-marker-holidays",
+    "-X",
+    "@@@",
+    "--highlighting=\\#:\\#:[:]",
+    "..",
+    "2010"
+  ],
+  "dirs": [],
+  "files": [
+    "r5_16"
+  ],
+  "stdin": ""
+}

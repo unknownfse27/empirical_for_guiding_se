@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "-F",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "frozen.m4"
+  ],
+  "stdin": "changecom(/*,*/)define(rec,ifelse($1,0,1,eval($1*rec(decr($1)))))rec(5)divert(1)include(/dev/null)divert(2)define(X,1)undivert(1)divert(-1)Hidden divert(0)eval(0xFFFF&0x0F0F,16)pushdef(X,1)pushdef(X,2)ifdef(X,popdef(X))debugmode(aeqt)m4wrap(divert(1)Wrapped)__os__ __line__ undivert(2)maketemp(m4tmpXXXXXX)errprint(Final)m4exit(1)"
+}

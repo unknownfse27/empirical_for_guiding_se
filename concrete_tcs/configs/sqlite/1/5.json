@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA integrity_check;PRAGMA page_count;PRAGMA freelist_count;ANALYZE;SELECT * FROM sqlite_stat1;REINDEX;PRAGMA wal_checkpoint(TRUNCATE);\n.tables\n.schema\n.databases\n.indexes t1\n.stats on\nSELECT count(*) FROM t1;\n.stats off\n"
+}

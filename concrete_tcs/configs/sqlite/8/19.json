@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".import --csv rfZ.txt import_test\n.expert\nSELECT * FROM products;\n.eqp full\nEXPLAIN QUERY PLAN SELECT p.name, i.iid FROM products p LEFT JOIN items i ON p.pid=i.owner;\n.timer on\nSELECT COUNT(*) FROM seq;\n.timer off\n"
+}

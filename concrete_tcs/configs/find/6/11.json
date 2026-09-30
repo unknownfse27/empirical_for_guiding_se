@@ -1,0 +1,22 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-mtime",
+    "-10",
+    "-newerac",
+    "pred.c",
+    "-o",
+    "-neweram",
+    "pred.c",
+    "-o",
+    "-newerca",
+    "pred.c",
+    "-readable"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

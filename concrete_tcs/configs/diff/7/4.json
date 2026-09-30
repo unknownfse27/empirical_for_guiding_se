@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+        "-I",
+        ".*",
+        "--strip-trailing-cr",
+        "--show-c-function",
+        "-F",
+        "^func_",
+        "--color=always",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+}

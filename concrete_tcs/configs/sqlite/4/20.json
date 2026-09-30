@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE t_stat(x); INSERT INTO t_stat VALUES(1); CREATE VIRTUAL TABLE stat USING dbstat; SELECT * FROM stat;"
+}

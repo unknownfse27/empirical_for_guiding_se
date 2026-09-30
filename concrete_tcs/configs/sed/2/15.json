@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+      "/^[[:alpha:]]\\+$/w fruits.txt"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "apple\norange123\nbanana\n"
+}

@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "CREATE TABLE s(i,p,n);INSERT INTO s VALUES(1,NULL,'r'),(2,1,'c1'),(3,1,'c2'),(4,2,'g');SELECT a.i,a.n p,b.n c,c.n g FROM s a LEFT JOIN s b ON a.i=b.p LEFT JOIN s c ON b.i=c.p WHERE a.p IS NULL;\n"
+}

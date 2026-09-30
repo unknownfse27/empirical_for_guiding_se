@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "-fprint0",
+    "/dev/null",
+    "-fls",
+    "/dev/null",
+    "-daystart",
+    "-mtime",
+    "0",
+    "-d",
+    "-fprint",
+    "/dev/null"
+  ],
+  "dirs": [
+    "/dev/null"
+  ],
+  "files": [],
+  "stdin": ""
+}

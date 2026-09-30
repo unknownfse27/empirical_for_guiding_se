@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        ":memory:"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".parameter init\n.parameter set @p 1e3\nSELECT @p+1;\n"
+}

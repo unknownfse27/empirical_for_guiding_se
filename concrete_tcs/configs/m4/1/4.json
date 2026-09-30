@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "define(T,defn(translit))define(S,defn(substr))changecom\nsinclude()traceoff()index()index(,t)index(,)S()S(,a)S(a,3)S(,,a)S(,)S(S,)(a,,2)\nT()T(b,ba-,T)(ba,ab,T )(ab,ab)regexp()regexp(ix,`\\(\\w\\)$'\\'',\\&\\1)\nregexp(,$[)format(%0.1hhd)format(%hu%lu%u%u%c%lu%lu,,'\\'',,,'\\'',)"
+}

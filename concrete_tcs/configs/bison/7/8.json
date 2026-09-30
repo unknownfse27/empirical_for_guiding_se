@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    "--color",
+    "--style=s.css",
+    "-Wall",
+    "-Wcex",
+    "-dv",
+    "-rall",
+    "-x",
+    "--html",
+    "-g",
+    "-T",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "c40.y"
+  ],
+  "stdin": ""
+}

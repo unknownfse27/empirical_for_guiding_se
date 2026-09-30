@@ -1,0 +1,9 @@
+{
+  "envs": [],
+  "args": [
+    "-Q"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp(`abc123xyz', `a.*z', `match') ppppppregexp(`endswithZ', `Z$') regexp(`ZnotEnd', `Z$') regexp(`StartHere', `^Start') regexp(`NotStart', `^art') regexp(`abc123xyz', `a.*z', `match') regexp(`', `.*') regexp(`', `[a-z]+') regexp(`abc', `(abc)`, `\\0')"
+}

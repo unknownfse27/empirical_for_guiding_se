@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-EHITUubchL",
+    "-C5",
+    "--color=tty",
+    "--no-group-separator",
+    "-f@@",
+    "*"
+  ],
+  "dirs": [],
+  "files": [
+    "p4_18"
+  ],
+  "stdin": ""
+}

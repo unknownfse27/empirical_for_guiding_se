@@ -1,0 +1,19 @@
+{
+  "envs": [],
+  "args": [
+    "-n",
+    "-s",
+    "-r",
+    "-u",
+    "--posix",
+    "--quiet",
+    "--silent",
+    "-l",
+    "10",
+    "-e",
+    "s/[^ ]* //3p"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "apple orange pear"
+}

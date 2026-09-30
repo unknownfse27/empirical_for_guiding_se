@@ -1,0 +1,11 @@
+{
+  "envs": [],
+  "args": [
+    "-Cxo",
+    "-c10mon3",
+    "--include-today"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

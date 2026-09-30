@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "y/abc/123/",
+    "s/[def]//g"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "abcdef"
+}

@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-e",
+    "'v 3.0'",
+    "-e",
+    "'W output.txt'",
+    "-e",
+    "'/hello/w output.txt'"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "echo hel"
+}

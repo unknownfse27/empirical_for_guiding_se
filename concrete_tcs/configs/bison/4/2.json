@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-dv",
+    "-x",
+    "-g",
+    "--html=ch2.html",
+    "--trace=all",
+    "--report=all",
+    "-Wcounterexamples",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "clr.y"
+  ],
+  "stdin": ""
+}

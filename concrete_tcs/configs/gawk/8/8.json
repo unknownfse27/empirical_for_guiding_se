@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "'BEGIN{print (a==\"\"&&a==0?\"X\":\"O\");print typeof(a)}'",
+    "@@",
+    "@@",
+    "@@",
+    "@@",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "main.c",
+    "awkgram.c",
+    "builtin.c",
+    "field.c",
+    "io.c"
+  ],
+  "stdin": ""
+}

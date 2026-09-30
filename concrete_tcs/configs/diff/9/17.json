@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+        "--ifdef=DEBUG_MODE",
+        "@@",
+        "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff.c",
+        "diff3.c"
+    ],
+    "stdin": ""
+}

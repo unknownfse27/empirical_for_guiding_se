@@ -1,0 +1,25 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-size",
+    "-4c",
+    "-type",
+    "b,c,d,p,f,l,s",
+    "-o",
+    "-empty",
+    "-o",
+    "-samefile",
+    ".",
+    "-nowarn",
+    "-exec",
+    "cat",
+    "{}",
+    ";"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

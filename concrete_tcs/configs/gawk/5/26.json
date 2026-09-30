@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "/printf/",
+    "||",
+    "/;/",
+    "{cnt++;l=++i+j--;--k};",
+    "END{print log(sqrt(cnt)) int(-4.9) sin(4)}",
+    "*.c"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

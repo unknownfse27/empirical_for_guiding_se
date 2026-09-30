@@ -1,0 +1,17 @@
+{
+    "envs": [],
+    "args": [
+        "--color=always",
+        "--palette='rs=\\x1b:ad=\\x20:de=\\xff'",
+        "-r",
+        "--new-file",
+        "/etc/locale",
+        "/etc/default"
+    ],
+    "dirs": [
+        "/etc/locale",
+        "/etc/default"
+    ],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,1 @@
+[vV][iI][Vv][Ee][kK]\|[vV]ivek[0-9]\|[A-Za-z]\|^..$\|\t?\|^[A-Z].*\.$\| free[^[:space:]]+\|^(linux|unix)\|[wn]\|[[:digit:]]\{2\}[ -]\?[[:digit:]]\{10\}\|[[:digit:]]{3,9}\|\b[ao]bject\b\|^(\S+)\s+(\S+)$\|abc|fgh|xyz|mno|jkl\|<a[^>]+>.*</a>\|

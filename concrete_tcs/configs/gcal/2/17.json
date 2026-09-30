@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "-Sname",
+    "--debug=abort",
+    "-Htext",
+    "-n-",
+    "--suppress-holiday-list-separator",
+    "--bahai-holidays",
+    "--calendar-dates=both",
+    "@@@"
+  ],
+  "dirs": [],
+  "files": [
+    "r2_17"
+  ],
+  "stdin": ""
+}

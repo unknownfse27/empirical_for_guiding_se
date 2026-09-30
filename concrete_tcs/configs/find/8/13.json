@@ -1,0 +1,21 @@
+{
+  "envs": [],
+  "args": [
+    ".",
+    "-empty",
+    "-iregex",
+    ".*",
+    "-fprint",
+    "css_files",
+    ",",
+    "-name",
+    "*.md",
+    "-fprint",
+    "md_files"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

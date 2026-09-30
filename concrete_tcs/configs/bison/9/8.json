@@ -1,0 +1,14 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "syntax-only",
+    "-Werror",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "good.y"
+  ],
+  "stdin": ""
+}

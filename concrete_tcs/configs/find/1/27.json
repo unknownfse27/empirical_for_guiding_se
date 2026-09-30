@@ -1,0 +1,23 @@
+{
+    "envs": [],
+    "args": [
+      ".",
+      "-type",
+      "f",
+      "-regextype",
+      "grep",
+      "-iregex",
+      "^.*[a-z]r[^/]*$",
+      "-exec",
+      "grep",
+      "-Hn",
+      "keyword",
+      "{}",
+      "+"
+    ],
+    "dirs": [
+        "."
+    ],
+    "files": [],
+    "stdin": ""
+}

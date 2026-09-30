@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "--unchanged-group-format=%(N=0?no:%dN) line%(N=1?:s)",
+      "--no-dereference",
+      "./",
+      "./"
+    ],
+    "dirs": [
+        "./",
+        "./"
+    ],
+    "files": [],
+    "stdin": ""
+}

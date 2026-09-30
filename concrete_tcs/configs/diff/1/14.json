@@ -1,0 +1,20 @@
+{
+    "envs": [],
+    "args": [
+        "--unidirectional-new-file",
+        "-a",
+        "-U",
+        "100",
+        "-p",
+        "-w",
+        "--color=always",
+        "../tests",
+        "../src"
+    ],
+    "dirs": [
+        "../tests",
+        "../src"
+    ],
+    "files": [],
+    "stdin": ""
+}

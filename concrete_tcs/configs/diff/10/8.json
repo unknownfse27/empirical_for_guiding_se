@@ -1,0 +1,15 @@
+{
+    "envs": [],
+    "args": [
+      "--suppress-common-lines",
+      "--exclude-from=a",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "ed.c",
+        "ed.o"
+    ],
+    "stdin": ""
+}

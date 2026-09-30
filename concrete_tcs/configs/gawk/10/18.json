@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "-f",
+    "./awklib/passwd",
+    "@@"
+  ],
+  "dirs": [
+    "./awklib/passwd"
+  ],
+  "files": [
+    "awkgram.c"
+  ],
+  "stdin": ""
+}

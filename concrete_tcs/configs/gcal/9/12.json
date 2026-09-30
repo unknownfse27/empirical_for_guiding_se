@@ -1,0 +1,12 @@
+{
+  "envs": [],
+  "args": [
+    "--time-offset=+1",
+    "--transform-year=1999",
+    "--gregorian-reform=10002,12,31,31",
+    "%19171107"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

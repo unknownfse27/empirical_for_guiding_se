@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": "PRAGMA foreign_keys=ON;CREATE TABLE t_del(a INT PRIMARY KEY);CREATE TABLE t_ref(p INT REFERENCES t_del(a) ON DELETE SET NULL);BEGIN;INSERT INTO t_del VALUES(5);INSERT INTO t_ref VALUES(5);DELETE FROM t_del WHERE a=5;COMMIT;SELECT*FROM t_del;SELECT*FROM t_ref WHERE p IS NULL;"
+}

@@ -1,0 +1,30 @@
+{
+  "envs": [],
+  "args": [
+    "-L",
+    "-D",
+    "all",
+    ".",
+    "-type",
+    "c",
+    "-type",
+    "b",
+    "-type",
+    "d",
+    "-type",
+    "p",
+    "-type",
+    "f",
+    "-type",
+    "l",
+    "-type",
+    "s",
+    "-type",
+    "D"
+  ],
+  "dirs": [
+    "."
+  ],
+  "files": [],
+  "stdin": ""
+}

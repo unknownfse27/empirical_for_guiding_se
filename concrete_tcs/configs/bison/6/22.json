@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "-d",
+    "-v",
+    "-Wall",
+    "-Wcounterexamples",
+    "--report=all",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "scx.y"
+  ],
+  "stdin": ""
+}

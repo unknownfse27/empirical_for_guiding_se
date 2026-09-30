@@ -1,0 +1,7 @@
+{
+    "envs": [],
+    "args": [],
+    "dirs": [],
+    "files": [],
+    "stdin": "ifdef(`x',`yes') indir(`notexist') __file__ __line__ define(`f', `builtin(`eval', `2+2')')f m4wrap(`m4wrap(`define(`x',`wrapped2')')')x define(`define',`oops')define(`x',`1')x changecom(`/*',`*/') /* start /* inner */ still comment patsubst(`abc', `not', `X\\')\n"
+}

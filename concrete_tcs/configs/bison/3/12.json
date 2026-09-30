@@ -1,0 +1,21 @@
+{
+  "envs": [
+    "BISON_PKGDATADIR=../data"
+  ],
+  "args": [
+    "@@",
+    "-rall",
+    "--trace=all",
+    "-g",
+    "-x",
+    "--html",
+    "--color=debug",
+    "-Wall",
+    "-Werror"
+  ],
+  "dirs": [],
+  "files": [
+    "test8.y"
+  ],
+  "stdin": ""
+}

@@ -1,0 +1,15 @@
+{
+  "envs": [],
+  "args": [
+    "../",
+    "-newer",
+    "../find/exec-one.xo",
+    "-printf",
+    "%A@:%p\n"
+  ],
+  "dirs": [
+    "../"
+  ],
+  "files": [],
+  "stdin": "sort -nr | cut -d: -f2-"
+}

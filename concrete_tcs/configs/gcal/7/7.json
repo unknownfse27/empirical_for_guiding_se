@@ -1,0 +1,20 @@
+{
+  "envs": [],
+  "args": [
+    "%20000420",
+    "-Hno",
+    "-f/dev/null",
+    "-xdt",
+    "-g:::",
+    "@@@",
+    "--cycle-end=12:05",
+    "--time=12:00",
+    "--cycle-step=1:15",
+    "--precise"
+  ],
+  "dirs": [],
+  "files": [
+    "r7_7"
+  ],
+  "stdin": ""
+}

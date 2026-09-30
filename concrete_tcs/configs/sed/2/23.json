@@ -1,0 +1,10 @@
+{
+  "envs": [],
+  "args": [
+    "/b/Id",
+    "2r/etc/hostname"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "\"%s\\n\" a b c"
+}

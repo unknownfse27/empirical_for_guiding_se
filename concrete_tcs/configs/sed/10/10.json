@@ -1,0 +1,15 @@
+{
+  "envs": [
+    "LC_CTYPE=en_US.UTF-8"
+  ],
+  "args": [
+    "-b",
+    "s/\\Q/안녕/gi",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "sed.texi"
+  ],
+  "stdin": ""
+}

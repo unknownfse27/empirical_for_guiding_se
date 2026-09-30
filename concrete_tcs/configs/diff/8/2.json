@@ -1,0 +1,14 @@
+{
+    "envs": [],
+    "args": [
+      "--ignore-matching-lines=^[[:digit:]]*#.\\B\\b\\S\\d\\w\\W\\n\\d{1,3}(?<=\\$)[0-9.]+",
+      "@@",
+      "@@"
+    ],
+    "dirs": [],
+    "files": [
+        "diff3.c",
+        "diff.c"
+    ],
+    "stdin": ""
+  }

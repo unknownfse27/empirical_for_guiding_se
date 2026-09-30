@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--report=all",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "java2.y"
+  ],
+  "stdin": ""
+}

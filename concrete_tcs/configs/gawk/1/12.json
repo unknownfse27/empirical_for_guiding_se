@@ -1,0 +1,16 @@
+{
+  "envs": [],
+  "args": [
+    "--lint",
+    "--dump-variables",
+    "--pretty-print",
+    "-F:",
+    "{print gensub(/root/, \"superuser\", 1) }",
+    "/etc/passwd"
+  ],
+  "dirs": [
+    "/etc/passwd"
+  ],
+  "files": [],
+  "stdin": ""
+}

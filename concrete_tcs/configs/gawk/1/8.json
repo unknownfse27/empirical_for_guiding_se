@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "--posix",
+    "-v",
+    "RS='[:\\n]'",
+    "'^[0-9]+$/ { sum += $0; print } END { print \": \" sum }'",
+    "eval.*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": "sort"
+}

@@ -1,0 +1,18 @@
+{
+  "envs": [],
+  "args": [
+    "--xml=g.xml",
+    "--html=g.html",
+    "--graph=g.gv",
+    "--report-file=g.out",
+    "--report=all",
+    "-d",
+    "-v",
+    "@@"
+  ],
+  "dirs": [],
+  "files": [
+    "glrm.y"
+  ],
+  "stdin": ""
+}

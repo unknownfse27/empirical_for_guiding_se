@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "regexp('ch', '[.ch.]') regexp('abc', '[a-]') regexp('a', '^$') regexp('abc', '[^]') regexp(`endword`, `word\\>`) Test nested subexpressions: regexp(`abcdefabc`, `(a(bc)d).*\\2') regexp(`(ab)cd\\1`, `\\((ab)\\)cd\\\\1`) Test backreferences: regexp('abcabc', '(abc)\\1')"
+}

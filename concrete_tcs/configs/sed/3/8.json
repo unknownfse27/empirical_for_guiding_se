@@ -1,0 +1,17 @@
+{
+    "envs": [
+      "LANG=C"
+    ],
+    "args": [
+      "-n",
+      "-e",
+      "s/[\\d0-\\d127]/ /g",
+      "test.txt",
+      "-e",
+      ":a;N;$!ba;s/[\\d0-\\d127]/ /g",
+      "test.txt"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

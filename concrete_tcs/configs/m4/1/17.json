@@ -1,0 +1,7 @@
+{
+  "envs": [],
+  "args": [],
+  "dirs": [],
+  "files": [],
+  "stdin": "divert(-1) divert(2) undivert(1) divnum() dumpdef(foo) errprint(err) esyscmd(ls) format(%d,eval(1+2)) ifelse(foo,bar,y,n) index(abc,b,ignored) indir(define) len(abc) m4wrap(foo) maketemp(/tmp/fooXXXXXX) mkstemp(/tmp/tempfileXXXXXX) patsubst(GNUs not Unix, ^, OBS: ) m4exit()"
+}

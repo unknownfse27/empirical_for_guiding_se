@@ -1,0 +1,9 @@
+{
+    "envs": [],
+    "args": [
+        "a.db"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ".once dump.sql\n.fullschema --indent\n.dump --preserve-rowids\n.schema u\n.schema --indent p\n.databases\n"
+}

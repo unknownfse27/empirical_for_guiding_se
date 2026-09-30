@@ -1,0 +1,22 @@
+{
+    "envs": [],
+    "args": [
+        "-Z",
+        "-E",
+        "--label",
+        "LA",
+        "--label",
+        "",
+        "-C",
+        "1",
+        "--unidirectional-new-file",
+        ".",
+        "../"
+    ],
+    "dirs": [
+        ".",
+        "../"
+    ],
+    "files": [],
+    "stdin": ""
+}

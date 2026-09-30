@@ -1,0 +1,13 @@
+{
+  "envs": [],
+  "args": [
+    "-F'^Lambda'",
+    "/^(ev | no)/i $2 == 10 {print $NF+500;}'",
+    "*",
+    "/foo/,/bar/ { }",
+    "*"
+  ],
+  "dirs": [],
+  "files": [],
+  "stdin": ""
+}

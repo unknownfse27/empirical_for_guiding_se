@@ -1,0 +1,18 @@
+{
+    "envs": [],
+    "args": [
+      "-regextype",
+      "grep",
+      "-regex",
+      ".\\+\\?+?\\w\\W\\<\\>\\b\\B\\*[a-z][0-9]",
+      "-xtype",
+      "c",
+      "-execdir",
+      "echo",
+      "{}",
+      "\\+"
+    ],
+    "dirs": [],
+    "files": [],
+    "stdin": ""
+}

@@ -1,0 +1,16 @@
+{
+    "envs": [],
+    "args": [
+        "-Ir",
+        "--speed-large-files",
+        "-r",
+        "/usr/share/doc/bash",
+        "/usr/share/doc/coreutils"
+    ],
+    "dirs": [
+        "/usr/share/doc/bash",
+        "/usr/share/doc/coreutils"
+    ],
+    "files": [],
+    "stdin": ""
+}
