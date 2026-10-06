@@ -1,6 +1,6 @@
 {
     "pgm_name": "find",
-    "gcov_path": "../benchmarks/findutils-4.7.0/obj-gcov1/find",
+    "gcov_path": "../benchmarks/findutils-4.7.0/obj-gcov/find",
     "llvm_path": "../benchmarks/findutils-4.7.0/obj-llvm/find",
     "src_depth": 1,
     "sym_cmd" : {
