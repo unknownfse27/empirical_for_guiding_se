@@ -178,10 +178,8 @@ def replay(program, engine, run_rq, output_dir, running_dir, gcov_path, src_dept
 
     print(f"[INFO] Replay start. RQ={rq_name}, Engine={engine}, Program={program}")
 
-    # replay_bin = f"{running_dir}/../engines/{engine}/build/bin/klee-replay"
-    replay_bin = f"/root/empirical/engines/{engine}/build/bin/klee-replay"
-    # ktest_tool_bin = f"{running_dir}/../engines/{engine}/build/bin/ktest-tool"
-    ktest_tool_bin = f"/root/empirical/engines/{engine}/build/bin/ktest-tool"
+    replay_bin = f"{running_dir}/../engines/{engine}/build/bin/klee-replay"
+    ktest_tool_bin = f"{running_dir}/../engines/{engine}/build/bin/ktest-tool"
 
     # RQ1 Data
     symbol_data = None
