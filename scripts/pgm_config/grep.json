@@ -1,6 +1,6 @@
 {
     "pgm_name": "grep",
-    "gcov_path": "../benchmarks/grep-3.6/obj-gcov1/src",
+    "gcov_path": "../benchmarks/grep-3.6/obj-gcov/src",
     "llvm_path": "../benchmarks/grep-3.6/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
