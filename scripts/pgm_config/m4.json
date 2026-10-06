@@ -1,7 +1,7 @@
 {
     "pgm_name": "m4",
-    "gcov_path": "/root/benchmarks/m4-1.4.19/obj-gcov1/src",
-    "llvm_path": "/root/benchmarks/m4-1.4.18/obj-llvm/src",
+    "gcov_path": "../benchmarks/m4-1.4.19/obj-gcov1/src",
+    "llvm_path": "../benchmarks/m4-1.4.18/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
         "args" : [
