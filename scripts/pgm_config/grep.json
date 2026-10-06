@@ -1,7 +1,7 @@
 {
     "pgm_name": "grep",
-    "gcov_path": "/root/benchmarks/grep-3.6/obj-gcov1/src",
-    "llvm_path": "/root/benchmarks/grep-3.6/obj-llvm/src",
+    "gcov_path": "../benchmarks/grep-3.6/obj-gcov1/src",
+    "llvm_path": "../benchmarks/grep-3.6/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
         "args" : [
