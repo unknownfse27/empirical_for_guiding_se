@@ -1,6 +1,6 @@
 {
     "pgm_name": "gcal",
-    "gcov_path": "../benchmarks/gcal-4.1/obj-gcov1/src",
+    "gcov_path": "../benchmarks/gcal-4.1/obj-gcov/src",
     "llvm_path": "../benchmarks/gcal-4.1/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
