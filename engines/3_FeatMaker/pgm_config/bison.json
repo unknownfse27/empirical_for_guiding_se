@@ -1,9 +1,0 @@
-{
-"pgm_name": "bison",
-"pgm_dir": "../../../benchmarks/bison-3.8/obj-llvm",
-"exec_dir": "/src",
-"gcov_path": "../../../benchmarks/bison-3.8/obj-gcov4",
-"gcov_file": "../*/*.gcov ../*/*/*.gcov",
-"gcda_file": "../*/*.gcda ../*/*/*.gcda",
-"sym_options" : "--sym-arg 51 --sym-arg 37 --sym-arg 74 --sym-arg 70 --sym-arg 24 --sym-arg 39 --sym-arg 63 --sym-arg 26 --sym-arg 17 --sym-arg 12 --sym-arg 7 --sym-arg 18 --sym-arg 16 --sym-arg 11 --sym-arg 11 --sym-arg 8 --sym-arg 7 --sym-arg 5 --sym-arg 7 --sym-files 2 900 --sym-stdin 201 --sym-stdout"
-}

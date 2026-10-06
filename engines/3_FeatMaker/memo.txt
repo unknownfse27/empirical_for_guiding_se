@@ -1,8 +1,0 @@
-python3 run_featmaker.py --pgm diff --output_dir FeatsDI --total_budget 86400
-python3 run_featmaker.py --pgm find --output_dir FeatsFI --total_budget 86400
-python3 run_featmaker.py --pgm gawk --output_dir FeatsGA --total_budget 86400
-python3 run_featmaker.py --pgm gcal --output_dir FeatsGL --total_budget 86400
-python3 run_featmaker.py --pgm grep --output_dir FeatsGR --total_budget 86400
-python3 run_featmaker.py --pgm m4 --output_dir FeatsMF --total_budget 86400 --small_budget 600
-python3 run_featmaker.py --pgm sed --output_dir FeatsSE --total_budget 86400
-python3 run_featmaker.py --pgm sqlite --output_dir FeatsSQ --total_budget 86400

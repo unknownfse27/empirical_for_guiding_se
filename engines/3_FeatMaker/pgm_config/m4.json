@@ -1,9 +1,0 @@
-{
-"pgm_name": "m4",
-"pgm_dir": "../../../benchmarks/m4-1.4.18/obj-llvm",
-"exec_dir": "/src",
-"gcov_path": "../../../benchmarks/m4-1.4.19/obj-gcov4",
-"gcov_file": "../*/*.gcov ../*/*/*.gcov",
-"gcda_file": "../*/*.gcda ../*/*/*.gcda",
-"sym_options" : "--sym-arg 35 --sym-arg 32 --sym-arg 72 --sym-arg 21 --sym-arg 22 --sym-arg 16 --sym-arg 27 --sym-arg 16 --sym-arg 16 --sym-arg 19 --sym-arg 18 --sym-arg 15 --sym-arg 18 --sym-arg 14 --sym-arg 16 --sym-arg 21 --sym-arg 2 --sym-arg 2 --sym-arg 2 --sym-arg 2 --sym-arg 3 --sym-arg 2 --sym-arg 5 --sym-arg 2 --sym-arg 4 --sym-arg 2 --sym-arg 1 --sym-arg 2 --sym-arg 1 --sym-arg 2 --sym-arg 1 --sym-arg 2 --sym-arg 1 --sym-arg 3 --sym-arg 3 --sym-arg 2 --sym-arg 1 --sym-arg 2 --sym-files 2 300 --sym-stdin 332 --sym-stdout"
-}
