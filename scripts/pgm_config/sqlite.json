@@ -1,7 +1,7 @@
 {
     "pgm_name": "sqlite3",
-    "gcov_path": "/root/benchmarks/sqlite/obj-gcov1",
-    "llvm_path": "/root/benchmarks/sqlite/obj-llvm",
+    "gcov_path": "../benchmarks/sqlite/obj-gcov1",
+    "llvm_path": "../benchmarks/sqlite/obj-llvm",
     "src_depth": 0,
     "sym_cmd" : {
         "args" : [
