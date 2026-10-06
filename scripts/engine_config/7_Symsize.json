@@ -1,0 +1,8 @@
+{
+    "options" : ["-allocate-sym-size=1", "-capacity=64", "-sym-size-mode=lazy", "--simplify-sym-indices", "--output-module", 
+                "--max-memory=1000", "--disable-inlining", "--optimize", "--use-forked-solver", "--use-cex-cache", "--libc=uclibc", 
+                "--posix-runtime", "--external-calls=all", "--only-output-states-covering-new", "--max-sym-array-size=4096", 
+                "--max-solver-time=30s", "--watchdog", "--max-memory-inhibit=false", "--max-static-fork-pct=1", "--max-static-solve-pct=1", 
+                "--max-static-cpfork-pct=1", "--switch-type=internal", "--search=random-path", "--search=nurs:covnew", "--use-batching-search", 
+                "--batch-instructions=10000"]
+}

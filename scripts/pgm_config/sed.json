@@ -1,0 +1,13 @@
+{
+    "pgm_name": "sed",
+    "gcov_path": "/root/benchmarks/sed-4.8/obj-gcov1/sed",
+    "llvm_path": "/root/benchmarks/sed-4.8/obj-llvm/sed",
+    "src_depth": 1,
+    "sym_cmd" : {
+        "args" : [
+            84, 86, 81, 64, 46, 64, 50, 25, 12, 16, 16, 9, 8
+        ],
+        "files" : "2 500",
+        "stdin" : 77
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "pgm_name": "sqlite3",
+    "gcov_path": "/root/benchmarks/sqlite/obj-gcov1",
+    "llvm_path": "/root/benchmarks/sqlite/obj-llvm",
+    "src_depth": 0,
+    "sym_cmd" : {
+        "args" : [
+            10, 23, 11, 10, 10, 10, 4, 17, 10, 4, 1
+        ],
+        "files" : "1 30",
+        "stdin" : 315
+    }
+}

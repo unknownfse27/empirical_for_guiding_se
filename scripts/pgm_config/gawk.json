@@ -1,0 +1,13 @@
+{
+    "pgm_name": "gawk",
+    "gcov_path": "/root/benchmarks/gawk-5.1.0/obj-gcov1/",
+    "llvm_path": "/root/benchmarks/gawk-5.1.0/obj-llvm/",
+    "src_depth": 0,
+    "sym_cmd" : {
+        "args" : [
+            92, 77, 74, 62, 76, 48, 38, 15, 19, 17, 13, 16, 9, 2, 11
+        ],
+        "files" : "5 900",
+        "stdin" : 81
+    }
+}

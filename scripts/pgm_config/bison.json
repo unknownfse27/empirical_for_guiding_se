@@ -1,0 +1,13 @@
+{
+    "pgm_name": "bison",
+    "gcov_path": "/root/benchmarks/bison-3.8/obj-gcov1/src",
+    "llvm_path": "/root/benchmarks/bison-3.8/obj-llvm/src",
+    "src_depth": 1,
+    "sym_cmd" : {
+        "args" : [
+            51, 37, 74, 70, 24, 39, 63, 26, 17, 12, 7, 18, 16, 11, 11, 8, 7, 5, 7
+        ],
+        "files" : "2 900",
+        "stdin" : 201
+    }
+}

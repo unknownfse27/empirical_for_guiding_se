@@ -1,0 +1,8 @@
+{
+    "options" : ["--simplify-sym-indices", "--output-module", "--max-memory=1000", "--disable-inlining", "--solver-backend=z3",
+                "--split-by-pattern=1", "--use-quantifiers=1", "--optimize-using-exec-tree=1", "--use-small-model-solver=1",
+                "--use-incremental-merging-search=1", "--optimize", "--libc=uclibc", "--posix-runtime", "--external-calls=all", 
+                "--only-output-states-covering-new", "--max-sym-array-size=4096", "--max-solver-time=30s", "--watchdog", 
+                "--max-memory-inhibit=false", "--max-static-fork-pct=1", "--max-static-solve-pct=1", "--max-static-cpfork-pct=1", 
+                "--switch-type=internal", "--search=dfs", "--batch-instructions=10000"]
+}

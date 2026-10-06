@@ -1,0 +1,13 @@
+{
+    "pgm_name": "gcal",
+    "gcov_path": "/root/benchmarks/gcal-4.1/obj-gcov1/src",
+    "llvm_path": "/root/benchmarks/gcal-4.1/obj-llvm/src",
+    "src_depth": 1,
+    "sym_cmd" : {
+        "args" : [
+            67, 76, 60, 49, 39, 37, 31, 41, 43, 24, 27, 21, 14, 15, 6, 16, 8, 6, 15, 6, 4, 7, 6, 4, 7, 2, 6, 2, 1, 1
+        ],
+        "files" : "3 900",
+        "stdin" : 480
+    }
+}

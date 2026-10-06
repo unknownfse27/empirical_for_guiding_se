@@ -1,0 +1,13 @@
+{
+    "pgm_name": "find",
+    "gcov_path": "/root/benchmarks/findutils-4.7.0/obj-gcov1/find",
+    "llvm_path": "/root/benchmarks/findutils-4.7.0/obj-llvm/find",
+    "src_depth": 1,
+    "sym_cmd" : {
+        "args" : [
+            12, 81, 77, 58, 76, 50, 54, 64, 35, 18, 20, 33, 16, 18, 16, 8, 11, 6, 5, 2, 6, 4, 3, 14, 3, 2, 6, 1, 2, 5, 1, 1
+        ],
+        "files" : "",
+        "stdin" : 31
+    }
+}
