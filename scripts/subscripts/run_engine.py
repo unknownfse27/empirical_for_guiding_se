@@ -45,7 +45,7 @@ def prepare_rq1(pgm_name, engine, running_dir, output_dir):
     seed_args_dir = f"{running_dir}/../data/rq1"
     seed_args_path = f"{seed_args_dir}/{pgm_name}.txt"
 
-    ktest_tool_path = f"/root/empirical/engines/{engine}/build/bin/ktest-tool"
+    ktest_tool_path = f"{running_dir}/../engines/{engine}/build/bin/ktest-tool"
 
     if not os.path.exists(seed_dir):
         raise FileNotFoundError(f"Seed directory not found: {seed_dir}")
