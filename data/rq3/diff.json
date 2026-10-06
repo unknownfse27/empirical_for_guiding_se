@@ -1,0 +1,45 @@
+{
+    "LC_ALL": [
+        "1",
+        null
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "TERM": [
+        null,
+        "1"
+    ],
+    "LANG": [
+        "C",
+        "POSIX",
+        "1",
+        "__OTHER__",
+        null
+    ],
+    "EDITOR": [
+        "1",
+        null
+    ],
+    "LC_CTYPE": [
+        "1",
+        null
+    ],
+    "a": [
+        "1",
+        null
+    ],
+    "VERSION_CONTROL": [
+        null,
+        "1"
+    ],
+    "TZ": [
+        null,
+        "1"
+    ],
+    "TMPDIR": [
+        "1",
+        null
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "LC_ALL": [
+        "1",
+        null,
+        "C",
+        "en_GB"
+    ],
+    "LANGUAGE": [
+        "",
+        "de"
+    ],
+    "MAILTO": [
+        "123"
+    ],
+    "LANG": [
+        "C",
+        "POSIX",
+        "c",
+        "1",
+        "__OTHER__",
+        null
+    ],
+    "LC_CTYPE": [
+        null,
+        "1"
+    ],
+    "CHARSETALIASDIR": [
+        "1",
+        null
+    ],
+    "TZ": [
+        "kk"
+    ],
+    "GCAL": [
+        "  //",
+        "-i @color -b 3",
+        "  @a /d // -- /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d /d"
+    ],
+    "PATH": [
+        null,
+        "1",
+        ""
+    ],
+    "PAGER": [
+        "less ",
+        "k",
+        " "
+    ],
+    "GCAL_DATE_FORMAT": [
+        "%<3#K, %<3#U %1%>2&*D%2 %>04*Y",
+        "aksdf",
+        "%Y %D %>02*M ; %1(%>5u#K)%2"
+    ],
+    "TMPDIR": [
+        "1",
+        null
+    ]
+}

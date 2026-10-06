@@ -1,0 +1,63 @@
+{
+    "LC_ALL": [
+        "1",
+        "fr_FR.utf8",
+        "BordMasan",
+        "es_ES.UTF-8",
+        null,
+        "BorderMasan",
+        "C"
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "COLS": [
+        "80",
+        "0",
+        "2",
+        null,
+        "-1",
+        "100",
+        "1"
+    ],
+    "SETLOCALE_VERBOSE": [
+        "1",
+        null
+    ],
+    "LANG": [
+        "C",
+        "POSIX",
+        "C.UTF-8",
+        "1",
+        "__OTHER__",
+        "UTF-8",
+        null,
+        "ru_RU.UTF-8"
+    ],
+    "a": [
+        "1",
+        null
+    ],
+    "LC_CTYPE": [
+        null,
+        "en_US.UTF-8",
+        "1"
+    ],
+    "GETTEXT_MUI": [
+        null,
+        "1"
+    ],
+    "LC_NUMERIC": [
+        "1",
+        null
+    ],
+    "LC_MESSAGES": [
+        null,
+        "1"
+    ],
+    "TMPDIR": [
+        "1",
+        null
+    ]
+}

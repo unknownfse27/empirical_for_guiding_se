@@ -1,0 +1,87 @@
+{
+    "BISON_USE_PUSH_FOR_PULL": [
+        "1",
+        "-1",
+        "0",
+        null
+    ],
+    "YYFLAT": [
+        null,
+        "1"
+    ],
+    "COLUMNS": [
+        "-1",
+        null,
+        "200",
+        "0",
+        "1",
+        "80",
+        "40"
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "LC_ALL": [
+        "1",
+        null,
+        "C"
+    ],
+    "BITSET": [
+        "table"
+    ],
+    "M4": [
+        "1",
+        null,
+        "/no/such"
+    ],
+    "LANG": [
+        "POSIX",
+        "C",
+        "1",
+        "__OTHER__",
+        null
+    ],
+    "BISON_PROGRAM_NAME": [
+        "test",
+        "1",
+        null
+    ],
+    "LC_CTYPE": [
+        null,
+        "1",
+        "C"
+    ],
+    "BISON_PKGDATADIR": [
+        "1",
+        "../data",
+        null
+    ],
+    "TIME_LIMIT": [
+        "30",
+        null,
+        "1"
+    ],
+    "PATH": [
+        null,
+        "1"
+    ],
+    "HELP2MAN": [
+        null,
+        "1"
+    ],
+    "BISON_STYLE": [
+        "../../data/bison-default.css"
+    ],
+    "BITSET_STATS": [
+        "1"
+    ],
+    "UNIXROOT": [
+        null,
+        "1"
+    ],
+    "VERSION_CONTROL": [
+        null,
+        "1"
+    ]
+}

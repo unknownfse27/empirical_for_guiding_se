@@ -1,0 +1,52 @@
+{
+    "SQLITE_HISTORY": [
+        "1",
+        null
+    ],
+    "TMP": [
+        "1",
+        null
+    ],
+    "SQLITE_TMPDIR": [
+        null,
+        "1"
+    ],
+    "HOME": [
+        null,
+        "1"
+    ],
+    "HOMEPATH": [
+        null,
+        "1"
+    ],
+    "TEMP": [
+        "1",
+        null
+    ],
+    "USERPROFILE": [
+        "1",
+        null
+    ],
+    "SQLITE_DEBUG_BREAK": [
+        null,
+        "1"
+    ],
+    "VISUAL": [
+        "1",
+        null
+    ],
+    "SQLITE_FORCE_PROXY_LOCKING": [
+        null,
+        "1",
+        "0",
+        "-1"
+    ],
+    "HOMEDRIVE": [
+        null,
+        "1"
+    ],
+    "TMPDIR": [
+        "1",
+        null
+    ]
+}

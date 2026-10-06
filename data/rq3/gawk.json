@@ -1,0 +1,118 @@
+{
+    "DGAWK_RESTART": [
+        "1",
+        "__OTHER__",
+        "true",
+        null
+    ],
+    "ComSpec": [
+        "1",
+        null
+    ],
+    "INT_CHAIN_MAX": [
+        null,
+        "1"
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "GAWK_SOCK_RETRIES": [
+        "-1",
+        null,
+        "0",
+        "1"
+    ],
+    "NHAT": [
+        "1",
+        null
+    ],
+    "GAWK_LOCALE_DIR": [
+        ".",
+        null,
+        "1"
+    ],
+    "SHELL": [
+        "1",
+        "DCL",
+        "__OTHER__",
+        null
+    ],
+    "AWKREADFUNC": [
+        null,
+        "1"
+    ],
+    "AWKLIBPATH": [
+        null,
+        "1"
+    ],
+    "TEMP": [
+        "1",
+        null
+    ],
+    "AWK_LIBRARY": [
+        "1",
+        null
+    ],
+    "GAWK_READ_TIMEOUT": [
+        null,
+        "1"
+    ],
+    "COMSPEC": [
+        "1",
+        null
+    ],
+    "GAWK_NO_DFA": [
+        null,
+        "1"
+    ],
+    "TZ": [
+        null,
+        "1"
+    ],
+    "GAWK_STACKSIZE": [
+        null,
+        "1"
+    ],
+    "AWKBUFSIZE": [
+        "__OTHER__",
+        null,
+        "exact",
+        "1"
+    ],
+    "GAWK_MSEC_SLEEP": [
+        null,
+        "1",
+        "0",
+        "-1"
+    ],
+    "AWKPATH": [
+        "1",
+        null
+    ],
+    "STR_CHAIN_MAX": [
+        null,
+        "1"
+    ],
+    "AWK_HASH": [
+        null,
+        "1",
+        "gst",
+        "__OTHER__"
+    ],
+    "LC_ALL": [
+        "en_DK.utf-8"
+    ],
+    "TIDYMEM": [
+        null,
+        "1"
+    ],
+    "TMPDIR": [
+        "1",
+        null
+    ],
+    "GAWK_MSG_SRC": [
+        "1",
+        null
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "LC_ALL": [
+        "1",
+        null,
+        "C"
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "TERM": [
+        "dumb",
+        "__OTHER__",
+        "1",
+        null
+    ],
+    "GREP_COLORS": [
+        null,
+        "ms=01;31",
+        "sl=01;32",
+        "1"
+    ],
+    "SETLOCALE_VERBOSE": [
+        "1",
+        null
+    ],
+    "LANG": [
+        "C",
+        "C.UTF-8",
+        "POSIX",
+        "1",
+        "__OTHER__",
+        "UTF-8",
+        null
+    ],
+    "a": [
+        "1",
+        null
+    ],
+    "LC_CTYPE": [
+        null,
+        "1"
+    ],
+    "var": [
+        "'u2py.DynArray"
+    ],
+    "GETTEXT_MUI": [
+        null,
+        "1"
+    ],
+    "HELP2MAN": [
+        null,
+        "1"
+    ],
+    "LC_NUMERIC": [
+        "1",
+        null
+    ],
+    "GREP_COLOR": [
+        "1;36",
+        "1",
+        null
+    ],
+    "value": [
+        "b\"F\\xfeVOC\\xfeD_VOC\""
+    ],
+    "VERSION_CONTROL": [
+        null,
+        "1"
+    ],
+    "LC_MESSAGES": [
+        null,
+        "1"
+    ]
+}

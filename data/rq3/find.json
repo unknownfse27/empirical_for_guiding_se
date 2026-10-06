@@ -1,0 +1,90 @@
+{
+    "LC_MESSAGES": [
+        "en_US.UTF-8",
+        null,
+        "1"
+    ],
+    "LC_ALL": [
+        "1",
+        null,
+        "C"
+    ],
+    "POSIXLY_CORRECT": [
+        "1",
+        null
+    ],
+    "BLOCK_SIZE": [
+        null,
+        "1"
+    ],
+    "LANG": [
+        "C",
+        "C.UTF-8",
+        "POSIX",
+        "1",
+        "__OTHER__",
+        "UTF-8",
+        null
+    ],
+    "a": [
+        "1",
+        null
+    ],
+    "TZ": [
+        "Asia/Seoul",
+        "America/New_York",
+        null,
+        "1"
+    ],
+    "FIND_BLOCK_SIZE": [
+        null,
+        "1"
+    ],
+    "LC_CTYPE": [
+        null,
+        "1",
+        "UTF-8"
+    ],
+    "BLOCKSIZE": [
+        null,
+        "1"
+    ],
+    "LOCATE_PATH": [
+        "1",
+        null
+    ],
+    "GETTEXT_MUI": [
+        null,
+        "1"
+    ],
+    "GNU_FINDUTILS_FD_LEAK_CHECK": [
+        null,
+        "1"
+    ],
+    "NLSPATH": [
+        "../find"
+    ],
+    "PATH": [
+        null,
+        "1"
+    ],
+    "__GNU_FINDUTILS_EXEC_ARG_COUNT_LIMIT": [
+        null,
+        "1"
+    ],
+    "LC_NUMERIC": [
+        "1",
+        null
+    ],
+    "LC_TIME": [
+        "ja_JP.UTF-8"
+    ],
+    "VERSION_CONTROL": [
+        null,
+        "1"
+    ],
+    "__GNU_FINDUTILS_EXEC_ARG_LENGTH_LIMIT": [
+        "1",
+        null
+    ]
+}
