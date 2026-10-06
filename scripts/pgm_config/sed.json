@@ -1,7 +1,7 @@
 {
     "pgm_name": "sed",
-    "gcov_path": "/root/benchmarks/sed-4.8/obj-gcov1/sed",
-    "llvm_path": "/root/benchmarks/sed-4.8/obj-llvm/sed",
+    "gcov_path": "../benchmarks/sed-4.8/obj-gcov1/sed",
+    "llvm_path": "../benchmarks/sed-4.8/obj-llvm/sed",
     "src_depth": 1,
     "sym_cmd" : {
         "args" : [
