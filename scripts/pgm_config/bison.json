@@ -1,7 +1,7 @@
 {
     "pgm_name": "bison",
-    "gcov_path": "/root/benchmarks/bison-3.8/obj-gcov1/src",
-    "llvm_path": "/root/benchmarks/bison-3.8/obj-llvm/src",
+    "gcov_path": "../benchmarks/bison-3.8/obj-gcov/src",
+    "llvm_path": "../benchmarks/bison-3.8/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
         "args" : [
