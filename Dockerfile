@@ -21,8 +21,7 @@ ENV LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 RUN apt-get -y install python3-pip
 RUN pip3 install --upgrade pip
-RUN pip3 install numpy wllvm scikit-learn
-RUN pip3 install matplotlib
+RUN pip3 install numpy wllvm scikit-learn matplotlib lit
 RUN apt-get -y install clang-6.0 llvm-6.0 llvm-6.0-dev llvm-6.0-tools
 RUN ln -s /usr/bin/clang-6.0 /usr/bin/clang
 RUN ln -s /usr/bin/clang++-6.0 /usr/bin/clang++
@@ -31,11 +30,10 @@ RUN ln -s /usr/bin/llvm-link-6.0 /usr/bin/llvm-link
 
 WORKDIR /root
 
-# Install ORBiS
+# Install OUR Technique
 WORKDIR ${BASE_DIR}
-RUN git clone https://github.com/minjongkim99/orbis.git
-WORKDIR ${BASE_DIR}/orbis
-RUN python3 setup.py install
+RUN git clone https://github.com/unknownfse27/empirical_for_guiding_se.git
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se
 
 # Install stp solver
 RUN apt-get -y install cmake bison flex libboost-all-dev python perl minisat
@@ -53,36 +51,67 @@ RUN echo "ulimit -s unlimited" >> /root/.bashrc
 
 
 # install Klee-uclibc
-WORKDIR ${BASE_DIR}/orbis
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se
 RUN git clone https://github.com/klee/klee-uclibc.git
-WORKDIR ${BASE_DIR}/orbis/klee-uclibc
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/klee-uclibc
 RUN chmod 777 -R *
 RUN ./configure --make-llvm-lib
 RUN make -j2
 
 
-WORKDIR ${BASE_DIR}/orbis
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se
 RUN curl -OL https://github.com/google/googletest/archive/release-1.7.0.zip
 RUN unzip release-1.7.0.zip
-WORKDIR ${BASE_DIR}/orbis/engine/klee
 RUN echo "export LLVM_COMPILER=clang" >> /root/.bashrc
 RUN echo "export WLLVM_COMPILER=clang" >> /root/.bashrc
 RUN echo "KLEE_REPLAY_TIMEOUT=1" >> /root/.bashrc
+
+# KLEE
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/10_klee
 RUN mkdir build
-WORKDIR ${BASE_DIR}/orbis/engine/klee/build
-RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/orbis/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/orbis/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/orbis/engine/klee
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/10_klee/build
+RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/empirical_for_guiding_se/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/empirical_for_guiding_se/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/empirical_for_guiding_se/engines/10_klee
 RUN make
-WORKDIR ${BASE_DIR}/orbis/engine/klee
-RUN env -i /bin/bash -c '(source testing-env.sh; env > test.env)'
-RUN echo "export PATH=$PATH:/root/main/orbis/engine/klee/build/bin" >> /root/.bashrc
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/10_klee
 
+# KLEE-Quantifiers
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/4_KLEE_Q
+RUN mkdir build
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/4_KLEE_Q/build
+RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/empirical_for_guiding_se/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/empirical_for_guiding_se/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/empirical_for_guiding_se/engines/4_KLEE_Q
+RUN make
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/4_KLEE_Q
 
-WORKDIR ${BASE_DIR}/orbis/engine
+# KLEE-symsize
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/7_Symsize
+RUN mkdir build
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/7_Symsize/build
+RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/empirical_for_guiding_se/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/empirical_for_guiding_se/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/empirical_for_guiding_se/engines/7_Symsize
+RUN make
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/7_Symsize
+
+# KLEE-AAQC
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/8_Aaqc
+RUN mkdir build
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/8_Aaqc/build
+RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/empirical_for_guiding_se/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/empirical_for_guiding_se/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/empirical_for_guiding_se/engines/8_Aaqc
+RUN make
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/8_Aaqc
+
+# Pending constraints
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/9_Pending
+RUN mkdir build
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/9_Pending/build
+RUN cmake -DENABLE_SOLVER_STP=ON -DENABLE_POSIX_RUNTIME=ON -DENABLE_KLEE_UCLIBC=ON -DKLEE_UCLIBC_PATH=${BASE_DIR}/empirical_for_guiding_se/klee-uclibc -DENABLE_UNIT_TESTS=ON -DGTEST_SRC_DIR=${BASE_DIR}/empirical_for_guiding_se/googletest-release-1.7.0 -DLLVM_CONFIG_BINARY=/usr/bin/llvm-config-6.0 -DLLVMCC=/usr/bin/clang-6.0 -DLLVMCXX=/usr/bin/clang++-6.0 ${BASE_DIR}/empirical_for_guiding_se/engines/9_Pending
+RUN make
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines/9_Pending
+
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/engines
 RUN chmod 777 -R *
 
-# Install Benchmarks (e.g. grep-3.4)
-WORKDIR ${BASE_DIR}/orbis/benchmarks
-RUN bash building_benchmark.sh grep-3.4
+# Install Benchmarks (e.g. bison-3.8)
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/benchmarks
+RUN bash build.sh bison-3.8
 
 # Initializing Starting Directory
-WORKDIR ${BASE_DIR}/orbis/benchmarks
+WORKDIR ${BASE_DIR}/empirical_for_guiding_se/scripts
