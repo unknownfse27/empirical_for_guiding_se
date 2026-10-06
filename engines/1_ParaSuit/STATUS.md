@@ -1,1 +1,0 @@
-The ORBiS artifact is publicly accessible through GitHub and has been permanently archived on Zenodo with the following DOI: [https://doi.org/10.5281/zenodo.21767226](https://doi.org/10.5281/zenodo.21767226)
