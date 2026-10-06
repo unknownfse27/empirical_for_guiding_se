@@ -1,7 +1,7 @@
 {
     "pgm_name": "diff",
-    "gcov_path": "/root/benchmarks/diffutils-3.7/obj-gcov1/src",
-    "llvm_path": "/root/benchmarks/diffutils-3.7/obj-llvm/src",
+    "gcov_path": "../benchmarks/diffutils-3.7/obj-gcov/src",
+    "llvm_path": "../benchmarks/diffutils-3.7/obj-llvm/src",
     "src_depth": 1,
     "sym_cmd" : {
         "args" : [
