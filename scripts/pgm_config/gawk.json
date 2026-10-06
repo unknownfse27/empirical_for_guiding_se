@@ -1,6 +1,6 @@
 {
     "pgm_name": "gawk",
-    "gcov_path": "../benchmarks/gawk-5.1.0/obj-gcov1/",
+    "gcov_path": "../benchmarks/gawk-5.1.0/obj-gcov/",
     "llvm_path": "../benchmarks/gawk-5.1.0/obj-llvm/",
     "src_depth": 0,
     "sym_cmd" : {
