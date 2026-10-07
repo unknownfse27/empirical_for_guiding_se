@@ -44,7 +44,7 @@ parser.add_argument("--budget", type=int, default=86400, help="Time budget in se
 
 args = parser.parse_args()
 running_dir = os.getcwd()
-engine_root = f"/root/empirical/engines/{args.engine}/build/bin/klee"
+engine_root = f"{running_dir}/../engines/{args.engine}/build/bin/klee"
 
 test_setting = args.test_setting
 engine = args.engine
