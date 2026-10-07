@@ -193,8 +193,8 @@ Download the following file from the release:
 You can download and extract the experimental results from the terminal as follows:
 
 ```
-/scripts $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.tar.gz
-/scripts $ tar -xzf results.tar.gz
+/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.tar.gz
+/empirical_for_guiding_se $ tar -xzf results.tar.gz
 ```
 
 The archive contains the experimental results for all benchmark programs and evaluated symbolic execution techniques. For each experimental setting, we provide:
@@ -206,6 +206,6 @@ We additionally provide replay_result.py, which replays the generated test cases
 
 For example, the following command replays the KLEE results for bison while applying the RQ1 approach:
 ```
-python3 replay_result.py --test-setting 1_baselines --engines 10_klee --programs bison --run-rq RQ1
+/results $ python3 replay_result.py --test-setting 1_baselines --engines 10_klee --programs bison --run-rq RQ1
 ```
 Multiple research-question approaches can be applied simultaneously by specifying multiple values after --run-rq, such as RQ1 RQ2 RQ3.
