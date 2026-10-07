@@ -68,5 +68,4 @@ sym_cmd = pgm_config["sym_cmd"]
 
 engine_options, symbolic_options, output_dir = get_command(engine_root, pgm_name, engine, running_dir, budget, sym_cmd, test_setting)
 run(pgm_name, engine, run_rq, budget, llvm_path, engine_options, symbolic_options, running_dir, output_dir)
-# run(pgm_name, budget, llvm_path, gcov_path, engine_options, symbolic_options)
 replay(pgm_name, engine, run_rq, output_dir, running_dir, gcov_path, src_depth)
