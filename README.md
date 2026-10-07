@@ -124,7 +124,7 @@ During replay, the script periodically reports the accumulated branch coverage:
 ```
 /scripts $ python3 run.py --help
 usage: run.py [-h] --test-setting {base,seed}
-              --engine {1_ParaSuit,2_TopSeed,3_FeatMaker,4_KLEE_Q,5_Symtuner,6_Learch,7_Symsize,8_Aaqc,9_Pending,10_klee}
+              --engine {4_KLEE_Q,7_Symsize,8_Aaqc,9_Pending,10_klee}
               --program {bison,diff,find,gawk,gcal,grep,m4,sed,sqlite3}
               [--budget INT]
               [--run-rq {none,RQ1,RQ2,RQ3}]
