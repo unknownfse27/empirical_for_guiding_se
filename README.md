@@ -2,6 +2,9 @@
 
 This repository presents the data and results for the paper "Understanding and Improving the Use of Human-Written Test Cases as Seeds for Symbolic Execution"
 
+**Note**: The current unified execution script is provided for the five KLEE-based engines. Support for the other five iterative engines (ParaSuit, TopSeed, FeatMaker, SymTuner, and Learch) will be integrated into the unified script in a future update.
+
+
 ## How to Build
 We recommend building quickly and easily using a Docker image. To check the build process, refer to the Dockerfile in this repository.
 ```bash
