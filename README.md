@@ -196,8 +196,9 @@ Download the following file from the release:
 You can download and extract the experimental results from the terminal as follows:
 
 ```
-/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.tar.gz
-/empirical_for_guiding_se $ tar -xzf results.tar.gz
+/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.z01
+/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.zip
+/empirical_for_guiding_se $ unzip results.zip
 ```
 
 The archive contains the experimental results for all benchmark programs and evaluated symbolic execution techniques. For each experimental setting, we provide:
