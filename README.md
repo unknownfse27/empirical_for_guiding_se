@@ -191,7 +191,8 @@ The experimental results used in our evaluation are available at the following G
 [https://github.com/unknownfse27/empirical_for_guiding_se/releases/tag/result](https://github.com/unknownfse27/empirical_for_guiding_se/releases/tag/result)
 
 Download the following file from the release:
-+ results.tar.gz
++ results.z01
++ results.zip
 
 You can download and extract the experimental results from the terminal as follows:
 
