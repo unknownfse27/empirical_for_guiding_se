@@ -14,59 +14,59 @@ $ git clone https://github.com/unknownfse27/empirical_for_guiding_se.git
 ### Quick smoke test : 6 minutes
 **Baseline approaches**
 ```bash
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq none
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq none
 ```
 This command runs the original symbolic execution technique without using human-written test cases as seeds. It serves as the baseline configuration for comparison.
 
 **Human-written test case seeded approaches**
 ```bash
-python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq none
+/script $ python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq none
 ```
 This command runs symbolic execution using the human-written test cases as seeds. It corresponds to the conventional seed-guided symbolic execution setting evaluated in our study.
 
 **Research Question 1: Skipping**
 ```bash
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1
 ```
 or
 ```bash
-python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ1
+/script $ python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ1
 ```
 RQ1 enables our Skipping approach, which reduces unnecessary constraint-solving overhead when concrete argument values can be used to determine feasibility without invoking the SMT solver.
 
 **Research Question 2: ConstSampling**
 ```bash
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ2
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ2
 ```
 or
 ```bash
-python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ2
+/script $ python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ2
 ```
 RQ2 enables ConstSampling, which samples structured concrete inputs such as arguments, input files, and standard input and applies them to generated test cases to explore additional program regions.
 
 **Research Question 3: EnvConfig**
 ```bash
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ3
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ3
 ```
 or
 ```bash
-python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ3
+/script $ python3 run.py --test-setting seed --engine 10_klee --program bison --budget 360 --run-rq RQ3
 ```
 RQ3 enables EnvConfig, which samples program-specific environment-variable configurations and replays generated test cases under those configurations to exercise additional branches.
 
 **Research Question 4: Combining Research Questions**
 ```bash
 # RQ1 + RQ2
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ2
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ2
 
 # RQ1 + RQ3
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ3
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ3
 
 # RQ2 + RQ3
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ2 RQ3
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ2 RQ3
 
 # RQ1 + RQ2 + RQ3
-python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ2 RQ3
+/script $ python3 run.py --test-setting base --engine 10_klee --program bison --budget 360 --run-rq RQ1 RQ2 RQ3
 ```
 RQ4 evaluates combinations of the proposed approaches to examine whether they provide complementary coverage gains. Multiple approaches can be enabled together by listing the corresponding research questions after --run-rq.
 
