@@ -5,7 +5,7 @@ This repository presents the data and results for the paper "Understanding and I
 ## How to Build
 We recommend building quickly and easily using a Docker image. To check the build process, refer to the Dockerfile in this repository.
 ```bash
-$ https://github.com/unknownfse27/empirical_for_guiding_se.git
+$ git clone https://github.com/unknownfse27/empirical_for_guiding_se.git
 /empirical_for_guiding_se $ docker build -t empirical-artifact .
 /empirical_for_guiding_se $ docker run --rm -it --ulimit stack=-1:-1 empirical-artifact /bin/bash
 ```
