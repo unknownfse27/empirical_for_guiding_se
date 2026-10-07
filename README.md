@@ -199,8 +199,11 @@ You can download and extract the experimental results from the terminal as follo
 ```
 /empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.z01
 /empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.zip
-/empirical_for_guiding_se $ unzip results.zip
+/empirical_for_guiding_se $ apt-get install -y p7zip-full
+/empirical_for_guiding_se $ 7z x results.zip
 ```
+**Note**: The compressed archive is approximately 3.2 GB in total, and the extracted results directory requires approximately 40 GB of disk space. Please make sure that sufficient free disk space is available before extraction.
+
 
 The archive contains the experimental results for all benchmark programs and evaluated symbolic execution techniques. For each experimental setting, we provide:
 + Generated test cases (.ktest) produced during symbolic execution.
