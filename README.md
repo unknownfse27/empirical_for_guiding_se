@@ -197,10 +197,10 @@ Download the following file from the release:
 You can download and extract the experimental results from the terminal as follows:
 
 ```
-$ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.z01
-$ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.zip
-$ apt-get install -y p7zip-full
-$ 7z x results.zip
+/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.z01
+/empirical_for_guiding_se $ wget https://github.com/unknownfse27/empirical_for_guiding_se/releases/download/result/results.zip
+/empirical_for_guiding_se $ apt-get install -y p7zip-full
+/empirical_for_guiding_se $ 7z x results.zip
 ```
 **Note**: The compressed archive is approximately 3.2 GB in total, and the extracted results directory requires approximately 40 GB of disk space. Please make sure that sufficient free disk space is available before extraction.
 
@@ -214,6 +214,6 @@ We additionally provide replay_result.py, which replays the generated test cases
 
 For example, the following command replays the KLEE results for bison while applying the RQ1 approach:
 ```
-/results $ python3 replay_result.py --test-setting 1_baselines --engines 10_klee --programs bison --run-rq RQ1
+/empirical_for_guiding_se/results $ python3 replay_result.py --test-setting 1_baselines --engines 10_klee --programs bison --run-rq RQ1
 ```
 Multiple research-question approaches can be applied simultaneously by specifying multiple values after --run-rq, such as RQ1 RQ2 RQ3.
