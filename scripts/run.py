@@ -66,6 +66,11 @@ llvm_path = pgm_config["llvm_path"]
 src_depth = pgm_config["src_depth"]
 sym_cmd = pgm_config["sym_cmd"]
 
+print(f"*** Configured ***")
+print(f"Program      : {pgm_name}")
+print(f"Engine       : {engine}")
+print(f"Test setting : {test_setting}")
+
 engine_options, symbolic_options, output_dir = get_command(engine_root, pgm_name, engine, running_dir, budget, sym_cmd, test_setting)
 run(pgm_name, engine, run_rq, budget, llvm_path, engine_options, symbolic_options, running_dir, output_dir)
 replay(pgm_name, engine, run_rq, output_dir, running_dir, gcov_path, src_depth)
